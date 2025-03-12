@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="assets/js/components.js"></script>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="preloader">
+      <div class="loading"><span></span><span></span><span></span><span></span></div>
+    </div><!-- /.preloader -->
+
+    <!-- =========================
+        Header
+    =========================== -->
+    <div class="header-topbar">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="col-12">
+            <div class="d-flex align-items-center justify-content-between">
+              <ul class="contact__list d-flex flex-wrap align-items-center list-unstyled mb-0">
+                <li>
+                  <button class="miniPopup-emergency-trigger" type="button">24/7    الطوارئ </button>
+                  <div id="miniPopup-emergency" class="miniPopup miniPopup-emergency text-center">
+                    <div class="emergency__icon">
+                      <i class="icon-call3"></i>
+                    </div>
+                    <a href="tel:+97466505015" class="phone__number">
+                      <i class="icon-phone mx-3"></i> <span>97466505015+</span>
+                    </a>
+                    <a href="tel:+97444246666" class="phone__number">
+                      <i class="icon-phone mx-3"></i> <span data-lang="phone">97444246666+</span>
+                    </a>
+                    <p>نحن دائمًا هنا من أجلك فريق الاستقبال على أتم للرد على جميع استفساراتك</p>
+                    <a href="contact-us.html" class="btn btn__secondary btn__link btn__block">
+                      <span data-lang="Book_item"> احجز موعدك</span> <i class="icon-arrow-right"></i>
+                    </a>
+                  </div><!-- /.miniPopup-emergency -->
+                </li>
+                <li>
+                  <i class="icon-phone mx-3"></i><a href="tel:+97444246666" data-lang="phone">الطوارئ: 97444246666+</a>
+                </li>
+                <li>
+                  <i class="icon-location mx-3"></i><a href="#"> موقعنا: الطائف-الدوحة-قطر</a>
+                </li>
+                <li>
+                  <i class="icon-clock mx-3"></i><a href="contact-us.html">9am -11pm / Friday 12pm-8pm</a>
+                </li>
+              </ul><!-- /.contact__list -->
+              <div class="d-flex">
+                <ul class="social-icons list-unstyled mb-0 mr-30">
+                  <li><a href="https://www.facebook.com/GardeniaMedicalCentre/"><i class="fab fa-facebook-f"></i></a></li>
+                  <li class="mx-3"><a href="https://www.instagram.com/gardeniamedical/"><i class="fab fa-instagram"></i></a></li>
+                  <li><a href="https://www.tiktok.com/@gardeniamedical"><i class="fab fa-tiktok"></i></a></li>
+                </ul><!-- /.social-icons -->
+                
+              </div>
+            </div>
+          </div><!-- /.col-12 -->
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+    </div><!-- /.header-top -->
+    <nav class="navbar navbar-expand-lg sticky-navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/images/logo/logo-light.png" class="logo-light" alt="logo">
+          <img src="assets/images/logo/logo-dark.png" height="80px" width="130px" class="logo-dark" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button">
+          <span class="menu-lines"><span></span></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNavigation">
+          <ul class="navbar-nav">
+            <li class="nav__item has-dropdown">
+              <a href="index.html" class="nav__item-link" data-lang="Home_item">الرئيسية</a>
+            </li><!-- /.nav-item -->
+
+            <li class="nav__item">
+              <a href="about-us.html" class="nav__item-link" data-lang="about_item">من نحن</a>
+            </li><!-- /.nav-item -->
+            <li class="nav__item">
+              <a href="services.html" class="nav__item-link" data-lang="services_item">الخدمات </a>
+            </li><!-- /.nav-item -->
+            <li class="nav__item">
+              <a href="doctors-standard.html" class="nav__item-link" data-lang="doctor_item">الأطباء </a>
+            </li><!-- /.nav-item -->
+            <li class="nav__item">
+              <a href="blog.html" class="nav__item-link active" data-lang="blog_item">مقالات </a>
+            </li><!-- /.nav-item -->
+            <li class="nav__item">
+              <a href="contact-us.html" class="nav__item-link px-5" data-lang="contact_item">اتصل بنا</a>
+            </li><!-- /.nav-item -->
+          </ul><!-- /.navbar-nav -->
+          <button class="close-mobile-menu d-block d-lg-none"><i class="fas fa-times"></i></button>
+        </div><!-- /.navbar-collapse -->
+
+
+        <div class="d-none d-xl-flex align-items-center position-relative mx-2">
+          <div class="miniPopup-departments-trigger">
+            <span class="menu-lines" id="miniPopup-departments-trigger-icon"><span></span></span>
+            <a href="services.html" data-lang="department_item">الأقسام</a>
+          </div>
+          <ul id="miniPopup-departments" class="miniPopup miniPopup-departments dropdown-menu">
+            <li class="nav__item">
+              <a href="department-single.html" class="nav__item-link" data-lang="services_title_family_medicine">طب الأسرة</a>
+            </li><!-- /.nav-item -->
+            <li class="nav__item">
+              <a href="department-single2.html" class="nav__item-link" data-lang="footer_department_item2"> العظام</a>
+            </li><!-- /.nav-item -->
+            <li class="nav__item">
+              <a href="department-single3.html" class="nav__item-link" data-lang="footer_department_item3"> التجميل</a>
+            </li><!-- /.nav-item -->
+            <li class="nav__item">
+              <a href="department-single1.html" class="nav__item-link" data-lang="services_title_hand_surgery"> جراحة اليد</a>
+            </li><!-- /.nav-item -->
+            <li class="nav__item">
+              <a href="department-single10.html" class="nav__item-link" data-lang="services_title_internal_medicine"> الطب الباطني</a>
+            </li><!-- /.nav-item -->
+            <li class="nav__item">
+              <a href="department-single11.html" class="nav__item-link" data-lang="services_title_dermatology">الجلدية والليزر </a>
+            </li><!-- /.nav-item -->
+          </ul> <!-- /.miniPopup-departments -->
+          <a href="contact-us.html" class="btn btn__primary btn__rounded mx-3">
+            <i class="icon-calendar"></i>
+            <span data-lang="Book_item">احجز موعدك</span>
+          </a>
+        </div>
+      </div><!-- /.container -->
+    </nav><!-- /.navabr -->
+    </header><!-- /.Header -->
+
+    <!-- ========================
+       page title 
+    =========================== -->
+    <section class="page-title pt-30 pb-30 text-center">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12">
+          </div><!-- /.col-12 -->
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+    </section><!-- /.page-title -->
+
+    <!-- ======================
+      Blog Single
+    ========================= -->
+    <section class="blog blog-single pt-0 pb-80">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-8">
+            <div class="post-item mb-0">
+              <div class="post__img">
+                <a href="#">
+                  <img src="assets/images/blog/single/1.jpg" alt="post image" loading="lazy">
+                </a>
+              </div><!-- /.post-img -->
+              <div class="post__body pb-0 pt-3">
+                <h1 class="post__title mb-30" data-lang="about_blog_title2">
+                  النشاط البدني
+                </h1>
+                <div class="post__desc">
+                  <p data-lang="blog_post1_text">وفقًا للباحثين، فإن المشي أو البستنة لمدة 3 إلى 4 ساعات أسبوعيًا، أو ركوب الدراجات لمدة ساعتين إلى عدة ساعات في الأسبوع، يمكن أن يقلل من فرصة الوفاة بنسبة 54٪ لأولئك الذين عانوا سابقًا من قصور في القلب. في الأشخاص الذين تقل أعمارهم عن 75 عامًا، يتم تقليل الخطر بنسبة 80 ٪ لهذه المستويات من النشاط البدني.
+                  </p>
+                  <p  data-lang="blog_post1_textt"> "تظهر دراستنا أن الانخراط في الحد الأدنى من النشاط البدني يمكن أن يقلل الوفيات على المدى الطويل من أي سبب في الناجين من النوبات القلبية."</p>
+                  <p  data-lang="blog_post1_text1">تم الحصول على هذه النتائج من خلال مراقبة الحالة الصحية لحوالي 100000 شخص، بعضهم أصيب بنوبة قلبية. أبلغ المشاركون أنفسهم بمقدار التمارين البدنية التي مارسوها كل أسبوع من خلال الإجابة على استبيان. تمت متابعتهم جميعًا لعدة سنوات، أربع سنوات ونصف في المتوسط.</p>
+                  <p  data-lang="blog_post1_text2">كما أن ممارسة التمارين الرياضية تحفز إفراز الهرمونات المفيدة مثل الإندورفينات، التي تعتبر مضادات للاكتئاب وتساعد في تحسين المزاج وتقليل القلق. علاوة على ذلك، تشير الأبحاث إلى أن النشاط البدني المعتدل يساهم في تقليل الالتهابات المزمنة في الجسم، وهو عامل خطر معروف للعديد من الأمراض القلبية الوعائية.</p>
+                  <p  data-lang="blog_post1_textt2">وتظهر الأدلة من العديد من الدراسات الطولية أن الأشخاص الذين يمارسون الرياضة بانتظام قد يحققون زيادة في متوسط العمر المتوقع، حيث تعمل الرياضة على تحسين مرونة الأوعية الدموية وزيادة قدرة الجسم على تحمل الجهد، مما يساهم في الوقاية من الأمراض المزمنة وإبطاء تطور قصور القلب.</p>
+                  <p  data-lang="blog_post1_text_t">بالنسبة للمرضى الذين عانوا من نوبة قلبية سابقة، يمكن أن يساهم النشاط البدني بشكل خاص في تحسين قدرات القلب على التعافي وإعادة التأهيل، حيث يعزز من تدفق الدم إلى الأنسجة القلبية ويقلل من مخاطر تكرار النوبات القلبية المستقبلية.</p>          
+                </div><!-- /.blog-desc -->
+              </div>
+            </div><!-- /.post-item -->
+          </div><!-- /.col-lg-8 -->
+          <div class="col-sm-12 col-md-12 col-lg-4">
+            <aside class="sidebar">
+              <div class="widget widget-posts">
+                <h5 class="widget__title" data-lang="blog_widget_title">المقالات الأخيرة</h5>
+                <div class="widget__content">
+                  <!-- post item #1 -->
+                  <div class="widget-post-item d-flex align-items-center">
+                    <div class="widget-post__img mx-2">
+                      <a href="#"><img src="assets/images/blog/grid/2.jpg" alt="thumb"></a>
+                    </div><!-- /.widget-post-img -->
+                    <div class="widget-post__content">
+                      <h4 class="widget-post__title"><a href="blog-single-post.html" data-lang="about_blog_title1">شفط دهون أو شد البطن </a>
+                      </h4>
+                    </div><!-- /.widget-post-content -->
+                  </div><!-- /.widget-post-item -->
+                  <!-- post item #2 -->
+                  <div class="widget-post-item d-flex align-items-center">
+                    <div class="widget-post__img mx-2">
+                      <a href="#"><img src="assets/images/blog/grid/3.jpg" alt="thumb"></a>
+                    </div><!-- /.widget-post-img -->
+                    <div class="widget-post__content">
+                      <h4 class="widget-post__title"><a href="blog-single-post2.html" data-lang="about_blog_title3">فوائد شفط الدهون بالفيزر </a>
+                      </h4>
+                    </div><!-- /.widget-post-content -->
+                  </div><!-- /.widget-post-item -->
+                  <!-- post item #3 -->
+                </div><!-- /.widget-content -->
+              </div><!-- /.widget-posts -->
+              <div class="widget widget-categories">
+                <h5 class="widget__title" data-lang="department_item">الأقسام</h5>
+                <div class="widget-content">
+                  <ul class="list-unstyled mb-0">
+                    <li><a href="services-family_medicine.html" data-lang="services_title_family_medicine"> طب الأسرة</a></li>
+                    <li><a href="services-orthopedic_surgery.html" data-lang="services_title_orthopedic_surgery"> جراحة العظام</a></li>
+                    <li><a href="services-plastic.html" data-lang="services_title_plastic"> جراحة التجميل والترميم</a></li>
+                    <li><a href="services-hand_surgery.html" data-lang="services_title_hand_surgery"> جراحة اليد</a></li>
+                    <li><a href="services-internal_medicine.html" data-lang="services_title_internal_medicine"> الطب الباطني</a></li>
+                    <li><a href="services-dermatology.html" data-lang="services_title_dermatology"> الجلدية والليزر </a></li>
+                    <li><a href="services-obstetrics.html" data-lang="services_title_obstetrics">النساء والتوليد</a></li>
+                    <li><a href="services-laboratory.html" data-lang="services_title_laboratory">المختبر</a></li>
+                    <li><a href="services-ent.html" data-lang="services_title_ent">الأنف والأذن والحنجرة </a></li>
+                    <li><a href="services-nutrition.html" data-lang="services_title_nutrition"> التغذية</a></li>
+                    <li><a href="services-physiotherapy.html" data-lang="services_title_physiotherapy">العلاج الطبيعي</a></li>
+                    <li><a href="services-pharmacy.html" data-lang="services_title_pharmacy">الصيدلية </a></li>
+                    <li><a href="services-outpatient.html" data-lang="services_title_outpatient">العيادات الخارجية  </a></li>
+                    <li><a href="services-anesthesia.html" data-lang="services_title_general_surgery">الجراحة العامة وجراحات السمنة</a></li>
+                    <li><a href="services-day_surgery.html" data-lang="services_title_surgery">الجراحة في نفس اليوم </a></li>
+                    <li><a href="services-day_surgery.html" data-lang="services_title_radiology">الأشعة </a></li>
+                    <li><a href="services-day_surgery.html" data-lang="services_title_anesthesia">التخدير </a></li>
+                    <li><a href="services-day_surgery.html" data-lang="services_title_gastroenterology">أمراض الجهاز الهضمي</a></li>
+                  </ul>
+                </div><!-- /.widget-content -->
+              </div><!-- /.widget-categories -->
+            </aside><!-- /.sidebar -->
+          </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+    </section><!-- /.blog Single -->
+
+    <!-- ========================
+      Footer
+    ========================== -->
+
+    <footer class="footer">
+  
+    </footer><!-- /.Footer -->
+    <button id="scrollTopBtn"><i class="fas fa-long-arrow-alt-up"></i></button>
+  </div><!-- /.wrapper -->
+
+  <script src="assets/js/jquery-3.5.1.min.js"></script>
+  <script src="assets/js/plugins.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>

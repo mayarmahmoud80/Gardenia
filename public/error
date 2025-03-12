@@ -1,0 +1,308 @@
+    <section class="team-layout2 pb-80" dir="ltr">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-sm-12 col-md-12 col-lg-6">
+            <div class="heading text-center mb-40">
+              <h3 class="heading__title" data-lang="index_team_layout_title">تعرف على أطبائنا </h3>
+              <p class="heading__desc" data-lang="index_team_layout_textt">فريق الإدارة والدعم لدينا يتسم بالكفاءة العالية ومُدرب على توفير المساعدة في جميع استفساراتكم الطبية.
+              </p>
+            </div><!-- /.heading -->
+          </div><!-- /.col-lg-6 -->
+        </div><!-- /.row -->
+        <div class="row">
+          <div class="col-12">
+            <div class="slick-carousel"
+              data-slick='{"slidesToShow": 3, "slidesToScroll": 1, "autoplay": true, "arrows": false, "dots": false, "responsive": [ {"breakpoint": 992, "settings": {"slidesToShow": 2}}, {"breakpoint": 767, "settings": {"slidesToShow": 1}}, {"breakpoint": 480, "settings": {"slidesToShow": 1}}]}'>
+              <!-- Member #1 -->
+              <div class="member" dir="rtl">
+                <div class="member__img">
+                  <img src="assets/images/team/Dr.Tawheed2.JPG" height="370px" width="370px" alt="member img">
+                </div><!-- /.member-img -->
+                <div class="member__info">
+                  <h5 class="member__name"><a href="doctors-single-doctor1.html" data-lang="doctor_team_layout1_title1">د. توحيد موافي</a></h5>
+                  <p class="member__job"  data-lang="doctor_team_layout1_job1">استشاري امراض الباطنية خبرته تفوق ال40 عاماً.</p>
+                  <p class="member__desc" data-lang="doctor_team_layout1_desc1">يتمتع الدكتور موافي بمهارات استثنائية في تشخيص وإدارة الحالات المتعلقة بالجهاز الهضمي والكبد، مما جعله شخصية موثوق بها في المجتمع الطبي.</p>
+
+                </div><!-- /.member-info -->
+              </div><!-- /.member -->
+              <!-- Member #2 -->
+              <div class="member" dir="rtl">
+                <div class="member__img">
+                  <img src="assets/images/team/Wafaa.jpg" alt="member img">
+                </div><!-- /.member-img -->
+                <div class="member__info">
+                  <h5 class="member__name"><a href="doctors-single-doctor2.html" data-lang="doctor_team_layout1_title2">د. وفاء يونس </a></h5>
+                  <p class="member__job" data-lang="doctor_team_layout1_job2">الامراض النسائية والتوليد</p>
+                  <p class="member__desc" data-lang="doctor_team_layout1_desc2">تُعتبر الدكتورة وفاء يونس واحدة من أشهر أطباء طب النساء والتوليد المتميزين في قطر، حيث تتمتع بسمعة تتجاوز حدود البلاد. خبرتها الاستثنائية، والرعاية المتعاطفة، وتفانيها في صحة المرأة قد أكسبتها مكانة مرموقة في المجتمع الطبي</p>
+
+                </div><!-- /.member-info -->
+              </div><!-- /.member -->
+              <!-- Member #3 -->
+              <div class="member" dir="rtl">
+                <div class="member__img">
+                  <img src="assets/images/team/3.jpg" alt="member img">
+                </div><!-- /.member-img -->
+                <div class="member__info">
+                  <h5 class="member__name"><a href="doctors-single-doctor3.html" data-lang="doctor_team_layout1_title3">د. مالك منجة</a></h5>
+                  <p class="member__job" data-lang="doctor_team_layout1_job3">استشاري امراض الانف والاذن والحنجرة</p>
+                  <p class="member__desc" data-lang="doctor_team_layout1_desc3">يظهر النهج المتعاطف والمركز على المريض للدكتور منجا في كل تفاعل. يستغرق الوقت للاستماع إلى مخاوف مرضاه، وشرح التشخيصات وخيارات العلاج بشكل شامل، وتقديم الدعم طوال رحلتهم الصحية. قدرته على دمج الخبرة التقنية مع الرعاية التعاطفية تجعله استشاريًا مرموقًا ومطلوبًا في المجتمع الطبي.
+                  </p>
+                </div><!-- /.member-info -->
+              </div><!-- /.member -->
+              <!-- Member #4 -->
+              <div class="member" dir="rtl">
+                <div class="member__img">
+                  <img src="assets/images/team/4.jpg" alt="member img">
+                </div><!-- /.member-img -->
+                <div class="member__info">
+                  <h5 class="member__name"><a href="doctors-single-doctor4.html" data-lang="doctor_team_layout1_title4">د. رانيا السعيدي</a></h5>
+                  <p class="member__job" data-lang="doctor_team_layout1_job4">اخصائية علاج الطبيعي</p>
+                  <p class="member__desc" data-lang="doctor_team_layout1_desc4">د. رانيا السعيدي متخصصة في إدارة الألم, إصابات الرياضة, إعادة التأهيل بعد الجراحة, العلاج بالحجامة, تمارين علاج طبيعي, رعاية الشيخوخة, صحة المرأة</p>
+                </div><!-- /.member-info -->
+              </div><!-- /.member -->
+              <!-- Member #5 -->
+              <div class="member" dir="rtl">
+                <div class="member__img">
+                  <img src="assets/images/team/5.jpg" alt="member img">
+                </div><!-- /.member-img -->
+                <div class="member__info">
+                  <h5 class="member__name"><a href="doctors-single-doctor5.html"  data-lang="doctor_team_layout1_title5">د. احمد محي الدين قراط</a></h5>
+                  <p class="member__job" data-lang="doctor_team_layout1_job5">استشاري الجراحة العامة </p>
+                  <p class="member__desc" data-lang="doctor_team_layout1_desc5">متخصص في إجراء العمليات التي تشمل جهاز الغدد الصماء والجهاز الهضمي والكبد والقولون واستئصال الزائدة الدودية أو المرارة واستئصال الغدة الدرقية وجراحات السمنة</p>
+                </div><!-- /.member-info -->
+              </div><!-- /.member -->
+              <!-- Member #6 -->
+              <div class="member" dir="rtl">
+                <div class="member__img">
+                  <img src="assets/images/team/6.jpg" alt="member img">
+                </div><!-- /.member-img -->
+                <div class="member__info">
+                  <h5 class="member__name"><a href="doctors-single-doctor6.html" data-lang="doctor_team_layout1_title6">د / بتول عبدالرزاق الشديفات</a></h5>
+                  <p class="member__job" data-lang="doctor_team_layout1_job6">اخصائية علاج الطبيعي </p>
+                  <p class="member__desc" data-lang="doctor_team_layout1_desc6">متخصصة في مساعدة الأشخاص المتضررين من الإصابة أو المرض أو الإعاقة من خلال الحركة والتمارين والعلاج اليدوي والتعليم والمشورة</p>
+                </div><!-- /.member-info -->
+              </div><!-- /.member -->
+            </div><!-- /.carousel -->
+          </div><!-- /.col-12 -->
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+    </section><!-- /.Team -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!---->
+
+
+
+    <section class="services-layout1 services-carousel" dir="rtl">
+      <div class="bg-img"><img src="assets/images/backgrounds/2.jpg" alt="background"></div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-sm-12 col-md-12 col-lg-6">
+            <div class="heading text-center mb-60">
+              <h2 class="heading__subtitle" data-lang="services_layout1_subtitle">أعلى مستوى من الرعاية الطبية والرعاية العامة</h2>
+              <h3 class="heading__title" data-lang="services_layout1_title">تعزيز الصحة العامة لمجتمعنا من خلال تقديم الرعاية الطبية اللازمة</h3>
+            </div>
+          </div><!-- /.col-lg-6 -->
+        </div><!-- /.row -->
+        <div class="row">
+          <div class="col-12">
+            <div class="direction_ slick-carousel" dir="ltr"
+              data-slick='{"slidesToShow": 3, 
+                           "slidesToScroll": 1,
+                            "autoplay": true,
+                             "arrows": false, 
+                             "dots": true,
+                              "responsive": [ {"breakpoint": 992, "settings": {"slidesToShow": 2}}, {"breakpoint": 767, "settings": {"slidesToShow": 1}}, {"breakpoint": 480, "settings": {"slidesToShow": 1}}]}'
+              >
+              <!-- service item #1 -->
+              <div class="service-item"  dir="rtl">
+                <div class="service__icon">
+                  <i class="icon-head"></i>
+                  <i class="icon-head"></i>
+                </div><!-- /.service__icon -->
+                <div class="service__content" dir="rtl">
+                  <h4 class="service__title" data-lang="services_title_family_medicine">طب الأسرة </h4>
+                  <p class="service__desc" data-lang="services_layout_sub_heading_family_medicine">توفر عيادة طب الأسرة الرعاية الصحية الشاملة، تشمل التشخيص والعلاج للأمراض الحادة والمزمنة، الرعاية الوقائية، الكشف المبكر عن الأمراض، الاستشارات الطبية، والتثقيف الصحي لجميع الأعمار. </p>
+                  <ul class="list-items list-items-layout1 list-unstyled pb-5">
+                    <li data-lang="services_layout_list_text1_family_medicine">الرعاية الوقائية والفحوصات الدورية</li>
+                    <li data-lang="services_layout_list_text2_family_medicine">تشخيص وعلاج الأمراض المزمنة </li>
+                    <li data-lang="services_layout_list_text3_family_medicine">فحوصات قبل الزواج</li>
+                  </ul>
+                  <br><br>
+                  <a href="services-family_medicine.html" class="btn btn__secondary btn__outlined btn__rounded">
+                    <span data-lang="services_layout1_btn">المزيد</span>
+                    <i class="icon-arrow-right"></i>
+                  </a>
+                </div><!-- /.service__content -->
+              </div><!-- /.service-item -->
+              <!-- service item #2 -->
+              <div class="service-item"  dir="rtl">
+                <div class="service__icon">
+                  <i class="icon-heart"></i>
+                  <i class="icon-heart"></i>
+                </div><!-- /.service__icon -->
+                <div class="service__content">
+                  <h4 class="service__title" data-lang="services_title_orthopedic_surgery">جراحة وتقويم العظام
+                  </h4>
+                  <p class="service__desc" data-lang="services_layout_sub_heading_orthopedic_surgery">تركز جراحة تقويم العظام والعمود الفقري لدى مجمع غاردينيا الطبي على رعاية الجهاز الحركي مثل تقويم العظام والمفاصل والهيكل العظام والحفاظ عليهم.
+                  </p>
+                  <ul class="list-items list-items-layout1 list-unstyled pb-5">
+                    <li data-lang="services_layout_list_text1_orthopedic_surgery">علاج الكسور وإصابات المفاصل</li>
+                    <li data-lang="services_layout_list_text2_orthopedic_surgery">الطب الرياضي وإعادة التأهيل</li>
+                  </ul>
+                  <br><br><br><br><br>
+                  <a href="services-orthopedic_surgery.html" class="btn btn__secondary btn__outlined btn__rounded">
+                    <span data-lang="services_layout1_btn">المزيد</span>
+                    <i class="icon-arrow-right"></i>
+                  </a>
+                </div><!-- /.service__content -->
+              </div><!-- /.service-item -->
+              <!-- service item #3 -->
+              <div class="service-item"  dir="rtl">
+                <div class="service__icon">
+                  <i class="icon-microscope"></i>
+                  <i class="icon-microscope"></i>
+                </div><!-- /.service__icon -->
+                <div class="service__content">
+                  <h4 class="service__title"  data-lang="services_title_plastic">جراحة التجميل والترميم</h4>
+                  <p class="service__desc" data-lang="services_layout_sub_heading_plastic">
+                    يقدم الجراحون ذو الخبرة والكفاءة العالية لدى مجمع غاردينيا الطبي عمليات الجراحة التجميلية  على أعلى مستوى وبنسبة نجاح كبير باستخدام أحدث التقنيات لتجميل الجسم وشفط الدهون مثل Vaser و J Plasmaو BodyTite.
+                    </p>
+                  <ul class="list-items list-items-layout1 list-unstyled pb-5">
+                    <li data-lang="services_layout_list_text1_plastic">شد الجسم ونحته</li>
+                    <li data-lang="services_layout_list_text2_plastic">تكبير الثدي</li>
+                    <li data-lang="services_layout_list_text3_plastic">شد الثدي</li>
+                  </ul>
+                  <br><br>
+                  <a href="services-plastic.html" class="btn btn__secondary btn__outlined btn__rounded">
+                    <span data-lang="services_layout1_btn">المزيد</span>
+                    <i class="icon-arrow-right"></i>
+                  </a>
+                </div><!-- /.service__content -->
+              </div><!-- /.service-item -->
+              <!-- service item #4 -->
+              <div class="service-item" dir="rtl">
+                <div class="service__icon">
+                  <i class="icon-dropper"></i>
+                  <i class="icon-dropper"></i>
+                </div><!-- /.service__icon -->
+                <div class="service__content">
+                  <h4 class="service__title" data-lang="services_title_surgery">  جراحات اليد</h4>
+                  <p class="service__desc" data-lang="services_layout_sub_heading_hand_surgery">هناك العديد من أنواع العمليات الجراحية المختلفة التي يمكن إجراؤها لليد، اعتمادًا على السبب الأساسي للمشكلة.</p>
+                  <ul class="list-items list-items-layout1 list-unstyled pb-5">
+                    <li data-lang="services_layout_list_text1_hand_surgery">متلازمة النفق الرسغي</li>
+                    <li data-lang="services_layout_list_text2_hand_surgery">إعادة الزرع</li>
+                    <li data-lang="services_layout_list_text3_hand_surgery">جراحة تحرير الإصبع الزنادية</li>
+                  </ul>
+                  <br><br><br>
+                  <a href="services-family_medicine.html" class="btn btn__secondary btn__outlined btn__rounded">
+                    <span data-lang="services_layout1_btn">المزيد </span>
+                    <i class="icon-arrow-right"></i>
+                  </a>
+                </div><!-- /.service__content -->
+              </div><!-- /.service-item -->
+              <!-- service item #5 -->
+              <div class="service-item" dir="rtl">
+                <div class="service__icon">
+                  <i class="icon-heart3"></i>
+                  <i class="icon-heart3"></i>
+                </div><!-- /.service__icon -->
+                <div class="service__content">
+                  <h4 class="service__title" data-lang="services_title_day_surgery">جراحة اليوم الواحد</h4>
+                  <p class="service__desc" data-lang="services_layout_sub_heading_day_surgery">جراحات اليوم الواحد هي إجراءات جراحية تتم في يوم واحد دون إقامة في المستشفى.</p>
+                  <ul class="list-items list-items-layout1 list-unstyled pb-5">
+                    <li data-lang="services_layout1_list4_1">جراءات جراحية ليوم واحد مع فترة تعافي قصيرة.</li>
+                    <li data-lang="services_layout1_list4_2">الغرف الجراحية المجهزة بتكنولوجيا متقدمة</li>
+                    <li data-lang="services_layout1_list4_3">أنواع الغرف: لكبار الشخصيات، غرف فاخرة وغرف عادية</li>
+                  </ul>
+                  <br><br>
+                  <a href="services-day_surgery.html" class="btn btn__secondary btn__outlined btn__rounded">
+                    <span data-lang="services_layout1_btn">المزيد </span>
+                    <i class="icon-arrow-right"></i>
+                  </a>
+                </div><!-- /.service__content -->
+              </div><!-- /.service-item -->
+              <!-- service item #6 -->
+              <div class="service-item" dir="rtl">
+                <div class="service__icon">
+                  <i class="icon-heart2"></i>
+                  <i class="icon-heart2"></i>
+                </div><!-- /.service__icon -->
+                <div class="service__content">
+                  <h4 class="service__title" data-lang="services_title_anesthesia">          التخدير                   </h4>
+                  <p class="service__desc" data-lang="services_layout_sub_heading_anesthesia">يتم تقديم رعاية تخدير شاملة وآمنة من قبل فريق من أخصائيي التخدير المهرة، لضمان راحة وسلامة المرضى خلال الإجراءات الجراحية والتشخيصية.</p>
+                  <ul class="list-items list-items-layout1 list-unstyled pb-5">
+                    <li data-lang="services_layout_list_text1_anesthesia"> رعاية تخدير شاملة لجميع الإجراءات الجراحية.</li>
+                    <li data-lang="services_layout_list_text2_anesthesia">الإجراءات الجراحية.فريق خبرة ومؤهل في مجال التخدير.</li>
+                    <li data-lang="services_layout_list_text3_anesthesia">ضمان راحة وسلامة المرضى أثناء الإجراءات.</li>
+                  </ul>
+                  <br>
+                  <a href="services-anesthesia.html" class="btn btn__secondary btn__outlined btn__rounded">
+                    <span data-lang="services_layout1_btn">المزيد</span>
+                    <i class="icon-arrow-right"></i>
+                  </a>
+                </div><!-- /.service__content -->
+              </div><!-- /.service-item -->
+              <!-- service item #6 -->
+              <div class="service-item" dir="rtl">
+                              <div class="service__icon">
+                                <i class="icon-heart2"></i>
+                                <i class="icon-heart2"></i>
+                              </div><!-- /.service__icon -->
+                              <div class="service__content">
+                                <h4 class="service__title" data-lang="services_title_general_surgery"> الجراحة العامة وجراحة السمنة</h4>
+                                <p class="service__desc" data-lang="services_layout_sub_heading_general_surgery">
+                                  في مجمع غاردينيا الطبي يتمتعون بمجموعة متنوعة من المهارات والتخصصات والخبرات. يعالج بعض جراحينا حالات أكثر تخصصًا ، وبعضهم تلقى تدريبًا على التقنيات الجراحية الناشئة. 
+                                  </p>
+                                <ul class="list-items list-items-layout1 list-unstyled">
+                                  <li data-lang="services_layout_list_text1_general_surgery"> إجراءات المنظار البطني (إستئصال المرارة، إستئصال الزائدة الدودية، إصلاح الفتق، والخزعات).</li>
+                                  <li  data-lang="services_layout_list_text2_general_surgery"> إستئصال البواسير بالليزر.</li>
+                                  <li data-lang="services_layout_list_text3_general_surgery">شق العضلة الداخلية للبواسير (علاج الشق).</li>
+                                </ul>
+                                <a href="services-general_surgery.html" class="btn btn__secondary btn__outlined btn__rounded">
+                                  <span data-lang="services_layout1_btn">المزيد</span>
+                                  <i class="icon-arrow-right"></i>
+                                </a>
+                              </div><!-- /.service__content -->
+              </div><!-- /.service-item -->
+              <!-- service item #6 -->
+              <div class="service-item" dir="rtl">
+                              <div class="service__icon">
+                                <i class="icon-heart2"></i>
+                                <i class="icon-heart2"></i>
+                              </div><!-- /.service__icon -->
+                              <div class="service__content">
+                                <h4 class="service__title" data-lang="services_title_radiology"> الأشعة</h4>
+                                <p class="service__desc" data-lang="services_layout_sub_heading_radiology">GMC Radiology هي منشأة تصوير تشخيصية رائدة تشمل التصوير بالرنين المغناطيسي المفتوح 1.5 تسلا ، الموجات فوق الصوتية ثلاثية الأبعاد أو رباعية الأبعاد والأشعة السينية.</p>
+                                <ul class="list-items list-items-layout1 list-unstyled pb-5">
+                                  <li data-lang="services_layout_list_text1_radiology">الأشعة السينية.</li>
+                                  <li data-lang="services_layout_list_text2_radiology">الموجات فوق الصوتية (3D) و (4D).</li>
+                                  <li data-lang="services_layout_list_text3_radiology"> التصوير بالرنين المغناطيسي (MRI) ذو القوة 1.5 تسلا.</li>
+                                </ul>
+                                <br>
+                                <a href="services-radiology.html" class="btn btn__secondary btn__outlined btn__rounded">
+                                  <span data-lang="services_layout_list_text3_general_surgery">المزيد</span>
+                                  <i class="icon-arrow-right"></i>
+                                </a>
+                              </div><!-- /.service__content -->
+              </div><!-- /.service-item -->
+            </div>
+          </div><!-- /.col-12 -->
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+    </section>

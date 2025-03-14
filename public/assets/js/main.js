@@ -263,12 +263,12 @@ $(function () {
 
     $('.slick-carousel-gallery').slick({
         infinite: true,
-        slidesToShow: 4,
-        slidesToScroll: 4,
+        slidesToShow: 3,
+        slidesToScroll: 1,
         arrows: true,
         fade: false,
         dots: false,
-        speed: 700
+        speed: 700, 
     });
 
     $('.slider-with-navs').slick({

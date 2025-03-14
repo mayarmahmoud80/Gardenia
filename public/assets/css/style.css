@@ -56,9 +56,70 @@
 ---------------------------*/
 html {
   scroll-behavior: smooth;
+  font-family:Tajawal, sans-serif !important;
 }
 
 body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ffffff;
+  font-family: Tajawal, sans-serif !important;
+  font-size: 14px;
+  color: #848e9f;
+  overflow-x: hidden;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: Tajawal, sans-serif !important;
+}
+
+
+
+
+.tajawal-extralight {
+  font-family: "Tajawal", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.tajawal-light {
+  font-family: "Tajawal", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.tajawal-regular {
+  font-family: "Tajawal", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.tajawal-medium {
+  font-family: "Tajawal", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.tajawal-bold {
+  font-family: "Tajawal", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.tajawal-extrabold {
+  font-family: "Tajawal", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.tajawal-black {
+  font-family: "Tajawal", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+/* body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #ffffff;
@@ -66,7 +127,7 @@ body {
   font-size: 14px;
   color: #848e9f;
   overflow-x: hidden;
-}
+} */
 
 ::-moz-selection {
   background-color: var(--primary-color);
@@ -994,7 +1055,7 @@ textarea {
 }
 
 .bg-light-blue {
-  background-color: var(--primary2-color) !important;
+  background-color: #3851a2 !important;
 }
 
 .bg-img {
@@ -4389,7 +4450,7 @@ input[type="radio"] {
   opacity: 0.2;
 }
 .feature-item:hover .feature__img {
-  bottom: 50%;
+  bottom: 60%;
   opacity: 1;
 }
 .feature-item:hover .btn__link {
@@ -4722,7 +4783,7 @@ input[type="radio"] {
   transition: all 0.9s ease;
 }
 .member .member__info {
-  padding: 35px 40px;
+  padding:  20px 20px;
 }
 .member .member__info .member__name {
   font-size: 21px;
@@ -5744,7 +5805,7 @@ textarea.form-control {
   }
 }
 /* Mobile Phones and tablets  */
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 890px) {
   .contact-info .boxes-wrapper {
     margin-top: -100px;
   }
@@ -7690,4 +7751,63 @@ textarea.form-control {
 
   .testimonials-wrapper[dir="ltr"]::before {
   right: 0;
+}
+
+
+.ft-large{
+  font-size: large;
+}
+
+.banner-container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+@media (min-width: 1500px) {
+  .banner-container {
+    max-width: 1400px;
+  }
+}
+@media (min-width: 1200px)and (max-width: 1500px)  {
+  .banner-container {
+    max-width: 1000px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  .banner-container {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .banner-container
+ {
+    max-width: 350px;
+  }
+}
+
+
+.dir-text & [dir="rtl"]{
+  text-align: right;
+}
+
+.dir-text & [dir="ltr"]{
+  text-align: left;
+}
+
+
+.slick-carousel-gallery .popup-gallery-item img{
+  height: 400px;
+  object-fit: cover;
+}
+
+.insurance__img{
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
 }

@@ -17,7 +17,12 @@ const translation = {
         "location-city-text":"Our Location : Taiff - Duhah -Qatar",
         "working-hours-text":"Weekdays 9am -11pm / Friday 12pm-8pm",
         search: "Search...",
+        board_title: "Board of Directors",
+        board_desc: "Our board of directors brings extensive experience and exceptional leadership skills, dedicated to guiding our organization towards excellence in healthcare services.",
         /*index*/
+
+        insurance_text: "We are proud to collaborate with a number of trusted insurance providers that offer comprehensive coverage solutions. From health and property insurance to vehicle protection and beyond, these companies ensure our clients receive reliable protection and peace of mind.",
+        
 
 
         slide_title: "All Medical Specialties in One Center",
@@ -109,7 +114,8 @@ const translation = {
         about_features_layout1_text5: "Promoting better health through community engagement and education.",
         about_features_layout1_title6: "5+ Years of Experience",
         about_features_layout1_text6: "Over 5 years of expertise delivering trusted healthcare solutions.",
-        about_features_layout1_textt: "We strive to be the first and best choice in healthcare, and we work tirelessly to provide the best possible service.. ",
+        about_features_layout1_textt1: "We strive to be the first and best choice in healthcare, and we work tirelessly",
+        about_features_layout1_textt2: "to provide the best possible service.",
         about_features_layout1_btn3: "Contact us for more details",
 
         work_process_subtitle: "We care about your health and the health of your family.",
@@ -144,7 +150,7 @@ const translation = {
         about_blog_text3:"The main benefit is comprehensive fat removal: deep fat layers can be treated effectively...",
         about_blog_btn: "Read more",
 
-        testimonials_title: "Trust certificates",
+        testimonials_title: "Testimonials we are <br> proud of...",
         /* */
         /* */
 
@@ -778,7 +784,11 @@ const translation = {
         "callus-sub-head":"نحن دائمًا هنا من أجلك استشاريون على أتم الإستعداد للرد على جميع استفساراتك",
         "location-city-text":"موقعنا: الطائف - الدوحة - قطر",
         "working-hours-text":"أيام الأسبوع: 9 صباحًا - 11 مساءً / الجمعة: 12 مساءً - 8 مساءً",
+        "working-hours-days-text":"أيام الأسبوع: 9 صباحًا - 11 مساءً",
+        "working-hours-friday-text":"الجمعة: 12 مساءً - 8 مساءً",
         search: "بحث...",
+        board_title: "مجلس الإدارة",
+        board_desc: "يتمتع مجلس إدارتنا بخبرة واسعة ومهارات قيادية استثنائية، ملتزمين بتوجيه منظمتنا نحو التميز في خدمات الرعاية الصحية.",
         /*index*/
 
         slide_title: "جميع التخصصات الطبية في مركز واحد",
@@ -869,7 +879,8 @@ const translation = {
         about_features_layout1_text5: "تعزيز الصحة من خلال مشاركة المجتمع والتوعية الفعالة.",
         about_features_layout1_title6: "5+ عاما من الخبرة",
         about_features_layout1_text6: "أكثر من 5 سنوات من الخبرة في تقديم حلول رعاية صحية موثوقة.",
-        about_features_layout1_textt: "نسعى لأن نكوناخيار الأول والأمثل في الرعاية الصحية، ونسعى جاهدين لتقديم أفضل خدمة ممكنة. ",
+        about_features_layout1_textt1: "نسعى لأن نكوناخيار الأول والأمثل في الرعاية الصحية، ونسعى جاهدين   ", 
+        about_features_layout1_textt2: "لتقديم أفضل خدمة ممكنة.",
         about_features_layout1_btn3: "تواصلوا معنا لمزيد من التفاصيل",
 
         work_process_subtitle: "نهتم بصحتك وصحة عائلتك.",
@@ -904,7 +915,9 @@ const translation = {
         about_blog_text3:"الفائدة الرئيسية هي إزالة الدهون بشكل شامل: يمكن معالجة طبقات الدهون العميقة…",
         about_blog_btn: "اقرأ المزيد",
 
-        testimonials_title: "شهادات الثقة",
+        testimonials_title: "آراء وتوصيات <br>نعتز بها...",
+        insurance_text:"نحن فخورون بالتعاون مع مجموعة من شركات التأمين الموثوقة التي تقدم حلول تأمينية شاملة. بدءًا من التأمين الصحي وتأمين الممتلكات وصولًا إلى تأمين المركبات وغيرها، تضمن هذه الشركات لعملائنا الحماية الكاملة وراحة البال.",
+
 
         /* */
 
@@ -1593,8 +1606,13 @@ function translatePage() {
     elements.forEach(element => {
         const key = element.getAttribute('data-lang');
         if (translation[currentLang] && translation[currentLang][key]) {
-            element.textContent = translation[currentLang][key];
+            if (element.hasAttribute('data-html')) {
+                element.innerHTML = translation[currentLang][key];
+            } else {
+                element.textContent = translation[currentLang][key];
+            }
             element.placeholder = translation[currentLang][key];
+            element.dir = currentLang === 'ar' ? 'rtl' : 'ltr';
         }
     });
 }

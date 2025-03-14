@@ -279,7 +279,7 @@
 
             >i {
                 font-size: 16px;
-                color: #788fc8;
+                color: var(--primary-color);
                 margin-right: 8px;
             }
 
@@ -315,25 +315,25 @@
             }
 
             &::-webkit-input-placeholder {
-                color: #788fc8;
+                color: var(--primary-color);
                 font-style: italic;
                 font-size: 13px;
             }
 
             &:-moz-placeholder {
-                color: #788fc8;
+                color: var(--primary-color);
                 font-style: italic;
                 font-size: 13px;
             }
 
             &::-moz-placeholder {
-                color: #788fc8;
+                color: var(--primary-color);
                 font-style: italic;
                 font-size: 13px;
             }
 
             &:-ms-input-placeholder {
-                color: #788fc8;
+                color: var(--primary-color);
                 font-style: italic;
                 font-size: 13px;
             }
@@ -833,7 +833,7 @@
 
     .header-layout3 {
         .topbar__text {
-            color: #788fc8;
+            color: var(--primary-color);
         }
 
         .navbar .navbar-brand {

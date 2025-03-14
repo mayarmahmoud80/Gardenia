@@ -12,17 +12,22 @@ const translation = {
         contact_item: "Contact Us",
         department_item: "Department",
         title1: "Gardenia",
+        "callus-text":"Contact Us",
+        "callus-sub-head":"We are always here for you. Our Consultants is fully prepared to respond to all your inquiries.",
+        "location-city-text":"Our Location : Taiff - Duhah -Qatar",
+        "working-hours-text":"Weekdays 9am -11pm / Friday 12pm-8pm",
+        search: "Search...",
         /*index*/
 
 
         slide_title: "All Medical Specialties in One Center",
         slide_title_1: "The Highest Standards of Medical Care",
-        slide_desc: "The health of our patients and the safety of their medical team are our top priorities, which is why we ensure the highest standards of hygiene and care.",
-        slide_title1:"Medical Examination",
-        slide_title2:"Prescription Medication",
-        slide_title3:"Electrocardiogram",
-        slide_title4:"Blood Pressure",
-        slide_title5: "Medical Check-Up",
+        slide_desc: "We prioritize patient health and medical team safety by maintaining top hygiene and care standards.",
+        slide_title1:"Health",
+        slide_title2:"Beauty",
+        slide_title3:"Nutrition",
+        slide_title4:"Rehabilitation",
+        slide_title5: "Medical",
         slide_title6: "Radiology",
         slide_title7: "Laboratory",
         slide_title8: "Pharmacy",
@@ -89,21 +94,21 @@ const translation = {
         about_layout1_btn: "Meet Our Medical Team",
 
         about_features_layout1_title: "Gardenia has made a difference in the lives of patients by providing comprehensive care for some of the most challenging health conditions in our community",
-        about_features_layout1_desc: "When you visit Gardinia Medical Complex, you will enjoy the latest advanced technologies and the best treatments, along with a wide range of diverse healthcare and medical services. These range from radiation therapy and dermatology treatments to outpatient surgeries and family medicine—services you may not find elsewhere. You can feel reassured as you are under the care of our specialized experts who provide you with comprehensive and personalized medical care",
+        about_features_layout1_desc: "At Gardinia Medical Complex, we offer advanced technologies, top treatments, and diverse healthcare services—from radiation therapy and dermatology to outpatient surgeries and family medicine—all provided by specialized experts ensuring comprehensive, personalized care.",
         about_features_layout1_btn1: "Our Core Values",
         about_features_layout1_btn2: "Book Your Appointment Now",
-        about_features_layout1_title1: "Treatment Standards",
-        about_features_layout1_text1: "We offer essential treatment standards and the best medical facilities at the clinic.",
-        about_features_layout1_title2: "Infection Prevention",
-        about_features_layout1_text2: "We are committed to providing infection prevention and the best medical facility at the clinic.",
-        about_features_layout1_title3: "Quality of Care Services",
-        about_features_layout1_text3: "Providing high-quality care.",
-        about_features_layout1_title4: "Patient Experience",
-        about_features_layout1_text4: "We offer the best nursing experiences and the best facilities at the clinic..",
-        about_features_layout1_title5: "Effective Communication",
-        about_features_layout1_text5: "at GMC We provide the best forms of clinical communication and the highest level of medical facilities.",
-        about_features_layout1_title6: "2+ Years of Experience",
-        about_features_layout1_text6: "We have over 2 years of experience in providing unique medical services.",
+        about_features_layout1_title1: "Patient-Centered Care",
+        about_features_layout1_text1: "Personalized healthcare focused on patient needs, preferences, and values.",
+        about_features_layout1_title2: "Excellence and innovation",
+        about_features_layout1_text2: "Driving excellence and innovation to deliver superior solutions.",
+        about_features_layout1_title3: "Collaboration and teamwork",
+        about_features_layout1_text3: "Advancing healthcare through collaboration and teamwork.",
+        about_features_layout1_title4: "Safety and quality assurance",
+        about_features_layout1_text4: "Ensuring patient safety and delivering high-quality care.",
+        about_features_layout1_title5: "Community engagement",
+        about_features_layout1_text5: "Promoting better health through community engagement and education.",
+        about_features_layout1_title6: "5+ Years of Experience",
+        about_features_layout1_text6: "Over 5 years of expertise delivering trusted healthcare solutions.",
         about_features_layout1_textt: "We strive to be the first and best choice in healthcare, and we work tirelessly to provide the best possible service.. ",
         about_features_layout1_btn3: "Contact us for more details",
 
@@ -746,8 +751,8 @@ const translation = {
 
 
         overall__rate1: "Happy Patients",
-        overall__ratetextt: "Complete Surgery",
-        overall__ratetext1: "Experience Doctors",
+        overall__ratetextt: "Completed Surgeries",
+        overall__ratetext1: "Experienced Doctors",
         /* */
 
         arabic: "arabic",
@@ -769,15 +774,20 @@ const translation = {
         Book_item: "احجز موعدك",
         slide_title8: "الصيدلية",
         title1: "غاردينيا",
+        "callus-text":"تواصل معنا",
+        "callus-sub-head":"نحن دائمًا هنا من أجلك استشاريون على أتم الإستعداد للرد على جميع استفساراتك",
+        "location-city-text":"موقعنا: الطائف - الدوحة - قطر",
+        "working-hours-text":"أيام الأسبوع: 9 صباحًا - 11 مساءً / الجمعة: 12 مساءً - 8 مساءً",
+        search: "بحث...",
         /*index*/
 
         slide_title: "جميع التخصصات الطبية في مركز واحد",
         slide_title_1:"أعلى مستويات الرعاية الطبية ",
         slide_desc: "صحة مرضانا وسلامة فريقهم الطبي هي أولويتنا، لذا نضمن تقديم أفضل مستويات النظافة والعناية.",
         slide_title1:"الفحص الطبي",
-        slide_title2:"الروشتة الدوائية",
-        slide_title3:"رسم القلب",
-        slide_title4:"ضغط الدم",
+        slide_title2:"تجميل",
+        slide_title3:"التغذية",
+        slide_title4:"إعادة التأهيل",
         slide_title5:"الفحص الطبي",
         slide_title6:"الأشعة",
         slide_title6:"المختبر",
@@ -844,22 +854,22 @@ const translation = {
         about_layout1_btn: "تعرف على فريقنا الطبي",
 
         about_features_layout1_title: "جاردينيا أحدثت فرقًا في حياة المرضى بتقديم رعاية شاملة لأكثر الحالات المرضية تحديًا في مجتمعنا",
-        about_features_layout1_desc: "عند زيارتك لمجمع غاردينيا الطبي، ستستمتع بأحدث التقنيات المتقدمة وأفضل العلاجات، بالإضافة إلى مجموعة واسعة من الخدمات الصحية والطبية المتنوعة، بدءًا من المعالجة الشعاعية وعلاج الأمراض الجلدية وصولًا إلى الجراحات النهارية وطب الأسرة، وهي خدمات قد لا تجدها في مكان آخر. يمكنك أن تشعر بالاطمئنان وأنت تحت إشراف خبرائنا المتخصصين الذين يقدمون لك رعاية طبية شاملة ومخصصة.",
+        about_features_layout1_desc: "عند زيارتك لمجمع غاردينيا الطبي، ستجد أحدث التقنيات وأفضل العلاجات، مع خدمات طبية متنوعة تشمل المعالجة الشعاعية وعلاج الأمراض الجلدية، الأمراض الجلدية، الجراحات النهارية، وطب الأسرة، تحت إشراف خبراء متخصصين يضمنون لك رعاية شاملة ومخصصة.",
         about_features_layout1_btn1: "قيمنا الأساسية ",
         about_features_layout1_btn2: "احجز موعدك الآن",/* */
-        about_features_layout1_title1: "معايير العلاج",
-        about_features_layout1_text1: "نحن نقدم معايير العلاج الأساسية وأفضل المرفق الطبية في العيادة",
-        about_features_layout1_title2: "منع العدوى",
-        about_features_layout1_text2: "نحرص على تقديم الوقاية من العدوى وأفضل منشأة طبية في العيادة",
-        about_features_layout1_title3: "جودة خدمات الرعاية",
-        about_features_layout1_text3: "توفير رعاية ذات جودة عالية",
-        about_features_layout1_title4: "تجربة المريض",
-        about_features_layout1_text4: "لدينا أفضل التجارب التمريضية وأفضل المرافق في العيادة.",
-        about_features_layout1_title5: "حسن التواصل",
-        about_features_layout1_text5: "نحن نقدم أفضل أشكال التواصل وأعلى مستوى من المنشآت الطبية في العيادة",
-        about_features_layout1_title6: "2+ عاما من الخبرة",
-        about_features_layout1_text6: "لدينا 2+ عامًا من الخبرة لتقديم خدمات طبية فريدة من نوعها",
-        about_features_layout1_textt: "نسعى لأن نكون الاخيار الأول والأمثل في الرعاية الصحية، ونسعى جاهدين لتقديم أفضل خدمة ممكنة. ",
+        about_features_layout1_title1: "رعاية تركز على المريض",
+        about_features_layout1_text1:  "رعاية صحية شخصية تركز على احتياجات وتفضيلات وقيم المريض.",
+        about_features_layout1_title2: "التميز والابتكار",
+        about_features_layout1_text2:  "التميز والابتكار هو نهجنا لتقديم حلول متفوقة.",
+        about_features_layout1_title3: "التعاون والعمل الجماعي",
+        about_features_layout1_text3: "تحقيق النجاح من خلال التعاون والعمل الجماعي.",
+        about_features_layout1_title4: "السلامة وضمان الجودة",
+        about_features_layout1_text4: "ضمان سلامة المرضى وتقديم رعاية صحية عالية الجودة.",
+        about_features_layout1_title5: "التواصل المجتمعي",
+        about_features_layout1_text5: "تعزيز الصحة من خلال مشاركة المجتمع والتوعية الفعالة.",
+        about_features_layout1_title6: "5+ عاما من الخبرة",
+        about_features_layout1_text6: "أكثر من 5 سنوات من الخبرة في تقديم حلول رعاية صحية موثوقة.",
+        about_features_layout1_textt: "نسعى لأن نكوناخيار الأول والأمثل في الرعاية الصحية، ونسعى جاهدين لتقديم أفضل خدمة ممكنة. ",
         about_features_layout1_btn3: "تواصلوا معنا لمزيد من التفاصيل",
 
         work_process_subtitle: "نهتم بصحتك وصحة عائلتك.",
@@ -964,7 +974,7 @@ const translation = {
 
 
         services_layout2_title: "جاردينيا أحدثت فرقًا في حياة المرضى بتقديم رعاية شاملة لأكثر الحالات المرضية تحديًا في مجتمعنا",
-        services_layout2_desc: "عند زيارتك لمجمع غاردينيا الطبي، ستستمتع بأحدث التقنيات المتقدمة وأفضل العلاجات، بالإضافة إلى مجموعة واسعة من الخدمات الصحية والطبية المتنوعة، بدءًا من المعالجة الشعاعية وعلاج الأمراض الجلدية وصولًا إلى الجراحات النهارية وطب الأسرة، وهي خدمات قد لا تجدها في مكان آخر. يمكنك أن تشعر بالاطمئنان وأنت تحت إشراف خبرائنا المتخصصين الذين يقدمون لك رعاية طبية شاملة ومخصصة.",
+        services_layout2_desc: "عند زيارتك لمجمع غاردينيا الطبي، ستجد أحدث التقنيات وأفضل العلاجات، مع خدمات طبية متنوعة تشمل المعالجة الشعاعية وعلاج الأمراض الجلدية، الأمراض الجلدية، الجراحات النهارية، وطب الأسرة، تحت إشراف خبراء متخصصين يضمنون لك رعاية شاملة ومخصصة.",
         services_layout2_btn: "قيمنا الأساسية",
 
         services_sub_heading_family_medicine: "طب الأسرة هو التخصص الطبي الذي يركز على تقديم رعاية شاملة ومستدامة للأفراد والعائلات. يعتبر نقطة الاتصال الأولى للمريض مع النظام الصحي، حيث يقدم الرعاية الوقائية، التشخيص المبكر والعلاج للأمراض المختلفة. يعتمد طب الأسرة على العلاقة المستمرة بين الطبيب والمريض لتحقيق أفضل نتائج صحية، من خلال إدارة الحالات الصحية المزمنة والوقاية من الأمراض.",
@@ -1491,9 +1501,9 @@ const translation = {
         title_textt:"نحن هنا لخدمتك",
         title_textt1:"الاتجاهات على خرائط جوجل",
 
-        overall__rate1: "المرضى السعداء",
-        overall__ratetextt: "جراحة كاملة",
-        overall__ratetext1: "أطباء خبرة",
+        overall__rate1: "خدمنا أكثر من",
+        overall__ratetextt: "جراحة مكتملة",
+        overall__ratetext1: "إستشاري معتمد",
         /* */
         /* */
         arabic: "العربية",
@@ -1584,6 +1594,7 @@ function translatePage() {
         const key = element.getAttribute('data-lang');
         if (translation[currentLang] && translation[currentLang][key]) {
             element.textContent = translation[currentLang][key];
+            element.placeholder = translation[currentLang][key];
         }
     });
 }

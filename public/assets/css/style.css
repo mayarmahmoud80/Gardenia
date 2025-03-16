@@ -525,6 +525,14 @@ textarea {
   margin-right: 0 !important;
 }
 
+.mr-5 {
+  margin-right: 5px !important;
+}
+
+.ml-5 {
+  margin-left: 5px !important;
+}
+
 .mr-20 {
   margin-right: 20px !important;
 }
@@ -3896,6 +3904,7 @@ input[type="radio"] {
   background-color: var(--primary2-color);
   overflow: hidden;
   transition: all 0.3s ease-in-out;
+  border: solid white 0.5px;
 }
 #scrollTopBtn:hover {
   background-color: #222222;
@@ -3910,17 +3919,31 @@ input[type="radio"] {
   position: fixed;
   right: 10px;
   bottom: 80px;
-  width: 45px;
-  height: 45px;
+  width: 60px;
+  height: 60px;
   opacity: 0;
   z-index: 1000;
   font-size: 18px;
   border-radius: 50%;
-  color: #ffffff;
-  background-color: var(--primary2-color);
+  color: #ffffff; 
   overflow: hidden;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; 
+  background-color: #41d365;
 }
+
+#whatsAppButton i {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  position: relative;
+  margin: 10%;
+  font-size: 35px;
+}
+/* .fa-whatsapp:before {
+  font-size: 33px;
+  display: flex;
+ 
+} */
 #whatsAppButton:hover {
   background-color: #222222;
 }
@@ -7810,4 +7833,30 @@ textarea.form-control {
   width: 64px;
   height: 64px;
   object-fit: cover;
+}
+
+
+ ul.list-items li[dir="ltr"]{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-left: 33px;
+}
+
+ul.list-items li[dir="rtl"] {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  padding-right: 33px;
+ }
+
+ ul.list-items li[dir="ltr"]::before {
+  right: unset !important;
+  left: 0 !important;
+ }
+
+ ul.list-items li[dir="rtl"]::before {
+  left: unset !important;
+  right: 0 !important;
+ 
 }

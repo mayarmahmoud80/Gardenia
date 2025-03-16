@@ -1443,80 +1443,73 @@
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-7">
             <div class="contact-panel mb-50">
-              <form class="contact-panel__form" method="post" action="assets/php/contact.php" id="contactForm">
-                <div class="row">
-                  <div class="col-sm-12">
-                    <h4 class="contact-panel__title" data-lang="about_features_layout1_btn2">
-                      احجز موعدك الآن
-                    </h4>
-                    <p class="contact-panel__desc mb-30" data-lang="index_layout_title">
-                      يسعدنا أن نتلقى استفساراتك العامة أو الطبية، فلا تتردد
-                      في الاتصال بفريق الاستقبال لدينا. <br />
-                      أطباؤنا سيقومون بالرد على المكالمات الطارئة فورًا.
-                    </p>
+              <form
+              class="contact-panel__form"
+              method="post"
+              action="assets/php/contact.php"
+              id="contactForm"
+            >
+              <div class="row">
+                <div class="col-sm-12">
+                  <h4 class="contact-panel__title" data-lang="about_features_layout1_btn2">احجز موعدك الآن</h4>
+                  <p class="contact-panel__desc mb-30" data-lang="index_layout_title">
+                    يسعدنا أن نتلقى استفساراتك العامة أو الطبية، فلا تتردد
+                    في الاتصال بفريق الاستقبال لدينا. <br />
+                    أطباؤنا سيقومون بالرد على المكالمات الطارئة فورًا.
+                  </p>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                  <div class="form-group">
+                    <i class="icon-user form-group-icon"></i>
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="الإسم"
+                      id="contact-name1"
+                      name="contact-name"
+                      required
+                    />
                   </div>
-                  <div class="col-sm-6 col-md-6 col-lg-6">
-                    <div class="form-group">
-                      <i class="icon-widget form-group-icon"></i>
-                      <select class="form-control">
-                        <option value="0">Choose Clinic</option>
-                        <option value="1">Pathology Clinic</option>
-                        <option value="2">Pathology Clinic</option>
-                      </select>
-                    </div>
-                  </div><!-- /.col-lg-6 -->
-                  <div class="col-sm-6 col-md-6 col-lg-6">
-                    <div class="form-group">
-                      <i class="icon-user form-group-icon"></i>
-                      <select class="form-control">
-                        <option value="0">Choose Doctor</option>
-                        <option value="1">Ahmed Abdallah</option>
-                        <option value="2">Mahmoud Begha</option>
-                      </select>
-                    </div>
-                  </div><!-- /.col-lg-6 -->
-                  <div class="col-sm-6 col-md-6 col-lg-6">
-                    <div class="form-group">
-                      <i class="icon-news form-group-icon"></i>
-                      <input type="text" class="form-control" placeholder="Name" id="contact-name" name="contact-name"
-                        required>
-                    </div>
-                  </div><!-- /.col-lg-6 -->
-                  <div class="col-sm-6 col-md-6 col-lg-6">
-                    <div class="form-group">
-                      <i class="icon-email form-group-icon"></i>
-                      <input type="email" class="form-control" placeholder="Email" id="contact-email"
-                        name="contact-email" required>
-                    </div>
-                  </div><!-- /.col-lg-6 -->
-                  <div class="col-sm-4 col-md-4 col-lg-4">
-                    <div class="form-group">
-                      <i class="icon-phone form-group-icon"></i>
-                      <input type="text" class="form-control" placeholder="Phone" id="contact-Phone"
-                        name="contact-phone" required>
-                    </div>
-                  </div><!-- /.col-lg-4 -->
-                  <div class="col-sm-4 col-md-4 col-lg-4">
-                    <div class="form-group form-group-date">
-                      <i class="icon-calendar form-group-icon"></i>
-                      <input type="date" class="form-control" id="contact-date" name="contact-date" required>
-                    </div>
-                  </div><!-- /.col-lg-4 -->
-                  <div class="col-sm-4 col-md-4 col-lg-4">
-                    <div class="form-group form-group-date">
-                      <i class="icon-clock form-group-icon"></i>
-                      <input type="time" class="form-control" id="contact-time" name="contact-time" required>
-                    </div>
-                  </div><!-- /.col-lg-4 -->
-                  <div class="col-12">
-                    <button type="submit" class="btn btn__secondary btn__rounded btn__block btn__xhight mt-10">
-                      <span data-lang="about_features_layout1_btn2">احجز موعدك الآن</span>
-                      <i class="icon-arrow-right"></i>
-                    </button>
-                    <div class="contact-result"></div>
-                  </div><!-- /.col-lg-12 -->
-                </div><!-- /.row -->
-              </form>
+                </div>
+                <!-- /.col-lg-6 -->
+
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                  <div class="form-group">
+                    <i class="icon-phone form-group-icon"></i>
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="رقم الهاتف"
+                      id="contact-Phone"
+                      name="contact-phone"
+                      required
+                    />
+                  </div>
+                </div>
+                <!-- /.col-lg-6 -->
+                <div class="col-12">
+                  <div class="form-group">
+                    <i class="icon-alert form-group-icon"></i>
+                    <textarea
+                      class="form-control"
+                      placeholder="Message"
+                      id="contact-message"
+                      name="contact-message"
+                    ></textarea>
+                  </div>
+                  <button
+                    type="submit"
+                    class="btn btn__secondary btn__rounded btn__block btn__xhight mt-10"
+                  >
+                    <span data-lang="about_features_layout1_btn2">احجز موعدك الآن</span>
+                    <i class="icon-arrow-right"></i>
+                  </button>
+                  <div class="contact-result"></div>
+                </div>
+                <!-- /.col-lg-12 -->
+              </div>
+              <!-- /.row -->
+            </form>
             </div>
           </div><!-- /.col-lg-7 -->
           <div class="col-sm-12 col-md-12 col-lg-5">
@@ -1690,9 +1683,9 @@
     <!-- ========================
       Google Map
     ========================== -->
-    <section class="map-section pt-0 pb-0">
+    <!-- <section class="map-section pt-0 pb-0">
       <div id="map" style="height: 700px; width: 100%"></div>
-    </section>
+    </section> -->
 
     <!-- ========================
       Footer
@@ -1700,9 +1693,9 @@
     <footer class="footer"></footer>
 
     <!-- /.Footer -->
-    <button id="scrollTopBtn">
+    <!-- <button id="scrollTopBtn">
       <i class="fas fa-long-arrow-alt-up"></i>
-    </button>
+    </button> -->
   </div>
   <!-- /.wrapper -->
 

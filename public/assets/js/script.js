@@ -12,26 +12,64 @@ const translation = {
         contact_item: "Contact Us",
         department_item: "Department",
         title1: "Gardenia",
-        "callus-text":"Contact Us",
-        "callus-sub-head":"We are always here for you. Our Consultants is fully prepared to respond to all your inquiries.",
-        "location-city-text":"Our Location : Taiff - Duhah -Qatar",
-        "working-hours-text":"Weekdays 9am -11pm / Friday 12pm-8pm",
+        "callus-text": "Contact Us",
+        "callus-sub-head": "We are always here for you. Our Consultants is fully prepared to respond to all your inquiries.",
+        "location-city-text": "Our Location : Taiff - Duhah -Qatar",
+        "working-hours-text": "Weekdays 9am -11pm / Friday 12pm-8pm",
         search: "Search...",
         board_title: "Board of Directors",
         board_desc: "Our board of directors brings extensive experience and exceptional leadership skills, dedicated to guiding our organization towards excellence in healthcare services.",
         /*index*/
 
         insurance_text: "We are proud to collaborate with a number of trusted insurance providers that offer comprehensive coverage solutions. From health and property insurance to vehicle protection and beyond, these companies ensure our clients receive reliable protection and peace of mind.",
-        
+
+        copyright: "Copyright ©️ 2025 Gardenia, All Rights Reserved",
+        "make_appointment_btn": "Make Appointment",
+        "faqs_item": "Faqs",
+        "our_programs_item": "Our Programs",
+
+        // About Us Banner 
+        "banner1_top_text": `Serve the community by improving the quality of life through better
+                health. We put protocols to protect our patients and staff while continuing to provide medically`,
+        "banner1_top_link": "Contact Us For More Information",
+        "banner1_title": "Committed To Build A Positive, Safe, Patient Focused Culture.",
+        "banner1_desc": `Today the hospital is recognised as a world renowned institution, not
+                  only providing outstanding care and treatment, our goal is to deliver quality care in a respectful &
+                  compassionate manner. We strive to be the first and best choice for healthcare.`,
+        "banner1_list_1": "Fractures and dislocations",
+        "banner1_list_2": "Health Assessments",
+        "banner1_list_3": "Desensitisation injections",
+        "banner1_list_4": "High Quality Care",
+        "banner1_list_5": "Desensitisation injections",
+        "banner1_btn_1": "Find A Doctor",
+        "banner1_btn_2": "Contact us",
+        "banner1_feature_1": "Only Qualified Doctors",
+        "banner1_feature_2": "Cutting Edge Facility",
+        "banner1_feature_3": "High Medical Treatment",
+
+        // Helping Patients
+        "helping_subtitle": "Helping Patients From Around the Globe!!",
+        "helping_title": "Improving The Quality Of Your Life Through Better Health.",
+        "helping_years": "+5",
+        "helping_years_text": "Years of Experience",
+        "helping_years_desc": "We offer a wide range of care and support to our patients, from diagnosis to rehabilitation.",
+        "helping_video_btn": "Watch Our Video!",
+        "helping_desc1": "Our goal is to deliver quality of care in a courteous, respectful, and compassionate manner. We hope you will allow us to care for you and strive to be the first and best choice for healthcare.",
+        "helping_desc2": "We will work with you to develop individualised care plans, including management of diseases. We are committed to being the region's premier healthcare network providing patient centered care that inspires service excellence.",
+        "helping_btn": "Find A Doctor",
+
+
+
+
 
 
         slide_title: "All Medical Specialties in One Center",
         slide_title_1: "The Highest Standards of Medical Care",
         slide_desc: "We prioritize patient health and medical team safety by maintaining top hygiene and care standards.",
-        slide_title1:"Health",
-        slide_title2:"Beauty",
-        slide_title3:"Nutrition",
-        slide_title4:"Rehabilitation",
+        slide_title1: "Health",
+        slide_title2: "Beauty",
+        slide_title3: "Nutrition",
+        slide_title4: "Rehabilitation",
         slide_title5: "Medical",
         slide_title6: "Radiology",
         slide_title7: "Laboratory",
@@ -53,7 +91,7 @@ const translation = {
 
         index_team_layout_title: "Meet Our Doctors",
         index_team_layout_textt: "Our management and support team is highly efficient and trained to assist with all your medical inquiries",
-        
+
         index_textt1: "Advanced healthcare for your family, today and in the future.",
 
         index_layout_title: "We are happy to receive your general or medical inquiries, so do not hesitate to contact our reception team.Our doctors will respond to emergency calls immediately.",
@@ -63,14 +101,14 @@ const translation = {
         index_layout_2: "View video",
         /* */
 
-        
+
         footer_title: "We are here to provide high-quality healthcare with respect and kindness, and we hope to be your first and best choice in meeting your health needs and those of your family.",
         services_title_family_medicine: "Family Medicine",
-        footer_department_item2:"Orthopedics",
-        footer_department_item3:"Plastic Surgery",
-        services_title_hand_surgery:"Hand Surgery",
-        services_title_internal_medicine:"Internal Medicine",
-        services_title_dermatology:"Dermatology & Laser",
+        footer_department_item2: "Orthopedics",
+        footer_department_item3: "Plastic Surgery",
+        services_title_hand_surgery: "Hand Surgery",
+        services_title_internal_medicine: "Internal Medicine",
+        services_title_dermatology: "Dermatology & Laser",
         services_title_obstetrics: "Obstetrics & Gynecology",
         services_title_laboratory: "Laboratory",
         services_title_ent: "Ear, Nose & Throat (ENT)",
@@ -87,7 +125,7 @@ const translation = {
         footer_contact: "Contact Us Directly",
         footer_contact_title: "Our team is ready to answer any inquiries or assist you with anything you need. Feel free to reach out to us easily.",
         footer_contact_title2: "6 Dhal Al Hamam, Ta'if Street, Doha, Qatar",
- 
+
         about_pagetitle: "Family General Health Care",
         about_pagetitle_desc: "We serve the community by improving quality of life through better health. We have established protocols to protect our patients and staff while continuing to provide the necessary medical care",
         about_pagetitle_btn1: "Choose Your Doctor",
@@ -98,8 +136,7 @@ const translation = {
         about_layout1_text2: "We are always striving to be the leading healthcare network in the region by developing detailed, customized care plans that include chronic disease management, ensuring that your care comes first",
         about_layout1_btn: "Meet Our Medical Team",
 
-        about_features_layout1_title: "Gardenia has made a difference in the lives of patients by providing comprehensive care for some of the most challenging health conditions in our community",
-        about_features_layout1_desc: "At Gardinia Medical Complex, we offer advanced technologies, top treatments, and diverse healthcare services—from radiation therapy and dermatology to outpatient surgeries and family medicine—all provided by specialized experts ensuring comprehensive, personalized care.",
+        about_features_layout1_title: "Gardenia improves lives with comprehensive care for complex health conditions.",
         about_features_layout1_btn1: "Our Core Values",
         about_features_layout1_btn2: "Book Your Appointment Now",
         about_features_layout1_title1: "Patient-Centered Care",
@@ -142,12 +179,12 @@ const translation = {
 
         about_blog_subtitle: "Medical Library",
         about_blog_title: "Latest Blogs",
-        about_blog_title1:"Liposuction or Tummy Tuck",
-        about_blog_text1:"Liposuction and tummy tuck (also known as abdominoplasty) are two procedures...",
-        about_blog_title2:"Physical Activity",
-        about_blog_text2:"According to researchers, walking or gardening for 3 to 4 hours, or cycling for 2 to a few...",
-        about_blog_title3:"Benefits of VASER Liposuction vs. Traditional Liposuction",
-        about_blog_text3:"The main benefit is comprehensive fat removal: deep fat layers can be treated effectively...",
+        about_blog_title1: "Liposuction or Tummy Tuck",
+        about_blog_text1: "Liposuction and tummy tuck (also known as abdominoplasty) are two procedures...",
+        about_blog_title2: "Physical Activity",
+        about_blog_text2: "According to researchers, walking or gardening for 3 to 4 hours, or cycling for 2 to a few...",
+        about_blog_title3: "Benefits of VASER Liposuction vs. Traditional Liposuction",
+        about_blog_text3: "The main benefit is comprehensive fat removal: deep fat layers can be treated effectively...",
         about_blog_btn: "Read more",
 
         testimonials_title: "Testimonials we are <br> proud of...",
@@ -161,7 +198,7 @@ const translation = {
         services_layout1_subtitle: "The highest level of medical care and general care",
         services_layout1_title: "Promoting the overall health of our community by providing the necessary medical care.",
 
-       
+
         services_title_family_medicine: "Family Medicine",
         services_layout_sub_heading_family_medicine: "he Family Medicine Clinic provides comprehensive healthcare, including diagnosis and treatment of acute and chronic diseases, preventive care, early disease detection, medical consultations, and health education for all ages",
         services_layout_list_text1_family_medicine: "Preventive care and regular check-ups",
@@ -192,7 +229,7 @@ const translation = {
         services_layout_list_text3_dermatology: "Scar treatment",
 
 
-        
+
 
         services_title_day_surgery: "Same-Day Surgery",
         services_layout_sub_heading_day_surgery: "Same-day surgeries are procedures that are completed in one day without the need for an overnight hospital stay.",
@@ -243,7 +280,7 @@ const translation = {
         services_list_text3_hand_surgery: "If your condition requires specialized care, you will be referred to the appropriate specialists as needed.",
         services_list_text4_hand_surgery: "We are committed to providing integrated healthcare that enhances hand function at every stage of your life.",
 
-        
+
 
 
         services_sub_heading_orthopedic_surgery: "At Gardenia Medical Complex, orthopedic and spine surgery focuses on providing integrated care for the entire musculoskeletal system. This includes diagnosing and treating conditions related to bones, joints, ligaments, and soft tissues, as well as offering advanced solutions in spine surgery. We also emphasize providing specialized care to maintain skeletal health and prevent potential issues that may affect mobility and physical function. Our services aim to improve quality of life and mobility, with a focus on effective treatment and injury prevention that may impact the musculoskeletal system as a whole.",
@@ -344,7 +381,7 @@ const translation = {
         services_text2_radiology: "The Radiology Department at Gardenia Medical Complex offers comprehensive diagnostic imaging services using the latest technologies to ensure accurate diagnoses and high-quality healthcare. ",
         services_text3_radiology: "Our services include 1.5 Tesla open MRI, providing high-resolution images for effective diagnosis of various conditions. We also offer 3D and 4D ultrasound, allowing detailed views of organs and tissues, which enhances diagnostic accuracy, especially in pregnancy monitoring and cardiac imaging. ",
         services_text4_radiology: " Additionally, we provide digital X-ray services, contributing to the rapid detection of fractures and other health issues, while minimizing radiation exposure to ensure patient safety.",
-        
+
 
         services_sub_heading_outpatient: "Medical services provided to patients who do not require hospitalization after receiving treatment. These services include consultations, diagnostics, minor procedures, and follow-up care, all aimed at treating patients while allowing them to return home the same day.",
         services_single14_text: "In the outpatient clinics, a team of specialized doctors provides comprehensive consultations, in addition to routine examinations and treatments. This service allows patients to receive treatment and regular follow-ups for their health conditions without disrupting their daily lives. Doctors in outpatient care focus on delivering personalized care for each patient, coordinating with other medical teams when necessary to ensure the best treatments are provided.",
@@ -384,7 +421,7 @@ const translation = {
         /*doctor */
         doctor_page_title: "Providing the Best Care for Critical Medical Cases",
         doctor_page_desc: "When you visit Gardenia Medical Complex, you will find the latest technologies and the best treatments across various specialties, from radiotherapy and dermatology to day surgeries and family medicine. Our experts are dedicated to delivering comprehensive and personalized medical care to ensure your comfort and peace of mind.",
-        
+
 
 
         doctor_team_layout1_title1: "Dr. Tawheed Mowafy",
@@ -430,7 +467,7 @@ const translation = {
         /* blog*/
         blog_pagetitle: "Health Care Essentials",
 
-        AppointmentData:"Appointment",
+        AppointmentData: "Appointment",
 
         doctor1_title1: "Dr. Tawheed Mowafy",
         doctor1_job_1: "Consultant in Internal Medicine With over 40 years of experience",
@@ -631,7 +668,7 @@ const translation = {
         doctor13_details_2: "Facelift, Fat Grafting, and Liposuction",
         doctor13_qualifications_1_textt: "University of Baghdad",
 
-        
+
         Amar_title1: "Amar Azzam",
         Amar_job_1: "Amar Azzam is a dedicated Clinical Dietician at Gardenia Medical Center, bringing 5 years of experience in nutrition and dietetics.",
         Amar_CV_text_desc1: "Amar Azzam is a dedicated Clinical Dietician at Gardenia Medical Center, bringing 5 years of experience in nutrition and dietetics. She holds a Bachelor’s degree in Nutrition and Dietetics from the Lebanese International University (LIU) and has earned a diploma in Food Safety from the American University of Beirut (AUB).",
@@ -697,7 +734,7 @@ const translation = {
         dr_Sabry_title_textt: " Consultant Otolaryngologist (ENT Specialist)",
         dr_Sabry_qualifications_textt: " Doctor of Medicine (MD)",
         dr_Sabry_details: "Functional Endoscopic Sinus Surgery (FESS)",
-        dr_Sabry_details__1: "Rhinoplasty", 
+        dr_Sabry_details__1: "Rhinoplasty",
         dr_Sabry_details_1: "Maxillofacial Surgery (for traumatic and congenital cases)",
         dr_Sabry_details_2: "Tympanoplasty",
         dr_Sabry_details__2: "Various minor surgical procedures, including tonsillectomy, adenoidectomy, myringoplasty, septoplasty, and electrical cautery for minor interventions.",
@@ -728,7 +765,7 @@ const translation = {
         Rim_details__2: " Laser and Peeling Treatments: Laser hair removal, treatment of pigmentation and vascular lesions, and chemical peeling for skin rejuvenation.",
         Rim_details_textt: "Dermatological Plastic Procedures: Mole and wart removal, laser skin resurfacing, and designing customized skincare plans for all skin types.",
 
-        text_block_title:"Our Core Values",
+        text_block_title: "Our Core Values",
         text_block_desc: "Today, the hospital is recognized as one of the world’s leading institutions, not only for providing exceptional care and treatment but also for advancing health outcomes through comprehensive medical research. With years of expertise, Gardenia has touched the lives of thousands, offering care and treatment for the most challenging medical conditions in our community, including rehabilitation services and elderly care.",
 
         fancybox_title: "Routine Medical Check-ups",
@@ -751,9 +788,9 @@ const translation = {
         widget_title2: "Emergency Cases",
         widget_desc2: "Our team is ready to answer any inquiries or provide assistance you may need. Contact us easily.",
 
-        widget_title_work:"working hours",
-        title_textt:"We are here to serve you",
-        title_textt1:"Directions on Google Maps",
+        widget_title_work: "working hours",
+        title_textt: "We are here to serve you",
+        title_textt1: "Directions on Google Maps",
 
 
         overall__rate1: "Happy Patients",
@@ -767,7 +804,7 @@ const translation = {
 
         phone: "+97444246666",
         phone1: "+97466505015",
-},
+    },
 
     ar: {
         Home_item: "الرئيسية",
@@ -780,31 +817,63 @@ const translation = {
         Book_item: "احجز موعدك",
         slide_title8: "الصيدلية",
         title1: "غاردينيا",
-        "callus-text":"تواصل معنا",
-        "callus-sub-head":"نحن دائمًا هنا من أجلك استشاريون على أتم الإستعداد للرد على جميع استفساراتك",
-        "location-city-text":"موقعنا: الطائف - الدوحة - قطر",
-        "working-hours-text":"أيام الأسبوع: 9 صباحًا - 11 مساءً / الجمعة: 12 مساءً - 8 مساءً",
-        "working-hours-days-text":"أيام الأسبوع: 9 صباحًا - 11 مساءً",
-        "working-hours-friday-text":"الجمعة: 12 مساءً - 8 مساءً",
+        "callus-text": "تواصل معنا",
+        "callus-sub-head": "نحن دائمًا هنا من أجلك استشاريون على أتم الإستعداد للرد على جميع استفساراتك",
+        "location-city-text": "موقعنا: الطائف - الدوحة - قطر",
+        "working-hours-text": "أيام الأسبوع: 9 صباحًا - 11 مساءً / الجمعة: 12 مساءً - 8 مساءً",
+        "working-hours-days-text": "أيام الأسبوع: 9 صباحًا - 11 مساءً",
+        "working-hours-friday-text": "الجمعة: 12 مساءً - 8 مساءً",
         search: "بحث...",
         board_title: "مجلس الإدارة",
         board_desc: "يتمتع مجلس إدارتنا بخبرة واسعة ومهارات قيادية استثنائية، ملتزمين بتوجيه منظمتنا نحو التميز في خدمات الرعاية الصحية.",
         /*index*/
 
+        copyright: "Copyright ©️ 2025 Gardenia, جميع الحقوق محفوظة",
+        "make_appointment_btn": "حجز موعد",
+        "faqs_item": "أسئلة شائعة",
+        "our_programs_item": "البرامج",
+
+        // About Us Banner 
+        "banner1_top_text": "نخدم المجتمع من خلال تحسين جودة الحياة عبر تعزيز الصحة. نحن نطبق بروتوكولات لحماية مرضانا وموظفينا مع الاستمرار في تقديم الرعاية الطبية.",
+        "banner1_top_link": "تواصل معنا لمزيد من المعلومات",
+        "banner1_title": "ملتزمون ببناء ثقافة إيجابية وآمنة تركز على المرضى.",
+        "banner1_desc": "اليوم يُعترف بالمستشفى كمؤسسة مشهورة عالميًا، لا تقدم فقط رعاية وعلاجًا متميزًا، بل هدفنا هو تقديم رعاية ذات جودة عالية بطريقة محترمة ومتعاطفة. نحن نسعى جاهدين لنكون الخيار الأول والأفضل في مجال الرعاية الصحية.",
+        "banner1_list_1": "كسور وخلوع",
+        "banner1_list_2": "تقييمات صحية",
+        "banner1_list_3": "حقن إزالة التحسس",
+        "banner1_list_4": "رعاية عالية الجودة",
+        "banner1_list_5": "حقن إزالة التحسس",
+        "banner1_btn_1": "ابحث عن طبيب",
+        "banner1_btn_2": "تواصل معنا",
+        "banner1_feature_1": "أطباء مؤهلون فقط",
+        "banner1_feature_2": "منشأة متطورة",
+        "banner1_feature_3": "علاج طبي عالي الجودة",
+
+          // Helping Patients
+          "helping_subtitle": "مساعدة المرضى من جميع أنحاء العالم!!",
+          "helping_title": "تحسين جودة حياتك من خلال صحة أفضل.",
+          "helping_years": "5+",
+          "helping_years_text": "سنوات من الخبرة",
+          "helping_years_desc": "نقدم مجموعة واسعة من الرعاية والدعم لمرضانا، من التشخيص إلى إعادة التأهيل.",
+          "helping_video_btn": "شاهد الفيديو الخاص بنا!",
+          "helping_desc1": "هدفنا هو تقديم رعاية عالية الجودة بطريقة مهذبة ومحترمة ومتعاطفة. نأمل أن تسمح لنا برعايتك ونسعى جاهدين لنكون الخيار الأول والأفضل في الرعاية الصحية.",
+          "helping_desc2": "سنعمل معك لتطوير خطط رعاية فردية، بما في ذلك إدارة الأمراض. نحن ملتزمون بأن نكون شبكة الرعاية الصحية الرائدة في المنطقة التي تقدم رعاية تركز على المريض وتلهم التميز في الخدمة.",
+          "helping_btn": "ابحث عن طبيب",
+
         slide_title: "جميع التخصصات الطبية في مركز واحد",
-        slide_title_1:"أعلى مستويات الرعاية الطبية ",
+        slide_title_1: "أعلى مستويات الرعاية الطبية ",
         slide_desc: "صحة مرضانا وسلامة فريقهم الطبي هي أولويتنا، لذا نضمن تقديم أفضل مستويات النظافة والعناية.",
-        slide_title1:"الفحص الطبي",
-        slide_title2:"تجميل",
-        slide_title3:"التغذية",
-        slide_title4:"إعادة التأهيل",
-        slide_title5:"الفحص الطبي",
-        slide_title6:"الأشعة",
-        slide_title6:"المختبر",
-        slide_title7:"الصيدلية",
+        slide_title1: "الفحص الطبي",
+        slide_title2: "تجميل",
+        slide_title3: "التغذية",
+        slide_title4: "إعادة التأهيل",
+        slide_title5: "الفحص الطبي",
+        slide_title6: "الأشعة",
+        slide_title6: "المختبر",
+        slide_title7: "الصيدلية",
 
         index_phone_text: "نحن دائمًا هنا من أجلك فريق الاستقبال على أتم للرد على جميع استفساراتك",
-        
+
         index_doctor__title: "جدول مواعيد الأطباء",
         index_doctor__desc: "نحن نقدم رعاية طبية من خلال أطباء محترفين طوال أيام الأسبوع يرجى الاطلاع على جدولنا لحجز موعد",
         index_doctor_schedule: " جدول المواعيد",
@@ -819,7 +888,7 @@ const translation = {
 
         index_team_layout_title: "تعرف على أطبائنا ",
         index_team_layout_textt: "فريق الإدارة والدعم لدينا يتسم بالكفاءة العالية ومُدرب على توفير المساعدة في جميع استفساراتكم الطبية.",
-        
+
         index_textt1: "رعاية صحية متقدمة لعائلتك، اليوم والمستقبل. ",
 
         index_layout_title: "يسعدنا أن نتلقى استفساراتك العامة أو الطبية، فلا تتردد في الاتصال بفريق الاستقبال لدينا. أطباؤنا سيقومون بالرد على المكالمات الطارئة فورًا.",
@@ -829,19 +898,19 @@ const translation = {
         index_layout_2: "عرض الفيديو",
         /* footer */
         footer_title: "نحن هنا لتقديم رعاية صحية عالية الجودة بكل احترام ولطف، ونأمل أن نكون الخيار الأول والأمثل في تلبية احتياجاتكم الصحية وصحة عائلتكم.",
-        services_title_family_medicine:" طب الأسرة",
-        footer_department_item2:" العظام",
-        footer_department_item3:" التجميل",
-        services_title_hand_surgery:" جراحة اليد",
-        services_title_internal_medicine:" الطب الباطني",
-        services_title_dermatology:" الجلدية والليزر",
+        services_title_family_medicine: " طب الأسرة",
+        footer_department_item2: " العظام",
+        footer_department_item3: " التجميل",
+        services_title_hand_surgery: " جراحة اليد",
+        services_title_internal_medicine: " الطب الباطني",
+        services_title_dermatology: " الجلدية والليزر",
         services_title_obstetrics: " طب النساء والتوليد",
         services_title_laboratory: "المختبر",
         services_title_ent: "الأنف والأذن والحنجرة ",
         services_title_nutrition: " التغذية",
         services_title_physiotherapy: "العلاج الطبيعي",
         services_title_surgery: "الجراحة في نفس اليوم",
-        footer_Electronic: "روابط إلكترونية ",
+        footer_Electronic: "روابط تهمك ",
         footer_Electronic_list1: "من نحن",
         footer_Electronic_list2: "العيادات",
         footer_Electronic_list3: "الأطباء",
@@ -863,14 +932,13 @@ const translation = {
         about_layout1_text2: "ونسعى دائما لأن نكون الشبكة الصحية الرائدة في المنطقة من خلال تطوير خطط رعاية مخصصة تفصيلية تشمل إدارة الأمراض المزمنة، حيث نضمن أن تكون رعايتك في المقام الأول. ",
         about_layout1_btn: "تعرف على فريقنا الطبي",
 
-        about_features_layout1_title: "جاردينيا أحدثت فرقًا في حياة المرضى بتقديم رعاية شاملة لأكثر الحالات المرضية تحديًا في مجتمعنا",
-        about_features_layout1_desc: "عند زيارتك لمجمع غاردينيا الطبي، ستجد أحدث التقنيات وأفضل العلاجات، مع خدمات طبية متنوعة تشمل المعالجة الشعاعية وعلاج الأمراض الجلدية، الأمراض الجلدية، الجراحات النهارية، وطب الأسرة، تحت إشراف خبراء متخصصين يضمنون لك رعاية شاملة ومخصصة.",
+        about_features_layout1_title: "تعمل جاردينيا على تحسين الحياة من خلال تقديم رعاية شاملة للحالات الصحية المعقدة.",
         about_features_layout1_btn1: "قيمنا الأساسية ",
         about_features_layout1_btn2: "احجز موعدك الآن",/* */
         about_features_layout1_title1: "رعاية تركز على المريض",
-        about_features_layout1_text1:  "رعاية صحية شخصية تركز على احتياجات وتفضيلات وقيم المريض.",
+        about_features_layout1_text1: "رعاية صحية شخصية تركز على احتياجات وتفضيلات وقيم المريض.",
         about_features_layout1_title2: "التميز والابتكار",
-        about_features_layout1_text2:  "التميز والابتكار هو نهجنا لتقديم حلول متفوقة.",
+        about_features_layout1_text2: "التميز والابتكار هو نهجنا لتقديم حلول متفوقة.",
         about_features_layout1_title3: "التعاون والعمل الجماعي",
         about_features_layout1_text3: "تحقيق النجاح من خلال التعاون والعمل الجماعي.",
         about_features_layout1_title4: "السلامة وضمان الجودة",
@@ -879,7 +947,7 @@ const translation = {
         about_features_layout1_text5: "تعزيز الصحة من خلال مشاركة المجتمع والتوعية الفعالة.",
         about_features_layout1_title6: "5+ عاما من الخبرة",
         about_features_layout1_text6: "أكثر من 5 سنوات من الخبرة في تقديم حلول رعاية صحية موثوقة.",
-        about_features_layout1_textt1: "نسعى لأن نكوناخيار الأول والأمثل في الرعاية الصحية، ونسعى جاهدين   ", 
+        about_features_layout1_textt1: "نسعى لأن نكوناخيار الأول والأمثل في الرعاية الصحية، ونسعى جاهدين   ",
         about_features_layout1_textt2: "لتقديم أفضل خدمة ممكنة.",
         about_features_layout1_btn3: "تواصلوا معنا لمزيد من التفاصيل",
 
@@ -904,19 +972,19 @@ const translation = {
         work_process_btn4: "تعرف على أطبائنا",
         work_process_titlee: "رعاية صحية متميزة لعائلتك! ",
         work_process_description: "نحن نخدم المجتمع من خلال تحسين جودة الحياة عبر الصحة الأفضل. لقد وضعنا بروتوكولات لحماية مرضانا وفريق العمل لدينا مع الاستمرار في تقديم الرعاية الطبية اللازمة.",
-        
+
         about_blog_subtitle: "المكتبة الطبية",
-        about_blog_title: "أحدث المقالات",
-        about_blog_title1:"شفط دهون أو شد البطن ",
-        about_blog_text1:"شفط الدهون أو شد البطن (المعروف أيضًا باسم شد البطن) هما إجراءان…",
-        about_blog_title2:"النشاط البدني",
-        about_blog_text2:"وفقًا للباحثين ، فإن المشي أو البستنة لمدة 3 إلى 4 ساعات ، أو ركوب الدراجات لمدة 2 إلى بضع…",
-        about_blog_title3:"فوائد شفط الدهون بالفيزر عالي الوضوح على شفط الدهون التقليدي",
-        about_blog_text3:"الفائدة الرئيسية هي إزالة الدهون بشكل شامل: يمكن معالجة طبقات الدهون العميقة…",
+        about_blog_title: "آخر الأخبار",
+        about_blog_title1: "شفط دهون أو شد البطن ",
+        about_blog_text1: "شفط الدهون أو شد البطن (المعروف أيضًا باسم شد البطن) هما إجراءان…",
+        about_blog_title2: "النشاط البدني",
+        about_blog_text2: "وفقًا للباحثين ، فإن المشي أو البستنة لمدة 3 إلى 4 ساعات ، أو ركوب الدراجات لمدة 2 إلى بضع…",
+        about_blog_title3: "فوائد شفط الدهون بالفيزر عالي الوضوح على شفط الدهون التقليدي",
+        about_blog_text3: "الفائدة الرئيسية هي إزالة الدهون بشكل شامل: يمكن معالجة طبقات الدهون العميقة…",
         about_blog_btn: "اقرأ المزيد",
 
         testimonials_title: "آراء وتوصيات <br>نعتز بها...",
-        insurance_text:"نحن فخورون بالتعاون مع مجموعة من شركات التأمين الموثوقة التي تقدم حلول تأمينية شاملة. بدءًا من التأمين الصحي وتأمين الممتلكات وصولًا إلى تأمين المركبات وغيرها، تضمن هذه الشركات لعملائنا الحماية الكاملة وراحة البال.",
+        insurance_text: "نحن فخورون بالتعاون مع مجموعة من شركات التأمين الموثوقة التي تقدم حلول تأمينية شاملة. بدءًا من التأمين الصحي وتأمين الممتلكات وصولًا إلى تأمين المركبات وغيرها، تضمن هذه الشركات لعملائنا الحماية الكاملة وراحة البال.",
 
 
         /* */
@@ -998,7 +1066,7 @@ const translation = {
         services_single_text_listt: "التركيز على الوقاية والتقليل من مخاطر الأمراض.",
         services_single_text_list1: "إذا كانت حالتك تتطلب علاجًا خاصًا، سيتم تحويلك إلى أطباء متخصصين حسب الحاجة.",
         services_single_text_list2: "نحن ملتزمون بتوفير رعاية صحية متكاملة تركز على احتياجاتك الصحية في كل مرحلة من مراحل حياتك.",
-     
+
         services_sub_heading_hand_surgery: "هناك العديد من أنواع العمليات الجراحية المختلفة التي يمكن إجراؤها لليد، اعتمادًا على السبب الأساسي للمشكلة. يقدم الجراحون ذو الخبرة والكفاءة العالية لدى مجمع جاردينيا الطبي عمليات الجراحة التجميلية واليد على أعلى مستوى وأكبر نسبة نجاح ممكنة.",
         services_single1_text: "جراحة اليد هي تخصص طبي يعنى بتشخيص وعلاج الحالات التي تؤثر على اليد والمعصم والأصابع. تشمل هذه الجراحة علاج الإصابات الناتجة عن الحوادث، التشوهات الخلقية، الأمراض التنكسية مثل التهاب المفاصل، والإضطرابات العصبية مثل متلازمة النفق الرسغي. يقوم أطباء جراحة اليد باستخدام تقنيات جراحية متقدمة لاستعادة وظيفة اليد والقدرة على الحركة",
         services_text1_hand_surgery: "في جراحة اليد، يتعاون الأطباء مع فرق طبية متخصصة من أطباء، ممرضين، وأخصائيين في مجالات مختلفة مثل جراحة العظام، جراحة الأوعية الدموية، والعلاج الطبيعي.",
@@ -1077,7 +1145,7 @@ const translation = {
         services_single17_text_list: "يتعامل الأطباء مع الحالات المرضية باستخدام أحدث التقنيات الطبية لضمان التشخيص الدقيق والعلاج الفعّال.",
         services_single17_text_listt: "يوفر القسم علاجًا متكاملًا يتراوح بين العلاج الطبي البسيط والإجراءات الجراحية المتقدمة.",
         services_single17_text_list1: "يتعاون الفريق الطبي مع أطباء من تخصصات أخرى لضمان تقديم رعاية شاملة للمرضى، مع متابعة دقيقة بعد العلاج لضمان أفضل النتائج.",
-    
+
         services_sub_heading_pharmacy: "نقدم لك متطلباتك واحتياجاتك من الأدوية ومستحضرات التجميل والمكملات الغذائية من صيدليتنا الخاصة. يمكنك التواصل معنا للحصول على التعليمات والمنتجات الدوائية التي تحتاج إليها.",
         services_text1_pharmacy: "توفر صيدلية مجمع جاردينيا الطبي الأدوية والمستلزمات الطبية بإشراف كوادر متخصصة لضمان الاستخدام الآمن والفعّال للعلاجات.",
         services_text2_pharmacy: "تقدم صيدلية مجمع جاردينيا الطبي مجموعة متكاملة من الأدوية والعلاجات بإشراف مختصين لضمان الدقة والسلامة في صرف الأدوية.",
@@ -1148,7 +1216,7 @@ const translation = {
         /*doctor */
         doctor_page_title: "تقديم أفضل سبل العناية للحالات الطبية الحرجة",
         doctor_page_desc: "عند زيارتك لمجمع غاردينيا الطبي، ستجد أحدث التقنيات وأفضل العلاجات في مختلف التخصصات، من المعالجة الشعاعية والأمراض الجلدية إلى الجراحات النهارية وطب الأسرة. يحرص خبراؤنا على تقديم رعاية طبية شاملة ومخصصة لضمان راحتك واطمئنانك.",
-        
+
         doctor_team_layout1_title1: "د. توحيد موافي",
         doctor_team_layout1_job1: "استشاري امراض الباطنية خبرته تفوق ال40 عاماً.",
         doctor_team_layout1_desc1: "يتمتع الدكتور موافي بمهارات استثنائية في تشخيص وإدارة الحالات المتعلقة بالجهاز الهضمي والكبد، مما جعله شخصية موثوق بها في المجتمع الطبي.",
@@ -1193,7 +1261,7 @@ const translation = {
         blog_pagetitle: "أساسيات العناية بالصحة",
 
         /* */
-        AppointmentData:"احجز موعدك الآن ",
+        AppointmentData: "احجز موعدك الآن ",
 
         doctor1_title1: "د. توحيد موافي",
         doctor1_job_1: "استشاري امراض الباطنية خبرته تفوق ال40 عاماً.",
@@ -1240,7 +1308,7 @@ const translation = {
         doctor3_details: "جراحات الأذن: تشمل إدراج أنابيب التهوية، جراحات الجدار الحاجز واللوزتين، والتدخلات الجراحية لعلاج اضطرابات الأذن.",
         doctor3_details__1: "جراحات الأنف والجيوب الأنفية بالمنظار: تتضمن عمليات تصحيح الحاجز الأنفي، تجميل النخاع، واستئصال الخلايا الهوائية.",
         doctor3_details_1: "جراحات الغدد والرقبة: تتضمن عمليات الغدة الدرقية، الجارية، الغدد النكافية، واستئصال العنق.",
-     
+
         doctor4_title1: "د. رانيا السعيدي",
         doctor4_job_1: "اخصائية علاج الطبيعي",
         doctor4_desc_1: "د. رانيا السعيدي متخصصة في إدارة الألم, إصابات الرياضة, إعادة التأهيل بعد الجراحة, العلاج بالحجامة, تمارين علاج طبيعي, رعاية الشيخوخة, صحة المرأة",
@@ -1253,7 +1321,7 @@ const translation = {
         doctor4_details__1: "تعزيز الحركة: تشجيع التمارين وتحسين القدرة الحركية للمرضى.",
         doctor4_details_1: "التوعية الصحية: تقديم النصائح لاتباع أسلوب حياة صحي.",
         doctor4_details_2: "المتابعة والتنسيق: توثيق تقدم المرضى والتواصل مع فرق الرعاية الصحية لضمان نهج علاجي شامل.",
-      
+
 
         doctor5_title1: "د. احمد محي الدين قراط",
         doctor5_job_1: "استشاري الجراحة العامة ",
@@ -1312,7 +1380,7 @@ const translation = {
         doctor8_details__1: "جراحة الكسور المعقدة عند البالغين والأطفال، وإدارة الألم وعلاج الإصابات الرياضية.",
         doctor8_details_1: "العلاج الفيزيائي وصب العظام، بالإضافة إلى علاج هشاشة العظام وأمراض العظام للأطفال وكسور عظام الوجه.",
         doctor8_qualifications_1_textt: " الجامعة الوطنية للعلوم الطبية في الولايات المتحدة",
-        
+
         doctor9_title1: "د. أنس ملولي",
         doctor9_job_1: "استشاري جراحة التجميل والترميم",
         doctor9_desc_1: "متخصص في إجراء عمليات ترميمية وتجميلية إما لترميم الإصابات أو لتحسين مظهر المرضى وعلاجات تصغير حجم الثدي, تكبير حجم الثدي، جراحة الثدي، شد الأرداف البرازيلي، شد البطن، شد الثدي، شد الجسم بعد خسارة وزن زائد، شد الرقبة، شد الوجه، شفط الدهون.",
@@ -1398,12 +1466,12 @@ const translation = {
         Amar_job_1: " أخصائية تغذية علاجية في مركز جاردينيا الطبي، تتمتع بخبرة تمتد لخمسة أعوام في مجال التغذية والتغذية العلاجية.",
         Amar_CV_text_desc1: "قمر عزّام هي أخصائية تغذية علاجية في مركز جاردينيا الطبي، تتمتع بخبرة تمتد لخمسة أعوام في مجال التغذية والتغذية العلاجية. حاصلة على درجة البكالوريوس في التغذية وعلم الحمية من الجامعة اللبنانية الدولية (LIU)، كما حصلت على دبلوم في سلامة الأغذية من الجامعة الأمريكية في بيروت (AUB).",
         Amar_CV_text_desc2: "تحمل قمر شهادة معتمدة من الجمعية الأوروبية للتغذية السريرية والتمثيل الغذائي (ESPEN) في التغذية الوريدية، وأتمّت تدريبًا متقدمًا في إدارة التغذية لمرضى السكري من خلال مختبر كاتاليست للتدريب. تمتلك خبرة واسعة في التغذية السريرية، ورعاية المرضى، وإدارة الأنظمة الغذائية، مما يضمن توفير حلول غذائية مخصصة تعتمد على أسس علمية تلائم الاحتياجات الفريدة لكل مريض.",
-        Amar_title_textt: " تغذية علاجية", 
+        Amar_title_textt: " تغذية علاجية",
         Amar_qualifications_textt: "البكالوريوس في التغذية وعلم الحمية من الجامعة اللبنانية الدولية (LIU)، كما حصلت على دبلوم في سلامة الأغذية من الجامعة الأمريكية في بيروت (AUB).",
         Amar_details: "برامج فقدان الوزن المخصصة: تصميم برامج فردية فعالة لإنقاص الوزن.",
-        Amar_details__1:"خطط وجبات مخصصة: إعداد خطط غذائية تتناسب مع الاحتياجات الغذائية لكل فرد وأسلوب حياته.",
-        Amar_details_1:"الاستشارات الغذائية قبل العمليات الجراحية وبعدها: تقديم المشورة للمرضى قبل العمليات الجراحية، وبعدها، وقبل الخروج من المستشفى لضمان اتباع نظام غذائي مناسب يدعم التعافي والصحة على المدى الطويل.",
-        Amar_details_2:"المتابعة الغذائية: مراقبة الحالة الغذائية للمرضى لضمان تحقيق النتائج المثالية.",
+        Amar_details__1: "خطط وجبات مخصصة: إعداد خطط غذائية تتناسب مع الاحتياجات الغذائية لكل فرد وأسلوب حياته.",
+        Amar_details_1: "الاستشارات الغذائية قبل العمليات الجراحية وبعدها: تقديم المشورة للمرضى قبل العمليات الجراحية، وبعدها، وقبل الخروج من المستشفى لضمان اتباع نظام غذائي مناسب يدعم التعافي والصحة على المدى الطويل.",
+        Amar_details_2: "المتابعة الغذائية: مراقبة الحالة الغذائية للمرضى لضمان تحقيق النتائج المثالية.",
         Amar_details__2: "العلاج بالتغذية الطبية (MNT): تقديم علاج غذائي طبي مخصص لإدارة وتحسين الحالات الصحية المختلفة.",
 
         AlFahel_title1: "الدكتور محمد حسن الفحل",
@@ -1435,15 +1503,15 @@ const translation = {
         Mohamad_Ismail_details__1: "الصحة الوقائية وتثقيف المرضى",
         Mohamad_Ismail_details_1: "الرعاية الحادة وإدارة الأعراض",
         Mohamad_Ismail_details_2: "التعاون متعدد التخصصات",
-        
+
         dr_Sabry_title1: "الدكتور نضال صبري",
         dr_Sabry_job_1: "استشاري الأنف والأذن والحنجرة",
         dr_Sabry_desc_1: "الدكتور نضال صبري هو اختصاصي أنف وأذن وحنجرة متمرس يتمتع بأكثر من 20 عامًا من الخبرة في تشخيص وعلاج اضطرابات الرأس والرقبة، مع تركيز خاص على حالات الأذن والأنف والحنجرة.",
         dr_Sabry_CV_text_desc1: "الدكتور نضال صبري هو اختصاصي أنف وأذن وحنجرة متمرس يتمتع بأكثر من 20 عامًا من الخبرة في تشخيص وعلاج اضطرابات الرأس والرقبة، مع تركيز خاص على حالات الأذن والأنف والحنجرة.",
         dr_Sabry_CV_text_desc2: "وهو عضو مرموق في الأكاديمية الأوروبية لجراحة تجميل الوجه، والأكاديمية الأمريكية لطب الأنف والأذن والحنجرة – جراحة الرأس والرقبة، والجمعية اللبنانية لأمراض الأنف والأذن والحنجرة – جراحة الرأس والرقبة.",
         dr_Sabry_CV_text_desc3: "يشمل نطاق ممارسته الشاملة:",
-        dr_Sabry_CV_textt1_desc3:"الإجراءات التشخيصية: تنظير الحنجرة المرن، التنظير الصلب للأنف، قياس السمع وقياس الطبلة، الفحص المجهري للأذن، واختبارات الحساسية بالوخز.",
-        dr_Sabry_CV_textt_desc3:"الخبرة الجراحية: جراحة الجيوب الأنفية بالمنظار (FESS)، تجميل الأنف، جراحة الفك والوجه (الإصابات الرضحية والخلقية)، رأب طبلة الأذن، الجراحات المجهرية للحنجرة، بالإضافة إلى مجموعة من العمليات الصغرى مثل استئصال اللوزتين، استئصال اللحمية، ترقيع طبلة الأذن، رأب الحاجز الأنفي، والكي الكهربائي للعمليات البسيطة.",
+        dr_Sabry_CV_textt1_desc3: "الإجراءات التشخيصية: تنظير الحنجرة المرن، التنظير الصلب للأنف، قياس السمع وقياس الطبلة، الفحص المجهري للأذن، واختبارات الحساسية بالوخز.",
+        dr_Sabry_CV_textt_desc3: "الخبرة الجراحية: جراحة الجيوب الأنفية بالمنظار (FESS)، تجميل الأنف، جراحة الفك والوجه (الإصابات الرضحية والخلقية)، رأب طبلة الأذن، الجراحات المجهرية للحنجرة، بالإضافة إلى مجموعة من العمليات الصغرى مثل استئصال اللوزتين، استئصال اللحمية، ترقيع طبلة الأذن، رأب الحاجز الأنفي، والكي الكهربائي للعمليات البسيطة.",
         dr_Sabry_title_textt: "استشاري الأنف والأذن والحنجرة",
         dr_Sabry_qualifications_textt: " دكتوراه في الطب",
         dr_Sabry_details: "جراحة الجيوب الأنفية بالمنظار (FESS)",
@@ -1487,7 +1555,7 @@ const translation = {
         widget__title_: " 9 صباحاً-11 مساءًا",
         widget__title_1: " 12 مساءا-8 مساءًا",
         /* */
-        text_block_title:"قيمنا الأساسية",
+        text_block_title: "قيمنا الأساسية",
         text_block_desc: "قيمنا الأساسيةاليوم يُعترف بالمستشفى كواحدة من المؤسسات الرائدة عالميًا، حيث لا تقتصر على تقديم الرعاية والعلاج المتميز فقط، بل تسهم أيضًا في تحسين النتائج الصحية للجميع من خلال البحث الطبي الشامل. بخبرة تتعدى السنوات، في جاردينيا أثرنا في حياة الآلاف من الأشخاص، وقدمنا الرعاية والعلاج لأكثر الحالات المرضية تحديًا في مجتمعنا، بما في ذلك خدمات إعادة التأهيل ورعاية كبار السن.",
 
         fancybox_title: "الفحوصات الطبية الدورية",
@@ -1510,9 +1578,9 @@ const translation = {
         widget_title2: "حالات الطوارئ",
         widget_desc2: "فريقنا جاهز للإجابة على أي استفسار أو مساعدة تحتاجها، تواصل معنا بكل سهولة",
 
-        widget_title_work:"ساعات العمل",
-        title_textt:"نحن هنا لخدمتك",
-        title_textt1:"الاتجاهات على خرائط جوجل",
+        widget_title_work: "ساعات العمل",
+        title_textt: "نحن هنا لخدمتك",
+        title_textt1: "الاتجاهات على خرائط جوجل",
 
         overall__rate1: "خدمنا أكثر من",
         overall__ratetextt: "جراحة مكتملة",
@@ -1527,7 +1595,7 @@ const translation = {
 
     },
 };
- 
+
 
 
 
@@ -1538,14 +1606,14 @@ document.addEventListener("DOMContentLoaded", () => {
         setLanguage('ar' || localStorage.getItem("language"));
     }
 });
- 
+
 
 
 // Language switching functionality
-$(document).ready(function() {
+$(document).ready(function () {
     initLanguage();
 });
- 
+
 
 function initLanguage() {
     let currentLang = getCurrentLang();
@@ -1573,7 +1641,7 @@ function toggleLanguage() {
 
     // Toggle language
     currentLang = currentLang == 'ar' ? 'en' : 'ar';
-    setCurrentLang(currentLang); 
+    setCurrentLang(currentLang);
     updateLanguageDisplay();
     translatePage();
     ChangeDirection();
@@ -1594,8 +1662,8 @@ function setLanguage(language) {
 function updateLanguageDisplay() {
     const langText = document.querySelector('.lang-text');
     console.log(langText);
-    if (langText) { 
-        const l= getCurrentLang() == 'ar' ? 'AR' : 'EN'; 
+    if (langText) {
+        const l = getCurrentLang() == 'ar' ? 'AR' : 'EN';
         $(".lang-text").text(l);
     }
 }
@@ -1605,7 +1673,8 @@ function translatePage() {
     const elements = document.querySelectorAll('[data-lang]');
     elements.forEach(element => {
         const key = element.getAttribute('data-lang');
-        if (translation[currentLang] && translation[currentLang][key]) {
+     
+        if (translation[currentLang] && translation[currentLang][key] !=undefined && translation[currentLang][key] !='') {
             if (element.hasAttribute('data-html')) {
                 element.innerHTML = translation[currentLang][key];
             } else {
@@ -1613,6 +1682,9 @@ function translatePage() {
             }
             element.placeholder = translation[currentLang][key];
             element.dir = currentLang === 'ar' ? 'rtl' : 'ltr';
+        }  else {
+            console.log(`Translation not found for ${key} in ${currentLang}`);
+            console.log(element)
         }
     });
 }
@@ -1622,23 +1694,34 @@ document.addEventListener('DOMContentLoaded', () => {
     translatePage();
 });
 
-function ChangeDirection(){
+function ChangeDirection() {
     const currentLang = getCurrentLang();
-    $('[dir-content]').each(function() {
+    $('[dir-content]').each(function () {
         if (currentLang === 'ar') {
             $(this).addClass('rtl').removeClass('ltr');
         } else {
             $(this).addClass('ltr').removeClass('rtl');
         }
-        
+
     });
 
+    if (currentLang === 'ar') {
+        $('.justify-content-start').addClass('justify-content-end');
+        $('.justify-content-start').removeClass('justify-content-start');
+        $('.justify-content-end').addClass('justify-content-start');
+        $('.justify-content-end').removeClass('justify-content-end');
+    } else {
+        $('.justify-content-end').addClass('justify-content-start');
+        $('.justify-content-end').removeClass('justify-content-end');
+        $('.justify-content-start').addClass('justify-content-end');
+        $('.justify-content-start').removeClass('justify-content-start');
+    }
 }
 
 
-function working(){
-    var working_hours = 
-    `
+function working() {
+    var working_hours =
+        `
                   <div class="widget__icon">
                     <i class="icon-call3"></i>
                   </div>
@@ -1654,9 +1737,9 @@ function working(){
     document.querySelector('.working_hours').innerHTML = working_hours;
 };
 
-function working1(){
-    var working_hours1 = 
-    `
+function working1() {
+    var working_hours1 =
+        `
     <div class="widget-content">
                   <div class="widget__icon">
                     <i class="icon-charity2"></i>

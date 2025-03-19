@@ -24,9 +24,11 @@ const translation = {
         insurance_text: "We are proud to collaborate with a number of trusted insurance providers that offer comprehensive coverage solutions. From health and property insurance to vehicle protection and beyond, these companies ensure our clients receive reliable protection and peace of mind.",
 
         copyright: "Copyright ©️ 2025 Gardenia, All Rights Reserved",
-        "make_appointment_btn": "Make Appointment",
+        make_appointment_btn: "Make Appointment",
         "faqs_item": "Faqs",
         "our_programs_item": "Our Programs",
+        Overview: "Overview",
+        Watch_Video: "Watch Our Video!",
 
         // About Us Banner 
         "banner1_top_text": `Serve the community by improving the quality of life through better
@@ -91,7 +93,7 @@ const translation = {
 
         index_team_layout_title: "Meet Our Doctors",
         index_team_layout_textt: "Our management and support team is highly efficient and trained to assist with all your medical inquiries",
-
+        services_doctors_text: "Our administration and support staff all have exceptional people skills and trained to assist you with all medical enquiries.",
         index_textt1: "Advanced healthcare for your family, today and in the future.",
 
         index_layout_title: "We are happy to receive your general or medical inquiries, so do not hesitate to contact our reception team.Our doctors will respond to emergency calls immediately.",
@@ -829,9 +831,11 @@ const translation = {
         /*index*/
 
         copyright: "Copyright ©️ 2025 Gardenia, جميع الحقوق محفوظة",
-        "make_appointment_btn": "حجز موعد",
+        make_appointment_btn: "حجز موعد",
         "faqs_item": "أسئلة شائعة",
         "our_programs_item": "البرامج",
+        Overview: "نظره عامه",
+        Watch_Video: "شاهد الفيديو الخاص بنا!",
 
         // About Us Banner 
         "banner1_top_text": "نخدم المجتمع من خلال تحسين جودة الحياة عبر تعزيز الصحة. نحن نطبق بروتوكولات لحماية مرضانا وموظفينا مع الاستمرار في تقديم الرعاية الطبية.",
@@ -888,7 +892,7 @@ const translation = {
 
         index_team_layout_title: "تعرف على أطبائنا ",
         index_team_layout_textt: "فريق الإدارة والدعم لدينا يتسم بالكفاءة العالية ومُدرب على توفير المساعدة في جميع استفساراتكم الطبية.",
-
+        services_doctors_text: "يتمتع جميع موظفي الإدارة والدعم لدينا بمهارات استثنائية في التعامل مع الأشخاص ومدربين لمساعدتك في جميع الاستفسارات الطبية.",
         index_textt1: "رعاية صحية متقدمة لعائلتك، اليوم والمستقبل. ",
 
         index_layout_title: "يسعدنا أن نتلقى استفساراتك العامة أو الطبية، فلا تتردد في الاتصال بفريق الاستقبال لدينا. أطباؤنا سيقومون بالرد على المكالمات الطارئة فورًا.",
@@ -1597,7 +1601,7 @@ const translation = {
 };
 
 
-
+const curren_lang = getCurrentLang();
 
 document.addEventListener("DOMContentLoaded", () => {
     if (localStorage.getItem("language") == 'en') {
@@ -1650,7 +1654,7 @@ function toggleLanguage() {
     window.dispatchEvent(new Event('languageChanged'));
 
 }
-
+const zz = 
 function setLanguage(language) {
     const elements = document.querySelectorAll('[data-lang]');
     elements.forEach((element) => {

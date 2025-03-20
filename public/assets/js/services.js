@@ -24,22 +24,38 @@ var servicesarray = [
         "page_list_2": "Botox and fillers"
     },
     {
-        "id": 1,
-        "pagetitle": "Plastic and Reconstructive Surgery ",
-        "service_description": "",
-        "service_list1": "",
+        "id": 2,
+        "pagetitle": "Family Medicine",
+        "service_description": "The Family Medicine Department at Gardenia Medical Complex provides comprehensive healthcare services for individuals and families of all ages. ",
+        "service_list1": "Our approach focuses on preventive care, early diagnosis, and effective treatment of a wide range of medical conditions.",
+        "service_list2": " The department is distinguished by a highly skilled medical team committed to delivering patient-centered care tailored to each individual’s needs.",
+        "page_text1": "This department serves individuals seeking routine health check-ups and preventive care to maintain overall wellness. It is also ideal for patients managing chronic conditions such as diabetes, hypertension, and respiratory diseases, ensuring they receive continuous monitoring and treatment. Additionally, those experiencing acute illnesses or minor injuries can benefit from prompt diagnosis and effective treatment. The department also caters to couples preparing for marriage by offering comprehensive premarital screening to assess genetic, infectious, and hereditary conditions.",
+        "page_text2": "With a commitment to holistic and continuous care, the Family Medicine Department at Gardenia Medical Complex ensures that every patient receives the highest standard of medical attention for both preventive and curative healthcare needs.",
+        "page_offers": "The Family Medicine Department offers a wide range of essential healthcare services, including",
+        "page_list1": "Preventative care and wellness check-ups",
+        "page_list2": "Diagnosis and treatment of chronic and acute conditions",
+        "page_list3": "Premarital screening",
+        "page_list4": "Respiratory conditions and illnesses",
+        "page_list5": "Cupping",
+        "page_list6": "Minor procedures such as, wound suturing and abscess removal.",
+    },
+    {
+        "id": 3,
+        "pagetitle": "Orthopedic",
+        "service_description": "The Orthopedic Department at Gardenia Medical Complex specializes in diagnosing and treating musculoskeletal conditions, offering advanced medical and surgical solutions for bone, joint, and muscle disorders. ",
+        "service_list1": "The department is distinguished by a team of expert orthopedic surgeons and specialists who utilize cutting-edge techniques to ensure optimal patient outcomes.",
         "service_list2": "",
-        "page_text1": "",
-        "page_text2": "",
+        "page_text1": "This department serves individuals suffering from fractures, joint injuries, and traumatic orthopedic conditions, providing timely interventions to restore mobility and function. It is also ideal for athletes and active individuals requiring sports medicine and rehabilitation to recover from injuries and enhance performance. Patients with chronic joint pain or degenerative conditions, such as osteoarthritis, benefit from joint replacement surgeries for the shoulder, hip, and knee, ensuring improved movement and pain relief.",
+        "page_text2": "With a commitment to restoring movement and enhancing quality of life, the Orthopedic Department at Gardenia Medical Complex provides state-of-the-art treatments tailored to meet the unique needs of each patient.",
         "page_offers": "",
-        "page_list1": "",
-        "page_list2": "",
-        "page_list3": "",
-        "page_list4": "",
-        "page_list5": "",
-        "page_list6": "",
-        "page_list7": "",
-        "page_list8": "",
+        "page_list1": "Treatment of fractures and joint injuries",
+        "page_list2": "Sports medicine and rehabilitation",
+        "page_list3": "Arthroscopy ",
+        "page_list4": "Knee joint, hip joint, and shoulder joint prosthesis",
+        "page_list5": "Traumatic cases",
+        "page_list6": "Pelvic Surgery",
+        "page_list7": "Shoulder, Hip, and Knee replacement surgeries",
+        "page_list8": "PRP & PRF",
         "page_list9": "",
         "page_list10": "",
         "page_list11": "",
@@ -77,41 +93,41 @@ var servicesarrayar = [
     },
     {
         "id": 2,
-        "pagetitle": "Plastic and Reconstructive Surgery ",
-        "service_description": "",
-        "service_list1": "",
+        "pagetitle": "طب الأسرة",
+        "service_description": "يقدم قسم طب الأسرة في مجمع جاردينيا الطبي خدمات رعاية صحية شاملة للأفراد والعائلات من جميع الأعمار. ",
+        "service_list1": "مع التركيز على الرعاية الوقائية، التشخيص المبكر، والعلاج الفعّال لمجموعة واسعة من الحالات الطبية. ",
+        "service_list2": "يتميز القسم بفريق طبي عالي الكفاءة ملتزم بتقديم رعاية صحية متميزة تركز على احتياجات كل مريض بشكل فردي.",
+        "page_text1": "يخدم القسم الأفراد الراغبين في الفحوصات الدورية والرعاية الوقائية للحفاظ على صحتهم العامة، كما أنه مثالي للمرضى الذين يعانون من أمراض مزمنة مثل السكري، ارتفاع ضغط الدم، وأمراض الجهاز التنفسي، حيث يضمن لهم متابعة مستمرة وخطة علاجية فعّالة.",
+        "page_text2": "بالإضافة إلى ذلك، يوفر القسم تشخيصًا سريعًا وعلاجًا فعالًا للحالات المرضية الحادة أو الإصابات البسيطة. كما يقدم خدمات الفحص الطبي قبل الزواج، مما يساعد الأزواج المستقبليين على تقييم الحالات الوراثية، المعدية، والمزمنة لضمان صحة الأسرة المستقبلية.",
+        "page_offers": "يحرص قسم طب الأسرة في مجمع جاردينيا الطبي على تقديم رعاية متكاملة تضمن أعلى مستويات الجودة في الخدمات الوقائية والعلاجية، مما يمنح المرضى رعاية طبية موثوقة وشاملة.",
+        "page_list1": " الرعاية الوقائية والفحوصات الدورية",
+        "page_list2": "تشخيص وعلاج الحالات المزمنة والحادة",
+        "page_list3": " الفحص الطبي قبل الزواج",
+        "page_list4": "تشخيص وعلاج أمراض الجهاز التنفسي",
+        "page_list5": "الحجامة",
+        "page_list6": " الإجراءات البسيطة مثل خياطة الجروح وإزالة الخُرّاج"
+    },
+    {
+        "id": 3,
+        "pagetitle": "قسم جراحة العظام",
+        "service_description": "يختص قسم جراحة العظام في مجمع جاردينيا الطبي بتشخيص وعلاج الحالات المتعلقة بالعظام والمفاصل والعضلات، حيث يوفر حلولًا طبية وجراحية متقدمة لمختلف اضطرابات الجهاز العضلي الهيكلي. ",
+        "service_list1": "يتميز القسم بفريق من أمهر جراحي العظام والمتخصصين الذين يعتمدون على أحدث التقنيات لضمان تحقيق أفضل النتائج العلاجية للمرضى.",
         "service_list2": "",
-        "page_text1": "",
-        "page_text2": "",
+        "page_text1": "يخدم القسم المرضى الذين يعانون من الكسور، إصابات المفاصل، والحالات العظمية الطارئة، حيث يوفر تدخلات علاجية فورية لاستعادة الحركة والوظائف الطبيعية. كما يعد القسم مثاليًا للرياضيين والأشخاص النشطين الذين يحتاجون إلى طب رياضي وإعادة تأهيل للتعافي من الإصابات وتحسين الأداء الحركي. بالإضافة إلى ذلك، يستفيد المرضى الذين يعانون من آلام المفاصل المزمنة أو الأمراض التنكسية، مثل خشونة المفاصل، من جراحات استبدال المفاصل (الكتف، الورك، والركبة) لاستعادة الحركة وتقليل الألم.",
+        "page_text2": "التزامنا برفع جودة الحياة وذلك من خلال إيماننا بمدى أهمية استعادة الحركة وتحسين جودة الحياة، يوفر قسم جراحة العظام في مجمع جاردينيا الطبي علاجات متقدمة ومُصممة خصيصًا لتلبية احتياجات كل مريض بشكل فردي.",
         "page_offers": "",
-        "page_list1": "",
-        "page_list2": "",
-        "page_list3": "",
-        "page_list4": "",
-        "page_list5": "",
-        "page_list6": "",
-        "page_list7": "",
-        "page_list8": "",
-        "page_list9": "",
-        "page_list10": "",
-        "page_list11": "",
-        "page_list_1": "",
-        "page_list_2": ""
-    }    
+        "page_list1": "علاج الكسور وإصابات المفاصل",
+        "page_list2": "الطب الرياضي وإعادة التأهيل",
+        "page_list3": " تنظير المفاصل (Arthroscopy)",
+        "page_list4": " استبدال مفاصل الركبة والورك والكتف",
+        "page_list5": "علاج الحالات العظمية الطارئة",
+        "page_list6": "جراحات الحوض",
+        "page_list7": " جراحات استبدال مفصل الكتف والورك والركبة",
+        "page_list8": " حقن البلازما الغنية بالصفائح الدموية (PRP) والبلازما الغنية بالخلايا الليفية (PRF)",
+
+    } 
 ]        
       
-
-
-const language = document.querySelectorAll(".lang-text").innerHTML;
-console.log(language);
-
-if (localStorage.getItem("language") == 'en'){
-    renderProject();
-}
-    else{
-        renderProjectAr();
-
-}
 
 async function renderProject() {
 const url_params = new URLSearchParams(window.location.search);
@@ -125,10 +141,10 @@ if(service_id){
         console.log(services);
         const service = services.find((p) => p.id == service_id);
         if(service){
-            console.log(service);
-            const title = document.getElementById("services_pagetitle");
+            const title = document.getElementById("services_title");
             const service_desc = document.getElementById("services_description");
             const service_desc_li1 = document.getElementById("services_description_list1");
+            const service_desc_li2 = document.getElementById("services_description_list2");
             const service_text1 = document.getElementById("services_text1");
             const service_text2 = document.getElementById("services_text2");
             const service_text3 = document.getElementById("services_text3");
@@ -147,7 +163,15 @@ if(service_id){
             const services_list_1 = document.getElementById("services_list_1");
             const services_list_2 = document.getElementById("services_list_2");
 
+
+
             title.innerHTML = service.pagetitle;
+            if(service.pagetitle == undefined){
+                console.log("zzzzzzzzz");
+            }else{
+                title.innerHTML = service.pagetitle;
+                console.log("kkkkkkkkkk");
+            }
             service_desc.innerHTML = service.service_description;
             service_desc_li1.innerHTML = service.service_list1;
             service_desc_li2.innerHTML = service.service_list2;
@@ -166,8 +190,23 @@ if(service_id){
             services_list9.innerHTML = service.page_list9;
             services_list10.innerHTML = service.page_list10;
             services_list11.innerHTML = service.page_list11;
-            services_list_1.innerHTML = service.page_list_1;
-            services_list_2.innerHTML = service.page_list_2;
+            
+            if(service.page_list_1 == undefined|| service.page_list_1 === ''){
+                console.log("zzzzzzzzz");
+                services_list_2.classList.add("d-none");
+            }else{
+                services_list_1.innerHTML = service.page_list_1;
+                console.log("kkkkkkkkkk");
+            }
+
+            if(service.page_list_2 == undefined|| service.page_list_2 === ''){
+                console.log("zzzzzzzzz");
+                services_list_2.classList.add("d-none");
+            }else{
+                services_list_2.innerHTML = service.page_list_2;
+                console.log("kkkkkkkkkk");
+            }
+            
 
         }
         else {
@@ -242,7 +281,7 @@ async function renderProjectAr() {
     
     if(service_id){
         try{
-            console.log(services);
+            console.log(document.dir);
             const service = services.find((p) => p.id == service_id);
             if(service){
                 console.log(service);
@@ -353,6 +392,17 @@ async function renderProjectAr() {
         
     }
     
+    function initLanguage() {
+        if (localStorage.getItem("language") === 'en'){
+            renderProject();
+            document.dir = 'ltr';
+        }
+            else{
+                renderProjectAr();
+            document.dir = 'rtl';
+        }
+    }
+    initLanguage();
   async function getJson() {
   return await fetch("/public/assets/js/services.json");
 }

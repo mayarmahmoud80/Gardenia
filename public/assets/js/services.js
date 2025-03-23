@@ -985,7 +985,7 @@ async function renderProjectAr() {
             const service = services.find((p) => p.id == service_id);
             if(service){
                 console.log(service);
-                const title = document.getElementById("services_pagetitle");
+                const title = document.getElementById("services_title");
                 const service_desc = document.getElementById("services_description");
                 const service_desc_li1 = document.getElementById("services_description_list1");
                 const service_desc_li2 = document.getElementById("services_description_list2");
@@ -1007,6 +1007,7 @@ async function renderProjectAr() {
                 const services_list_1 = document.getElementById("services_list_1");
                 const services_list_2 = document.getElementById("services_list_2");
     
+                title.innerHTML = service.title;
                 if(service.service_description === undefined || service.service_description === ''){
                     service_desc.classList.add("d-none");
                 }else{
@@ -1154,6 +1155,7 @@ async function renderProjectAr() {
                 const services_list_1 = document.getElementById("services_list_1");
                 const services_list_2 = document.getElementById("services_list_2");
     
+                title.innerHTML = service.title;
                 if(service.service_description === undefined || service.service_description === ''){
                     service_desc.classList.add("d-none");
                 }else{

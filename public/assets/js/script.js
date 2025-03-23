@@ -21,14 +21,21 @@ const translation = {
         board_desc: "Our board of directors brings extensive experience and exceptional leadership skills, dedicated to guiding our organization towards excellence in healthcare services.",
         /*index*/
 
-        insurance_text: "We are proud to collaborate with a number of trusted insurance providers that offer comprehensive coverage solutions. From health and property insurance to vehicle protection and beyond, these companies ensure our clients receive reliable protection and peace of mind.",
+        insurance_text: "We are proud to partner with leading medical insurance providers to offer our patients comprehensive healthcare coverage. These trusted partners ensure access to quality treatments, specialized care, and financial peace of mind throughout their health journey.",
 
         copyright: "Copyright ©️ 2025 Gardenia, All Rights Reserved",
         make_appointment_btn: "Make Appointment",
         "faqs_item": "Faqs",
+        "rooms_item": "Our Rooms",
         "our_programs_item": "Our Programs",
         Overview: "Overview",
         Watch_Video: "Watch Our Video!",
+
+
+        // Programs
+        "program1_item": "Rejuvenation Program",
+        "program2_item": "Weight Loss Program",
+        "program3_item": "Rehabilitation program",
 
         // About Us Banner 
         "banner1_top_text": `Serve the community by improving the quality of life through better
@@ -97,9 +104,10 @@ const translation = {
         index_textt1: "Advanced healthcare for your family, today and in the future.",
 
         index_layout_title: "We are happy to receive your general or medical inquiries, so do not hesitate to contact our reception team.Our doctors will respond to emergency calls immediately.",
-        index_layout_phone: "Contact Us Directly",
-        index_layout_phone_text: "Our team is ready to answer any inquiries or provide the assistance you need. Feel free to reach out to us easily.",
+        index_layout_phone: "Bringing World-Class Healthcare to You!!",
+        index_layout_phone_text: "Delivering world-class healthcare services with advanced medical expertise and compassionate care to patients worldwide, wherever they are.",
         index_layout_phone_btn: "Contact Us",
+        index_layout_share_btn:"Share Our Website",
         index_layout_2: "View video",
         /* */
 
@@ -833,9 +841,15 @@ const translation = {
         copyright: "Copyright ©️ 2025 Gardenia, جميع الحقوق محفوظة",
         make_appointment_btn: "حجز موعد",
         "faqs_item": "أسئلة شائعة",
+        "rooms_item": "غرفنا",
         "our_programs_item": "البرامج",
         Overview: "نظره عامه",
         Watch_Video: "شاهد الفيديو الخاص بنا!",
+
+        //Programs
+        "program1_item": "برنامج إستعادة الحيوية",
+        "program2_item": "برنامج فقدان الوزن",
+        "program3_item": "برنامج إعادة التأهيل",
 
         // About Us Banner 
         "banner1_top_text": "نخدم المجتمع من خلال تحسين جودة الحياة عبر تعزيز الصحة. نحن نطبق بروتوكولات لحماية مرضانا وموظفينا مع الاستمرار في تقديم الرعاية الطبية.",
@@ -853,16 +867,16 @@ const translation = {
         "banner1_feature_2": "منشأة متطورة",
         "banner1_feature_3": "علاج طبي عالي الجودة",
 
-          // Helping Patients
-          "helping_subtitle": "مساعدة المرضى من جميع أنحاء العالم!!",
-          "helping_title": "تحسين جودة حياتك من خلال صحة أفضل.",
-          "helping_years": "5+",
-          "helping_years_text": "سنوات من الخبرة",
-          "helping_years_desc": "نقدم مجموعة واسعة من الرعاية والدعم لمرضانا، من التشخيص إلى إعادة التأهيل.",
-          "helping_video_btn": "شاهد الفيديو الخاص بنا!",
-          "helping_desc1": "هدفنا هو تقديم رعاية عالية الجودة بطريقة مهذبة ومحترمة ومتعاطفة. نأمل أن تسمح لنا برعايتك ونسعى جاهدين لنكون الخيار الأول والأفضل في الرعاية الصحية.",
-          "helping_desc2": "سنعمل معك لتطوير خطط رعاية فردية، بما في ذلك إدارة الأمراض. نحن ملتزمون بأن نكون شبكة الرعاية الصحية الرائدة في المنطقة التي تقدم رعاية تركز على المريض وتلهم التميز في الخدمة.",
-          "helping_btn": "ابحث عن طبيب",
+        // Helping Patients
+        "helping_subtitle": "مساعدة المرضى من جميع أنحاء العالم!!",
+        "helping_title": "تحسين جودة حياتك من خلال صحة أفضل.",
+        "helping_years": "5+",
+        "helping_years_text": "سنوات من الخبرة",
+        "helping_years_desc": "نقدم مجموعة واسعة من الرعاية والدعم لمرضانا، من التشخيص إلى إعادة التأهيل.",
+        "helping_video_btn": "شاهد الفيديو الخاص بنا!",
+        "helping_desc1": "هدفنا هو تقديم رعاية عالية الجودة بطريقة مهذبة ومحترمة ومتعاطفة. نأمل أن تسمح لنا برعايتك ونسعى جاهدين لنكون الخيار الأول والأفضل في الرعاية الصحية.",
+        "helping_desc2": "سنعمل معك لتطوير خطط رعاية فردية، بما في ذلك إدارة الأمراض. نحن ملتزمون بأن نكون شبكة الرعاية الصحية الرائدة في المنطقة التي تقدم رعاية تركز على المريض وتلهم التميز في الخدمة.",
+        "helping_btn": "ابحث عن طبيب",
 
         slide_title: "جميع التخصصات الطبية في مركز واحد",
         slide_title_1: "أعلى مستويات الرعاية الطبية ",
@@ -896,9 +910,10 @@ const translation = {
         index_textt1: "رعاية صحية متقدمة لعائلتك، اليوم والمستقبل. ",
 
         index_layout_title: "يسعدنا أن نتلقى استفساراتك العامة أو الطبية، فلا تتردد في الاتصال بفريق الاستقبال لدينا. أطباؤنا سيقومون بالرد على المكالمات الطارئة فورًا.",
-        index_layout_phone: "اتصل بنا مباشرة ",
-        index_layout_phone_text: "فريقنا جاهز للإجابة على أي استفسار أو مساعدة تحتاجها، تواصل معنا بكل سهولة",
+        index_layout_phone: "نوفّر الرعاية الصحية أينما كنت!",
+        index_layout_phone_text: "نقدم خدمات رعاية صحية عالمية المستوى بخبرة طبية متقدمة ورعاية إنسانية لمرضانا في جميع أنحاء العالم، أينما كانوا.",
         index_layout_phone_btn: "اتصل بنا",
+        index_layout_share_btn:"شارك موقعنا",
         index_layout_2: "عرض الفيديو",
         /* footer */
         footer_title: "نحن هنا لتقديم رعاية صحية عالية الجودة بكل احترام ولطف، ونأمل أن نكون الخيار الأول والأمثل في تلبية احتياجاتكم الصحية وصحة عائلتكم.",
@@ -988,7 +1003,7 @@ const translation = {
         about_blog_btn: "اقرأ المزيد",
 
         testimonials_title: "آراء وتوصيات <br>نعتز بها...",
-        insurance_text: "نحن فخورون بالتعاون مع مجموعة من شركات التأمين الموثوقة التي تقدم حلول تأمينية شاملة. بدءًا من التأمين الصحي وتأمين الممتلكات وصولًا إلى تأمين المركبات وغيرها، تضمن هذه الشركات لعملائنا الحماية الكاملة وراحة البال.",
+        insurance_text: "نفخر بشراكتنا مع مجموعة من شركات التأمين الطبي الموثوقة، لتوفير تغطية صحية شاملة لمرضانا. يضمن شركاؤنا حصولكم على رعاية طبية عالية الجودة، وعناية متخصصة، وراحة بال مالية طوال رحلتكم الصحية.",
 
 
         /* */
@@ -1617,7 +1632,7 @@ $(document).ready(function () {
             setLanguage('ar' || localStorage.getItem("language"));
         }
     });
-    
+
 });
 
 
@@ -1642,7 +1657,7 @@ function setCurrentLang(lang) {
 
 function toggleLanguage() {
     let currentLang = getCurrentLang();
-    document.documentElement.lang = currentLang; 
+    document.documentElement.lang = currentLang;
     document.documentElement.dir = currentLang === 'ar' ? 'rtl' : 'ltr';
 
     // Toggle language
@@ -1652,7 +1667,7 @@ function toggleLanguage() {
     translatePage();
     ChangeDirection();
 
-    if(document.getElementById("services_title")){
+    if (document.getElementById("services_title")) {
         initLanguage();
     }
 
@@ -1661,14 +1676,14 @@ function toggleLanguage() {
     $(document).trigger('languageChanged');
 
 }
-const zz = 
-function setLanguage(language) {
-    const elements = document.querySelectorAll('[data-lang]');
-    elements.forEach((element) => {
-        const translationId = element.getAttribute("data-lang");
-        element.textContent = translation[language][translationId];
-    });
-};
+const zz =
+    function setLanguage(language) {
+        const elements = document.querySelectorAll('[data-lang]');
+        elements.forEach((element) => {
+            const translationId = element.getAttribute("data-lang");
+            element.textContent = translation[language][translationId];
+        });
+    };
 
 function updateLanguageDisplay() {
     const langText = document.querySelector('.lang-text');
@@ -1684,8 +1699,8 @@ function translatePage() {
     const elements = document.querySelectorAll('[data-lang]');
     elements.forEach(element => {
         const key = element.getAttribute('data-lang');
-     
-        if (translation[currentLang] && translation[currentLang][key] !=undefined && translation[currentLang][key] !='') {
+
+        if (translation[currentLang] && translation[currentLang][key] != undefined && translation[currentLang][key] != '') {
             if (element.hasAttribute('data-html')) {
                 element.innerHTML = translation[currentLang][key];
             } else {
@@ -1693,7 +1708,7 @@ function translatePage() {
             }
             element.placeholder = translation[currentLang][key];
             element.dir = currentLang === 'ar' ? 'rtl' : 'ltr';
-        }  else {
+        } else {
             console.log(`Translation not found for ${key} in ${currentLang}`);
             console.log(element)
         }
@@ -1766,4 +1781,3 @@ function working1() {
     document.querySelector('.working_hours1').innerHTML = working_hours1;
 };
 
- 

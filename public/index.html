@@ -1,819 +1,523 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
+  <head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/components.js"></script>
+  </head>
 
-<head>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="assets/js/components.js"></script>
-</head>
-
-<body>
-  <div class="wrapper">
-    <div class="preloader">
-      <div class="loading">
-        <span></span><span></span><span></span><span></span>
+  <body>
+    <div class="wrapper">
+      <div class="preloader">
+        <div class="loading">
+          <span></span><span></span><span></span><span></span>
+        </div>
       </div>
-    </div>
-    <!-- /.preloader -->
+      <!-- /.preloader -->
 
-    <!-- =========================
+      <!-- =========================
         Header
     =========================== -->
-    <header class="header header-layout1"></header>
+      <header class="header header-layout1"></header>
 
-    <!-- ============================
+      <!-- ============================
         Slider
     ============================== -->
-    <section id="main-banner" class="slider" dir="rtl">
-      <div class="slick-carousel-banner m-slides-0" dir="ltr" data-slick='{"slidesToShow": 1, "slidesToScroll": 1, "autoplay": true, "arrows": false, "dots": false, "responsive":
+      <section id="main-banner" class="slider" dir="rtl">
+        <div
+          class="slick-carousel-banner m-slides-0"
+          dir="ltr"
+          data-slick='{"slidesToShow": 1, "slidesToScroll": 1, "autoplay": true, "arrows": false, "dots": false, "responsive":
        [ {"breakpoint": 992, "settings": {"slidesToShow": 1}}, 
-      {"breakpoint": 767, "settings": {"slidesToShow": 1}}, {"breakpoint": 480, "settings": {"slidesToShow": 1}}]}'>
-        <!-- "cssEase": "linear"-->
+      {"breakpoint": 767, "settings": {"slidesToShow": 1}}, {"breakpoint": 480, "settings": {"slidesToShow": 1}}]}'
+        >
+          <!-- "cssEase": "linear"-->
 
-        <div class="slide-item align-v-h" dir="auto">
-          <div class="bg-img">
-            <img src="assets/images/sliders/1.jpg" alt="slide img" />
-          </div>
-          <div class="banner-container">
-            <div class="row align-items-center">
-              <div class="col-sm-12 col-md-12 col-lg-12 col-xl-10">
-                <div class="slide__content">
-                  <h2 class="slide__title" data-lang="slide_title">
-                    جميع التخصصات الطبية في مركز واحد
-                  </h2>
-                  <p class="slide__desc" data-lang="slide_desc">
-                    صحة مرضانا وسلامة فريقهم الطبي هي أولويتنا، لذا نضمن تقديم
-                    أفضل مستويات النظافة والعناية.
-                  </p>
-                  <ul class="features-list list-unstyled mb-0 d-flex flex-wrap">
-                    <!-- feature item #1 -->
-                    <li class="feature-item">
-                      <div class="feature__icon">
-                        <i class="icon-heart"></i>
-                      </div>
-                      <h2 class="feature__title" data-lang="slide_title1">
-                        الفحص الطبي
-                      </h2>
-                    </li>
-                    <!-- /.feature-item-->
-                    <!-- feature item #2 -->
-                    <li class="feature-item">
-                      <div class="feature__icon">
-                        <i class="icon-medicine"></i>
-                      </div>
-                      <h2 class="feature__title" data-lang="slide_title2">
-                        الروشتة الدوائية
-                      </h2>
-                    </li>
-                    <!-- /.feature-item-->
-                    <!-- feature item #3 -->
-                    <li class="feature-item">
-                      <div class="feature__icon">
-                        <i class="icon-heart2"></i>
-                      </div>
-                      <h2 class="feature__title" data-lang="slide_title3">
-                        رسم القلب
-                      </h2>
-                    </li>
-                    <!-- /.feature-item-->
-                    <!-- feature item #4 -->
-                    <li class="feature-item">
-                      <div class="feature__icon">
-                        <i class="icon-blood-test"></i>
-                      </div>
-                      <h2 class="feature__title" data-lang="slide_title4">
-                        ضغط الدم
-                      </h2>
-                    </li>
-                    <!-- /.feature-item-->
-                  </ul>
-                  <!-- /.features-list -->
-                </div>
-                <!-- /.slide-content -->
-              </div>
-              <!-- /.col-xl-7 -->
+          <div class="slide-item align-v-h" dir="auto">
+            <div class="bg-img">
+              <img src="assets/images/sliders/1.jpg" alt="slide img" />
             </div>
-            <!-- /.row -->
-          </div>
-          <!-- /.container -->
-        </div>
-        <!-- /.slide-item -->
-        <div class="slide-item align-v-h" dir="auto">
-          <div class="bg-img">
-            <img src="assets/images/sliders/2.JPG" alt="slide img" />
-          </div>
-          <div class="banner-container">
-            <div class="row align-items-center">
-              <div class="col-sm-12 col-md-12 col-lg-12 col-xl-10">
-                <div class="slide__content">
-                  <h2 class="slide__title" data-lang="slide_title_1">
-                    أعلى مستويات الرعاية الطبية
-                  </h2>
-                  <p class="slide__desc" data-lang="slide_desc">
-                    صحة مرضانا وسلامة فريقهم الطبي هي أولويتنا، لذا نضمن تقديم
-                    أفضل مستويات النظافة والعناية.
-                  </p>
-                  <ul class="features-list list-unstyled mb-0 d-flex flex-wrap">
-                    <!-- feature item #1 -->
-                    <li class="feature-item">
-                      <div class="feature__icon">
-                        <i class="icon-heart"></i>
-                      </div>
-                      <h2 class="feature__title" data-lang="slide_title5">
-                        الفحص الطبي
-                      </h2>
-                    </li>
-                    <!-- /.feature-item-->
-                    <!-- feature item #2 -->
-                    <li class="feature-item">
-                      <div class="feature__icon">
-                        <i class="icon-medicine"></i>
-                      </div>
-                      <h2 class="feature__title" data-lang="slide_title6">
-                        الأشعة
-                      </h2>
-                    </li>
-                    <!-- /.feature-item-->
-                    <!-- feature item #3 -->
-                    <li class="feature-item">
-                      <div class="feature__icon">
-                        <i class="icon-heart2"></i>
-                      </div>
-                      <h2 class="feature__title" data-lang="slide_title7">
-                        المختبر
-                      </h2>
-                    </li>
-                    <!-- /.feature-item-->
-                    <!-- feature item #4 -->
-                    <li class="feature-item">
-                      <div class="feature__icon">
-                        <i class="icon-blood-test"></i>
-                      </div>
-                      <h2 class="feature__title" data-lang="slide_title8">
-                        الصيدلية
-                      </h2>
-                    </li>
-                    <!-- /.feature-item-->
-                  </ul>
-                  <!-- /.features-list -->
+            <div class="banner-container">
+              <div class="row align-items-center">
+                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-10">
+                  <div class="slide__content">
+                    <h2 class="slide__title" data-lang="slide_title">
+                      جميع التخصصات الطبية في مركز واحد
+                    </h2>
+                    <p class="slide__desc" data-lang="slide_desc">
+                      صحة مرضانا وسلامة فريقهم الطبي هي أولويتنا، لذا نضمن تقديم
+                      أفضل مستويات النظافة والعناية.
+                    </p>
+                    <ul
+                      class="features-list list-unstyled mb-0 d-flex flex-wrap"
+                    >
+                      <!-- feature item #1 -->
+                      <li class="feature-item">
+                        <div class="feature__icon">
+                          <i class="icon-heart"></i>
+                        </div>
+                        <h2 class="feature__title" data-lang="slide_title1">
+                          الفحص الطبي
+                        </h2>
+                      </li>
+                      <!-- /.feature-item-->
+                      <!-- feature item #2 -->
+                      <li class="feature-item">
+                        <div class="feature__icon">
+                          <i class="icon-medicine"></i>
+                        </div>
+                        <h2 class="feature__title" data-lang="slide_title2">
+                          الروشتة الدوائية
+                        </h2>
+                      </li>
+                      <!-- /.feature-item-->
+                      <!-- feature item #3 -->
+                      <li class="feature-item">
+                        <div class="feature__icon">
+                          <i class="icon-heart2"></i>
+                        </div>
+                        <h2 class="feature__title" data-lang="slide_title3">
+                          رسم القلب
+                        </h2>
+                      </li>
+                      <!-- /.feature-item-->
+                      <!-- feature item #4 -->
+                      <li class="feature-item">
+                        <div class="feature__icon">
+                          <i class="icon-blood-test"></i>
+                        </div>
+                        <h2 class="feature__title" data-lang="slide_title4">
+                          ضغط الدم
+                        </h2>
+                      </li>
+                      <!-- /.feature-item-->
+                    </ul>
+                    <!-- /.features-list -->
+                  </div>
+                  <!-- /.slide-content -->
                 </div>
-                <!-- /.slide-content -->
+                <!-- /.col-xl-7 -->
               </div>
-              <!-- /.col-xl-7 -->
+              <!-- /.row -->
             </div>
-            <!-- /.row -->
+            <!-- /.container -->
           </div>
-          <!-- /.container -->
+          <!-- /.slide-item -->
+          <div class="slide-item align-v-h" dir="auto">
+            <div class="bg-img">
+              <img src="assets/images/sliders/2.JPG" alt="slide img" />
+            </div>
+            <div class="banner-container">
+              <div class="row align-items-center">
+                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-10">
+                  <div class="slide__content">
+                    <h2 class="slide__title" data-lang="slide_title_1">
+                      أعلى مستويات الرعاية الطبية
+                    </h2>
+                    <p class="slide__desc" data-lang="slide_desc">
+                      صحة مرضانا وسلامة فريقهم الطبي هي أولويتنا، لذا نضمن تقديم
+                      أفضل مستويات النظافة والعناية.
+                    </p>
+                    <ul
+                      class="features-list list-unstyled mb-0 d-flex flex-wrap"
+                    >
+                      <!-- feature item #1 -->
+                      <li class="feature-item">
+                        <div class="feature__icon">
+                          <i class="icon-heart"></i>
+                        </div>
+                        <h2 class="feature__title" data-lang="slide_title5">
+                          الفحص الطبي
+                        </h2>
+                      </li>
+                      <!-- /.feature-item-->
+                      <!-- feature item #2 -->
+                      <li class="feature-item">
+                        <div class="feature__icon">
+                          <i class="icon-medicine"></i>
+                        </div>
+                        <h2 class="feature__title" data-lang="slide_title6">
+                          الأشعة
+                        </h2>
+                      </li>
+                      <!-- /.feature-item-->
+                      <!-- feature item #3 -->
+                      <li class="feature-item">
+                        <div class="feature__icon">
+                          <i class="icon-heart2"></i>
+                        </div>
+                        <h2 class="feature__title" data-lang="slide_title7">
+                          المختبر
+                        </h2>
+                      </li>
+                      <!-- /.feature-item-->
+                      <!-- feature item #4 -->
+                      <li class="feature-item">
+                        <div class="feature__icon">
+                          <i class="icon-blood-test"></i>
+                        </div>
+                        <h2 class="feature__title" data-lang="slide_title8">
+                          الصيدلية
+                        </h2>
+                      </li>
+                      <!-- /.feature-item-->
+                    </ul>
+                    <!-- /.features-list -->
+                  </div>
+                  <!-- /.slide-content -->
+                </div>
+                <!-- /.col-xl-7 -->
+              </div>
+              <!-- /.row -->
+            </div>
+            <!-- /.container -->
+          </div>
+          <!-- /.slide-item -->
         </div>
-        <!-- /.slide-item -->
-      </div>
-      <!-- /.carousel -->
-    </section>
-    <!-- /.slider -->
+        <!-- /.carousel -->
+      </section>
+      <!-- /.slider -->
 
-    <!-- ============================
+      <!-- ============================
         contact info
     ============================== -->
-    <section class="contact-info py-0" dir="rtl">
-      <div class="container">
-        <div class="row row-no-gutter boxes-wrapper">
-          <div class="col-sm-12 col-md-4">
-            <div class="contact-box d-flex flex-column">
-              <div class="contact__icon">
-                <i class="icon-call3"></i>
+      <section class="contact-info py-0" dir="rtl">
+        <div class="container">
+          <div class="row row-no-gutter boxes-wrapper">
+            <div class="col-sm-12 col-md-4">
+              <div class="contact-box d-flex flex-column">
+                <div class="contact__icon">
+                  <i class="icon-call3"></i>
+                </div>
+                <!-- /.contact__icon -->
+                <div class="contact__content">
+                  <h2 class="contact__title" data-lang="widget_title2">
+                    حالات الطوارئ
+                  </h2>
+                  <p class="contact__desc" data-lang="index_phone_text">
+                    نحن دائمًا هنا من أجلك فريق الاستقبال على أتم للرد على جميع
+                    استفساراتك
+                  </p>
+                </div>
+                <div class="contact__content">
+                  <a href="tel:+97444246666" class="phone__number">
+                    <i class="icon-phone m-sm-2"></i><span>97444246666+</span>
+                  </a>
+                  <a href="tel:+97466505015" class="phone__number">
+                    <i class="icon-phone m-sm-2"></i><span>97466505015+</span>
+                  </a>
+                </div>
+                <!-- /.contact__content -->
               </div>
-              <!-- /.contact__icon -->
-              <div class="contact__content">
-                <h2 class="contact__title" data-lang="widget_title2">
-                  حالات الطوارئ
-                </h2>
-                <p class="contact__desc" data-lang="index_phone_text">
-                  نحن دائمًا هنا من أجلك فريق الاستقبال على أتم للرد على جميع
-                  استفساراتك
-                </p>
-              </div>
-              <div class="contact__content">
-                <a href="tel:+97444246666" class="phone__number">
-                  <i class="icon-phone m-sm-2"></i><span>97444246666+</span>
-                </a>
-                <a href="tel:+97466505015" class="phone__number">
-                  <i class="icon-phone m-sm-2"></i><span>97466505015+</span>
-                </a>
-              </div>
-              <!-- /.contact__content -->
-            </div>
 
-            <!-- /.contact-box -->
-          </div>
-          <!-- /.col-md-4 -->
-          <div class="col-sm-12 col-md-4">
-            <div class="contact-box d-flex">
-              <div class="contact__icon">
-                <i class="icon-health-report"></i>
+              <!-- /.contact-box -->
+            </div>
+            <!-- /.col-md-4 -->
+            <div class="col-sm-12 col-md-4">
+              <div class="contact-box d-flex">
+                <div class="contact__icon">
+                  <i class="icon-health-report"></i>
+                </div>
+                <!-- /.contact__icon -->
+                <div class="contact__content">
+                  <h2 class="contact__title" data-lang="index_doctor__title">
+                    جدول مواعيد الأطباء
+                  </h2>
+                  <p class="contact__desc" data-lang="index_doctor__desc">
+                    نحن نقدم رعاية طبية من خلال أطباء محترفين طوال أيام الأسبوع
+                    يرجى الاطلاع على جدولنا لحجز موعد
+                  </p>
+                  <a
+                    href="doctors-timetable.html"
+                    class="btn btn__white btn__outlined btn__rounded"
+                  >
+                    <span data-lang="index_doctor_schedule"> جدول المواعيد</span
+                    ><i class="icon-arrow-right"></i>
+                  </a>
+                </div>
+                <!-- /.contact__content -->
               </div>
-              <!-- /.contact__icon -->
-              <div class="contact__content">
-                <h2 class="contact__title" data-lang="index_doctor__title">
-                  جدول مواعيد الأطباء
-                </h2>
-                <p class="contact__desc" data-lang="index_doctor__desc">
-                  نحن نقدم رعاية طبية من خلال أطباء محترفين طوال أيام الأسبوع
-                  يرجى الاطلاع على جدولنا لحجز موعد
-                </p>
-                <a href="doctors-timetable.html" class="btn btn__white btn__outlined btn__rounded">
-                  <span data-lang="index_doctor_schedule"> جدول المواعيد</span><i class="icon-arrow-right"></i>
+              <!-- /.contact-box -->
+            </div>
+            <!-- /.col-md-4 -->
+            <div class="col-sm-12 col-md-4">
+              <div class="contact-box d-flex">
+                <div class="contact__icon">
+                  <i class="icon-heart2"></i>
+                </div>
+                <!-- /.contact__icon -->
+                <div class="contact__content">
+                  <h2 class="contact__title" data-lang="widget_title_work">
+                    ساعات العمل
+                  </h2>
+                  <ul class="time__list list-unstyled mb-0">
+                    <li>
+                      <p
+                        style="font-size: 18px"
+                        data-lang="working-hours-days-text"
+                      >
+                        9am -11pm
+                      </p>
+                    </li>
+                    <li>
+                      <p
+                        style="font-size: 18px"
+                        data-lang="working-hours-friday-text"
+                      >
+                        12pm-8pm
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+                <!-- /.contact__content -->
+              </div>
+              <!-- /.contact-box -->
+            </div>
+            <!-- /.col-md-4 -->
+          </div>
+          <!-- /.row -->
+        </div>
+        <!-- /.container -->
+      </section>
+      <!-- /.contact-info -->
+
+      <!-- ========================
+      About Layout 2
+    =========================== -->
+      <section class="about-layout2 pb-0">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-7 offset-lg-1">
+              <div class="heading-layout2">
+                <h3
+                  class="heading__title mb-60"
+                  data-lang="index_about_layout_title"
+                >
+                  تغيير حياتك يبدأ من تحسين صحتك
+                </h3>
+              </div>
+              <!-- /heading -->
+            </div>
+            <!-- /.col-12 -->
+          </div>
+          <!-- /.row -->
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-5">
+              <div class="text-with-icon">
+                <div class="text__icon">
+                  <i class="icon-doctor"></i>
+                </div>
+                <div class="text__content">
+                  <p
+                    class="heading__desc font-weight-bold color-secondary mb-30"
+                    data-lang="index_about_layout_desc"
+                  >
+                    هدفنا أن نكون خيارك الأول، فنحن نلتزم بتوفير رعاية صحية ذات
+                    جودة عالية، حيث نرتكز على الاحترام التام وتقديم نتائج مثالية
+                    تضمن لك حياة صحية أفضل.
+                  </p>
+                  <a
+                    href="doctors-standard.html"
+                    class="btn btn__secondary btn__rounded mb-70"
+                  >
+                    <span data-lang="index_about_layout_btn">اختر طبيبك</span>
+                  </a>
+                </div>
+              </div>
+              <div class="video-banner-layout2 bg-overlay">
+                <img
+                  src="assets/images/about/2.jpg"
+                  height="380px"
+                  alt="about"
+                  class="w-100"
+                />
+                <a
+                  class="video__btn video__btn-white popup-video"
+                  href="https://www.youtube.com/watch?v=__DxN91XMY8"
+                >
+                  <div class="video__player">
+                    <i class="fa fa-play"></i>
+                  </div>
+                  <span class="video__btn-title color-white"
+                    >Watch Our Video!</span
+                  >
                 </a>
               </div>
-              <!-- /.contact__content -->
+              <!-- /.video-banner -->
             </div>
-            <!-- /.contact-box -->
-          </div>
-          <!-- /.col-md-4 -->
-          <div class="col-sm-12 col-md-4">
-            <div class="contact-box d-flex">
-              <div class="contact__icon">
-                <i class="icon-heart2"></i>
-              </div>
-              <!-- /.contact__icon -->
-              <div class="contact__content">
-                <h2 class="contact__title" data-lang="widget_title_work">
-                  ساعات العمل
-                </h2>
-                <ul class="time__list list-unstyled mb-0">
-                  <li>
-                    <p style="font-size: 18px" data-lang="working-hours-days-text">
-                      9am -11pm
-                    </p>
+            <!-- /.col-lg-6 -->
+            <div class="col-sm-12 col-md-12 col-lg-7">
+              <div class="about__text bg-white">
+                <p
+                  class="heading__desc mb-30"
+                  data-lang="index_about_layout_text"
+                >
+                  نسعى لأن نكون الشبكة الصحية الرائدة في المنطقة من خلال تطوير
+                  خطط رعاية مخصصة تفصيلية تشمل إدارة الأمراض المزمنة، حيث نضمن
+                  أن تكون رعاية المريض في المقام الأول.
+                </p>
+                <ul class="list-items list-unstyled">
+                  <li data-lang="index_about_layout_textt">
+                    نجري مجموعة من الفحوصات لتحديد أسباب عدم شعورك بالراحة
+                    وتحديد العلاج المناسب لك.
                   </li>
-                  <li>
-                    <p style="font-size: 18px" data-lang="working-hours-friday-text">
-                      12pm-8pm
-                    </p>
+                  <li data-lang="index_about_layout_text1">
+                    يدير مرضانا فريق من الأطباء والممرضين والمتخصصين في الرعاية
+                    الصحية.
+                  </li>
+                  <li data-lang="index_about_layout_textt1">
+                    نقدم مجموعة متنوعة من الرعاية والدعم لمرضانا، بدءًا من
+                    التشخيص وصولاً إلى العلاج وإعادة التأهيل.
                   </li>
                 </ul>
               </div>
-              <!-- /.contact__content -->
             </div>
-            <!-- /.contact-box -->
+            <!-- /.col-lg-6 -->
           </div>
-          <!-- /.col-md-4 -->
+          <!-- /.row -->
         </div>
-        <!-- /.row -->
-      </div>
-      <!-- /.container -->
-    </section>
-    <!-- /.contact-info -->
-
-    <!-- ========================
-      About Layout 2
-    =========================== -->
-    <section class="about-layout2 pb-0">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-7 offset-lg-1">
-            <div class="heading-layout2">
-              <h3 class="heading__title mb-60" data-lang="index_about_layout_title">
-                تغيير حياتك يبدأ من تحسين صحتك
-              </h3>
-            </div>
-            <!-- /heading -->
-          </div>
-          <!-- /.col-12 -->
-        </div>
-        <!-- /.row -->
-        <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-5">
-            <div class="text-with-icon">
-              <div class="text__icon">
-                <i class="icon-doctor"></i>
-              </div>
-              <div class="text__content">
-                <p class="heading__desc font-weight-bold color-secondary mb-30" data-lang="index_about_layout_desc">
-                  هدفنا أن نكون خيارك الأول، فنحن نلتزم بتوفير رعاية صحية ذات
-                  جودة عالية، حيث نرتكز على الاحترام التام وتقديم نتائج مثالية
-                  تضمن لك حياة صحية أفضل.
-                </p>
-                <a href="doctors-standard.html" class="btn btn__secondary btn__rounded mb-70">
+        <!-- /.container -->
+      </section>
+      <!-- /.About Layout 2 -->
+      <section class="notes border-top pt-60 pb-60">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-6 d-flex">
+              <div class="note font-weight-bold">
+                <span data-lang="index_textt1"
+                  >رعاية صحية متقدمة لعائلتك، اليوم والمستقبل.</span
+                >
+                <a
+                  href="doctors-standard.html"
+                  class="btn btn__link btn__secondary"
+                >
                   <span data-lang="index_about_layout_btn">اختر طبيبك</span>
                 </a>
               </div>
             </div>
-            <div class="video-banner-layout2 bg-overlay">
-              <img src="assets/images/about/2.jpg" height="380px" alt="about" class="w-100" />
-              <a class="video__btn video__btn-white popup-video" href="https://www.youtube.com/watch?v=__DxN91XMY8">
-                <div class="video__player">
-                  <i class="fa fa-play"></i>
-                </div>
-                <span class="video__btn-title color-white">Watch Our Video!</span>
-              </a>
+            <!-- /.col-sm-6 -->
+            <div class="col-sm-12 col-md-12 col-lg-6">
+              <div
+                class="info__meta d-flex flex-wrap justify-content-between align-items-center"
+              >
+                <div class="testimonials__rating"></div>
+                <!-- /.testimonials__rating -->
+                <a href="contact-us.html" class="btn btn__primary btn__rounded">
+                  <span data-lang="Book_item">احجز موعدك الآن</span>
+                </a>
+              </div>
+              <!-- /.info__meta -->
             </div>
-            <!-- /.video-banner -->
+            <!-- /.col-sm-6 -->
           </div>
-          <!-- /.col-lg-6 -->
-          <div class="col-sm-12 col-md-12 col-lg-7">
-            <div class="about__text bg-white">
-              <p class="heading__desc mb-30" data-lang="index_about_layout_text">
-                نسعى لأن نكون الشبكة الصحية الرائدة في المنطقة من خلال تطوير
-                خطط رعاية مخصصة تفصيلية تشمل إدارة الأمراض المزمنة، حيث نضمن
-                أن تكون رعاية المريض في المقام الأول.
-              </p>
-              <ul class="list-items list-unstyled">
-                <li data-lang="index_about_layout_textt">
-                  نجري مجموعة من الفحوصات لتحديد أسباب عدم شعورك بالراحة
-                  وتحديد العلاج المناسب لك.
-                </li>
-                <li data-lang="index_about_layout_text1">
-                  يدير مرضانا فريق من الأطباء والممرضين والمتخصصين في الرعاية
-                  الصحية.
-                </li>
-                <li data-lang="index_about_layout_textt1">
-                  نقدم مجموعة متنوعة من الرعاية والدعم لمرضانا، بدءًا من
-                  التشخيص وصولاً إلى العلاج وإعادة التأهيل.
-                </li>
-              </ul>
-            </div>
-          </div>
-          <!-- /.col-lg-6 -->
+          <!-- /.row -->
         </div>
-        <!-- /.row -->
-      </div>
-      <!-- /.container -->
-    </section>
-    <!-- /.About Layout 2 -->
-    <section class="notes border-top pt-60 pb-60">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-6 d-flex">
-            <div class="note font-weight-bold">
-              <span data-lang="index_textt1">رعاية صحية متقدمة لعائلتك، اليوم والمستقبل.</span>
-              <a href="doctors-standard.html" class="btn btn__link btn__secondary">
-                <span data-lang="index_about_layout_btn">اختر طبيبك</span>
-              </a>
-            </div>
-          </div>
-          <!-- /.col-sm-6 -->
-          <div class="col-sm-12 col-md-12 col-lg-6">
-            <div class="info__meta d-flex flex-wrap justify-content-between align-items-center">
-              <div class="testimonials__rating"></div>
-              <!-- /.testimonials__rating -->
-              <a href="contact-us.html" class="btn btn__primary btn__rounded">
-                <span data-lang="Book_item">احجز موعدك الآن</span>
-              </a>
-            </div>
-            <!-- /.info__meta -->
-          </div>
-          <!-- /.col-sm-6 -->
-        </div>
-        <!-- /.row -->
-      </div>
-      <!-- /.container -->
-    </section>
+        <!-- /.container -->
+      </section>
 
-    <section class="testimonials-layout1 pt-240 pb-80">
-      <div class="container">
-        <div class="testimonials-wrapper">
-          <div class="row">
-            <div class="col-sm-12 col-md-4" dir="ltr">
-              <div class="testimonials__rating">
-                <div class="testimonials__rating-inner d-flex align-items-center">
-                  <span class="total__rate">58K</span>
+      <section class="testimonials-layout1 pt-240 pb-80">
+        <div class="container">
+          <div class="testimonials-wrapper">
+            <div class="row">
+              <div class="col-sm-12 col-md-4" dir="ltr">
+                <div class="testimonials__rating">
+                  <div
+                    class="testimonials__rating-inner d-flex align-items-center"
+                  >
+                    <span class="total__rate">58K</span>
+                    <div>
+                      <span class="overall__rate" data-lang="overall__rate1"
+                        >Happy Patients</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-4" dir="ltr">
+                <div class="testimonials__rating d-flex align-items-center">
+                  <span class="total__rate">+800</span>
                   <div>
-                    <span class="overall__rate" data-lang="overall__rate1">Happy Patients</span>
+                    <span class="overall__rate" data-lang="overall__ratetextt"
+                      >Complete Surgery</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-4" dir="ltr">
+                <div class="testimonials__rating d-flex align-items-center">
+                  <span class="total__rate">+15</span>
+                  <div>
+                    <span class="overall__rate" data-lang="overall__ratetext1"
+                      >Experience Doctors</span
+                    >
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-sm-12 col-md-4" dir="ltr">
-              <div class="testimonials__rating d-flex align-items-center">
-                <span class="total__rate">+800</span>
-                <div>
-                  <span class="overall__rate" data-lang="overall__ratetextt">Complete Surgery</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-12 col-md-4" dir="ltr">
-              <div class="testimonials__rating d-flex align-items-center">
-                <span class="total__rate">+15</span>
-                <div>
-                  <span class="overall__rate" data-lang="overall__ratetext1">Experience Doctors</span>
-                </div>
-              </div>
-            </div>
+            <!-- /.row -->
           </div>
-          <!-- /.row -->
+          <!-- /.testimonials-wrapper -->
         </div>
-        <!-- /.testimonials-wrapper -->
-      </div>
-      <!-- /.container -->
-    </section>
-    <!-- /.testimonials layout 1 -->
+        <!-- /.container -->
+      </section>
+      <!-- /.testimonials layout 1 -->
 
-    <!-- ========================
-        Services Layout 1
-    =========================== -->
-
-    <!-- ========================
-        Notses
-    =========================== -->
-
-    <!-- /.notes -->
-
-    <!-- ======================
-    Features Layout 2
-    ========================= -->
-    <section class="features-layout2 pt-170 bg-overlay bg-overlay-primary">
-      <div class="bg-img">
-        <img src="assets/images/backgrounds/2.jpg" alt="background" />
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-8 offset-lg-1">
-            <div class="heading__layout2 mb-50">
-              <h3 class="heading__title color-white" data-lang="about_features_layout1_title">
-                غاردينيا أحدثت فرقًا في حياة المرضى بتقديم رعاية شاملة لأكثر
-                الحالات المرضية تحديًا في مجتمعنا
-              </h3>
-            </div>
-          </div>
-          <!-- /col-lg-5 -->
-        </div>
-        <!-- /.row -->
-        <div class="row mb-100">
-          <div class="col-sm-3 col-md-3 col-lg-3"></div>
-          <div class="col-sm-3 col-md-3 col-lg-1">
-            <div class="heading__icon">
-              <i class="icon-insurance"></i>
-            </div>
-          </div>
-          <!-- /.col-lg-5 -->
-          <div class="col-sm-9 col-md-9 col-lg-6">
-            <p class="heading__desc font-weight-bold color-white mb-30" data-lang="about_features_layout1_desc">
-              عند زيارتك لمجمع غاردينيا الطبي، ستستمتع بأحدث التقنيات المتقدمة
-              وأفضل العلاجات، بالإضافة إلى مجموعة واسعة من الخدمات الصحية
-              والطبية المتنوعة، بدءًا من المعالجة الشعاعية وعلاج الأمراض
-              الجلدية وصولًا إلى الجراحات النهارية وطب الأسرة، وهي خدمات قد لا
-              تجدها في مكان آخر. يمكنك أن تشعر بالاطمئنان وأنت تحت إشراف
-              خبرائنا المتخصصين الذين يقدمون لك رعاية طبية شاملة ومخصصة.
-            </p>
-            <a href="about-us.html" class="btn btn__white btn__link">
-              <i class="icon-arrow-right icon-filled"></i>
-              <span data-lang="about_features_layout1_btn1">قيمنا الأساسية
-              </span>
-            </a>
-          </div>
-          <!-- /.col-lg-6 -->
-        </div>
-        <!-- /.row -->
-        <div class="row">
-          <!-- Feature item #1 -->
-          <div class="col-sm-6 col-md-6 col-lg-4">
-            <div class="feature-item">
-              <div class="feature__img">
-                <img src="assets/images/services/1.jpg" width="370px" height="247px" alt="service" loading="lazy" />
-              </div>
-              <!-- /.feature__img -->
-              <div class="feature__content">
-                <div class="feature__icon">
-                  <i class="icon-heart"></i>
-                </div>
-                <h4 class="feature__title" data-lang="about_features_layout1_title1">
-                  معايير العلاج
-                </h4>
-                <p class="sm-text" data-lang="about_features_layout1_text1">
-                  نحن نقدم معايير العلاج الأساسية وأفضل المرفق الطبية في
-                  العيادة
-                </p>
-              </div>
-              <!-- /.feature__content -->
-              <a href="#" class="btn__link">
-                <i class="icon-arrow-right icon-outlined"></i>
-              </a>
-            </div>
-            <!-- /.feature-item -->
-          </div>
-          <!-- /.col-lg-3 -->
-          <!-- Feature item #2 -->
-          <div class="col-sm-6 col-md-6 col-lg-4">
-            <div class="feature-item">
-              <div class="feature__img">
-                <img src="assets/images/services/2.jpg" width="370px" height="247px" alt="service" loading="lazy" />
-              </div>
-              <!-- /.feature__img -->
-              <div class="feature__content">
-                <div class="feature__icon">
-                  <i class="icon-doctor"></i>
-                </div>
-                <h4 class="feature__title" data-lang="about_features_layout1_title2">
-                  منع العدوى
-                </h4>
-                <p class="sm-text" data-lang="about_features_layout1_text2">
-                  نحرص على تقديم الوقاية من العدوى وأفضل منشأة طبية في العيادة
-                </p>
-              </div>
-              <!-- /.feature__content -->
-              <a href="#" class="btn__link">
-                <i class="icon-arrow-right icon-outlined"></i>
-              </a>
-            </div>
-            <!-- /.feature-item -->
-          </div>
-          <!-- /.col-lg-3 -->
-          <!-- Feature item #3 -->
-          <div class="col-sm-6 col-md-6 col-lg-4">
-            <div class="feature-item">
-              <div class="feature__img">
-                <img src="assets/images/services/3.jpg" width="370px" height="247px" alt="service" loading="lazy" />
-              </div>
-              <!-- /.feature__img -->
-              <div class="feature__content">
-                <div class="feature__icon">
-                  <i class="icon-ambulance"></i>
-                </div>
-                <h4 class="feature__title" data-lang="about_features_layout1_title3">
-                  جودة خدمات الرعاية
-                </h4>
-                <p class="sm-text" data-lang="about_features_layout1_text3">
-                  توفير رعاية ذات جودة عالية
-                </p>
-                <br />
-              </div>
-              <!-- /.feature__content -->
-              <a href="#" class="btn__link">
-                <i class="icon-arrow-right icon-outlined"></i>
-              </a>
-            </div>
-            <!-- /.feature-item -->
-          </div>
-          <!-- /.col-lg-3 -->
-          <!-- Feature item #4 -->
-          <div class="col-sm-6 col-md-6 col-lg-4">
-            <div class="feature-item">
-              <div class="feature__img">
-                <img src="assets/images/services/4.jpg" width="370px" height="247px" alt="service" loading="lazy" />
-              </div>
-              <!-- /.feature__img -->
-              <div class="feature__content">
-                <div class="feature__icon">
-                  <i class="icon-drugs"></i>
-                </div>
-                <h4 class="feature__title" data-lang="about_features_layout1_title4">
-                  تجربة المريض
-                </h4>
-                <p class="sm-text" data-lang="about_features_layout1_text4">
-                  لدينا أفضل التجارب التمريضية وأفضل المرافق في العيادة
-                </p>
-                <br />
-              </div>
-              <!-- /.feature__content -->
-              <a href="#" class="btn__link">
-                <i class="icon-arrow-right icon-outlined"></i>
-              </a>
-            </div>
-            <!-- /.feature-item -->
-          </div>
-          <!-- /.col-lg-3 -->
-          <!-- Feature item #5 -->
-          <div class="col-sm-6 col-md-6 col-lg-4">
-            <div class="feature-item">
-              <div class="feature__img">
-                <img src="assets/images/services/5.jpg" width="370px" height="247px" alt="service" loading="lazy" />
-              </div>
-              <!-- /.feature__img -->
-              <div class="feature__content">
-                <div class="feature__icon">
-                  <i class="icon-first-aid-kit"></i>
-                </div>
-                <h4 class="feature__title" data-lang="about_features_layout1_title5">
-                  حسن التواصل
-                </h4>
-                <p class="sm-text" data-lang="about_features_layout1_text5">
-                  حن نقدم أفضل أشكال التواصل وأعلى مستوى من المنشآت الطبية في
-                  العيادة
-                </p>
-              </div>
-              <!-- /.feature__content -->
-              <a href="#" class="btn__link">
-                <i class="icon-arrow-right icon-outlined"></i>
-              </a>
-            </div>
-            <!-- /.feature-item -->
-          </div>
-          <!-- /.col-lg-3 -->
-          <!-- Feature item #6 -->
-          <div class="col-sm-6 col-md-6 col-lg-4">
-            <div class="feature-item">
-              <div class="feature__img">
-                <img src="assets/images/services/6.jpg" width="370px" height="247px" alt="service" loading="lazy" />
-              </div>
-              <!-- /.feature__img -->
-              <div class="feature__content">
-                <div class="feature__icon">
-                  <i class="icon-hospital"></i>
-                </div>
-                <h4 class="feature__title" data-lang="about_features_layout1_title6">
-                  2+ عاما من الخبرة
-                </h4>
-                <p data-lang="about_features_layout1_text6">
-                  لدينا 2+ عامًا من الخبرة لتقديم خدمات طبية فريدة من نوعها
-                </p>
-                <br />
-              </div>
-              <!-- /.feature__content -->
-              <a href="#" class="btn__link">
-                <i class="icon-arrow-right icon-outlined"></i>
-              </a>
-            </div>
-            <!-- /.feature-item -->
-          </div>
-          <!-- /.col-lg-3 -->
-        </div>
-        <!-- /.row -->
-        <div class="row justify-content-center">
-          <div class="col-md-12 col-lg-12 text-center">
-            <p class="font-weight-bold color-gray mb-0 ft-large" data-lang="about_features_layout1_textt1">
-              We strive to be the first and best choice in healthcare, and we
-              work tirelessly to provide the best possible service.
-            </p>
-
-            <p class="font-weight-bold color-gray mb-0 ft-large" data-lang="about_features_layout1_textt2">
-              We strive to be the first and best choice in healthcare, and we
-              work tirelessly to provide the best possible service.
-            </p>
-          </div>
-          <!-- /.col-lg-6 -->
-        </div>
-        <!-- /.row -->
-      </div>
-      <!-- /.container -->
-    </section>
-    <!-- /.Features Layout 2 -->
-    <section class="team-layout2 pb-80">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-12">
-            <div class="heading text-center mb-40">
-              <h3 class="heading__title" data-lang="board_title">
-                Board of Directors
-              </h3>
-              <p class="heading__desc" data-lang="board_desc">
-                Our board of directors brings extensive experience and
-                exceptional leadership skills, dedicated to guiding our
-                organization towards excellence in healthcare services.
-              </p>
-            </div>
-            <!-- /.heading -->
-          </div>
-          <!-- /.col-lg-6 -->
-        </div>
-        <!-- /.row -->
-        <div class="row">
-          <div class="col-12">
-            <div class="slick-carousel"
-              data-slick='{"slidesToShow": 4, "slidesToScroll": 1, "autoplay": true, "arrows": false, "dots": false, "responsive": [ {"breakpoint": 992, "settings": {"slidesToShow": 2}}, {"breakpoint": 767, "settings": {"slidesToShow": 1}}, {"breakpoint": 480, "settings": {"slidesToShow": 1}}]}'>
-              <!-- Member #1 -->
-              <div class="member">
-                <div class="member__img">
-                  <img src="assets/images/team/Mohammed_Murshed.JPG" alt="member img" />
-                </div>
-                <!-- /.member-img -->
-                <div class="member__info">
-                  <h5 class="member__name">
-                    <a href="doctors-single-doctor13.html" data-lang="doctor_team_layout1_title13">أ.د. محمد مرشد
-                      الدليمي
-                    </a>
-                  </h5>
-                  <p class="member__job" data-lang="doctor_team_layout1_job13">
-                    استشاري أول في جراحات التجميل واليد
-                  </p>
-                  <p class="member__desc" data-lang="doctor_team_layout1_desc13">
-                    متخصص في جراحة اليد، جراحة الحروق الحادة والترميمية، نحت
-                    الجسم، تكبير الثدي، رفع الثدي، تصغير الثدي، شد الوجه، ملء
-                    الدهون، وشفط الدهون.
-                  </p>
-                </div>
-                <!-- /.member-info -->
-              </div>
-              <!-- /.member -->
-              <!-- Member #2 -->
-
-              <div class="member">
-                <div class="member__img">
-                  <img src="assets/images/team/Orouba.JPG" alt="member img" />
-                </div>
-                <!-- /.member-img -->
-                <div class="member__info">
-                  <h5 class="member__name">
-                    <a href="doctors-single-doctor12.html" data-lang="doctor_team_layout1_title12">د. عروبة العاني</a>
-                  </h5>
-                  <p class="member__job" data-lang="doctor_team_layout1_job12">
-                    استشاري طب الأسرة
-                  </p>
-                  <p class="member__desc" data-lang="doctor_team_layout1_desc12">
-                    طبيب أسرة متخصص في تخطيط وتوفير الرعاية الصحية الأولية
-                    الشاملة لجميع أفراد العائلة من جميع الأعمار والأجناس، بشكل
-                    مستمر.
-                  </p>
-                </div>
-                <!-- /.member-info -->
-              </div>
-              <!-- /.member -->
-
-              <!-- Member #3 -->
-              <div class="member">
-                <div class="member__img">
-                  <img src="assets/images/team/Bilal.JPG" alt="member img" />
-                </div>
-                <!-- /.member-img -->
-                <div class="member__info">
-                  <h5 class="member__name">
-                    <a href="doctors-single-doctor8.html" data-lang="doctor_team_layout1_title8">د. بلال عبيد</a>
-                  </h5>
-                  <p class="member__job" data-lang="doctor_team_layout1_job8">
-                    إستشاري جراحة عظام
-                  </p>
-                  <p class="member__desc" data-lang="doctor_team_layout1_desc8">
-                    متخصص في الوقاية والتشخيص والعلاج لاضطرابات العظام
-                    والمفاصل والأربطة والأوتار والعضلات. جراحة العظام والكسور
-                    المعقدة عند البالغين والأطفال
-                  </p>
-                </div>
-                <!-- /.member-info -->
-              </div>
-              <!-- /.member -->
-              <div class="member">
-                <div class="member__img">
-                  <img src="assets/images/team/Reem.JPG" alt="member img" />
-                </div>
-                <!-- /.member-img -->
-                <div class="member__info">
-                  <h5 class="member__name">
-                    <a href="Rim.html" data-lang="Rim_title1">الدكتورة ريم طويل</a>
-                  </h5>
-                  <p class="member__job" data-lang="Rim_job_1">
-                    أخصائية الأمراض الجلدية"
-                  </p>
-                  <p class="member__desc" data-lang="Rim_desc_1">
-                    تُعد الدكتورة ريم طويل أخصائية أمراض جلدية بارزة تتمتع
-                    بخبرة تمتد لـ 22 عامًا في تخصص الأمراض الجلدية والتناسلية.
-                    حاصلة على درجة البكالوريوس في الطب من الهيئة السورية
-                    للاختصاصات الطبية
-                  </p>
-                </div>
-                <!-- /.member-info -->
-              </div>
-              <!-- /.member -->
-            </div>
-            <!-- /.carousel -->
-          </div>
-          <!-- /.col-12 -->
-        </div>
-        <!-- /.row -->
-      </div>
-      <!-- /.container -->
-    </section>
-    <!-- /.Team -->
-
-    <!-- ======================
+      <!-- ======================
       Work Process 
     ========================= -->
-    <section class="work-process work-process-carousel pt-130 pb-0 bg-overlay bg-overlay-secondary">
-      <div class="bg-img">
-        <img src="assets/images/banners/1.jpg" alt="background" />
-      </div>
-      <div class="container">
-        <div class="row heading-layout2">
-          <div class="col-12">
-            <h2 class="heading__subtitle color-primary" data-lang="work_process_subtitle">
-              نهتم بصحتك وصحة عائلتك.
-            </h2>
-          </div>
-          <!-- /.col-12 -->
-          <div class="col-sm-12 col-md-12 col-lg-6 col-xl-5">
-            <h3 class="heading__title color-white" data-lang="work_process_title">
-              نقدم جميع جوانب الرعاية الطبية لتلبية احتياجات أسرتك بالكامل
-            </h3>
-          </div>
-          <!-- /.col-xl-5 -->
-          <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 offset-xl-1">
-            <p class="heading__desc font-weight-bold color-gray mb-40" data-lang="work_process_desc">
-              نعمل جنبًا إلى جنب معك لوضع خطط رعاية تناسب حالتك الصحية، مع
-              التركيز على إدارة الأمراض المزمنة. وإذا لم نستطع مساعدتك بشكل
-              مباشر، سنرشدك إلى الأخصائي المناسب أو نقدم لك النصائح اللازمة.
-              نضمن التعامل مع جميع استفساراتك بسرية واحترام
-            </p>
-            <ul class="list-items list-items-layout2 list-items-light list-horizontal list-unstyled d-flex list-items">
-              <li data-lang="work_process_list1">كسور وخلوع العظام</li>
-              <li data-lang="work_process_list2">رعاية طبية عالية الجودة</li>
-              <li data-lang="work_process_list3">التقييمات الصحية الشاملة</li>
-              <li data-lang="work_process_list4">حقن إزالة التحسس</li>
-            </ul>
-          </div>
-          <!-- /.col-xl-6 -->
+      <section
+        class="work-process work-process-carousel pt-130 pb-0 bg-overlay bg-overlay-secondary"
+      >
+        <div class="bg-img">
+          <img src="assets/images/banners/1.jpg" alt="background" />
         </div>
-        <!-- /.row -->
-        <div class="row">
-          <div class="col-12">
-            <div class="carousel-container mt-90">
-              <div class="slick-carousel" data-slick='{
+        <div class="container">
+          <div class="row heading-layout2">
+            <div class="col-12">
+              <h2
+                class="heading__subtitle color-primary"
+                data-lang="work_process_subtitle"
+              >
+                نهتم بصحتك وصحة عائلتك.
+              </h2>
+            </div>
+            <!-- /.col-12 -->
+            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-5">
+              <h3
+                class="heading__title color-white"
+                data-lang="work_process_title"
+              >
+                نقدم جميع جوانب الرعاية الطبية لتلبية احتياجات أسرتك بالكامل
+              </h3>
+            </div>
+            <!-- /.col-xl-5 -->
+            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 offset-xl-1">
+              <p
+                class="heading__desc font-weight-bold color-gray mb-40"
+                data-lang="work_process_desc"
+              >
+                نعمل جنبًا إلى جنب معك لوضع خطط رعاية تناسب حالتك الصحية، مع
+                التركيز على إدارة الأمراض المزمنة. وإذا لم نستطع مساعدتك بشكل
+                مباشر، سنرشدك إلى الأخصائي المناسب أو نقدم لك النصائح اللازمة.
+                نضمن التعامل مع جميع استفساراتك بسرية واحترام
+              </p>
+              <ul
+                class="list-items list-items-layout2 list-items-light list-horizontal list-unstyled d-flex list-items"
+              >
+                <li data-lang="work_process_list1">كسور وخلوع العظام</li>
+                <li data-lang="work_process_list2">رعاية طبية عالية الجودة</li>
+                <li data-lang="work_process_list3">التقييمات الصحية الشاملة</li>
+                <li data-lang="work_process_list4">حقن إزالة التحسس</li>
+              </ul>
+            </div>
+            <!-- /.col-xl-6 -->
+          </div>
+          <!-- /.row -->
+          <div class="row">
+            <div class="col-12">
+              <div class="carousel-container mt-90">
+                <div
+                  class="slick-carousel"
+                  data-slick='{
                   "slidesToShow": 4, 
                   "slidesToScroll": 1, 
                   "infinite":false, 
@@ -826,101 +530,122 @@
                  {"breakpoint": 767, 
                  "settings": {"slidesToShow": 2}},
                  {"breakpoint": 480,
-                  "settings": {"slidesToShow": 1}}]}'>
-                <!-- process item #1 -->
-                <div class="process-item">
-                  <span class="process__number">01</span>
-                  <div class="process__icon" dir="rtl">
-                    <i class="icon-health-report"></i>
+                  "settings": {"slidesToShow": 1}}]}'
+                >
+                  <!-- process item #1 -->
+                  <div class="process-item">
+                    <span class="process__number">01</span>
+                    <div class="process__icon" dir="rtl">
+                      <i class="icon-health-report"></i>
+                    </div>
+                    <!-- /.process__icon -->
+                    <h4 class="process__title" data-lang="work_process_title1">
+                      ستفد من مقالاتنا الطبية والعلمية
+                    </h4>
+                    <p
+                      class="process__desc sm-text"
+                      data-lang="work_process_desc1"
+                    >
+                      نوفر لك مجموعة من المقالات الغنية بالمعلومات الطبية
+                      والعلمية المفيدة التي تساعدك على فهم صحتك بشكل أفضل.
+                    </p>
+                    <a href="blog.html" class="btn btn__secondary btn__link">
+                      <span data-lang="work_process_btn1"
+                        >اطلع على مقالاتنا</span
+                      >
+                      <i class="icon-arrow-right"></i>
+                    </a>
                   </div>
-                  <!-- /.process__icon -->
-                  <h4 class="process__title" data-lang="work_process_title1">
-                    ستفد من مقالاتنا الطبية والعلمية
-                  </h4>
-                  <p class="process__desc sm-text" data-lang="work_process_desc1">
-                    نوفر لك مجموعة من المقالات الغنية بالمعلومات الطبية
-                    والعلمية المفيدة التي تساعدك على فهم صحتك بشكل أفضل.
-                  </p>
-                  <a href="blog.html" class="btn btn__secondary btn__link">
-                    <span data-lang="work_process_btn1">اطلع على مقالاتنا</span>
-                    <i class="icon-arrow-right"></i>
-                  </a>
-                </div>
-                <!-- /.process-item -->
-                <!-- process-item #2 -->
-                <div class="process-item">
-                  <span class="process__number">02</span>
-                  <div class="process__icon" dir="rtl">
-                    <i class="icon-dna"></i>
+                  <!-- /.process-item -->
+                  <!-- process-item #2 -->
+                  <div class="process-item">
+                    <span class="process__number">02</span>
+                    <div class="process__icon" dir="rtl">
+                      <i class="icon-dna"></i>
+                    </div>
+                    <!-- /.process__icon -->
+                    <h4 class="process__title" data-lang="work_process_title2">
+                      راجع التاريخ الطبي لعائلتك
+                    </h4>
+                    <p
+                      class="process__desc sm-text"
+                      data-lang="work_process_desc2"
+                    >
+                      يمكن للفحوصات الصحية المنتظمة أن تساعد في اكتشاف جميع
+                      المشكلات، بالإضافة إلى فرص الكشف المبكر عنها
+                    </p>
+                    <a href="#" class="btn btn__secondary btn__link">
+                      <span data-lang="work_process_btn2">ابدأ بفحص</span>
+                      <i class="icon-arrow-right"></i>
+                    </a>
                   </div>
-                  <!-- /.process__icon -->
-                  <h4 class="process__title" data-lang="work_process_title2">
-                    راجع التاريخ الطبي لعائلتك
-                  </h4>
-                  <p class="process__desc sm-text" data-lang="work_process_desc2">
-                    يمكن للفحوصات الصحية المنتظمة أن تساعد في اكتشاف جميع
-                    المشكلات، بالإضافة إلى فرص الكشف المبكر عنها
-                  </p>
-                  <a href="#" class="btn btn__secondary btn__link">
-                    <span data-lang="work_process_btn2">ابدأ بفحص</span>
-                    <i class="icon-arrow-right"></i>
-                  </a>
-                </div>
-                <!-- /.process-item -->
-                <!-- process-item #3 -->
-                <div class="process-item">
-                  <span class="process__number">03</span>
-                  <div class="process__icon" dir="rtl">
-                    <i class="icon-medicine"></i>
+                  <!-- /.process-item -->
+                  <!-- process-item #3 -->
+                  <div class="process-item">
+                    <span class="process__number">03</span>
+                    <div class="process__icon" dir="rtl">
+                      <i class="icon-medicine"></i>
+                    </div>
+                    <!-- /.process__icon -->
+                    <h4 class="process__title" data-lang="work_process_title3">
+                      اختر من بين برامج الرعاية الصحية لدينا
+                    </h4>
+                    <p
+                      class="process__desc sm-text"
+                      data-lang="work_process_desc3"
+                    >
+                      لدينا بروتوكولات لحماية مرضانا مع الاستمرار في تقديم
+                      الرعاية اللازمة وفق أعلى المعايير الطبية لضمان سلامتكم.
+                      سجّل اليوم
+                    </p>
+                    <a
+                      href="services.html"
+                      class="btn btn__secondary btn__link"
+                    >
+                      <span data-lang="work_process_btn3">استكشاف البرامج</span>
+                      <i class="icon-arrow-right"></i>
+                    </a>
                   </div>
-                  <!-- /.process__icon -->
-                  <h4 class="process__title" data-lang="work_process_title3">
-                    اختر من بين برامج الرعاية الصحية لدينا
-                  </h4>
-                  <p class="process__desc sm-text" data-lang="work_process_desc3">
-                    لدينا بروتوكولات لحماية مرضانا مع الاستمرار في تقديم
-                    الرعاية اللازمة وفق أعلى المعايير الطبية لضمان سلامتكم.
-                    سجّل اليوم
-                  </p>
-                  <a href="services.html" class="btn btn__secondary btn__link">
-                    <span data-lang="work_process_btn3">استكشاف البرامج</span>
-                    <i class="icon-arrow-right"></i>
-                  </a>
-                </div>
-                <!-- /.process-item -->
-                <!-- process-item #4 -->
-                <div class="process-item">
-                  <span class="process__number">04</span>
-                  <div class="process__icon" dir="rtl">
-                    <i class="icon-stethoscope"></i>
+                  <!-- /.process-item -->
+                  <!-- process-item #4 -->
+                  <div class="process-item">
+                    <span class="process__number">04</span>
+                    <div class="process__icon" dir="rtl">
+                      <i class="icon-stethoscope"></i>
+                    </div>
+                    <!-- /.process__icon -->
+                    <h4 class="process__title" data-lang="work_process_title4">
+                      تعرف على أطبائنا المؤهلين تأهيلاً عاليًا
+                    </h4>
+                    <p
+                      class="process__desc sm-text"
+                      data-lang="work_process_desc4"
+                    >
+                      يتمتع فريق الإدارة والدعم لدينا بمهارات استثنائية ومدرب
+                      على تقديم المساعدة لك.
+                    </p>
+                    <br />
+                    <a
+                      href="doctors-standard.html"
+                      class="btn btn__secondary btn__link"
+                    >
+                      <span data-lang="work_process_btn4">تعرف على أطبائن</span>
+                      <i class="icon-arrow-right"></i>
+                    </a>
                   </div>
-                  <!-- /.process__icon -->
-                  <h4 class="process__title" data-lang="work_process_title4">
-                    تعرف على أطبائنا المؤهلين تأهيلاً عاليًا
-                  </h4>
-                  <p class="process__desc sm-text" data-lang="work_process_desc4">
-                    يتمتع فريق الإدارة والدعم لدينا بمهارات استثنائية ومدرب
-                    على تقديم المساعدة لك.
-                  </p>
-                  <br />
-                  <a href="doctors-standard.html" class="btn btn__secondary btn__link">
-                    <span data-lang="work_process_btn4">تعرف على أطبائن</span>
-                    <i class="icon-arrow-right"></i>
-                  </a>
+                  <!-- /.process-item -->
+                  <!-- process-item #5 -->
                 </div>
-                <!-- /.process-item -->
-                <!-- process-item #5 -->
+                <!-- /.carousel -->
               </div>
-              <!-- /.carousel -->
             </div>
+            <!-- /.col-12 -->
           </div>
-          <!-- /.col-12 -->
+          <!-- /.row -->
+          <!---------------------------->
         </div>
-        <!-- /.row -->
-        <!---------------------------->
-      </div>
-      <!-- /.container -->
-      <!-- <div class="cta bg-light-blue">
+        <!-- /.container -->
+        <!-- <div class="cta bg-light-blue">
         <div class="container">
           <div class="row">
             <div class="col-sm-12 col-md-7 col-lg-7">
@@ -947,808 +672,1239 @@
        
       </div> -->
 
-      <div class="cta bg-light-blue">
+        <div class="cta bg-light-blue">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-sm-12 col-md-2 col-lg-2">
+                <img
+                  src="assets/images/icons/alert2.png"
+                  class="cta__img"
+                  alt="alert"
+                />
+              </div>
+              <!-- /.col-lg-2 -->
+              <div class="col-sm-12 col-md-7 col-lg-7">
+                <h4 class="cta__title" data-lang="work_process_titlee">
+                  True Healthcare For Your Family!
+                </h4>
+                <p class="cta__desc" data-lang="work_process_description">
+                  Serve the community by improving the quality of life through
+                  better health. We have put protocols to protect our patients
+                  and staff while continuing to provide medically necessary
+                  care.
+                </p>
+              </div>
+              <!-- /.col-lg-7 -->
+              <div class="col-sm-12 col-md-12 col-lg-3">
+                <a
+                  href="appointment.html"
+                  class="btn btn__primary btn__secondary-style2 btn__rounded"
+                >
+                  <span data-lang="about_features_layout1_btn2"
+                    >Healthcare Programs</span
+                  >
+                  <i class="icon-arrow-right"></i>
+                </a>
+              </div>
+              <!-- /.col-lg-3 -->
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- /.container -->
+        </div>
+        <!-- /.cta -->
+        <!-- /.cta -->
+      </section>
+      <!-- /.Work Process -->
+
+      <section class="team-layout2 pb-80">
         <div class="container">
-          <div class="row align-items-center">
-            <div class="col-sm-12 col-md-2 col-lg-2">
-              <img src="assets/images/icons/alert2.png" class="cta__img" alt="alert" />
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+              <div class="heading text-center mb-40">
+                <h3 class="heading__title" data-lang="board_title">
+                  Board of Directors
+                </h3>
+                <p class="heading__desc" data-lang="board_desc">
+                  Our board of directors brings extensive experience and
+                  exceptional leadership skills, dedicated to guiding our
+                  organization towards excellence in healthcare services.
+                </p>
+              </div>
+              <!-- /.heading -->
             </div>
-            <!-- /.col-lg-2 -->
-            <div class="col-sm-12 col-md-7 col-lg-7">
-              <h4 class="cta__title" data-lang="work_process_titlee">
-                True Healthcare For Your Family!
-              </h4>
-              <p class="cta__desc" data-lang="work_process_description">
-                Serve the community by improving the quality of life through
-                better health. We have put protocols to protect our patients
-                and staff while continuing to provide medically necessary
-                care.
-              </p>
+            <!-- /.col-lg-6 -->
+          </div>
+          <!-- /.row -->
+          <div class="row">
+            <div class="col-12">
+              <div
+                class="slick-carousel"
+                data-slick='{"slidesToShow": 4, "slidesToScroll": 1, "autoplay": true, "arrows": false, "dots": false, "responsive": [ {"breakpoint": 992, "settings": {"slidesToShow": 2}}, {"breakpoint": 767, "settings": {"slidesToShow": 1}}, {"breakpoint": 480, "settings": {"slidesToShow": 1}}]}'
+              >
+                <!-- Member #1 -->
+                <div class="member">
+                  <div class="member__img">
+                    <img
+                      src="assets/images/team/Mohammed_Murshed.JPG"
+                      alt="member img"
+                    />
+                  </div>
+                  <!-- /.member-img -->
+                  <div class="member__info">
+                    <h5 class="member__name">
+                      <a
+                        href="doctors-single-doctor13.html"
+                        data-lang="doctor_team_layout1_title13"
+                        >أ.د. محمد مرشد الدليمي
+                      </a>
+                    </h5>
+                    <p
+                      class="member__job"
+                      data-lang="doctor_team_layout1_job13"
+                    >
+                      استشاري أول في جراحات التجميل واليد
+                    </p>
+                    <p
+                      class="member__desc"
+                      data-lang="doctor_team_layout1_desc13"
+                    >
+                      متخصص في جراحة اليد، جراحة الحروق الحادة والترميمية، نحت
+                      الجسم، تكبير الثدي، رفع الثدي، تصغير الثدي، شد الوجه، ملء
+                      الدهون، وشفط الدهون.
+                    </p>
+                  </div>
+                  <!-- /.member-info -->
+                </div>
+                <!-- /.member -->
+                <!-- Member #2 -->
+
+                <div class="member">
+                  <div class="member__img">
+                    <img src="assets/images/team/Orouba.JPG" alt="member img" />
+                  </div>
+                  <!-- /.member-img -->
+                  <div class="member__info">
+                    <h5 class="member__name">
+                      <a
+                        href="doctors-single-doctor12.html"
+                        data-lang="doctor_team_layout1_title12"
+                        >د. عروبة العاني</a
+                      >
+                    </h5>
+                    <p
+                      class="member__job"
+                      data-lang="doctor_team_layout1_job12"
+                    >
+                      استشاري طب الأسرة
+                    </p>
+                    <p
+                      class="member__desc"
+                      data-lang="doctor_team_layout1_desc12"
+                    >
+                      طبيب أسرة متخصص في تخطيط وتوفير الرعاية الصحية الأولية
+                      الشاملة لجميع أفراد العائلة من جميع الأعمار والأجناس، بشكل
+                      مستمر.
+                    </p>
+                  </div>
+                  <!-- /.member-info -->
+                </div>
+                <!-- /.member -->
+
+                <!-- Member #3 -->
+                <div class="member">
+                  <div class="member__img">
+                    <img src="assets/images/team/Bilal.JPG" alt="member img" />
+                  </div>
+                  <!-- /.member-img -->
+                  <div class="member__info">
+                    <h5 class="member__name">
+                      <a
+                        href="doctors-single-doctor8.html"
+                        data-lang="doctor_team_layout1_title8"
+                        >د. بلال عبيد</a
+                      >
+                    </h5>
+                    <p class="member__job" data-lang="doctor_team_layout1_job8">
+                      إستشاري جراحة عظام
+                    </p>
+                    <p
+                      class="member__desc"
+                      data-lang="doctor_team_layout1_desc8"
+                    >
+                      متخصص في الوقاية والتشخيص والعلاج لاضطرابات العظام
+                      والمفاصل والأربطة والأوتار والعضلات. جراحة العظام والكسور
+                      المعقدة عند البالغين والأطفال
+                    </p>
+                  </div>
+                  <!-- /.member-info -->
+                </div>
+                <!-- /.member -->
+                <div class="member">
+                  <div class="member__img">
+                    <img src="assets/images/team/Reem.JPG" alt="member img" />
+                  </div>
+                  <!-- /.member-img -->
+                  <div class="member__info">
+                    <h5 class="member__name">
+                      <a href="Rim.html" data-lang="Rim_title1"
+                        >الدكتورة ريم طويل</a
+                      >
+                    </h5>
+                    <p class="member__job" data-lang="Rim_job_1">
+                      أخصائية الأمراض الجلدية"
+                    </p>
+                    <p class="member__desc" data-lang="Rim_desc_1">
+                      تُعد الدكتورة ريم طويل أخصائية أمراض جلدية بارزة تتمتع
+                      بخبرة تمتد لـ 22 عامًا في تخصص الأمراض الجلدية والتناسلية.
+                      حاصلة على درجة البكالوريوس في الطب من الهيئة السورية
+                      للاختصاصات الطبية
+                    </p>
+                  </div>
+                  <!-- /.member-info -->
+                </div>
+                <!-- /.member -->
+              </div>
+              <!-- /.carousel -->
             </div>
-            <!-- /.col-lg-7 -->
-            <div class="col-sm-12 col-md-12 col-lg-3">
-              <a href="appointment.html" class="btn btn__primary btn__secondary-style2 btn__rounded">
-                <span data-lang="about_features_layout1_btn2">Healthcare Programs</span>
-                <i class="icon-arrow-right"></i>
-              </a>
-            </div>
-            <!-- /.col-lg-3 -->
+            <!-- /.col-12 -->
           </div>
           <!-- /.row -->
         </div>
         <!-- /.container -->
-      </div>
-      <!-- /.cta -->
-      <!-- /.cta -->
-    </section>
-    <!-- /.Work Process -->
+      </section>
+      <!-- /.Team -->
 
-    <!-- ========================= 
+      <!-- ========================= 
       Testimonials layout 2
       =========================  -->
-    <section class="testimonials-layout2 pt-130 pb-40">
-      <div class="container">
-        <div class="testimonials-wrapper">
+      <section class="testimonials-layout2 pt-130 pb-40">
+        <div class="container">
+          <div class="testimonials-wrapper">
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-5" dir="rtl">
+                <div class="heading-layout2">
+                  <h3
+                    class="heading__title dir-text"
+                    dir="rtl"
+                    data-lang="testimonials_title"
+                    data-html
+                  >
+                    شهادات الثقة
+                  </h3>
+                </div>
+                <!-- /.heading -->
+              </div>
+              <!-- /.col-lg-5 -->
+              <div class="col-sm-12 col-md-12 col-lg-7" dir="ltr">
+                <div class="slider-with-navs">
+                  <!-- Testimonial #1 -->
+                  <div class="testimonial-item" dir="rtl">
+                    <h3 class="testimonial__title" dir="rtl">
+                      “الدكتور محمد الفحل هو الأفضل ماشاء الله! لم أستطع المشي
+                      على قدمي بسبب الألم والثآليل. لقد قام بتشخيص حالتي بشكل
+                      صحيح واستطاع تعديل حذائي حتى أتمكن من المشي بشكل صحيح!!!
+                      لم أكن أستطيع المشي قبل تعديله وتفريغ حذائي! شكرا على
+                      الخدمة الرائعة”
+                    </h3>
+                  </div>
+                  <!-- /. testimonial-item -->
+                  <!-- Testimonial #2 -->
+                  <div class="testimonial-item">
+                    <h3 class="testimonial__title" dir="rtl">
+                      “انا عملت فحوصات في المختبر وصراحة كان التعامل راقي وجميل
+                      جدا وحتى الفحوصات طلعت في وقت وجيز وانصح بزيارة المركز في
+                      اقرب فرصة”
+                    </h3>
+                  </div>
+                  <!-- /. testimonial-item -->
+                  <!-- Testimonial #3 -->
+                  <div class="testimonial-item" dir="rtl">
+                    <h3 class="testimonial__title">
+                      “د. محمد الفحل أفضل دكتور للقدم مهنياً وأخلاقيايعطي كل
+                      مريض وقته ويسمعله ويعطيك الحل اللي يخليك مرتاح وخبرته
+                      واسعة ما شاء الله”
+                    </h3>
+                  </div>
+                  <!-- /. testimonial-item -->
+
+                  <div class="testimonial-item" dir="rtl">
+                    <h3 class="testimonial__title">
+                      “د. محمد الفحل أفضل دكتور للقدم مهنياً وأخلاقيايعطي كل
+                      مريض وقته ويسمعله ويعطيك الحل اللي يخليك مرتاح وخبرته
+                      واسعة ما شاء الله”
+                    </h3>
+                  </div>
+                  <div class="testimonial-item" dir="rtl">
+                    <h3 class="testimonial__title">
+                      “الخدمة كانت رائعة والمكان نظيف جدًا، فريق العمل محترف
+                      ومتعاون لدرجة كبيرة.”
+                    </h3>
+                  </div>
+
+                  <div class="testimonial-item" dir="ltr">
+                    <h3 class="testimonial__title">
+                      "The experience was amazing! The staff is friendly and the
+                      service is top-notch. Highly recommended."
+                    </h3>
+                  </div>
+
+                  <div class="testimonial-item" dir="rtl">
+                    <h3 class="testimonial__title">
+                      “المكان كان منظم جداً، كل التفاصيل مدروسة لتوفير الراحة
+                      للمرضى.”
+                    </h3>
+                  </div>
+
+                  <div class="testimonial-item" dir="ltr">
+                    <h3 class="testimonial__title">
+                      "Great environment and very professional staff. They truly
+                      care about the patients."
+                    </h3>
+                  </div>
+
+                  <div class="testimonial-item" dir="rtl">
+                    <h3 class="testimonial__title">
+                      “تجربة ممتازة، الموظفون ودودون للغاية ويهتمون براحة
+                      الجميع.”
+                    </h3>
+                  </div>
+
+                  <div class="testimonial-item" dir="ltr">
+                    <h3 class="testimonial__title">
+                      "The service exceeded my expectations. Clean facilities
+                      and wonderful staff."
+                    </h3>
+                  </div>
+
+                  <div class="testimonial-item" dir="rtl">
+                    <h3 class="testimonial__title">
+                      “الخدمة كانت سريعة جداً مع اهتمام كبير بالتفاصيل.”
+                    </h3>
+                  </div>
+
+                  <div class="testimonial-item" dir="ltr">
+                    <h3 class="testimonial__title">
+                      "I was really impressed with how organized and efficient
+                      everything was. Will definitely visit again."
+                    </h3>
+                  </div>
+
+                  <div class="testimonial-item" dir="rtl">
+                    <h3 class="testimonial__title">
+                      “الخدمة كانت ممتازة والمكان هادئ ومريح.”
+                    </h3>
+                  </div>
+
+                  <div class="testimonial-item" dir="ltr">
+                    <h3 class="testimonial__title">
+                      "Such a calm and comfortable environment with great
+                      customer service."
+                    </h3>
+                  </div>
+
+                  <div class="testimonial-item" dir="rtl">
+                    <h3 class="testimonial__title">
+                      “التجربة كانت أكثر من رائعة، فريق العمل يهتم بأدق
+                      التفاصيل.”
+                    </h3>
+                  </div>
+
+                  <div class="testimonial-item" dir="ltr">
+                    <h3 class="testimonial__title">
+                      "I had an amazing experience. The staff paid attention to
+                      every little detail."
+                    </h3>
+                  </div>
+
+                  <div class="testimonial-item" dir="rtl">
+                    <h3 class="testimonial__title">
+                      “الخدمة كانت مميزة وفريق العمل يتسم بالاحترافية العالية.”
+                    </h3>
+                  </div>
+
+                  <div class="testimonial-item" dir="ltr">
+                    <h3 class="testimonial__title">
+                      "Fantastic service! The staff is incredibly professional
+                      and helpful."
+                    </h3>
+                  </div>
+
+                  <div class="testimonial-item" dir="rtl">
+                    <h3 class="testimonial__title">
+                      “مكان مثالي للخدمات الصحية، يهتمون براحة المريض في كل
+                      خطوة.”
+                    </h3>
+                  </div>
+
+                  <div class="testimonial-item" dir="ltr">
+                    <h3 class="testimonial__title">
+                      "Perfect place for healthcare services. They make sure you
+                      are comfortable at all times."
+                    </h3>
+                  </div>
+                </div>
+                <!-- /.slick-carousel -->
+                <div class="slider-nav mb-60">
+                  <div class="testimonial__meta">
+                    <div class="testimonial__thmb">
+                      <img
+                        src="assets/images/testimonials/thumbs/1.png"
+                        alt="author thumb"
+                      />
+                    </div>
+
+                    <div>
+                      <h4 class="testimonial__meta-title">Sami</h4>
+                    </div>
+                  </div>
+
+                  <div class="testimonial__meta">
+                    <div class="testimonial__thmb">
+                      <img
+                        src="assets/images/testimonials/thumbs/2.png"
+                        alt="author thumb"
+                      />
+                    </div>
+
+                    <div>
+                      <h4 class="testimonial__meta-title">Hiba Mg</h4>
+                    </div>
+                  </div>
+
+                  <div class="testimonial__meta">
+                    <div class="testimonial__thmb">
+                      <img
+                        src="assets/images/testimonials/thumbs/3.png"
+                        alt="author thumb"
+                      />
+                    </div>
+
+                    <div>
+                      <h4 class="testimonial__meta-title">AL Zy</h4>
+                    </div>
+                  </div>
+
+                  <div class="testimonial__meta">
+                    <div class="testimonial__thmb">
+                      <img
+                        src="assets/images/testimonials/thumbs/1.png"
+                        alt="author thumb"
+                      />
+                    </div>
+                    <div>
+                      <h4 class="testimonial__meta-title">Abdullah</h4>
+                    </div>
+                  </div>
+
+                  <div class="testimonial__meta">
+                    <div class="testimonial__thmb">
+                      <img
+                        src="assets/images/testimonials/thumbs/2.png"
+                        alt="author thumb"
+                      />
+                    </div>
+                    <div>
+                      <h4 class="testimonial__meta-title">Mariam</h4>
+                    </div>
+                  </div>
+
+                  <div class="testimonial__meta">
+                    <div class="testimonial__thmb">
+                      <img
+                        src="assets/images/testimonials/thumbs/3.png"
+                        alt="author thumb"
+                      />
+                    </div>
+                    <div>
+                      <h4 class="testimonial__meta-title">Faisal</h4>
+                    </div>
+                  </div>
+
+                  <div class="testimonial__meta">
+                    <div class="testimonial__thmb">
+                      <img
+                        src="assets/images/testimonials/thumbs/1.png"
+                        alt="author thumb"
+                      />
+                    </div>
+                    <div>
+                      <h4 class="testimonial__meta-title">Al-Sulaiti</h4>
+                    </div>
+                  </div>
+
+                  <div class="testimonial__meta">
+                    <div class="testimonial__thmb">
+                      <img
+                        src="assets/images/testimonials/thumbs/2.png"
+                        alt="author thumb"
+                      />
+                    </div>
+                    <div>
+                      <h4 class="testimonial__meta-title">Khalid</h4>
+                    </div>
+                  </div>
+
+                  <div class="testimonial__meta">
+                    <div class="testimonial__thmb">
+                      <img
+                        src="assets/images/testimonials/thumbs/3.png"
+                        alt="author thumb"
+                      />
+                    </div>
+                    <div>
+                      <h4 class="testimonial__meta-title">Aisha</h4>
+                    </div>
+                  </div>
+
+                  <div class="testimonial__meta">
+                    <div class="testimonial__thmb">
+                      <img
+                        src="assets/images/testimonials/thumbs/3.png"
+                        alt="author thumb"
+                      />
+                    </div>
+                    <div>
+                      <h4 class="testimonial__meta-title">Al-Darwish</h4>
+                    </div>
+                  </div>
+
+                  <div class="testimonial__meta">
+                    <div class="testimonial__thmb">
+                      <img
+                        src="assets/images/testimonials/thumbs/1.png"
+                        alt="author thumb"
+                      />
+                    </div>
+                    <div>
+                      <h4 class="testimonial__meta-title">Reem</h4>
+                    </div>
+                  </div>
+
+                  <div class="testimonial__meta">
+                    <div class="testimonial__thmb">
+                      <img
+                        src="assets/images/testimonials/thumbs/2.png"
+                        alt="author thumb"
+                      />
+                    </div>
+                    <div>
+                      <h4 class="testimonial__meta-title">Salem</h4>
+                    </div>
+                  </div>
+
+                  <div class="testimonial__meta">
+                    <div class="testimonial__thmb">
+                      <img
+                        src="assets/images/testimonials/thumbs/3.png"
+                        alt="author thumb"
+                      />
+                    </div>
+                    <div>
+                      <h4 class="testimonial__meta-title">Sara</h4>
+                    </div>
+                  </div>
+
+                  <div class="testimonial__meta">
+                    <div class="testimonial__thmb">
+                      <img
+                        src="assets/images/testimonials/thumbs/1.png"
+                        alt="author thumb"
+                      />
+                    </div>
+                    <div>
+                      <h4 class="testimonial__meta-title">Nasser</h4>
+                    </div>
+                  </div>
+
+                  <div class="testimonial__meta">
+                    <div class="testimonial__thmb">
+                      <img
+                        src="assets/images/testimonials/thumbs/2.png"
+                        alt="author thumb"
+                      />
+                    </div>
+                    <div>
+                      <h4 class="testimonial__meta-title">Al-Rumaihi</h4>
+                    </div>
+                  </div>
+
+                  <div class="testimonial__meta">
+                    <div class="testimonial__thmb">
+                      <img
+                        src="assets/images/testimonials/thumbs/3.png"
+                        alt="author thumb"
+                      />
+                    </div>
+                    <div>
+                      <h4 class="testimonial__meta-title">Al-Muraikhi</h4>
+                    </div>
+                  </div>
+
+                  <div class="testimonial__meta">
+                    <div class="testimonial__thmb">
+                      <img
+                        src="assets/images/testimonials/thumbs/1.png"
+                        alt="author thumb"
+                      />
+                    </div>
+                    <div>
+                      <h4 class="testimonial__meta-title">Haya</h4>
+                    </div>
+                  </div>
+
+                  <div class="testimonial__meta">
+                    <div class="testimonial__thmb">
+                      <img
+                        src="assets/images/testimonials/thumbs/2.png"
+                        alt="author thumb"
+                      />
+                    </div>
+                    <div>
+                      <h4 class="testimonial__meta-title">Al-Malki</h4>
+                    </div>
+                  </div>
+
+                  <div class="testimonial__meta">
+                    <div class="testimonial__thmb">
+                      <img
+                        src="assets/images/testimonials/thumbs/3.png"
+                        alt="author thumb"
+                      />
+                    </div>
+                    <div>
+                      <h4 class="testimonial__meta-title">Noora</h4>
+                    </div>
+                  </div>
+
+                  <div class="testimonial__meta">
+                    <div class="testimonial__thmb">
+                      <img
+                        src="assets/images/testimonials/thumbs/1.png"
+                        alt="author thumb"
+                      />
+                    </div>
+                    <div>
+                      <h4 class="testimonial__meta-title">Al-Ghanim</h4>
+                    </div>
+                  </div>
+
+                  <div class="testimonial__meta">
+                    <div class="testimonial__thmb">
+                      <img
+                        src="assets/images/testimonials/thumbs/2.png"
+                        alt="author thumb"
+                      />
+                    </div>
+                    <div>
+                      <h4 class="testimonial__meta-title">Al-Saad</h4>
+                    </div>
+                  </div>
+
+                  <div class="testimonial__meta">
+                    <div class="testimonial__thmb">
+                      <img
+                        src="assets/images/testimonials/thumbs/3.png"
+                        alt="author thumb"
+                      />
+                    </div>
+                    <div>
+                      <h4 class="testimonial__meta-title">Hassan</h4>
+                    </div>
+                  </div>
+
+                  <div class="testimonial__meta">
+                    <div class="testimonial__thmb">
+                      <img
+                        src="assets/images/testimonials/thumbs/1.png"
+                        alt="author thumb"
+                      />
+                    </div>
+                    <div>
+                      <h4 class="testimonial__meta-title">Al-Suwaidi</h4>
+                    </div>
+                  </div>
+                  <!-- /.testimonial-meta -->
+                </div>
+                <!-- /.slider-nav -->
+              </div>
+              <!-- /.col-lg-7 -->
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- /.testimonials-wrapper -->
+        </div>
+        <!-- /.container -->
+      </section>
+      <!-- /.testimonials layout 2 -->
+
+      <!-- ========================
+       gallery
+      =========================== -->
+      <section class="gallery pt-0 pb-90" dir="rtl">
+        <div class="container">
           <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-5" dir="rtl">
-              <div class="heading-layout2">
-                <h3 class="heading__title dir-text" dir="rtl" data-lang="testimonials_title" data-html>
-                  شهادات الثقة
-                </h3>
+            <div class="col-12">
+              <div class="slick-carousel-gallery" dir="ltr">
+                <a
+                  class="popup-gallery-item"
+                  href="assets/images/gallery/1.jpg"
+                >
+                  <img src="assets/images/gallery/1.jpg" alt="gallery img" />
+                </a>
+                <a
+                  class="popup-gallery-item"
+                  href="assets/images/gallery/2.jpg"
+                >
+                  <img src="assets/images/gallery/2.jpg" alt="gallery img" />
+                </a>
+                <a
+                  class="popup-gallery-item"
+                  href="assets/images/gallery/3.jpg"
+                >
+                  <img src="assets/images/gallery/3.jpg" alt="gallery img" />
+                </a>
+                <a
+                  class="popup-gallery-item"
+                  href="assets/images/gallery/4.jpg"
+                >
+                  <img src="assets/images/gallery/4.jpg" alt="gallery img" />
+                </a>
+                <a
+                  class="popup-gallery-item"
+                  href="assets/images/gallery/5.jpg"
+                >
+                  <img src="assets/images/gallery/5.jpg" alt="gallery img" />
+                </a>
+                <a
+                  class="popup-gallery-item"
+                  href="assets/images/gallery/6.jpg"
+                >
+                  <img src="assets/images/gallery/6.jpg" alt="gallery img" />
+                </a>
+                <a
+                  class="popup-gallery-item"
+                  href="assets/images/gallery/6.jpg"
+                >
+                  <img src="assets/images/gallery/9.jpg" alt="gallery img" />
+                </a>
+
+                <a
+                  class="popup-gallery-item"
+                  href="assets/images/gallery/6.jpg"
+                >
+                  <img src="assets/images/gallery/10.jpg" alt="gallery img" />
+                </a>
+                <a
+                  class="popup-gallery-item"
+                  href="assets/images/gallery/6.jpg"
+                >
+                  <img src="assets/images/gallery/11.jpg" alt="gallery img" />
+                </a>
+                <a
+                  class="popup-gallery-item"
+                  href="assets/images/gallery/6.jpg"
+                >
+                  <img src="assets/images/gallery/12.jpg" alt="gallery img" />
+                </a>
+                <a
+                  class="popup-gallery-item"
+                  href="assets/images/gallery/6.jpg"
+                >
+                  <img src="assets/images/gallery/13.jpg" alt="gallery img" />
+                </a>
+                <a
+                  class="popup-gallery-item"
+                  href="assets/images/gallery/6.jpg"
+                >
+                  <img src="assets/images/gallery/14.jpg" alt="gallery img" />
+                </a>
+                <a
+                  class="popup-gallery-item"
+                  href="assets/images/gallery/6.jpg"
+                >
+                  <img src="assets/images/gallery/16.jpg" alt="gallery img" />
+                </a>
               </div>
-              <!-- /.heading -->
+              <!-- /.gallery-images-wrapper -->
             </div>
-            <!-- /.col-lg-5 -->
-            <div class="col-sm-12 col-md-12 col-lg-7" dir="ltr">
-              <div class="slider-with-navs">
-                <!-- Testimonial #1 -->
-                <div class="testimonial-item" dir="rtl">
-                  <h3 class="testimonial__title" dir="rtl">
-                    “الدكتور محمد الفحل هو الأفضل ماشاء الله! لم أستطع المشي
-                    على قدمي بسبب الألم والثآليل. لقد قام بتشخيص حالتي بشكل
-                    صحيح واستطاع تعديل حذائي حتى أتمكن من المشي بشكل صحيح!!!
-                    لم أكن أستطيع المشي قبل تعديله وتفريغ حذائي! شكرا على
-                    الخدمة الرائعة”
-                  </h3>
-                </div>
-                <!-- /. testimonial-item -->
-                <!-- Testimonial #2 -->
-                <div class="testimonial-item">
-                  <h3 class="testimonial__title" dir="rtl">
-                    “انا عملت فحوصات في المختبر وصراحة كان التعامل راقي وجميل
-                    جدا وحتى الفحوصات طلعت في وقت وجيز وانصح بزيارة المركز في
-                    اقرب فرصة”
-                  </h3>
-                </div>
-                <!-- /. testimonial-item -->
-                <!-- Testimonial #3 -->
-                <div class="testimonial-item" dir="rtl">
-                  <h3 class="testimonial__title">
-                    “د. محمد الفحل أفضل دكتور للقدم مهنياً وأخلاقيايعطي كل
-                    مريض وقته ويسمعله ويعطيك الحل اللي يخليك مرتاح وخبرته
-                    واسعة ما شاء الله”
-                  </h3>
-                </div>
-                <!-- /. testimonial-item -->
-
-                <div class="testimonial-item" dir="rtl">
-                  <h3 class="testimonial__title">
-                    “د. محمد الفحل أفضل دكتور للقدم مهنياً وأخلاقيايعطي كل
-                    مريض وقته ويسمعله ويعطيك الحل اللي يخليك مرتاح وخبرته
-                    واسعة ما شاء الله”
-                  </h3>
-                </div>
-                <div class="testimonial-item" dir="rtl">
-                  <h3 class="testimonial__title">
-                    “الخدمة كانت رائعة والمكان نظيف جدًا، فريق العمل محترف
-                    ومتعاون لدرجة كبيرة.”
-                  </h3>
-                </div>
-
-                <div class="testimonial-item" dir="ltr">
-                  <h3 class="testimonial__title">
-                    "The experience was amazing! The staff is friendly and the
-                    service is top-notch. Highly recommended."
-                  </h3>
-                </div>
-
-                <div class="testimonial-item" dir="rtl">
-                  <h3 class="testimonial__title">
-                    “المكان كان منظم جداً، كل التفاصيل مدروسة لتوفير الراحة
-                    للمرضى.”
-                  </h3>
-                </div>
-
-                <div class="testimonial-item" dir="ltr">
-                  <h3 class="testimonial__title">
-                    "Great environment and very professional staff. They truly
-                    care about the patients."
-                  </h3>
-                </div>
-
-                <div class="testimonial-item" dir="rtl">
-                  <h3 class="testimonial__title">
-                    “تجربة ممتازة، الموظفون ودودون للغاية ويهتمون براحة
-                    الجميع.”
-                  </h3>
-                </div>
-
-                <div class="testimonial-item" dir="ltr">
-                  <h3 class="testimonial__title">
-                    "The service exceeded my expectations. Clean facilities
-                    and wonderful staff."
-                  </h3>
-                </div>
-
-                <div class="testimonial-item" dir="rtl">
-                  <h3 class="testimonial__title">
-                    “الخدمة كانت سريعة جداً مع اهتمام كبير بالتفاصيل.”
-                  </h3>
-                </div>
-
-                <div class="testimonial-item" dir="ltr">
-                  <h3 class="testimonial__title">
-                    "I was really impressed with how organized and efficient
-                    everything was. Will definitely visit again."
-                  </h3>
-                </div>
-
-                <div class="testimonial-item" dir="rtl">
-                  <h3 class="testimonial__title">
-                    “الخدمة كانت ممتازة والمكان هادئ ومريح.”
-                  </h3>
-                </div>
-
-                <div class="testimonial-item" dir="ltr">
-                  <h3 class="testimonial__title">
-                    "Such a calm and comfortable environment with great
-                    customer service."
-                  </h3>
-                </div>
-
-                <div class="testimonial-item" dir="rtl">
-                  <h3 class="testimonial__title">
-                    “التجربة كانت أكثر من رائعة، فريق العمل يهتم بأدق
-                    التفاصيل.”
-                  </h3>
-                </div>
-
-                <div class="testimonial-item" dir="ltr">
-                  <h3 class="testimonial__title">
-                    "I had an amazing experience. The staff paid attention to
-                    every little detail."
-                  </h3>
-                </div>
-
-                <div class="testimonial-item" dir="rtl">
-                  <h3 class="testimonial__title">
-                    “الخدمة كانت مميزة وفريق العمل يتسم بالاحترافية العالية.”
-                  </h3>
-                </div>
-
-                <div class="testimonial-item" dir="ltr">
-                  <h3 class="testimonial__title">
-                    "Fantastic service! The staff is incredibly professional
-                    and helpful."
-                  </h3>
-                </div>
-
-                <div class="testimonial-item" dir="rtl">
-                  <h3 class="testimonial__title">
-                    “مكان مثالي للخدمات الصحية، يهتمون براحة المريض في كل
-                    خطوة.”
-                  </h3>
-                </div>
-
-                <div class="testimonial-item" dir="ltr">
-                  <h3 class="testimonial__title">
-                    "Perfect place for healthcare services. They make sure you
-                    are comfortable at all times."
-                  </h3>
-                </div>
-              </div>
-              <!-- /.slick-carousel -->
-              <div class="slider-nav mb-60">
-                <div class="testimonial__meta">
-                  <div class="testimonial__thmb">
-                    <img src="assets/images/testimonials/thumbs/1.png" alt="author thumb" />
-                  </div>
-
-                  <div>
-                    <h4 class="testimonial__meta-title">Sami</h4>
-                  </div>
-                </div>
-
-                <div class="testimonial__meta">
-                  <div class="testimonial__thmb">
-                    <img src="assets/images/testimonials/thumbs/2.png" alt="author thumb" />
-                  </div>
-
-                  <div>
-                    <h4 class="testimonial__meta-title">Hiba Mg</h4>
-                  </div>
-                </div>
-
-                <div class="testimonial__meta">
-                  <div class="testimonial__thmb">
-                    <img src="assets/images/testimonials/thumbs/3.png" alt="author thumb" />
-                  </div>
-
-                  <div>
-                    <h4 class="testimonial__meta-title">AL Zy</h4>
-                  </div>
-                </div>
-
-                <div class="testimonial__meta">
-                  <div class="testimonial__thmb">
-                    <img src="assets/images/testimonials/thumbs/1.png" alt="author thumb" />
-                  </div>
-                  <div>
-                    <h4 class="testimonial__meta-title">
-                      Abdullah
-                    </h4>
-                  </div>
-                </div>
-
-                <div class="testimonial__meta">
-                  <div class="testimonial__thmb">
-                    <img src="assets/images/testimonials/thumbs/2.png" alt="author thumb" />
-                  </div>
-                  <div>
-                    <h4 class="testimonial__meta-title">Mariam</h4>
-                  </div>
-                </div>
-
-                <div class="testimonial__meta">
-                  <div class="testimonial__thmb">
-                    <img src="assets/images/testimonials/thumbs/3.png" alt="author thumb" />
-                  </div>
-                  <div>
-                    <h4 class="testimonial__meta-title">Faisal</h4>
-                  </div>
-                </div>
-
-                <div class="testimonial__meta">
-                  <div class="testimonial__thmb">
-                    <img src="assets/images/testimonials/thumbs/1.png" alt="author thumb" />
-                  </div>
-                  <div>
-                    <h4 class="testimonial__meta-title">Al-Sulaiti</h4>
-                  </div>
-                </div>
-
-                <div class="testimonial__meta">
-                  <div class="testimonial__thmb">
-                    <img src="assets/images/testimonials/thumbs/2.png" alt="author thumb" />
-                  </div>
-                  <div>
-                    <h4 class="testimonial__meta-title">Khalid</h4>
-                  </div>
-                </div>
-
-                <div class="testimonial__meta">
-                  <div class="testimonial__thmb">
-                    <img src="assets/images/testimonials/thumbs/3.png" alt="author thumb" />
-                  </div>
-                  <div>
-                    <h4 class="testimonial__meta-title">Aisha</h4>
-                  </div>
-                </div>
-
-                <div class="testimonial__meta">
-                  <div class="testimonial__thmb">
-                    <img src="assets/images/testimonials/thumbs/3.png" alt="author thumb" />
-                  </div>
-                  <div>
-                    <h4 class="testimonial__meta-title">Al-Darwish</h4>
-                  </div>
-                </div>
-
-                <div class="testimonial__meta">
-                  <div class="testimonial__thmb">
-                    <img src="assets/images/testimonials/thumbs/1.png" alt="author thumb" />
-                  </div>
-                  <div>
-                    <h4 class="testimonial__meta-title">Reem</h4>
-                  </div>
-                </div>
-
-                <div class="testimonial__meta">
-                  <div class="testimonial__thmb">
-                    <img src="assets/images/testimonials/thumbs/2.png" alt="author thumb" />
-                  </div>
-                  <div>
-                    <h4 class="testimonial__meta-title">Salem</h4>
-                  </div>
-                </div>
-
-                <div class="testimonial__meta">
-                  <div class="testimonial__thmb">
-                    <img src="assets/images/testimonials/thumbs/3.png" alt="author thumb" />
-                  </div>
-                  <div>
-                    <h4 class="testimonial__meta-title">Sara</h4>
-                  </div>
-                </div>
-
-                <div class="testimonial__meta">
-                  <div class="testimonial__thmb">
-                    <img src="assets/images/testimonials/thumbs/1.png" alt="author thumb" />
-                  </div>
-                  <div>
-                    <h4 class="testimonial__meta-title">Nasser</h4>
-                  </div>
-                </div>
-
-                <div class="testimonial__meta">
-                  <div class="testimonial__thmb">
-                    <img src="assets/images/testimonials/thumbs/2.png" alt="author thumb" />
-                  </div>
-                  <div>
-                    <h4 class="testimonial__meta-title">Al-Rumaihi</h4>
-                  </div>
-                </div>
-
-                <div class="testimonial__meta">
-                  <div class="testimonial__thmb">
-                    <img src="assets/images/testimonials/thumbs/3.png" alt="author thumb" />
-                  </div>
-                  <div>
-                    <h4 class="testimonial__meta-title">Al-Muraikhi</h4>
-                  </div>
-                </div>
-
-                <div class="testimonial__meta">
-                  <div class="testimonial__thmb">
-                    <img src="assets/images/testimonials/thumbs/1.png" alt="author thumb" />
-                  </div>
-                  <div>
-                    <h4 class="testimonial__meta-title">Haya</h4>
-                  </div>
-                </div>
-
-                <div class="testimonial__meta">
-                  <div class="testimonial__thmb">
-                    <img src="assets/images/testimonials/thumbs/2.png" alt="author thumb" />
-                  </div>
-                  <div>
-                    <h4 class="testimonial__meta-title">Al-Malki</h4>
-                  </div>
-                </div>
-
-                <div class="testimonial__meta">
-                  <div class="testimonial__thmb">
-                    <img src="assets/images/testimonials/thumbs/3.png" alt="author thumb" />
-                  </div>
-                  <div>
-                    <h4 class="testimonial__meta-title">Noora</h4>
-                  </div>
-                </div>
-
-                <div class="testimonial__meta">
-                  <div class="testimonial__thmb">
-                    <img src="assets/images/testimonials/thumbs/1.png" alt="author thumb" />
-                  </div>
-                  <div>
-                    <h4 class="testimonial__meta-title">Al-Ghanim</h4>
-                  </div>
-                </div>
-
-                <div class="testimonial__meta">
-                  <div class="testimonial__thmb">
-                    <img src="assets/images/testimonials/thumbs/2.png" alt="author thumb" />
-                  </div>
-                  <div>
-                    <h4 class="testimonial__meta-title">Al-Saad</h4>
-                  </div>
-                </div>
-
-                <div class="testimonial__meta">
-                  <div class="testimonial__thmb">
-                    <img src="assets/images/testimonials/thumbs/3.png" alt="author thumb" />
-                  </div>
-                  <div>
-                    <h4 class="testimonial__meta-title">Hassan</h4>
-                  </div>
-                </div>
-
-                <div class="testimonial__meta">
-                  <div class="testimonial__thmb">
-                    <img src="assets/images/testimonials/thumbs/1.png" alt="author thumb" />
-                  </div>
-                  <div>
-                    <h4 class="testimonial__meta-title">Al-Suwaidi</h4>
-                  </div>
-                </div>
-                <!-- /.testimonial-meta -->
-              </div>
-              <!-- /.slider-nav -->
-            </div>
-            <!-- /.col-lg-7 -->
+            <!-- /.col-xl-5 -->
           </div>
           <!-- /.row -->
         </div>
-        <!-- /.testimonials-wrapper -->
-      </div>
-      <!-- /.container -->
-    </section>
-    <!-- /.testimonials layout 2 -->
+        <!-- /.container -->
+      </section>
+      <!-- /.gallery 2 -->
 
-    <!-- ========================
-       gallery
-      =========================== -->
-    <section class="gallery pt-0 pb-90" dir="rtl">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="slick-carousel-gallery" dir="ltr">
-              <a class="popup-gallery-item" href="assets/images/gallery/1.jpg">
-                <img src="assets/images/gallery/1.jpg" alt="gallery img" />
-              </a>
-              <a class="popup-gallery-item" href="assets/images/gallery/2.jpg">
-                <img src="assets/images/gallery/2.jpg" alt="gallery img" />
-              </a>
-              <a class="popup-gallery-item" href="assets/images/gallery/3.jpg">
-                <img src="assets/images/gallery/3.jpg" alt="gallery img" />
-              </a>
-              <a class="popup-gallery-item" href="assets/images/gallery/4.jpg">
-                <img src="assets/images/gallery/4.jpg" alt="gallery img" />
-              </a>
-              <a class="popup-gallery-item" href="assets/images/gallery/5.jpg">
-                <img src="assets/images/gallery/5.jpg" alt="gallery img" />
-              </a>
-              <a class="popup-gallery-item" href="assets/images/gallery/6.jpg">
-                <img src="assets/images/gallery/6.jpg" alt="gallery img" />
-              </a>
-              <a class="popup-gallery-item" href="assets/images/gallery/6.jpg">
-                <img src="assets/images/gallery/9.jpg" alt="gallery img" />
-              </a>
-
-              <a class="popup-gallery-item" href="assets/images/gallery/6.jpg">
-                <img src="assets/images/gallery/10.jpg" alt="gallery img" />
-              </a>
-              <a class="popup-gallery-item" href="assets/images/gallery/6.jpg">
-                <img src="assets/images/gallery/11.jpg" alt="gallery img" />
-              </a>
-              <a class="popup-gallery-item" href="assets/images/gallery/6.jpg">
-                <img src="assets/images/gallery/12.jpg" alt="gallery img" />
-              </a>
-              <a class="popup-gallery-item" href="assets/images/gallery/6.jpg">
-                <img src="assets/images/gallery/13.jpg" alt="gallery img" />
-              </a>
-              <a class="popup-gallery-item" href="assets/images/gallery/6.jpg">
-                <img src="assets/images/gallery/14.jpg" alt="gallery img" />
-              </a>
-              <a class="popup-gallery-item" href="assets/images/gallery/6.jpg">
-                <img src="assets/images/gallery/16.jpg" alt="gallery img" />
-              </a>
-            </div>
-            <!-- /.gallery-images-wrapper -->
-          </div>
-          <!-- /.col-xl-5 -->
-        </div>
-        <!-- /.row -->
-      </div>
-      <!-- /.container -->
-    </section>
-    <!-- /.gallery 2 -->
-
-    <!-- ==========================
+      <!-- ==========================
         contact layout 3
     =========================== -->
 
-    <section class="contact-layout3 bg-overlay bg-overlay-primary-gradient pb-60">
-      <div class="bg-img"><img src="assets/images/banners/3.jpg" alt="banner"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-7">
-            <div class="contact-panel mb-50">
-              <form
-              class="contact-panel__form"
-              method="post"
-              action="assets/php/contact.php"
-              id="contactForm"
-            >
-              <div class="row">
-                <div class="col-sm-12">
-                  <h4 class="contact-panel__title" data-lang="about_features_layout1_btn2">احجز موعدك الآن</h4>
-                  <p class="contact-panel__desc mb-30" data-lang="index_layout_title">
-                    يسعدنا أن نتلقى استفساراتك العامة أو الطبية، فلا تتردد
-                    في الاتصال بفريق الاستقبال لدينا. <br />
-                    أطباؤنا سيقومون بالرد على المكالمات الطارئة فورًا.
-                  </p>
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-6">
-                  <div class="form-group">
-                    <i class="icon-user form-group-icon"></i>
-                    <input
-                      type="text"
-                      class="form-control"
-                      placeholder="الإسم"
-                      id="contact-name1"
-                      name="contact-name"
-                      required
-                    />
-                  </div>
-                </div>
-                <!-- /.col-lg-6 -->
+      <section
+        class="contact-layout3 bg-overlay bg-overlay-primary-gradient pb-60"
+      >
+        <div class="bg-img">
+          <img src="assets/images/banners/3.jpg" alt="banner" />
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-7">
+              <div class="contact-panel mb-50">
+                <form
+                  class="contact-panel__form"
+                  method="post"
+                  action="assets/php/contact.php"
+                  id="contactForm"
+                >
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <h4
+                        class="contact-panel__title"
+                        data-lang="about_features_layout1_btn2"
+                      >
+                        احجز موعدك الآن
+                      </h4>
+                      <p
+                        class="contact-panel__desc mb-30"
+                        data-lang="index_layout_title"
+                      >
+                        يسعدنا أن نتلقى استفساراتك العامة أو الطبية، فلا تتردد
+                        في الاتصال بفريق الاستقبال لدينا. <br />
+                        أطباؤنا سيقومون بالرد على المكالمات الطارئة فورًا.
+                      </p>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-6">
+                      <div class="form-group">
+                        <i class="icon-user form-group-icon"></i>
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="Name"
+                          id="contact-name1"
+                          name="contact-name"
+                          required
+                        />
+                      </div>
+                    </div>
+                    <!-- /.col-lg-6 -->
 
-                <div class="col-sm-6 col-md-6 col-lg-6">
-                  <div class="form-group">
-                    <i class="icon-phone form-group-icon"></i>
-                    <input
-                      type="text"
-                      class="form-control"
-                      placeholder="رقم الهاتف"
-                      id="contact-Phone"
-                      name="contact-phone"
-                      required
-                    />
+                    <div class="col-sm-6 col-md-6 col-lg-6">
+                      <div class="form-group">
+                        <i class="icon-phone form-group-icon"></i>
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="Phone"
+                          id="contact-Phone"
+                          name="contact-phone"
+                          required
+                        />
+                      </div>
+                    </div>
+                    <!-- /.col-lg-6 -->
+                    <div class="col-12">
+                      <div class="form-group">
+                        <i class="icon-alert form-group-icon"></i>
+                        <textarea
+                          class="form-control"
+                          placeholder="Message"
+                          id="contact-message"
+                          name="contact-message"
+                        ></textarea>
+                      </div>
+                      <button
+                        type="submit"
+                        class="btn btn__secondary btn__rounded btn__block btn__xhight mt-10"
+                      >
+                        <span data-lang="about_features_layout1_btn2"
+                          >احجز موعدك الآن</span
+                        >
+                        <i class="icon-arrow-right"></i>
+                      </button>
+                      <div class="contact-result"></div>
+                    </div>
+                    <!-- /.col-lg-12 -->
                   </div>
-                </div>
-                <!-- /.col-lg-6 -->
-                <div class="col-12">
-                  <div class="form-group">
-                    <i class="icon-alert form-group-icon"></i>
-                    <textarea
-                      class="form-control"
-                      placeholder="Message"
-                      id="contact-message"
-                      name="contact-message"
-                    ></textarea>
-                  </div>
-                  <button
-                    type="submit"
-                    class="btn btn__secondary btn__rounded btn__block btn__xhight mt-10"
-                  >
-                    <span data-lang="about_features_layout1_btn2">احجز موعدك الآن</span>
-                    <i class="icon-arrow-right"></i>
-                  </button>
-                  <div class="contact-result"></div>
-                </div>
-                <!-- /.col-lg-12 -->
+                  <!-- /.row -->
+                </form>
               </div>
-              <!-- /.row -->
-            </form>
             </div>
-          </div><!-- /.col-lg-7 -->
-          <div class="col-sm-12 col-md-12 col-lg-5">
-            <div class="heading heading-light mb-30">
-
-              <h3 class="contact-panel__title color-white" data-lang="index_layout_phone">
-                اتصل بنا مباشرة
-              </h3>
-              <p class="contact-panel__desc font-weight-bold color-white mb-30" data-lang="index_layout_phone_text">
-                فريقنا جاهز للإجابة على أي استفسار أو مساعدة تحتاجها،
-                تواصل معنا بكل سهولة
-              </p>
-            </div>
-            <div class="d-flex align-items-center">
-
-              <a class="video__btn video__btn-white popup-video" href="https://www.youtube.com/watch?v=__DxN91XMY8">
-                <div class="video__player">
-                  <i class="fa fa-play"></i>
-                </div>
-                <span class="video__btn-title color-white" data-lang="index_layout_2">عرض الفيديو</span>
-              </a>
-            </div>
-            <div class="text__block">
-              <p class="text__block-desc color-white font-weight-bold" data-lang="insurance_text">We are proud to
-                partner with [Insurance Company Name], a trusted provider of comprehensive insurance solutions. Whether
-                it’s health, property,
-                or vehicle coverage, they ensure protection and peace of mind for our clients.</p>
-
-            </div><!-- /.text__block -->
-            <div dir="ltr" class="slick-carousel clients-light mt-20"
-            data-slick='{"slidesToShow": 3, 
+            <!-- /.col-lg-7 -->
+            <div class="col-sm-12 col-md-12 col-lg-5">
+              <div class="heading heading-light mb-30">
+                <h3 class="heading__title mb-30" data-lang="index_layout_phone">
+                  اتصل بنا مباشرة
+                </h3>
+                <p class="heading__desc" data-lang="index_layout_phone_text">
+                  فريقنا جاهز للإجابة على أي استفسار أو مساعدة تحتاجها، تواصل
+                  معنا بكل سهولة
+                </p>
+              </div>
+              <div class="d-flex align-items-center">
+                <a
+                  href="contact-us.html"
+                  class="btn btn__white btn__rounded mr-30"
+                >
+                  <i class="fas fa-heart"></i>
+                  <span data-lang="index_layout_share_btn"
+                    >Share Our Website</span
+                  >
+                </a>
+                <a
+                  class="video__btn video__btn-white popup-video"
+                  href="https://www.youtube.com/watch?v=__DxN91XMY8"
+                >
+                  <div class="video__player">
+                    <i class="fa fa-play"></i>
+                  </div>
+                  <span
+                    class="video__btn-title color-white"
+                    data-lang="index_layout_2"
+                    >عرض الفيديو</span
+                  >
+                </a>
+              </div>
+              <div class="text__block">
+                <p
+                  class="text__block-desc color-white font-weight-bold"
+                  data-lang="insurance_text"
+                >
+                  We are proud to partner with leading medical insurance
+                  providers to offer our patients comprehensive healthcare
+                  coverage. These trusted partners ensure access to quality
+                  treatments, specialized care, and financial peace of mind
+                  throughout their health journey.
+                </p>
+              </div>
+              <!-- /.text__block -->
+              <div
+                dir="ltr"
+                class="slick-carousel clients-light mt-20"
+                data-slick='{"slidesToShow": 3, 
             "arrows": false, "dots": false, 
             "autoplay": true,
             "autoplaySpeed": 2000,
              "infinite": true,
               "responsive": [ {"breakpoint": 992, "settings": {"slidesToShow": 3}}, 
               {"breakpoint": 767, "settings": {"slidesToShow": 2}},
-              {"breakpoint": 480, "settings": {"slidesToShow": 2}}]}'>
-            <div class="client">
-              <img src="assets/images/insurance/1.jpeg" alt="client">
-              <img src="assets/images/insurance/1.jpeg" alt="client">
-            </div><!-- /.client -->
-            <div class="client">
-              <img src="assets/images/insurance/2.jpeg" alt="client">
-              <img src="assets/images/insurance/2.jpeg" alt="client">
-            </div><!-- /.client -->
-            <div class="client">
-              <img src="assets/images/insurance/3.jpeg" alt="client">
-              <img src="assets/images/insurance/3.jpeg" alt="client">
-            </div><!-- /.client -->
-            <div class="client">
-              <img src="assets/images/insurance/4.jpeg" alt="client">
-              <img src="assets/images/insurance/4.jpeg" alt="client">
-            </div><!-- /.client -->
-            <div class="client">
-              <img src="assets/images/insurance/5.jpeg" alt="client">
-              <img src="assets/images/insurance/5.jpeg" alt="client">
-            </div><!-- /.client -->
-            
-          </div><!-- /.carousel -->
-        </div><!-- /.col-lg-5 -->
-      </div><!-- /.row -->
-    </div><!-- /.container -->
-  </section><!-- /.contact layout 3 -->
-
- 
-    <!-- /.contact layout 1 -->
-
-
-    <section class="blog-grid pb-50">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-12 ">
-            <div class="heading text-center mb-40">
-              <h2 class="heading__subtitle" data-lang="about_blog_subtitle">Resource Library</h2>
-              <h3 class="heading__title" data-lang="about_blog_title">Recent Articles</h3>
-            </div><!-- /.heading -->
-          </div><!-- /.col-lg-6 -->
-        </div><!-- /.row -->
-        <div class="row">
-          <!-- Post Item #1 -->
-          <div class="col-sm-12 col-md-6 col-lg-4">
-            <div class="post-item">
-              <div class="post__img">
-                <a href="blog-single-post.html">
-                  <img src="assets/images/blog/grid/1.jpg" alt="post image" loading="lazy">
-                </a>
-              </div><!-- /.post__img -->
-              <div class="post__body">
-                <div class="post__meta-cat">
-                  <a href="#">Mental Health</a>
-                </div><!-- /.blog-meta-cat -->
-                <div class="post__meta d-flex">
-                  <span class="post__meta-date">Jan 30, 2022</span>
-                  <a class="post__meta-author" href="#">Martin King</a>
+              {"breakpoint": 480, "settings": {"slidesToShow": 2}}]}'
+              >
+                <div class="client">
+                  <img src="assets/images/insurance/1.png" alt="client" />
+                  <img src="assets/images/insurance/1.png" alt="client" />
                 </div>
-                <h4 class="post__title"><a href="#" data-lang="about_blog_title1">6 Tips to Protect Your Mental Health When You’re Sick</a></h4>
-
-                <p class="post__desc" data-lang="about_blog_text1">It’s normal to feel anxiety, worry and grief any time you’re diagnosed with a
-                  condition that’s certainly true if you test positive for COVID-19, or are presumed to be positive...
-                </p>
-                <a href="blog-single-post.html" class="btn btn__secondary btn__link btn__rounded">
-                  <span data-lang="about_blog_btn">Read More</span>
-                  <i class="icon-arrow-right"></i>
-                </a>
-              </div><!-- /.post__body -->
-            </div><!-- /.post-item -->
-          </div><!-- /.col-lg-4 -->
-          <!-- Post Item #2 -->
-          <div class="col-sm-12 col-md-6 col-lg-4">
-            <div class="post-item">
-              <div class="post__img">
-                <a href="blog-single-post.html">
-                  <img src="assets/images/blog/grid/2.jpg" alt="post image" loading="lazy">
-                </a>
-              </div><!-- /.post__img -->
-              <div class="post__body">
-                <div class="post__meta-cat">
-                  <a href="#">Infectious</a><a href="#">Tips</a>
-                </div><!-- /.blog-meta-cat -->
-                <div class="post__meta d-flex">
-                  <span class="post__meta-date">Jan 30, 2022</span>
-                  <a class="post__meta-author" href="#">John Ezak</a>
+                <!-- /.client -->
+                <div class="client">
+                  <img src="assets/images/insurance/2.png" alt="client" />
+                  <img src="assets/images/insurance/2.png" alt="client" />
                 </div>
-                <h4 class="post__title"><a href="#" data-lang="about_blog_title2">Unsure About Wearing a Face Mask? Here’s How and Why</a></h4>
-                <p class="post__desc" data-lang="about_blog_text2">That means that you should still be following any shelter-in-place orders in your
-                  community. But when you’re venturing out to the grocery store, pharmacy or hospital..
-                </p>
-                <a href="blog-single-post.html" class="btn btn__secondary btn__link btn__rounded">
-                  <span data-lang="about_blog_btn">Read More</span>
-                  <i class="icon-arrow-right"></i>
-                </a>
-              </div><!-- /.post__body -->
-            </div><!-- /.post-item -->
-          </div><!-- /.col-lg-4 -->
-          <!-- Post Item #3 -->
-          <div class="col-sm-12 col-md-6 col-lg-4">
-            <div class="post-item">
-              <div class="post__img">
-                <a href="blog-single-post.html">
-                  <img src="assets/images/blog/grid/3.jpg" alt="post image" loading="lazy">
-                </a>
-              </div><!-- /.post__img -->
-              <div class="post__body">
-                <div class="post__meta-cat">
-                  <a href="#">Life Style</a><a href="#">Nutrition</a>
-                </div><!-- /.blog-meta-cat -->
-                <div class="post__meta d-flex">
-                  <span class="post__meta-date">Jan 28, 2022</span>
-                  <a class="post__meta-author" href="#">Saul Wade</a>
+                <!-- /.client -->
+                <div class="client">
+                  <img src="assets/images/insurance/3.png" alt="client" />
+                  <img src="assets/images/insurance/3.png" alt="client" />
                 </div>
-                <h4 class="post__title"><a href="#" data-lang="about_blog_title3">Tips for Eating Healthy When You’re Working From Home </a></h4>
+                <!-- /.client -->
+                <div class="client">
+                  <img src="assets/images/insurance/4.png" alt="client" />
+                  <img src="assets/images/insurance/4.png" alt="client" />
+                </div>
+                <!-- /.client -->
+                <div class="client">
+                  <img src="assets/images/insurance/5.png" alt="client" />
+                  <img src="assets/images/insurance/5.png" alt="client" />
+                </div>
+                <!-- /.client -->
+              </div>
+              <!-- /.carousel -->
+            </div>
+            <!-- /.col-lg-5 -->
+          </div>
+          <!-- /.row -->
+        </div>
+        <!-- /.container -->
+      </section>
+      <!-- /.contact layout 3 -->
 
-                <p class="post__desc" data-lang="about_blog_text3">It’s normal to feel anxiety, worry and grief any time you’re diagnosed with a
-                  condition that’s certainly true if you test positive for COVID-19, or are presumed to be positive...
-                </p>
-                <a href="blog-single-post.html" class="btn btn__secondary btn__link btn__rounded">
-                  <span data-lang="about_blog_btn">Read More</span>
-                  <i class="icon-arrow-right"></i>
-                </a>
-              </div><!-- /.post__body -->
-            </div><!-- /.post-item -->
-          </div><!-- /.col-lg-4 -->
-        </div><!-- /.row -->
-      </div><!-- /.container -->
-    </section><!-- /.blog Grid -->
-    <!-- ======================
+      <!-- /.contact layout 1 -->
+
+      <section  class="contact-layout3   " style="background-color: #f5f5f5;margin-top: 20px;margin-bottom: 20px;padding: 0;">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+          <div
+            dir="ltr"
+            class="slick-carousel clients-light  "
+            data-slick='{"slidesToShow": 6, 
+        "arrows": false, "dots": false, 
+        "autoplay": true,
+        "autoplaySpeed": 2000,
+         "infinite": true,
+          "responsive": [ {"breakpoint": 992, "settings": {"slidesToShow": 3}}, 
+          {"breakpoint": 767, "settings": {"slidesToShow": 2}},
+          {"breakpoint": 480, "settings": {"slidesToShow": 2}}]}'
+          >
+            <div class="client">
+              <img src="assets/images/insurance/1.png" alt="client" />
+              <img src="assets/images/insurance/1.png" alt="client" />
+            </div>
+            <!-- /.client -->
+            <div class="client">
+              <img src="assets/images/insurance/2.png" alt="client" />
+              <img src="assets/images/insurance/2.png" alt="client" />
+            </div>
+            <!-- /.client -->
+            <div class="client">
+              <img src="assets/images/insurance/3.png" alt="client" />
+              <img src="assets/images/insurance/3.png" alt="client" />
+            </div>
+            <!-- /.client -->
+            <div class="client">
+              <img src="assets/images/insurance/4.png" alt="client" />
+              <img src="assets/images/insurance/4.png" alt="client" />
+            </div>
+            <!-- /.client -->
+            <div class="client">
+              <img src="assets/images/insurance/5.png" alt="client" />
+              <img src="assets/images/insurance/5.png" alt="client" />
+            </div>
+            <!-- /.client -->
+          </div>
+          <!-- /.carousel -->
+        </div>
+      </section>
+
+      <section class="blog-grid pb-50">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+              <div class="heading text-center mb-40">
+                <h2 class="heading__subtitle" data-lang="about_blog_subtitle">
+                  Resource Library
+                </h2>
+                <h3 class="heading__title" data-lang="about_blog_title">
+                  Recent Articles
+                </h3>
+              </div>
+              <!-- /.heading -->
+            </div>
+            <!-- /.col-lg-6 -->
+          </div>
+          <!-- /.row -->
+          <div class="row">
+            <!-- Post Item #1 -->
+            <div class="col-sm-12 col-md-6 col-lg-4">
+              <div class="post-item">
+                <div class="post__img">
+                  <a href="blog-single-post.html">
+                    <img
+                      src="assets/images/blog/grid/1.jpg"
+                      alt="post image"
+                      loading="lazy"
+                    />
+                  </a>
+                </div>
+                <!-- /.post__img -->
+                <div class="post__body">
+                  <div class="post__meta-cat">
+                    <a href="#">Mental Health</a>
+                  </div>
+                  <!-- /.blog-meta-cat -->
+                  <div class="post__meta d-flex">
+                    <span class="post__meta-date">Jan 30, 2022</span>
+                    <a class="post__meta-author" href="#">Martin King</a>
+                  </div>
+                  <h4 class="post__title">
+                    <a href="#" data-lang="about_blog_title1"
+                      >6 Tips to Protect Your Mental Health When You’re Sick</a
+                    >
+                  </h4>
+
+                  <p class="post__desc" data-lang="about_blog_text1">
+                    It’s normal to feel anxiety, worry and grief any time you’re
+                    diagnosed with a condition that’s certainly true if you test
+                    positive for COVID-19, or are presumed to be positive...
+                  </p>
+                  <a
+                    href="blog-single-post.html"
+                    class="btn btn__secondary btn__link btn__rounded"
+                  >
+                    <span data-lang="about_blog_btn">Read More</span>
+                    <i class="icon-arrow-right"></i>
+                  </a>
+                </div>
+                <!-- /.post__body -->
+              </div>
+              <!-- /.post-item -->
+            </div>
+            <!-- /.col-lg-4 -->
+            <!-- Post Item #2 -->
+            <div class="col-sm-12 col-md-6 col-lg-4">
+              <div class="post-item">
+                <div class="post__img">
+                  <a href="blog-single-post.html">
+                    <img
+                      src="assets/images/blog/grid/2.jpg"
+                      alt="post image"
+                      loading="lazy"
+                    />
+                  </a>
+                </div>
+                <!-- /.post__img -->
+                <div class="post__body">
+                  <div class="post__meta-cat">
+                    <a href="#">Infectious</a><a href="#">Tips</a>
+                  </div>
+                  <!-- /.blog-meta-cat -->
+                  <div class="post__meta d-flex">
+                    <span class="post__meta-date">Jan 30, 2022</span>
+                    <a class="post__meta-author" href="#">John Ezak</a>
+                  </div>
+                  <h4 class="post__title">
+                    <a href="#" data-lang="about_blog_title2"
+                      >Unsure About Wearing a Face Mask? Here’s How and Why</a
+                    >
+                  </h4>
+                  <p class="post__desc" data-lang="about_blog_text2">
+                    That means that you should still be following any
+                    shelter-in-place orders in your community. But when you’re
+                    venturing out to the grocery store, pharmacy or hospital..
+                  </p>
+                  <a
+                    href="blog-single-post.html"
+                    class="btn btn__secondary btn__link btn__rounded"
+                  >
+                    <span data-lang="about_blog_btn">Read More</span>
+                    <i class="icon-arrow-right"></i>
+                  </a>
+                </div>
+                <!-- /.post__body -->
+              </div>
+              <!-- /.post-item -->
+            </div>
+            <!-- /.col-lg-4 -->
+            <!-- Post Item #3 -->
+            <div class="col-sm-12 col-md-6 col-lg-4">
+              <div class="post-item">
+                <div class="post__img">
+                  <a href="blog-single-post.html">
+                    <img
+                      src="assets/images/blog/grid/3.jpg"
+                      alt="post image"
+                      loading="lazy"
+                    />
+                  </a>
+                </div>
+                <!-- /.post__img -->
+                <div class="post__body">
+                  <div class="post__meta-cat">
+                    <a href="#">Life Style</a><a href="#">Nutrition</a>
+                  </div>
+                  <!-- /.blog-meta-cat -->
+                  <div class="post__meta d-flex">
+                    <span class="post__meta-date">Jan 28, 2022</span>
+                    <a class="post__meta-author" href="#">Saul Wade</a>
+                  </div>
+                  <h4 class="post__title">
+                    <a href="#" data-lang="about_blog_title3"
+                      >Tips for Eating Healthy When You’re Working From Home
+                    </a>
+                  </h4>
+
+                  <p class="post__desc" data-lang="about_blog_text3">
+                    It’s normal to feel anxiety, worry and grief any time you’re
+                    diagnosed with a condition that’s certainly true if you test
+                    positive for COVID-19, or are presumed to be positive...
+                  </p>
+                  <a
+                    href="blog-single-post.html"
+                    class="btn btn__secondary btn__link btn__rounded"
+                  >
+                    <span data-lang="about_blog_btn">Read More</span>
+                    <i class="icon-arrow-right"></i>
+                  </a>
+                </div>
+                <!-- /.post__body -->
+              </div>
+              <!-- /.post-item -->
+            </div>
+            <!-- /.col-lg-4 -->
+          </div>
+          <!-- /.row -->
+        </div>
+        <!-- /.container -->
+      </section>
+      <!-- /.blog Grid -->
+      <!-- ======================
       Blog Grid
     ========================= -->
- 
-    <!-- ========================
+
+      <!-- ========================
       Google Map
     ========================== -->
-    <!-- <section class="map-section pt-0 pb-0">
+      <!-- <section class="map-section pt-0 pb-0">
       <div id="map" style="height: 700px; width: 100%"></div>
     </section> -->
 
-    <!-- ========================
+      <!-- ========================
       Footer
     ========================== -->
-    <footer class="footer"></footer>
+      <footer class="footer"></footer>
 
-    <!-- /.Footer -->
-    <!-- <button id="scrollTopBtn">
+      <!-- /.Footer -->
+      <!-- <button id="scrollTopBtn">
       <i class="fas fa-long-arrow-alt-up"></i>
     </button> -->
-  </div>
-  <!-- /.wrapper -->
+    </div>
+    <!-- /.wrapper -->
 
-  <script src="assets/js/jquery-3.5.1.min.js"></script>
-  <script src="assets/js/plugins.js"></script>
-  <script src="assets/js/main.js"></script>
-  <script src="assets/js/script.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBrv8R2XYVhBaoGG0JqHS-4hIQGt-aQw6s"></script>
-  <script>
-    function initMap() {
-      const location = { lat: 25.3341105, lng: 51.4751318 }; // Riyadh coordinates
-      const map = new google.maps.Map(document.getElementById("map"), {
-        zoom: 15,
-        center: location,
-        styles: [
-          {
-            featureType: "all",
-            elementType: "labels",
-            stylers: [{ visibility: "off" }],
-          },
-          {
-            featureType: "road",
-            elementType: "geometry",
-            stylers: [{ color: "#ffffff" }],
-          },
-          {
-            featureType: "water",
-            elementType: "geometry",
-            stylers: [{ color: "#e9e9e9" }],
-          },
-          {
-            featureType: "landscape",
-            elementType: "geometry",
-            stylers: [{ color: "#f5f5f5" }],
-          },
-        ],
-      });
+    <script src="assets/js/jquery-3.5.1.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBrv8R2XYVhBaoGG0JqHS-4hIQGt-aQw6s"></script>
+    <script>
+      function initMap() {
+        const location = { lat: 25.3341105, lng: 51.4751318 }; // Riyadh coordinates
+        const map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 15,
+          center: location,
+          styles: [
+            {
+              featureType: "all",
+              elementType: "labels",
+              stylers: [{ visibility: "off" }],
+            },
+            {
+              featureType: "road",
+              elementType: "geometry",
+              stylers: [{ color: "#ffffff" }],
+            },
+            {
+              featureType: "water",
+              elementType: "geometry",
+              stylers: [{ color: "#e9e9e9" }],
+            },
+            {
+              featureType: "landscape",
+              elementType: "geometry",
+              stylers: [{ color: "#f5f5f5" }],
+            },
+          ],
+        });
 
-      const marker = new google.maps.Marker({
-        position: location,
-        map: map,
-        icon: {
-          path: google.maps.SymbolPath.CIRCLE,
-          scale: 10,
-          fillColor: "#0e204d",
-          fillOpacity: 1,
-          strokeColor: "#ffffff",
-          strokeWeight: 2,
-        },
-      });
+        const marker = new google.maps.Marker({
+          position: location,
+          map: map,
+          icon: {
+            path: google.maps.SymbolPath.CIRCLE,
+            scale: 10,
+            fillColor: "#0e204d",
+            fillOpacity: 1,
+            strokeColor: "#ffffff",
+            strokeWeight: 2,
+          },
+        });
 
-      const infowindow = new google.maps.InfoWindow({
-        content: `<div style="padding: 15px; text-align: center;">
+        const infowindow = new google.maps.InfoWindow({
+          content: `<div style="padding: 15px; text-align: center;">
           <h4 style="margin: 0; color: #0e204d;" data-lang="title1">غاردينيا</h4>
           <p style="margin: 5px 0 0;" data-lang="title_textt">نحن هنا لخدمتك</p>
           <a href="https://www.google.com/maps/dir/?api=1&destination=25.3341105,51.4751318" target="_blank" 
@@ -1758,42 +1914,41 @@
             الاتجاهات على خرائط جوجل
           </a>
         </div>`,
-      });
+        });
 
-      marker.addListener("click", () => {
+        marker.addListener("click", () => {
+          infowindow.open(map, marker);
+        });
+
+        // Open info window by default
         infowindow.open(map, marker);
+      }
+
+      // Initialize the map when the page loads
+      window.onload = initMap;
+    </script>
+    <script>
+      const contact_name1 = document.getElementById("contact-name1");
+      const contact_Phone = document.getElementById("contact-Phone");
+      const contact_message = document.getElementById("contact-message");
+      if ((document.dir = "rtl")) {
+        contact_name1.Placeholder = "الإسم";
+        contact_Phone.Placeholder = "رقم الهاتف";
+        contact_message.Placeholder = "";
+      } else {
+        contact_name1.Placeholder = "Name";
+        contact_Phone.Placeholder = "Phone number";
+        contact_message.Placeholder = "message";
+      }
+
+      $(document).ready(function () {
+        // Add gradient to slick slider items
+        $(".slide-item").each(function () {
+          const background = $(this).find(".bg-img img").attr("src");
+          const gradient = `linear-gradient(to bottom, rgba(255, 255, 255, 0.12), rgb(53, 64, 91)), url(${background})`;
+          $(this).find(".bg-img").css("background-image", gradient);
+        });
       });
-
-      // Open info window by default
-      infowindow.open(map, marker);
-    }
-
-    // Initialize the map when the page loads
-    window.onload = initMap;
-  </script>
-  <script>
-    const contact_name1 = document.getElementById("contact-name1");
-    const contact_Phone = document.getElementById("contact-Phone");
-    const contact_message = document.getElementById("contact-message");
-    if ((document.dir = "rtl")) {
-      contact_name1.Placeholder = "الإسم";
-      contact_Phone.Placeholder = "رقم الهاتف";
-      contact_message.Placeholder = "";
-    } else {
-      contact_name1.Placeholder = "Name";
-      contact_Phone.Placeholder = "Phone number";
-      contact_message.Placeholder = "message";
-    }
-
-    $(document).ready(function () {
-      // Add gradient to slick slider items
-      $(".slide-item").each(function () {
-        const background = $(this).find(".bg-img img").attr("src");
-        const gradient = `linear-gradient(to bottom, rgba(255, 255, 255, 0.12), rgb(53, 64, 91)), url(${background})`;
-        $(this).find(".bg-img").css("background-image", gradient);
-      });
-    });
-  </script>
-</body>
-
+    </script>
+  </body>
 </html>

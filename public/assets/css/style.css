@@ -56,25 +56,27 @@
 ---------------------------*/
 html {
   scroll-behavior: smooth;
-  font-family:Tajawal, sans-serif !important;
+  /* font-family: Tajawal, sans-serif !important; */
 }
 
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #ffffff;
-  font-family: Tajawal, sans-serif !important;
+  /* font-family: Tajawal, sans-serif !important; */
   font-size: 14px;
   color: #848e9f;
   overflow-x: hidden;
 }
 
-h1,h2,h3,h4,h5,h6 {
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: Tajawal, sans-serif !important;
-}
-
-
-
+} */
 
 .tajawal-extralight {
   font-family: "Tajawal", sans-serif;
@@ -117,7 +119,6 @@ h1,h2,h3,h4,h5,h6 {
   font-weight: 900;
   font-style: normal;
 }
-
 
 /* body {
   -webkit-font-smoothing: antialiased;
@@ -2207,7 +2208,7 @@ input[type="radio"] {
   font-weight: 700;
   margin-bottom: 9px;
 }
- .list-items li:before {
+.list-items li:before {
   content: "\f00c";
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
@@ -2221,7 +2222,7 @@ input[type="radio"] {
   text-align: center;
   border-radius: 50%;
   color: var(--primary-color);
-} 
+}
 .list-items li:last-of-type {
   margin-bottom: 0;
 }
@@ -3925,9 +3926,9 @@ input[type="radio"] {
   z-index: 1000;
   font-size: 18px;
   border-radius: 50%;
-  color: #ffffff; 
+  color: #ffffff;
   overflow: hidden;
-  transition: all 0.3s ease-in-out; 
+  transition: all 0.3s ease-in-out;
   background-color: #41d365;
 }
 
@@ -4806,7 +4807,7 @@ input[type="radio"] {
   transition: all 0.9s ease;
 }
 .member .member__info {
-  padding:  20px 20px;
+  padding: 20px 20px;
 }
 .member .member__info .member__name {
   font-size: 21px;
@@ -7153,10 +7154,13 @@ textarea.form-control {
   margin: 0;
 }
 .gallery .slick-arrow.slick-next {
-  right: -50px;
+  right: -100px;
+  font-weight: 900;
+
 }
 .gallery .slick-arrow.slick-prev {
-  left: -50px;
+  left: -100px;
+  font-weight: 900;
 }
 
 .gallery-layout2 .gallery-img {
@@ -7735,7 +7739,6 @@ textarea.form-control {
 .sm-text {
   font-size: 16px;
 }
- 
 
 @media (max-width: 460px) {
   #main-banner .slide-item {
@@ -7756,7 +7759,6 @@ textarea.form-control {
 }
 
 @media (max-width: 991px) {
-  
   .navbar .navbar-toggler {
     position: absolute;
     margin: 0px 20px;
@@ -7771,13 +7773,11 @@ textarea.form-control {
   }
 }
 
-
-  .testimonials-wrapper[dir="ltr"]::before {
+.testimonials-wrapper[dir="ltr"]::before {
   right: 0;
 }
 
-
-.ft-large{
+.ft-large {
   font-size: large;
 }
 
@@ -7789,13 +7789,12 @@ textarea.form-control {
   margin-left: auto;
 }
 
-
 @media (min-width: 1500px) {
   .banner-container {
     max-width: 1400px;
   }
 }
-@media (min-width: 1200px)and (max-width: 1500px)  {
+@media (min-width: 1200px) and (max-width: 1500px) {
   .banner-container {
     max-width: 1000px;
   }
@@ -7807,36 +7806,32 @@ textarea.form-control {
 }
 
 @media (max-width: 400px) {
-  .banner-container
- {
+  .banner-container {
     max-width: 350px;
   }
 }
 
-
-.dir-text & [dir="rtl"]{
+.dir-text & [dir="rtl"] {
   text-align: right;
 }
 
-.dir-text & [dir="ltr"]{
+.dir-text & [dir="ltr"] {
   text-align: left;
 }
 
-
-.slick-carousel-gallery .popup-gallery-item img{
-  height: 400px;
+.slick-carousel-gallery .popup-gallery-item img {
+  height: 280px;
   object-fit: cover;
 }
 
-.insurance__img{
+.insurance__img {
   border-radius: 50%;
   width: 64px;
   height: 64px;
   object-fit: cover;
 }
 
-
- ul.list-items li[dir="ltr"]{
+ul.list-items li[dir="ltr"] {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -7848,15 +7843,22 @@ ul.list-items li[dir="rtl"] {
   flex-direction: row-reverse;
   justify-content: flex-end;
   padding-right: 33px;
- }
+}
 
- ul.list-items li[dir="ltr"]::before {
+ul.list-items li[dir="ltr"]::before {
   right: unset !important;
   left: 0 !important;
- }
+}
 
- ul.list-items li[dir="rtl"]::before {
+ul.list-items li[dir="rtl"]::before {
   left: unset !important;
   right: 0 !important;
- 
 }
+
+@media (min-width: 1480px) {
+  .custom-d-xl-flex {
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+}
+ 

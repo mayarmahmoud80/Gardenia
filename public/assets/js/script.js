@@ -1667,14 +1667,18 @@ function toggleLanguage() {
     translatePage();
     ChangeDirection();
 
-    if (document.getElementById("services_title")) {
+    /*if (document.getElementById("services_title")) {
         initLanguage();
-    }
+    }*/
 
     // Dispatch the languageChanged event
     console.log('Language dispatched:', currentLang);
     $(document).trigger('languageChanged');
 
+    //placeholer change
+    if(document.getElementById("contact-Phone")){
+        placeholderTranslate();
+    }
 }
 const zz =
     function setLanguage(language) {
@@ -1781,3 +1785,20 @@ function working1() {
     document.querySelector('.working_hours1').innerHTML = working_hours1;
 };
 
+if (document.getElementById("contact-Phone")){
+    placeholderTranslate();
+}
+ function placeholderTranslate(){
+    const contact_name1 = document.getElementById("contact-name1");
+    const contact_Phone = document.getElementById("contact-Phone");
+    const contact_message = document.getElementById("contact-message");
+    if(localStorage.getItem("language") === 'en' || curren_lang === 'en'){
+        contact_name1.placeholder = "name";
+        contact_Phone.placeholder = "Phone";
+        contact_message.placeholder = "Message";    }
+    else{
+      contact_name1.placeholder = ("الإسم");
+      contact_Phone.placeholder = ("رقم الهاتف");
+      contact_message.placeholder = ("التعليق");
+    }
+ }

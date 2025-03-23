@@ -1007,7 +1007,7 @@ async function renderProjectAr() {
                 const services_list_1 = document.getElementById("services_list_1");
                 const services_list_2 = document.getElementById("services_list_2");
     
-                title.innerHTML = service.title;
+                title.innerHTML = service.pagetitle;
                 if(service.service_description === undefined || service.service_description === ''){
                     service_desc.classList.add("d-none");
                 }else{
@@ -1155,7 +1155,7 @@ async function renderProjectAr() {
                 const services_list_1 = document.getElementById("services_list_1");
                 const services_list_2 = document.getElementById("services_list_2");
     
-                title.innerHTML = service.title;
+                title.innerHTML = service.pagetitle;
                 if(service.service_description === undefined || service.service_description === ''){
                     service_desc.classList.add("d-none");
                 }else{

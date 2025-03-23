@@ -1766,7 +1766,7 @@ function working1() {
 
 /***********************************************************************************/
 
-
+/*
 var servicesarray = [
     {
         "id": 1,
@@ -2690,4 +2690,4 @@ async function renderProjectAr() {
 }
   async function getJson() {
     return await fetch("/public/assets/js/services_ar.json");
-}
+}*/

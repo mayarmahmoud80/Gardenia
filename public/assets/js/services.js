@@ -55,7 +55,8 @@ var servicesarray = [
         "page_list5": "Traumatic cases",
         "page_list6": "Pelvic Surgery",
         "page_list7": "Shoulder, Hip, and Knee replacement surgeries",
-        "page_list8": "PRP & PRF"
+        "page_list8": "PRP & PRF",
+        "page_list11": ""
     },    {
         "id": 4,
         "pagetitle": "Hand surgery",
@@ -701,114 +702,114 @@ if(service_id){
 
             title.innerHTML = service.pagetitle;
 
-            if(service.service_description == undefined || service.service_description === ''){
-                services_list_2.classList.add("d-none");
+            if(service.service_description === undefined || service.service_description === ''){
+                service_desc.classList.add("d-none");
             }else{
                 service_desc.innerHTML = service.service_description;
             }
 
-            if(service.service_list1 == undefined|| service.service_list1 === ''){
-                services_list_2.classList.add("d-none");
+            if(service.service_list1 === undefined || service.service_list1 === ''){
+                service_desc_li1.classList.add("d-none");
             }else{
                 service_desc_li1.innerHTML = service.service_list1;
             }
 
 
-            if(service.service_list2 == undefined|| service.service_list2 === ''){
-                services_list_2.classList.add("d-none");
+            if(service.service_list2 === undefined || service.service_list2 === ''){
+                service_desc_li2.classList.add("d-none");
             }else{
             service_desc_li2.innerHTML = service.service_list2;
             }
 
-            if(service.page_text1 == undefined|| service.page_text1 == ''){
-                services_list_2.classList.add("d-none");
+            if(service.page_text1 === undefined || service.page_text1 == ''){
+                service_text1.classList.add("d-none");
             }else{
                 service_text1.innerHTML = service.page_text1;
             }
 
-            if(service.page_text2 == undefined|| service.page_text2 === ''){
-                services_list_2.classList.add("d-none");
+            if(service.page_text2 === undefined || service.page_text2 === ''){
+                service_text2.classList.add("d-none");
             }else{
                 service_text2.innerHTML = service.page_text2;
             }
 
-            if(service.page_text3 == undefined|| service.page_text3 === ''){
-                services_list_2.classList.add("d-none");
+            if(service.page_text3 === undefined || service.page_text3 === ''){
+                service_text3.classList.add("d-none");
             }else{
                 service_text3.innerHTML = service.page_text3;
             }
 
 
-            if(service.page_offers == undefined|| service.page_offers === ''){
-                services_list_2.classList.add("d-none");
+            if(service.page_offers === undefined || service.page_offers === ''){
+                services_offers.classList.add("d-none");
             }else{
                 services_offers.innerHTML = service.page_offers;
             }
-            if(service.page_list1 == undefined|| service.page_list1 === ''){
-                services_list_2.classList.add("d-none");
+            if(service.page_list1 === undefined || service.page_list1 === ''){
+                services_list1.classList.add("d-none");
             }else{
                 services_list1.innerHTML = service.page_list1;
             }
-            if(service.page_list2 == undefined|| service.page_list2 === ''){
-                services_list_2.classList.add("d-none");
+            if(service.page_list2 === undefined || service.page_list2 === ''){
+                services_list2.classList.add("d-none");
             }else{
                 services_list2.innerHTML = service.page_list2;
             }
-            if(service.page_list3 == undefined|| service.page_list3 === ''){
-                services_list_2.classList.add("d-none");
+            if(service.page_list3 === undefined || service.page_list3 === ''){
+                services_list3.classList.add("d-none");
             }else{
                 services_list3.innerHTML = service.page_list3;
             }
-            if(service.page_list4 == undefined|| service.page_list4 === ''){
-                services_list_2.classList.add("d-none");
+            if(service.page_list4 === undefined || service.page_list4 === ''){
+                services_list4.classList.add("d-none");
             }else{
                 services_list4.innerHTML = service.page_list4;
             }
 
-            if(service.page_list5 == undefined|| service.page_list5 === ''){
-                services_list_2.classList.add("d-none");
+            if(service.page_list5 === undefined || service.page_list5 === ''){
+                services_list5.classList.add("d-none");
             }else{
                 services_list5.innerHTML = service.page_list5;
             }
-            if(service.page_list6 == undefined|| service.page_list6 === ''){
-                services_list_2.classList.add("d-none");
+            if(service.page_list6 === undefined || service.page_list6 === ''){
+                services_list6.classList.add("d-none");
             }else{
                 services_list6.innerHTML = service.page_list6;
             }
-            if(service.page_list7 == undefined|| service.page_list7 === ''){
-                services_list_2.classList.add("d-none");
+            if(service.page_list7 === undefined || service.page_list7 === ''){
+                services_list7.classList.add("d-none");
             }else{
                 services_list7.innerHTML = service.page_list7;
             }
-            if(service.page_list8 == undefined|| service.page_list8 === ''){
-                services_list_2.classList.add("d-none");
+            if(service.page_list8 === undefined || service.page_list8 === ''){
+                services_list8.classList.add("d-none");
             }else{
                 services_list8.innerHTML = service.page_list8;
             }
-            if(service.page_list9 == undefined|| service.page_list9 === ''){
-                services_list_2.classList.add("d-none");
+            if(service.page_list9 === undefined || service.page_list9 === ''){
+                services_list9.classList.add("d-none");
             }else{
                 services_list9.innerHTML = service.page_list9;
             }
-            if(service.page_list10 == undefined|| service.page_list10 === ''){
-                services_list_2.classList.add("d-none");
+            if(service.page_list10 === undefined || service.page_list10 === ''){
+                services_list10.classList.add("d-none");
             }else{
                 services_list10.innerHTML = service.page_list10;
             }
-            if(service.page_list11 == undefined|| service.page_list11 === ''){
-                services_list_2.classList.add("d-none");
+            if(service.page_list11 === undefined || service.page_list11 === ''){
+                services_list11.classList.add("d-none");
             }else{
                 services_list11.innerHTML = service.page_list11;
             }
             services_list11.innerHTML = service.page_list11;
             
-            if(service.page_list_1 == undefined|| service.page_list_1 === ''){
-                services_list_2.classList.add("d-none");
+            if(service.page_list_1 === undefined || service.page_list_1 === ''){
+                services_list_1.classList.add("d-none");
             }else{
                 services_list_1.innerHTML = service.page_list_1;
             }
 
-            if(service.page_list_2 == undefined|| service.page_list_2 === ''){
+            if(service.page_list_2 === undefined || service.page_list_2 === ''){
                 services_list_2.classList.add("d-none");
             }else{
                 services_list_2.innerHTML = service.page_list_2;
@@ -848,116 +849,117 @@ if(service_id){
             const services_list11 = document.getElementById("services_list11");
             const services_list_1 = document.getElementById("services_list_1");
             const services_list_2 = document.getElementById("services_list_2");
+            
             title.innerHTML = service.pagetitle;
 
-            if(service.service_description == undefined || service.service_description === ''){
-                services_list_2.classList.add("d-none");
+            if(service.service_description === undefined || service.service_description === ''){
+                service_desc.classList.add("d-none");
             }else{
                 service_desc.innerHTML = service.service_description;
             }
 
-            if(service.service_list1 == undefined|| service.service_list1 === ''){
-                services_list_2.classList.add("d-none");
+            if(service.service_list1 === undefined || service.service_list1 === ''){
+                service_desc_li1.classList.add("d-none");
             }else{
                 service_desc_li1.innerHTML = service.service_list1;
             }
 
 
-            if(service.service_list2 == undefined|| service.service_list2 === ''){
-                services_list_2.classList.add("d-none");
+            if(service.service_list2 === undefined || service.service_list2 === ''){
+                service_desc_li2.classList.add("d-none");
             }else{
             service_desc_li2.innerHTML = service.service_list2;
             }
 
-            if(service.page_text1 == undefined|| service.page_text1 == ''){
-                services_list_2.classList.add("d-none");
+            if(service.page_text1 === undefined || service.page_text1 == ''){
+                service_text1.classList.add("d-none");
             }else{
                 service_text1.innerHTML = service.page_text1;
             }
 
-            if(service.page_text2 == undefined|| service.page_text2 === ''){
-                services_list_2.classList.add("d-none");
+            if(service.page_text2 === undefined || service.page_text2 === ''){
+                service_text2.classList.add("d-none");
             }else{
                 service_text2.innerHTML = service.page_text2;
             }
 
-            if(service.page_text3 == undefined|| service.page_text3 === ''){
-                services_list_2.classList.add("d-none");
+            if(service.page_text3 === undefined || service.page_text3 === ''){
+                service_text3.classList.add("d-none");
             }else{
                 service_text3.innerHTML = service.page_text3;
             }
 
 
-            if(service.page_offers == undefined|| service.page_offers === ''){
-                services_list_2.classList.add("d-none");
+            if(service.page_offers === undefined || service.page_offers === ''){
+                services_offers.classList.add("d-none");
             }else{
                 services_offers.innerHTML = service.page_offers;
             }
-            if(service.page_list1 == undefined|| service.page_list1 === ''){
-                services_list_2.classList.add("d-none");
+            if(service.page_list1 === undefined || service.page_list1 === ''){
+                services_list1.classList.add("d-none");
             }else{
                 services_list1.innerHTML = service.page_list1;
             }
-            if(service.page_list2 == undefined|| service.page_list2 === ''){
-                services_list_2.classList.add("d-none");
+            if(service.page_list2 === undefined || service.page_list2 === ''){
+                services_list2.classList.add("d-none");
             }else{
                 services_list2.innerHTML = service.page_list2;
             }
-            if(service.page_list3 == undefined|| service.page_list3 === ''){
-                services_list_2.classList.add("d-none");
+            if(service.page_list3 === undefined || service.page_list3 === ''){
+                services_list3.classList.add("d-none");
             }else{
                 services_list3.innerHTML = service.page_list3;
             }
-            if(service.page_list4 == undefined|| service.page_list4 === ''){
-                services_list_2.classList.add("d-none");
+            if(service.page_list4 === undefined || service.page_list4 === ''){
+                services_list4.classList.add("d-none");
             }else{
                 services_list4.innerHTML = service.page_list4;
             }
 
-            if(service.page_list5 == undefined|| service.page_list5 === ''){
-                services_list_2.classList.add("d-none");
+            if(service.page_list5 === undefined || service.page_list5 === ''){
+                services_list5.classList.add("d-none");
             }else{
                 services_list5.innerHTML = service.page_list5;
             }
-            if(service.page_list6 == undefined|| service.page_list6 === ''){
-                services_list_2.classList.add("d-none");
+            if(service.page_list6 === undefined || service.page_list6 === ''){
+                services_list6.classList.add("d-none");
             }else{
                 services_list6.innerHTML = service.page_list6;
             }
-            if(service.page_list7 == undefined|| service.page_list7 === ''){
-                services_list_2.classList.add("d-none");
+            if(service.page_list7 === undefined || service.page_list7 === ''){
+                services_list7.classList.add("d-none");
             }else{
                 services_list7.innerHTML = service.page_list7;
             }
-            if(service.page_list8 == undefined|| service.page_list8 === ''){
-                services_list_2.classList.add("d-none");
+            if(service.page_list8 === undefined || service.page_list8 === ''){
+                services_list8.classList.add("d-none");
             }else{
                 services_list8.innerHTML = service.page_list8;
             }
-            if(service.page_list9 == undefined|| service.page_list9 === ''){
-                services_list_2.classList.add("d-none");
+            if(service.page_list9 === undefined || service.page_list9 === ''){
+                services_list9.classList.add("d-none");
             }else{
                 services_list9.innerHTML = service.page_list9;
             }
-            if(service.page_list10 == undefined|| service.page_list10 === ''){
-                services_list_2.classList.add("d-none");
+            if(service.page_list10 === undefined || service.page_list10 === ''){
+                services_list10.classList.add("d-none");
             }else{
                 services_list10.innerHTML = service.page_list10;
             }
-            if(service.page_list11 == undefined|| service.page_list11 === ''){
-                services_list_2.classList.add("d-none");
+            if(service.page_list11 === undefined || service.page_list11 === ''){
+                services_list11.classList.add("d-none");
             }else{
                 services_list11.innerHTML = service.page_list11;
             }
             services_list11.innerHTML = service.page_list11;
             
-            if(service.page_list_1 == undefined|| service.page_list_1 === ''){
-                services_list_2.classList.add("d-none");
+            if(service.page_list_1 === undefined || service.page_list_1 === ''){
+                services_list_1.classList.add("d-none");
             }else{
                 services_list_1.innerHTML = service.page_list_1;
             }
 
-            if(service.page_list_2 == undefined|| service.page_list_2 === ''){
+            if(service.page_list_2 === undefined || service.page_list_2 === ''){
                 services_list_2.classList.add("d-none");
             }else{
                 services_list_2.innerHTML = service.page_list_2;
@@ -986,6 +988,7 @@ async function renderProjectAr() {
                 const title = document.getElementById("services_pagetitle");
                 const service_desc = document.getElementById("services_description");
                 const service_desc_li1 = document.getElementById("services_description_list1");
+                const service_desc_li2 = document.getElementById("services_description_list2");
                 const service_text1 = document.getElementById("services_text1");
                 const service_text2 = document.getElementById("services_text2");
                 const service_text3 = document.getElementById("services_text3");
@@ -1004,27 +1007,118 @@ async function renderProjectAr() {
                 const services_list_1 = document.getElementById("services_list_1");
                 const services_list_2 = document.getElementById("services_list_2");
     
-                title.innerHTML = service.pagetitle;
-                service_desc.innerHTML = service.service_description;
-                service_desc_li1.innerHTML = service.service_list1;
+                if(service.service_description === undefined || service.service_description === ''){
+                    service_desc.classList.add("d-none");
+                }else{
+                    service_desc.innerHTML = service.service_description;
+                }
+    
+                if(service.service_list1 === undefined || service.service_list1 === ''){
+                    service_desc_li1.classList.add("d-none");
+                }else{
+                    service_desc_li1.innerHTML = service.service_list1;
+                }
+    
+    
+                if(service.service_list2 === undefined || service.service_list2 === ''){
+                    service_desc_li2.classList.add("d-none");
+                }else{
                 service_desc_li2.innerHTML = service.service_list2;
-                service_text1.innerHTML = service.service_text1;
-                service_text2.innerHTML = service.page_text2;
-                service_text3.innerHTML = service.page_text3;
-                services_offers.innerHTML = service.page_offers;
-                services_list1.innerHTML = service.page_list1;
-                services_list2.innerHTML = service.page_list2;
-                services_list3.innerHTML = service.page_list3;
-                services_list4.innerHTML = service.page_list4;
-                services_list5.innerHTML = service.page_list5;
-                services_list6.innerHTML = service.page_list6;
-                services_list7.innerHTML = service.page_list7;
-                services_list8.innerHTML = service.page_list8;
-                services_list9.innerHTML = service.page_list9;
-                services_list10.innerHTML = service.page_list10;
+                }
+    
+                if(service.page_text1 === undefined || service.page_text1 == ''){
+                    service_text1.classList.add("d-none");
+                }else{
+                    service_text1.innerHTML = service.page_text1;
+                }
+    
+                if(service.page_text2 === undefined || service.page_text2 === ''){
+                    service_text2.classList.add("d-none");
+                }else{
+                    service_text2.innerHTML = service.page_text2;
+                }
+    
+                if(service.page_text3 === undefined || service.page_text3 === ''){
+                    service_text3.classList.add("d-none");
+                }else{
+                    service_text3.innerHTML = service.page_text3;
+                }
+    
+    
+                if(service.page_offers === undefined || service.page_offers === ''){
+                    services_offers.classList.add("d-none");
+                }else{
+                    services_offers.innerHTML = service.page_offers;
+                }
+                if(service.page_list1 === undefined || service.page_list1 === ''){
+                    services_list1.classList.add("d-none");
+                }else{
+                    services_list1.innerHTML = service.page_list1;
+                }
+                if(service.page_list2 === undefined || service.page_list2 === ''){
+                    services_list2.classList.add("d-none");
+                }else{
+                    services_list2.innerHTML = service.page_list2;
+                }
+                if(service.page_list3 === undefined || service.page_list3 === ''){
+                    services_list3.classList.add("d-none");
+                }else{
+                    services_list3.innerHTML = service.page_list3;
+                }
+                if(service.page_list4 === undefined || service.page_list4 === ''){
+                    services_list4.classList.add("d-none");
+                }else{
+                    services_list4.innerHTML = service.page_list4;
+                }
+    
+                if(service.page_list5 === undefined || service.page_list5 === ''){
+                    services_list5.classList.add("d-none");
+                }else{
+                    services_list5.innerHTML = service.page_list5;
+                }
+                if(service.page_list6 === undefined || service.page_list6 === ''){
+                    services_list6.classList.add("d-none");
+                }else{
+                    services_list6.innerHTML = service.page_list6;
+                }
+                if(service.page_list7 === undefined || service.page_list7 === ''){
+                    services_list7.classList.add("d-none");
+                }else{
+                    services_list7.innerHTML = service.page_list7;
+                }
+                if(service.page_list8 === undefined || service.page_list8 === ''){
+                    services_list8.classList.add("d-none");
+                }else{
+                    services_list8.innerHTML = service.page_list8;
+                }
+                if(service.page_list9 === undefined || service.page_list9 === ''){
+                    services_list9.classList.add("d-none");
+                }else{
+                    services_list9.innerHTML = service.page_list9;
+                }
+                if(service.page_list10 === undefined || service.page_list10 === ''){
+                    services_list10.classList.add("d-none");
+                }else{
+                    services_list10.innerHTML = service.page_list10;
+                }
+                if(service.page_list11 === undefined || service.page_list11 === ''){
+                    services_list11.classList.add("d-none");
+                }else{
+                    services_list11.innerHTML = service.page_list11;
+                }
                 services_list11.innerHTML = service.page_list11;
-                services_list_1.innerHTML = service.page_list_1;
-                services_list_2.innerHTML = service.page_list_2;
+                
+                if(service.page_list_1 === undefined || service.page_list_1 === ''){
+                    services_list_1.classList.add("d-none");
+                }else{
+                    services_list_1.innerHTML = service.page_list_1;
+                }
+    
+                if(service.page_list_2 === undefined || service.page_list_2 === ''){
+                    services_list_2.classList.add("d-none");
+                }else{
+                    services_list_2.innerHTML = service.page_list_2;
+                }
     
             }
             else {
@@ -1060,27 +1154,118 @@ async function renderProjectAr() {
                 const services_list_1 = document.getElementById("services_list_1");
                 const services_list_2 = document.getElementById("services_list_2");
     
-                title.innerHTML = service.pagetitle;
-                service_desc.innerHTML = service.service_description;
-                service_desc_li1.innerHTML = service.service_list1;
+                if(service.service_description === undefined || service.service_description === ''){
+                    service_desc.classList.add("d-none");
+                }else{
+                    service_desc.innerHTML = service.service_description;
+                }
+    
+                if(service.service_list1 === undefined || service.service_list1 === ''){
+                    service_desc_li1.classList.add("d-none");
+                }else{
+                    service_desc_li1.innerHTML = service.service_list1;
+                }
+    
+    
+                if(service.service_list2 === undefined || service.service_list2 === ''){
+                    service_desc_li2.classList.add("d-none");
+                }else{
                 service_desc_li2.innerHTML = service.service_list2;
-                service_text1.innerHTML = service.service_text1;
-                service_text2.innerHTML = service.page_text2;
-                service_text3.innerHTML = service.page_text3;
-                services_offers.innerHTML = service.page_offers;
-                services_list1.innerHTML = service.page_list1;
-                services_list2.innerHTML = service.page_list2;
-                services_list3.innerHTML = service.page_list3;
-                services_list4.innerHTML = service.page_list4;
-                services_list5.innerHTML = service.page_list5;
-                services_list6.innerHTML = service.page_list6;
-                services_list7.innerHTML = service.page_list7;
-                services_list8.innerHTML = service.page_list8;
-                services_list9.innerHTML = service.page_list9;
-                services_list10.innerHTML = service.page_list10;
+                }
+    
+                if(service.page_text1 === undefined || service.page_text1 == ''){
+                    service_text1.classList.add("d-none");
+                }else{
+                    service_text1.innerHTML = service.page_text1;
+                }
+    
+                if(service.page_text2 === undefined || service.page_text2 === ''){
+                    service_text2.classList.add("d-none");
+                }else{
+                    service_text2.innerHTML = service.page_text2;
+                }
+    
+                if(service.page_text3 === undefined || service.page_text3 === ''){
+                    service_text3.classList.add("d-none");
+                }else{
+                    service_text3.innerHTML = service.page_text3;
+                }
+    
+    
+                if(service.page_offers === undefined || service.page_offers === ''){
+                    services_offers.classList.add("d-none");
+                }else{
+                    services_offers.innerHTML = service.page_offers;
+                }
+                if(service.page_list1 === undefined || service.page_list1 === ''){
+                    services_list1.classList.add("d-none");
+                }else{
+                    services_list1.innerHTML = service.page_list1;
+                }
+                if(service.page_list2 === undefined || service.page_list2 === ''){
+                    services_list2.classList.add("d-none");
+                }else{
+                    services_list2.innerHTML = service.page_list2;
+                }
+                if(service.page_list3 === undefined || service.page_list3 === ''){
+                    services_list3.classList.add("d-none");
+                }else{
+                    services_list3.innerHTML = service.page_list3;
+                }
+                if(service.page_list4 === undefined || service.page_list4 === ''){
+                    services_list4.classList.add("d-none");
+                }else{
+                    services_list4.innerHTML = service.page_list4;
+                }
+    
+                if(service.page_list5 === undefined || service.page_list5 === ''){
+                    services_list5.classList.add("d-none");
+                }else{
+                    services_list5.innerHTML = service.page_list5;
+                }
+                if(service.page_list6 === undefined || service.page_list6 === ''){
+                    services_list6.classList.add("d-none");
+                }else{
+                    services_list6.innerHTML = service.page_list6;
+                }
+                if(service.page_list7 === undefined || service.page_list7 === ''){
+                    services_list7.classList.add("d-none");
+                }else{
+                    services_list7.innerHTML = service.page_list7;
+                }
+                if(service.page_list8 === undefined || service.page_list8 === ''){
+                    services_list8.classList.add("d-none");
+                }else{
+                    services_list8.innerHTML = service.page_list8;
+                }
+                if(service.page_list9 === undefined || service.page_list9 === ''){
+                    services_list9.classList.add("d-none");
+                }else{
+                    services_list9.innerHTML = service.page_list9;
+                }
+                if(service.page_list10 === undefined || service.page_list10 === ''){
+                    services_list10.classList.add("d-none");
+                }else{
+                    services_list10.innerHTML = service.page_list10;
+                }
+                if(service.page_list11 === undefined || service.page_list11 === ''){
+                    services_list11.classList.add("d-none");
+                }else{
+                    services_list11.innerHTML = service.page_list11;
+                }
                 services_list11.innerHTML = service.page_list11;
-                services_list_1.innerHTML = service.page_list_1;
-                services_list_2.innerHTML = service.page_list_2;
+                
+                if(service.page_list_1 === undefined || service.page_list_1 === ''){
+                    services_list_1.classList.add("d-none");
+                }else{
+                    services_list_1.innerHTML = service.page_list_1;
+                }
+    
+                if(service.page_list_2 === undefined || service.page_list_2 === ''){
+                    services_list_2.classList.add("d-none");
+                }else{
+                    services_list_2.innerHTML = service.page_list_2;
+                }
     
     
             } else {

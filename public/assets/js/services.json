@@ -55,7 +55,12 @@
         "page_list5": "Traumatic cases",
         "page_list6": "Pelvic Surgery",
         "page_list7": "Shoulder, Hip, and Knee replacement surgeries",
-        "page_list8": "PRP & PRF"
+        "page_list8": "PRP & PRF",
+        "page_list9": "",
+        "page_list10": "",
+        "page_list11": "",
+        "page_list_1": "",
+        "page_list_2": ""
     },    {
         "id": 4,
         "pagetitle": "Hand surgery",

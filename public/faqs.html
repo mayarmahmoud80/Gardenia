@@ -1,246 +1,275 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/components.js"></script>
+  </head>
 
+  <body>
+    <div class="wrapper">
+      <div class="preloader">
+        <div class="loading">
+          <span></span><span></span><span></span><span></span>
+        </div>
+      </div>
+      <!-- /.preloader -->
 
-<head>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="assets/js/components.js"></script>
-</head>
-
-<body>
-  <div class="wrapper">
-    <div class="preloader">
-      <div class="loading"><span></span><span></span><span></span><span></span></div>
-    </div><!-- /.preloader -->
-
-    <!-- =========================
+      <!-- =========================
         Header
     =========================== -->
-    <header class="header header-layout1">
-   
-    </header><!-- /.Header -->
+      <header class="header header-layout1"></header>
+      <!-- /.Header -->
 
-    <!-- ========================
+      <!-- ========================
        page title 
     =========================== -->
-    <section class="page-title page-title-layout5">
-      <div class="bg-img"><img src="assets/images/backgrounds/6.jpg" alt="background"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-12 d-flex justify-content-between flex-wrap align-items-center">
-            <h1 class="pagetitle__heading my-3">FAQs</h1> 
-          </div><!-- /.col-12 -->
-        </div><!-- /.row -->
-      </div><!-- /.container -->
-    </section><!-- /.page-title -->
+      <section class="page-title page-title-layout5">
+        <div class="bg-img">
+          <img src="assets/images/backgrounds/6.jpg" alt="background" />
+        </div>
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-12 d-flex justify-content-between flex-wrap align-items-center"
+            >
+              <h1 class="pagetitle__heading my-3" data-lang="faqs_title">FAQs</h1>
+            </div>
+            <!-- /.col-12 -->
+          </div>
+          <!-- /.row -->
+        </div>
+        <!-- /.container -->
+      </section>
+      <!-- /.page-title -->
 
-    <!-- ======================
+      <!-- ======================
        FAQ
     ========================= -->
-    <section class="faq pt-120 pb-70">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-4">
-            <aside class="sidebar has-marign-right">
-              <div class="widget widget-help bg-overlay bg-overlay-secondary-gradient">
-                <div class="bg-img"><img src="assets/images/banners/5.jpg" alt="background"></div>
-                <div class="widget-content">
-                  <div class="widget__icon">
-                    <i class="icon-call3"></i>
+      <section class="faq pt-120 pb-70">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-4">
+              <aside class="sidebar has-marign-right">
+                <div
+                  class="widget widget-help bg-overlay bg-overlay-secondary-gradient"
+                >
+                  <div class="bg-img">
+                    <img src="assets/images/banners/5.jpg" alt="background" />
                   </div>
-                  <h4 class="widget__title">Emergency Cases</h4>
-                  <p class="widget__desc">Please feel welcome to contact our friendly reception staff with any general
-                    or medical enquiry call us.
-                  </p>
-                  <a href="tel:+201061245741" class="phone__number">
-                    <i class="icon-phone"></i> <span>01061245741</span>
+                  <div class="widget-content contact_info">          
+                  </div>
+                  <!-- /.widget-content -->
+                </div>
+                <!-- /.widget-help -->
+                <div class="widget widget-schedule working_hours1">
+                  <!-- /.widget-content -->
+                </div><!-- /.widget-schedule -->
+                <!-- /.widget-schedule -->
+                <div class="widget widget-reports">
+                  <a href="#" class="btn btn__primary btn__block">
+                    <i class="icon-pdf-file"></i>
+                    <span>2020 Patient Reports</span>
                   </a>
-                </div><!-- /.widget-content -->
-              </div><!-- /.widget-help -->
-              <div class="widget widget-schedule">
-                <div class="widget-content">
-                  <div class="widget__icon">
-                    <i class="icon-charity2"></i>
+                </div>
+              </aside>
+              <!-- /.sidebar -->
+            </div>
+            <!-- /.col-lg-4 -->
+            <div class="col-sm-12 col-md-12 col-lg-8" id="accordion">
+              <div class="accordion-item opened">
+                <div
+                  class="accordion__header"
+                  data-toggle="collapse"
+                  data-target="#collapse1"
+                >
+                  <a class="accordion__title" href="#"
+                   data-lang="question1" >How can I book an appointment with a doctor?</a
+                  >
+                </div>
+                <!-- /.accordion-item-header -->
+                <div
+                  id="collapse1"
+                  class="collapse show"
+                  data-parent="#accordion"
+                >
+                  <div class="accordion__body">
+                    <p data-lang="answer1">
+                      You can book an appointment with our doctors by calling +
+                      974 44246666 or +974 51078090 or by booking through our
+                      website.
+                    </p>
                   </div>
-                  <h4 class="widget__title">Opening Hours</h4>
-                  <ul class="time__list list-unstyled mb-0">
-                    <li><span>Monday - Friday</span><span>8.00 - 7:00 pm</span></li>
-                    <li><span>Saturday</span><span>9.00 - 10:00 pm</span></li>
-                    <li><span>Sunday</span><span>10.00 - 12:00 pm</span></li>
-                  </ul>
-                </div><!-- /.widget-content -->
-              </div><!-- /.widget-schedule -->
-              <div class="widget widget-reports">
-                <a href="#" class="btn btn__primary btn__block">
-                  <i class="icon-pdf-file"></i>
-                  <span>2020 Patient Reports</span>
-                </a>
+                  <!-- /.accordion-item-body -->
+                </div>
               </div>
-            </aside><!-- /.sidebar -->
-          </div><!-- /.col-lg-4 -->
-          <div class="col-sm-12 col-md-12 col-lg-8" id="accordion">
-            <div class="accordion-item opened">
-              <div class="accordion__header" data-toggle="collapse" data-target="#collapse3">
-                <a class="accordion__title" href="#">What Payment Methods Are Available?</a>
-              </div><!-- /.accordion-item-header -->
-              <div id="collapse3" class="collapse show" data-parent="#accordion">
-                <div class="accordion__body">
-                  <p>With any financial product that you buy, it is important that you know you are getting the best
-                    advice from a reputable company as often</p>
-                </div><!-- /.accordion-item-body -->
+              <!-- /.accordion-item -->
+              <div class="accordion-item">
+                <div
+                  class="accordion__header"
+                  data-toggle="collapse"
+                  data-target="#collapse2"
+                >
+                  <a class="accordion__title" href="#" data-lang="question2"
+                    >Can I visit a doctor without an appointment?</a
+                  >
+                </div>
+                <!-- /.accordion-item-header -->
+                <div id="collapse2" class="collapse" data-parent="#accordion">
+                  <div class="accordion__body">
+                    <p data-lang="answer2">
+                      Yes, however, this depends on the availability of
+                      “walk-in” slots. That’s why we recommend our patients
+                      schedule an appointment for better convenience.
+                    </p>
+                  </div>
+                  <!-- /.accordion-item-body -->
+                </div>
               </div>
-            </div><!-- /.accordion-item -->
-            <div class="accordion-item">
-              <div class="accordion__header" data-toggle="collapse" data-target="#collapse1">
-                <a class="accordion__title" href="#">Which Plan Is Right For Me?</a>
-              </div><!-- /.accordion-item-header -->
-              <div id="collapse1" class="collapse" data-parent="#accordion">
-                <div class="accordion__body">
-                  <p>With any financial product that you buy, it is important that you know you are getting the best
-                    advice from a reputable company as often</p>
-                </div><!-- /.accordion-item-body -->
+              <!-- /.accordion-item -->
+              <div class="accordion-item">
+                <div
+                  class="accordion__header"
+                  data-toggle="collapse"
+                  data-target="#collapse3"
+                >
+                  <a class="accordion__title" href="#" data-lang="question3"
+                    >What information or documents are needed for patient
+                    registration?
+                  </a>
+                </div>
+                <!-- /.accordion-item-header -->
+                <div id="collapse3" class="collapse" data-parent="#accordion">
+                  <div class="accordion__body">
+                    <p data-lang="answer3">
+                      Contact Information and valid identification (Qatar ID or
+                      Passport).
+                    </p>
+                  </div>
+                  <!-- /.accordion-item-body -->
+                </div>
               </div>
-            </div><!-- /.accordion-item -->
-            <div class="accordion-item">
-              <div class="accordion__header" data-toggle="collapse" data-target="#collapse2">
-                <a class="accordion__title" href="#">Do I have to commit to a contract?</a>
-              </div><!-- /.accordion-item-header -->
-              <div id="collapse2" class="collapse" data-parent="#accordion">
-                <div class="accordion__body">
-                  <p>With any financial product that you buy, it is important that you know you are getting the best
-                    advice from a reputable company as often</p>
-                </div><!-- /.accordion-item-body -->
+              <!-- /.accordion-item -->
+              <div class="accordion-item">
+                <div
+                  class="accordion__header"
+                  data-toggle="collapse"
+                  data-target="#collapse4"
+                >
+                  <a class="accordion__title" href="#" data-lang="question4"
+                    >Which medical insurance companies do you accept?</a
+                  >
+                </div>
+                <!-- /.accordion-item-header -->
+                <div id="collapse4" class="collapse" data-parent="#accordion">
+                  <div class="accordion__body">
+                    <p data-lang="answer4">
+                      Nextcare, AlKoot, QLM, Allianz, Aetna and MSH
+                      International.
+                    </p>
+                  </div>
+                  <!-- /.accordion-item-body -->
+                </div>
               </div>
-            </div><!-- /.accordion-item -->
-            <div class="accordion-item">
-              <div class="accordion__header" data-toggle="collapse" data-target="#collapse4">
-                <a class="accordion__title" href="#">What if I pick the wrong plan?</a>
-              </div><!-- /.accordion-item-header -->
-              <div id="collapse4" class="collapse" data-parent="#accordion">
-                <div class="accordion__body">
-                  <p>With any financial product that you buy, it is important that you know you are getting the best
-                    advice from a reputable company as often</p>
-                </div><!-- /.accordion-item-body -->
+              <!-- /.accordion-item -->
+              <div class="accordion-item">
+                <div
+                  class="accordion__header"
+                  data-toggle="collapse"
+                  data-target="#collapse5"
+                >
+                  <a class="accordion__title" href="#" data-lang="question5"
+                    >What types of rooms are available in the inpatient
+                    department?</a
+                  >
+                </div>
+                <!-- /.accordion-item-header -->
+                <div id="collapse5" class="collapse" data-parent="#accordion">
+                  <div class="accordion__body">
+                    <p data-lang="answer5">Standard, Deluxe and VIP rooms.</p>
+                  </div>
+                  <!-- /.accordion-item-body -->
+                </div>
               </div>
-            </div><!-- /.accordion-item -->
-            <div class="accordion-item">
-              <div class="accordion__header" data-toggle="collapse" data-target="#collapse5">
-                <a class="accordion__title" href="#">Any contracts or commitments?</a>
-              </div><!-- /.accordion-item-header -->
-              <div id="collapse5" class="collapse" data-parent="#accordion">
-                <div class="accordion__body">
-                  <p>With any financial product that you buy, it is important that you know you are getting the best
-                    advice from a reputable company as often</p>
-                </div><!-- /.accordion-item-body -->
+              <!-- /.accordion-item -->
+              <div class="accordion-item">
+                <div
+                  class="accordion__header"
+                  data-toggle="collapse"
+                  data-target="#collapse6"
+                >
+                  <a class="accordion__title" href="#" data-lang="question6"
+                    >How can I provide feedback on my experience at Gardenia
+                    Medical Center?
+                  </a>
+                </div>
+                <!-- /.accordion-item-header -->
+                <div id="collapse6" class="collapse" data-parent="#accordion">
+                  <div class="accordion__body"  data-html data-lang="answer6">
+                    <p>
+                      Reach out via phone at +974 44246666 or +974 51078090 to
+                      share your feedback.
+                    </p>
+                    <p>
+                      Fill out and submit the Gardenia Feedback Form received
+                      via SMS after your appointment is completed.
+                    </p>
+                  </div>
+                  <!-- /.accordion-item-body -->
+                </div>
               </div>
-            </div><!-- /.accordion-item -->
-            <div class="accordion-item">
-              <div class="accordion__header" data-toggle="collapse" data-target="#collapse4">
-                <a class="accordion__title" href="#">What if I pick the wrong plan?</a>
-              </div><!-- /.accordion-item-header -->
-              <div id="collapse4" class="collapse" data-parent="#accordion">
-                <div class="accordion__body">
-                  <p>With any financial product that you buy, it is important that you know you are getting the best
-                    advice from a reputable company as often</p>
-                </div><!-- /.accordion-item-body -->
-              </div>
-            </div><!-- /.accordion-item -->
-            <div class="accordion-item">
-              <div class="accordion__header" data-toggle="collapse" data-target="#collapse5">
-                <a class="accordion__title" href="#">Any contracts or commitments?</a>
-              </div><!-- /.accordion-item-header -->
-              <div id="collapse5" class="collapse" data-parent="#accordion">
-                <div class="accordion__body">
-                  <p>With any financial product that you buy, it is important that you know you are getting the best
-                    advice from a reputable company as often</p>
-                </div><!-- /.accordion-item-body -->
-              </div>
-            </div><!-- /.accordion-item -->
-            <div class="accordion-item">
-              <div class="accordion__header" data-toggle="collapse" data-target="#collapse1">
-                <a class="accordion__title" href="#">Which Plan Is Right For Me?</a>
-              </div><!-- /.accordion-item-header -->
-              <div id="collapse1" class="collapse" data-parent="#accordion">
-                <div class="accordion__body">
-                  <p>With any financial product that you buy, it is important that you know you are getting the best
-                    advice from a reputable company as often</p>
-                </div><!-- /.accordion-item-body -->
-              </div>
-            </div><!-- /.accordion-item -->
-            <div class="accordion-item">
-              <div class="accordion__header" data-toggle="collapse" data-target="#collapse2">
-                <a class="accordion__title" href="#">Do I have to commit to a contract?</a>
-              </div><!-- /.accordion-item-header -->
-              <div id="collapse2" class="collapse" data-parent="#accordion">
-                <div class="accordion__body">
-                  <p>With any financial product that you buy, it is important that you know you are getting the best
-                    advice from a reputable company as often</p>
-                </div><!-- /.accordion-item-body -->
-              </div>
-            </div><!-- /.accordion-item -->
-            <div class="accordion-item">
-              <div class="accordion__header" data-toggle="collapse" data-target="#collapse4">
-                <a class="accordion__title" href="#">What if I pick the wrong plan?</a>
-              </div><!-- /.accordion-item-header -->
-              <div id="collapse4" class="collapse" data-parent="#accordion">
-                <div class="accordion__body">
-                  <p>With any financial product that you buy, it is important that you know you are getting the best
-                    advice from a reputable company as often</p>
-                </div><!-- /.accordion-item-body -->
-              </div>
-            </div><!-- /.accordion-item -->
-            <div class="accordion-item">
-              <div class="accordion__header" data-toggle="collapse" data-target="#collapse5">
-                <a class="accordion__title" href="#">Any contracts or commitments?</a>
-              </div><!-- /.accordion-item-header -->
-              <div id="collapse5" class="collapse" data-parent="#accordion">
-                <div class="accordion__body">
-                  <p>With any financial product that you buy, it is important that you know you are getting the best
-                    advice from a reputable company as often</p>
-                </div><!-- /.accordion-item-body -->
-              </div>
-            </div><!-- /.accordion-item -->
-            <div class="accordion-item">
-              <div class="accordion__header" data-toggle="collapse" data-target="#collapse4">
-                <a class="accordion__title" href="#">What if I pick the wrong plan?</a>
-              </div><!-- /.accordion-item-header -->
-              <div id="collapse4" class="collapse" data-parent="#accordion">
-                <div class="accordion__body">
-                  <p>With any financial product that you buy, it is important that you know you are getting the best
-                    advice from a reputable company as often</p>
-                </div><!-- /.accordion-item-body -->
-              </div>
-            </div><!-- /.accordion-item -->
-            <div class="accordion-item">
-              <div class="accordion__header" data-toggle="collapse" data-target="#collapse5">
-                <a class="accordion__title" href="#">Any contracts or commitments?</a>
-              </div><!-- /.accordion-item-header -->
-              <div id="collapse5" class="collapse" data-parent="#accordion">
-                <div class="accordion__body">
-                  <p>With any financial product that you buy, it is important that you know you are getting the best
-                    advice from a reputable company as often</p>
-                </div><!-- /.accordion-item-body -->
-              </div>
-            </div><!-- /.accordion-item -->
-          </div><!-- /.col-lg-8 -->
-        </div><!-- /.row -->
-      </div><!-- /.container -->
-    </section><!-- /.FAQ -->
+              <!-- /.accordion-item -->
 
- 
-    <!-- ========================
+              <div class="accordion-item">
+                <div
+                  class="accordion__header"
+                  data-toggle="collapse"
+                  data-target="#collapse7"
+                >
+                  <a class="accordion__title" href="#" data-lang="question7"
+                    >Do you offer installment payment plans for procedures?</a
+                  >
+                </div>
+                <!-- /.accordion-item-header -->
+                <div id="collapse7" class="collapse" data-parent="#accordion">
+                  <div class="accordion__body">
+                    <p data-lang="answer7">
+                      Yes, for the gastric balloon insertion procedure and most
+                      surgeries.
+                    </p>
+                  </div>
+                  <!-- /.accordion-item-body -->
+                </div>
+              </div>
+              <!-- /.accordion-item -->
+            </div>
+            <!-- /.col-lg-8 -->
+          </div>
+          <!-- /.row -->
+        </div>
+        <!-- /.container -->
+      </section>
+      <!-- /.FAQ -->
+
+      <!-- ========================
       Footer
     ========================== -->
-    <footer class="footer">
-    
-    </footer><!-- /.Footer -->
-    <button id="scrollTopBtn"><i class="fas fa-long-arrow-alt-up"></i></button>
-  </div><!-- /.wrapper -->
+      <footer class="footer"></footer>
+      <!-- /.Footer -->
+      <button id="scrollTopBtn">
+        <i class="fas fa-long-arrow-alt-up"></i>
+      </button>
+    </div>
+    <!-- /.wrapper -->
 
-  <script src="assets/js/jquery-3.5.1.min.js"></script>
-  <script src="assets/js/plugins.js"></script>
-  <script src="assets/js/main.js"></script>
-  <script src="assets/js/script.js"></script>
-</body>
-
+    <script src="assets/js/jquery-3.5.1.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script>
+      $(document).ready(function() {
+        renderContact();
+        renderWorkingHours();
+      })
+    </script>
+  </body>
 </html>

@@ -30,12 +30,29 @@ const translation = {
         "our_programs_item": "Our Programs",
         Overview: "Overview",
         Watch_Video: "Watch Our Video!",
+        "book_now": "Book Now",
+        "our_rooms_title": "Our Rooms",
 
 
         // Programs
         "program1_item": "Rejuvenation Program",
         "program2_item": "Weight Loss Program",
         "program3_item": "Rehabilitation program",
+
+        //rooms 
+
+        "room1_title": "Standard Room",
+        "room1_desc1": "Our Standard Rooms at Gardenia Medical Center are designed to offer a comfortable and practical stay for our patients. These rooms are equipped with essential amenities, including a cozy bed, a private bathroom, and a seating area to ensure a restful environment. The clean and organized space is designed to support recovery while providing a calm and peaceful atmosphere.",
+        "room1_desc2": "In addition to comfort, our Standard Rooms include access to essential services such as 24/7 nursing care, in-room dining options, and easy access to medical staff when needed. We prioritize functionality and care, ensuring patients feel supported throughout their stay.",
+
+        "room2_title": "Deluxe Room",
+        "room2_desc1": "Our Deluxe Rooms take comfort to the next level, offering patients a spacious environment with upgraded furnishings and added amenities. Each Deluxe Room is thoughtfully designed with elegant interiors, providing a more refined and relaxing atmosphere. These rooms include a comfortable seating area for visitors, enhanced bedding for added comfort, and additional storage space for personal belongings.",
+        "room2_desc2": "To further enhance your stay, our Deluxe Rooms include premium services such as priority nursing care, an expanded dining menu, and enhanced room facilities to meet your personal needs. Ideal for those seeking both comfort and convenience, our Deluxe Rooms ensure a pleasant recovery experience.",
+
+
+        "room3_title": "VIP Room",
+        "room3_desc1": "For those seeking the finest in comfort and privacy, our VIP Rooms offer a luxurious experience tailored to meet your every need. These spacious rooms feature elegant décor, premium furnishings, and thoughtful details that create a home-like atmosphere. The VIP Rooms are designed to provide maximum relaxation, with a dedicated seating area, high-quality bedding, and enhanced entertainment options.",
+        "room3_desc2": "Our VIP patients also enjoy exclusive benefits such as personalized care services, priority medical attention, and a dedicated concierge to cater to individual requests. Whether you are staying for treatment or recovery, our VIP Rooms provide a peaceful retreat where you can focus on your well-being with the highest level of comfort and care.",
 
         // About Us Banner 
         "banner1_top_text": `Serve the community by improving the quality of life through better
@@ -66,6 +83,45 @@ const translation = {
         "helping_desc1": "Our goal is to deliver quality of care in a courteous, respectful, and compassionate manner. We hope you will allow us to care for you and strive to be the first and best choice for healthcare.",
         "helping_desc2": "We will work with you to develop individualised care plans, including management of diseases. We are committed to being the region's premier healthcare network providing patient centered care that inspires service excellence.",
         "helping_btn": "Find A Doctor",
+
+
+        // FAQs 
+
+        "faqs_title": "Frequently Asked Questions",
+        "question1": "How can I book an appointment with a doctor?",
+        "answer1": "You can book an appointment with our doctors by calling + 974 44246666 or +974 51078090 or by booking through our website.",
+
+        "question2": "Can I visit a doctor without an appointment?",
+        "answer2": " Yes, however, this depends on the availability of “walk-in” slots. That’s why we recommend our patients schedule an appointment for better convenience.",
+
+        "question3": "What information or documents are needed for patient registration?",
+        "answer3": " Contact Information and valid identification (Qatar ID or Passport).",
+
+        "question4": "Which medical insurance companies do you accept?",
+        "answer4": "Nextcare, AlKoot, QLM, Allianz, Aetna and MSH International.",
+
+
+        "question5": "What types of rooms are available in the inpatient department?",
+        "answer5": "Standard, Deluxe and VIP rooms.",
+
+        "question6": "How can I provide feedback on my experience at Gardenia Medical Center?",
+        "answer6": ` <p>
+                      Reach out via phone at +974 44246666 or +974 51078090 to
+                      share your feedback.
+                    </p>
+                    <p>
+                      Fill out and submit the Gardenia Feedback Form received
+                      via SMS after your appointment is completed.
+                    </p>`,
+
+        "question7": "Do you offer installment payment plans for procedures?",
+        "answer7": "Yes, for the gastric balloon insertion procedure and most surgeries.",
+
+
+
+
+
+
 
 
 
@@ -107,7 +163,7 @@ const translation = {
         index_layout_phone: "Bringing World-Class Healthcare to You!!",
         index_layout_phone_text: "Delivering world-class healthcare services with advanced medical expertise and compassionate care to patients worldwide, wherever they are.",
         index_layout_phone_btn: "Contact Us",
-        index_layout_share_btn:"Share Our Website",
+        index_layout_share_btn: "Share Our Website",
         index_layout_2: "View video",
         /* */
 
@@ -132,6 +188,7 @@ const translation = {
         footer_Electronic_list3: "Doctors",
         footer_Electronic_list4: "News & Photos",
         footer_Electronic_list5: "Booking",
+        footer_Electronic_list6: "FAQs",
         footer_contact: "Contact Us Directly",
         footer_contact_title: "Our team is ready to answer any inquiries or assist you with anything you need. Feel free to reach out to us easily.",
         footer_contact_title2: "6 Dhal Al Hamam, Ta'if Street, Doha, Qatar",
@@ -234,7 +291,7 @@ const translation = {
 
         services_title_dermatology: "Dermatology and Laser",
         services_layout_sub_heading_dermatology: "We combine medical expertise with advanced technology to treat skin issues and boost self-confidence through comprehensive medical solutions, ensuring the best care and optimal results according to global standards.",
-        services_layout_list_text1_dermatology: "Treatment of skin conditions (such as acne, eczema, rosacea, and more)",
+        services_layout_list_text1_dermatology: "Treatment of skin conditions",
         services_layout_list_text2_dermatology: "Laser treatments for hair removal and skin rejuvenation",
         services_layout_list_text3_dermatology: "Scar treatment",
 
@@ -795,7 +852,7 @@ const translation = {
         services_title_outpatient: "Outpatient Clinics",
         services_title_pharmacy: "Pharmacy",
 
-        widget_title2: "Emergency Cases",
+        widget_title2: "Contact Us",
         widget_desc2: "Our team is ready to answer any inquiries or provide assistance you may need. Contact us easily.",
 
         widget_title_work: "working hours",
@@ -845,11 +902,33 @@ const translation = {
         "our_programs_item": "البرامج",
         Overview: "نظره عامه",
         Watch_Video: "شاهد الفيديو الخاص بنا!",
+        "book_now": "احجز الآن",
+
+        "our_rooms_title": "غرفنا",
 
         //Programs
         "program1_item": "برنامج إستعادة الحيوية",
         "program2_item": "برنامج فقدان الوزن",
         "program3_item": "برنامج إعادة التأهيل",
+    
+
+
+
+        //rooms 
+
+        "room1_title": "غرفة المفردة",
+        "room1_desc1": "تم تصميم الغرف المفردة في مركز جاردينيا الطبي لتوفير إقامة مريحة وعملية لمرضانا. تحتوي هذه الغرف على جميع الأساسيات التي تضمن راحة المريض، بما في ذلك سرير مريح، حمام خاص، ومنطقة جلوس لضمان أجواء هادئة ومريحة. تم تجهيز الغرفة بطريقة تضمن استرخاء المرضى ودعم عملية التعافي في بيئة نظيفة ومنظمة",
+        "room1_desc2": "بالإضافة إلى ذلك، توفر الغرف القياسية خدمات أساسية مثل الرعاية التمريضية على مدار الساعة، خيارات تناول الطعام داخل الغرفة، وسهولة الوصول إلى الطاقم الطبي عند الحاجة. نحن نركز على توفير بيئة تساعد المرضى على الشعور بالدعم والراحة طوال فترة إقامتهم.",
+
+        "room2_title": "غرفة الديلوكس",
+        "room2_desc1": "تقدم غرف الديلوكس في مركز جاردينيا الطبي مستوى أعلى من الراحة، حيث توفر مساحة أوسع مع أثاث فاخر وخدمات إضافية. تتميز هذه الغرف بتصميم داخلي أنيق يخلق أجواء هادئة ومريحة. تحتوي غرف الديلوكس على منطقة جلوس مريحة للزوار، وأسرة مريحة مع فرش عالي الجودة، بالإضافة إلى مساحة تخزين إضافية للأغراض الشخصية.",
+        "room2_desc2": "لضمان راحة أكبر، توفر غرف الديلوكس خدمات مميزة مثل أولوية في الرعاية التمريضية، قائمة طعام موسعة مع خيارات متنوعة، وتحسينات في تجهيزات الغرفة لتلبية احتياجاتكم الشخصية. تُعد هذه الغرف الخيار المثالي لمن يبحث عن إقامة مريحة مع مستوى عالٍ من الراحة والخدمات.",
+
+
+        "room3_title": "غرفة الـ VIP",
+        "room3_desc1": "لأولئك الذين يبحثون عن أعلى مستويات الفخامة والخصوصية، تقدم غرف الـ VIP في مركز جاردينيا الطبي تجربة إقامة استثنائية مصممة لتلبية كافة احتياجاتكم. تتميز هذه الغرف بمساحة واسعة وتصميم داخلي أنيق مع أثاث فاخر وتفاصيل مدروسة بعناية لتوفير أجواء منزلية هادئة. تحتوي غرف الـ VIP على منطقة جلوس خاصة، أسرة عالية الجودة، وخيارات ترفيه متقدمة لزيادة الشعور بالراحة.",
+        "room3_desc2": "يتمتع نزلاء غرف الـ VIP بمزايا حصرية تشمل خدمات رعاية طبية شخصية، أولوية في العناية الطبية، وخدمة كونسيرج مخصصة لتلبية الطلبات الخاصة. سواء كنت في إقامة علاجية أو فترة نقاهة، توفر غرف الـ VIP بيئة مثالية تركز على راحتك ورفاهيتك بأعلى معايير الجودة والرعاية.",
+
 
         // About Us Banner 
         "banner1_top_text": "نخدم المجتمع من خلال تحسين جودة الحياة عبر تعزيز الصحة. نحن نطبق بروتوكولات لحماية مرضانا وموظفينا مع الاستمرار في تقديم الرعاية الطبية.",
@@ -913,7 +992,7 @@ const translation = {
         index_layout_phone: "نوفّر الرعاية الصحية أينما كنت!",
         index_layout_phone_text: "نقدم خدمات رعاية صحية عالمية المستوى بخبرة طبية متقدمة ورعاية إنسانية لمرضانا في جميع أنحاء العالم، أينما كانوا.",
         index_layout_phone_btn: "اتصل بنا",
-        index_layout_share_btn:"شارك موقعنا",
+        index_layout_share_btn: "شارك موقعنا",
         index_layout_2: "عرض الفيديو",
         /* footer */
         footer_title: "نحن هنا لتقديم رعاية صحية عالية الجودة بكل احترام ولطف، ونأمل أن نكون الخيار الأول والأمثل في تلبية احتياجاتكم الصحية وصحة عائلتكم.",
@@ -935,10 +1014,44 @@ const translation = {
         footer_Electronic_list3: "الأطباء",
         footer_Electronic_list4: "الأخبار والصور",
         footer_Electronic_list5: "الحجز",
+        footer_Electronic_list6: "الأسئلة الشائعة",
         footer_contact: "اتصل بنا مباشرة",
         footer_contact_title: "فريقنا جاهز للإجابة على أي استفسار أو مساعدة تحتاجها، تواصل معنا بكل سهولة",
         footer_contact_title2: "6 دحل الحمام ، شارع الطائف ، الدوحة ، قطر",
+
         /* */
+
+
+        // FAQs 
+
+        "faqs_title": "الأسئلة الشائعة",
+        "question1": "كيف يمكنني حجز موعد مع الطبيب؟",
+        "answer1": "	يمكنك حجز موعد مع أطبائنا عن طريق الاتصال على: +974 44246666 أو +974 51078090، أو من خلال الحجز عبر موقعنا الإلكتروني.",
+
+        "question2": "هل يمكنني زيارة الطبيب دون موعد مسبق؟",
+        "answer2": "	•	نعم، ولكن ذلك يعتمد على توفر مواعيد “الحضور بدون حجز مسبق”. لهذا السبب نوصي مرضانا بحجز موعد لضمان راحتهم.",
+
+        "question3": "ما هي المعلومات أو المستندات المطلوبة للتسجيل؟",
+        "answer3": "•	معلومات الاتصال وإثبات هوية ساري (بطاقة هوية قطرية أو جواز سفر).",
+
+        "question4": "ما هي شركات التأمين الطبي التي تقبلونها؟",
+        "answer4": "•	Nextcare،•	AlKoot،•	QLM،•	Allianz،•	Aetna،•	MSH International",
+
+
+        "question5": "ما أنواع الغرف المتوفرة في قسم المرضى الداخليين؟",
+        "answer5": "غرف قياسية، وغرف ديلوكس، وغرف VIP.",
+
+        "question6": "كيف يمكنني تقديم ملاحظاتي حول تجربتي في مركز جاردينيا الطبي؟",
+        "answer6": ` <p>
+                       يمكنك التواصل معنا عبر الهاتف على الرقم: +974 44246666 أو +974 51078090 لمشاركة ملاحظاتك.
+                      </p>
+                      <p>
+                      يمكنك أيضاً تعبئة وتقديم نموذج ملاحظات جاردينيا الذي سيتم إرساله إليك عبر رسالة نصية بعد الانتهاء من موعدك.
+                      </p>`,
+
+
+        "question7": "هل تقدمون خطط دفع بالتقسيط للإجراءات الطبية؟",
+        "answer7": "نعم، نقدم خطط تقسيط لإجراء تركيب بالون المعدة ومعظم العمليات الجراحية.",
 
         /*about*/
         about_pagetitle: "العناية بالصحة العامة للعائلة",
@@ -1594,7 +1707,7 @@ const translation = {
         services_title_outpatient: "العيادات الخارجية",
         services_title_pharmacy: "الصيدلية",
 
-        widget_title2: "حالات الطوارئ",
+        widget_title2: "تواصل معنا",
         widget_desc2: "فريقنا جاهز للإجابة على أي استفسار أو مساعدة تحتاجها، تواصل معنا بكل سهولة",
 
         widget_title_work: "ساعات العمل",
@@ -1745,25 +1858,25 @@ function ChangeDirection() {
 }
 
 
-function working() {
-    var working_hours =
+function renderContact() {
+    var contacts =
         `
                   <div class="widget__icon">
                     <i class="icon-call3"></i>
                   </div>
-                  <h4 class="widget__title" data-lang= "widget_title2">حالات الطوارئ</h4>
-                  <p class="widget__desc" data-lang= "widget_desc2">فريقنا جاهز للإجابة على أي استفسار أو مساعدة تحتاجها، تواصل معنا بكل سهولة</p>
+                  <h4 class="widget__title" data-lang= "widget_title2">contact us</h4>
+                  <p class="widget__desc" data-lang= "widget_desc2">Our team is ready to answer any questions or assistance you need, contact us easily</p>
                   <a href="tel:+97444246666" class="phone__number">
                     <i class="icon-phone"></i> <span data-lang= "phone">97444246666+</span>
                   </a>
-                  <p  class="widget__desc" data-lang="footer_contact_title2">6 دحل الحمام ، شارع الطائف ، الدوحة ، قطر
+                  <p  class="widget__desc" data-lang="footer_contact_title2">6 Dhal Al-Hammam, Street of Al-Taif, Doha, Qatar
                   </p>
                 
     `;
-    document.querySelector('.working_hours').innerHTML = working_hours;
+    document.querySelector('.contact_info').innerHTML = contacts;
 };
 
-function working1() {
+function renderWorkingHours() {
     var working_hours1 =
         `
     <div class="widget-content">

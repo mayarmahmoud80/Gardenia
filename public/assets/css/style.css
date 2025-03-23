@@ -6875,6 +6875,7 @@ textarea.form-control {
 
 .services-layout1 .service-item {
   padding: 40px;
+  height: 100%;
 }
 .services-layout1 .service-item .service__content {
   padding: 0;
@@ -7836,6 +7837,7 @@ ul.list-items li[dir="ltr"] {
   flex-direction: row;
   justify-content: flex-start;
   padding-left: 33px;
+  text-align: left;
 }
 
 ul.list-items li[dir="rtl"] {
@@ -7843,6 +7845,7 @@ ul.list-items li[dir="rtl"] {
   flex-direction: row-reverse;
   justify-content: flex-end;
   padding-right: 33px;
+  text-align: right;
 }
 
 ul.list-items li[dir="ltr"]::before {
@@ -7862,3 +7865,8 @@ ul.list-items li[dir="rtl"]::before {
   }
 }
  
+
+
+.room-item img{
+  border-radius: 20px;
+}

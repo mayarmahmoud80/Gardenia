@@ -56,7 +56,11 @@ var servicesarray = [
         "page_list6": "Pelvic Surgery",
         "page_list7": "Shoulder, Hip, and Knee replacement surgeries",
         "page_list8": "PRP & PRF",
-        "page_list11": ""
+        "page_list9": "",
+        "page_list10": "",
+        "page_list11": "",
+        "page_list_1": "",
+        "page_list_2": ""
     },    {
         "id": 4,
         "pagetitle": "Hand surgery",
@@ -264,7 +268,7 @@ var servicesarray = [
         "page_list_2": ""
     },
     {
-        "id": 3,
+        "id": 13,
         "pagetitle": "",
         "service_description": "",
         "service_list1": "",
@@ -287,30 +291,7 @@ var servicesarray = [
         "page_list_2": ""
     },
     {
-        "id": 3,
-        "pagetitle": "",
-        "service_description": "",
-        "service_list1": "",
-        "service_list2": "",
-        "page_text1": "",
-        "page_text2": "",
-        "page_offers": "",
-        "page_list1": "",
-        "page_list2": "",
-        "page_list3": "",
-        "page_list4": "",
-        "page_list5": "",
-        "page_list6": "",
-        "page_list7": "",
-        "page_list8": "",
-        "page_list9": "",
-        "page_list10": "",
-        "page_list11": "",
-        "page_list_1": "",
-        "page_list_2": ""
-    },
-    {
-        "id": 3,
+        "id": 14,
         "pagetitle": "",
         "service_description": "",
         "service_list1": "",
@@ -332,8 +313,7 @@ var servicesarray = [
         "page_list_1": "",
         "page_list_2": ""
     }
-    
-]            
+]        
      
 
 
@@ -570,7 +550,7 @@ var servicesarrayar = [
         "page_list_2": ""
     },
     {
-        "id": 3,
+        "id": 13,
         "pagetitle": "",
         "service_description": "",
         "service_list1": "",
@@ -593,7 +573,7 @@ var servicesarrayar = [
         "page_list_2": ""
     },
     {
-        "id": 3,
+        "id": 14,
         "pagetitle": "",
         "service_description": "",
         "service_list1": "",
@@ -614,54 +594,9 @@ var servicesarrayar = [
         "page_list11": "",
         "page_list_1": "",
         "page_list_2": ""
-    },
-    {
-        "id": 3,
-        "pagetitle": "",
-        "service_description": "",
-        "service_list1": "",
-        "service_list2": "",
-        "page_text1": "",
-        "page_text2": "",
-        "page_offers": "",
-        "page_list1": "",
-        "page_list2": "",
-        "page_list3": "",
-        "page_list4": "",
-        "page_list5": "",
-        "page_list6": "",
-        "page_list7": "",
-        "page_list8": "",
-        "page_list9": "",
-        "page_list10": "",
-        "page_list11": "",
-        "page_list_1": "",
-        "page_list_2": ""
-    },
-    {
-        "id": 3,
-        "pagetitle": "",
-        "service_description": "",
-        "service_list1": "",
-        "service_list2": "",
-        "page_text1": "",
-        "page_text2": "",
-        "page_offers": "",
-        "page_list1": "",
-        "page_list2": "",
-        "page_list3": "",
-        "page_list4": "",
-        "page_list5": "",
-        "page_list6": "",
-        "page_list7": "",
-        "page_list8": "",
-        "page_list9": "",
-        "page_list10": "",
-        "page_list11": "",
-        "page_list_1": "",
-        "page_list_2": ""
-    }    
-]         
+    }
+]        
+
       
 
 async function renderProject() {

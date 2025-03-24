@@ -32,6 +32,7 @@ const translation = {
         Watch_Video: "Watch Our Video!",
         "book_now": "Book Now",
         "our_rooms_title": "Our Rooms",
+        "affiliations": "Affiliations",
 
 
         // Programs
@@ -905,6 +906,7 @@ const translation = {
         "book_now": "احجز الآن",
 
         "our_rooms_title": "غرفنا",
+        "affiliations":"شراكات",
 
         //Programs
         "program1_item": "برنامج إستعادة الحيوية",

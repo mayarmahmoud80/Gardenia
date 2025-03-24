@@ -2279,11 +2279,12 @@ input[type="radio"] {
   flex-wrap: wrap;
   padding: 20px;
   border-radius: 13px;
+  justify-content: space-between;
 }
 .details-list > li:nth-of-type(odd) {
   background-color: #def8f6;
 }
-.details-list > li .details__title {
+.details-list > li .details__title   {
   font-size: 14px;
   flex: 0 0 20%;
   max-width: 40%;
@@ -2311,8 +2312,9 @@ input[type="radio"] {
   .details-list > li {
     padding: 10px;
     flex-direction: column;
+    margin: 20px 0px;
   }
-  .details-list > li .details__title,
+  .details-list > li .details__title ,
   .details-list > li .details__content {
     flex: 0 0 100%;
     max-width: 100%;
@@ -7869,4 +7871,8 @@ ul.list-items li[dir="rtl"]::before {
 
 .room-item img{
   border-radius: 20px;
+}
+
+.member__img img {
+  object-fit: cover;
 }

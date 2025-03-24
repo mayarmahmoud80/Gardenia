@@ -1301,8 +1301,9 @@ h6 {
 }
 
 .pagetitle__heading {
-  font-size: 40px;
+  font-size: 60px;
   margin-bottom: 20px;
+  text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
 }
 
 .pagetitle__desc {

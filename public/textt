@@ -683,19 +683,19 @@
   }
 }
 
-.team-details__title {
+.team-details__title mb-10  ml-20 {
   font-size: 40px;
   font-weight: 500;
   text-transform: uppercase;
   margin: -11px 0 23px;
 }
 
-.team-details__title br {
+.team-details__title mb-10  ml-20 br {
   display: inherit;
 }
 
 @media (max-width: 767px) {
-  .team-details__title {
+  .team-details__title mb-10  ml-20 {
     font-size: 30px;
   }
 }
@@ -1905,7 +1905,7 @@
   margin: 0 6px 0 0;
 }
 
-.blog-details__title {
+.blog-details__title mb-10  ml-20 {
   font-size: 30px;
   text-transform: uppercase;
   margin: 0 0 14px;
@@ -13021,7 +13021,7 @@ body.boxed-wrapper .main-menu__phone {
   margin-bottom: 17px;
 }
 
-.product-details__title {
+.product-details__title mb-10  ml-20 {
   font-size: 34px;
   text-transform: uppercase;
   margin: 0;

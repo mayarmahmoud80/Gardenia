@@ -26,7 +26,7 @@
       <div class="bg-img"><img src="assets/images/backgrounds/7.jpg" alt="background"></div>
       <div class="container">
         <div class="row">
-          <div class="col-12 d-flex flex-wrap justify-content-end align-items-center">
+          <div dir="ltr" class="col-12 d-flex flex-wrap justify-content-end align-items-center">
             <a href="contact-us.html" class="btn btn__white btn__rounded" data-lang="AppointmentData">احجز موعدك الآن </a>
           </div><!-- /.col-12 -->
         </div><!-- /.row -->
@@ -37,11 +37,11 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-4">
-            <aside class="sidebar has-marign-right">
+            <aside class="sidebar has-marign-right mb-50">
               <div class="widget widget-member shifted-top">
                 <div class="member mb-0">
                   <div class="member__img">
-                    <img src="assets/images/team/Dr. Mohamed Hassan Al Fahel.jpeg" height="330px" width="330px" alt="member img">
+                    <img src="assets/images/doctors/mohamed_alfahl.png" height="330px" width="330px" alt="member img">
                   </div><!-- /.member-img -->
                   <div class="member__info">
                     <h5 class="member__name" data-lang="AlFahel_title1">الدكتور محمد حسن الفحل</h5>
@@ -53,12 +53,10 @@
               </div><!-- /.widget-member -->
 
               <div class="video-banner-layout3 bg-overlay mb-50">
-                <img src="assets/images/banners/Dr. Mohamad Hassan Fahel.png" width="330px" height="248px" alt="banner">
-                <a class="video__btn video__btn-white popup-video"  href="https://res.cloudinary.com/dgglaaidu/video/upload/v1741523297/Dr._Mohamad_Hassan_Fahel_zbzyik.mov">
-                  <div class="video__player">
-                    <i class="fa fa-play"></i>
-                  </div>
-                </a>
+                <video width="100%" height="auto" controls>
+                  <source src="https://res.cloudinary.com/dgglaaidu/video/upload/v1741523297/Dr._Mohamad_Hassan_Fahel_zbzyik.mov" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
               </div><!-- /.video-banner -->
 
 
@@ -81,19 +79,19 @@
             </div><!-- /.text-block -->
             <ul class="details-list list-unstyled mb-60">
               <li>
-                <h5 class="details__title" data-lang="doctor1_title">التخصص:</h5>
+                <h5 class="details__title mb-10  ml-20" data-lang="doctor1_title">التخصص:</h5>
                 <div class="details__content">
                   <p class="mb-0" data-lang="AlFahel_title_textt">  استشاري جراحة العظام</p>
                 </div>
               </li>
               <li>
-                <h5 class="details__title" data-lang="doctor1_qualifications">الدرجة العلمية:</h5>
+                <h5 class="details__title mb-10  ml-20" data-lang="doctor1_qualifications">الدرجة العلمية:</h5>
                 <div class="details__content">
                   <p class="mb-0" data-lang="AlFahel_qualifications_textt">  حصل على درجة الدكتوراه في الطب من جامعة دمشق عام 1979، ثم تابع دراسته ليحصل على دبلومات متقدمة في جراحة العظام، وطب القدم، وتنظير المفاصل، وإصابات الملاعب من مؤسسات مرموقة في فرنسا.</p>
                 </div>
               </li>
               <li>
-                <h5 class="details__title" data-lang="doctor1_details_title">مجالات الخبرة: </h5>
+                <h5 class="details__title mb-10  ml-20" data-lang="doctor1_details_title">مجالات الخبرة: </h5>
                 <div class="details__content">
                   <ul class="list-items list-items-layout2 list-unstyled mb-0">
                     <li data-lang="AlFahel_details">جراحة القدم والكاحل</li>
@@ -107,10 +105,85 @@
                 </div>
               </li>
               <li>
-                <h5 class="details__title" data-lang="doctor1_qualifications_1">الجامعة</h5>
+                <h5 class="details__title mb-10  ml-20" data-lang="doctor1_qualifications_1">الجامعة</h5>
                 <div class="details__content">
                   <p class="mb-0" data-lang="AlFahel_qualifications_1_textt">دمشق - سوريا</p>
                 </div>
+              </li>
+
+              <li>
+                <section class="contact-layout4 bg-overlay bg-overlay-secondary-gradient pb-50 pb-50">
+                  <div class="bg-img"><img src="assets/images/banners/3.jpg" alt="banner"></div>
+                  <div class="contact-panel mb-0">
+                    <form
+                    class="contact-panel__form"
+                    method="post"
+                    action="assets/php/contact.php"
+                    id="contactForm"
+                  >
+                    <div class="row">
+                      <div class="col-sm-12">
+                        <h4 class="contact-panel__title" data-lang="about_features_layout1_btn2">احجز موعدك الآن</h4>
+                        <p class="contact-panel__desc mb-30" data-lang="index_layout_title">
+                          يسعدنا أن نتلقى استفساراتك العامة أو الطبية، فلا تتردد
+                          في الاتصال بفريق الاستقبال لدينا. <br />
+                          أطباؤنا سيقومون بالرد على المكالمات الطارئة فورًا.
+                        </p>
+                      </div>
+                      <div class="col-sm-6 col-md-6 col-lg-6">
+                        <div class="form-group">
+                          <i class="icon-user form-group-icon"></i>
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="name"
+                            id="contact-name1"
+                            name="contact-name"
+                            required
+                          />
+                        </div>
+                      </div>
+                      <!-- /.col-lg-6 -->
+    
+                      <div class="col-sm-6 col-md-6 col-lg-6">
+                        <div class="form-group">
+                          <i class="icon-phone form-group-icon"></i>
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="phone number"
+                            id="contact-Phone"
+                            name="contact-phone"
+                            required
+                          />
+                        </div>
+                      </div>
+                      <!-- /.col-lg-6 -->
+                      <div class="col-12">
+                        <div class="form-group">
+                          <i class="icon-alert form-group-icon"></i>
+                          <textarea
+                            class="form-control"
+                            placeholder="Message"
+                            id="contact-message"
+                            name="contact-message"
+                          ></textarea>
+                        </div>
+                        <button
+                          type="submit"
+                          class="btn btn__secondary btn__rounded btn__block btn__xhight mt-10"
+                        >
+                          <span data-lang="about_features_layout1_btn2">احجز موعدك الآن</span>
+                          <i class="icon-arrow-right"></i>
+                        </button>
+                        <div class="contact-result"></div>
+                      </div>
+                      <!-- /.col-lg-12 -->
+                    </div>
+                    <!-- /.row -->
+                  </form>
+                  </div>
+                </section><!-- /.contact layout 2 -->
               </li>
             </ul>
            

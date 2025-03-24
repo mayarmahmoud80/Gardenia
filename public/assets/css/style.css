@@ -7876,3 +7876,17 @@ ul.list-items li[dir="rtl"]::before {
 .member__img img {
   object-fit: cover;
 }
+
+
+@media (min-width: 992px){
+  .room-2.ltr{
+    direction: rtl;
+  }
+  
+  .room-2.rtl{
+    direction: ltr;
+  }
+
+}
+
+ 

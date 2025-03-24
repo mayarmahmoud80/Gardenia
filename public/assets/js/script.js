@@ -17,8 +17,8 @@ const translation = {
         "location-city-text": "Our Location : Taiff - Duhah -Qatar",
         "working-hours-text": "Weekdays 9am -11pm / Friday 12pm-8pm",
         search: "Search...",
-        board_title: "Board of Directors",
-        board_desc: "Our board of directors brings extensive experience and exceptional leadership skills, dedicated to guiding our organization towards excellence in healthcare services.",
+        board_title: "Meet Our Doctors",
+        board_desc: "Our administration and support staff all have exceptional people skills and trained to assist you with all medical enquiries.",
         /*index*/
 
         insurance_text: "We are proud to partner with leading medical insurance providers to offer our patients comprehensive healthcare coverage. These trusted partners ensure access to quality treatments, specialized care, and financial peace of mind throughout their health journey.",
@@ -54,6 +54,32 @@ const translation = {
         "room3_title": "VIP Room",
         "room3_desc1": "For those seeking the finest in comfort and privacy, our VIP Rooms offer a luxurious experience tailored to meet your every need. These spacious rooms feature elegant décor, premium furnishings, and thoughtful details that create a home-like atmosphere. The VIP Rooms are designed to provide maximum relaxation, with a dedicated seating area, high-quality bedding, and enhanced entertainment options.",
         "room3_desc2": "Our VIP patients also enjoy exclusive benefits such as personalized care services, priority medical attention, and a dedicated concierge to cater to individual requests. Whether you are staying for treatment or recovery, our VIP Rooms provide a peaceful retreat where you can focus on your well-being with the highest level of comfort and care.",
+
+
+
+        // departments 
+        "our_departments_item":"Our Departments",
+        "department1_item":"Plastic and Reconstructive Surgery",
+        "department2_item":"Hand Surgery",
+        "department3_item":"Orthopedic and spine surgery",
+        "department4_item":"Dermatology and Laser",
+        "department5_item":"General & Bariatric Surgery",
+        "department6_item":"Same-day Surgery",
+        "department7_item":"Gastroenterology",
+        "department8_item":"Internal Medicine",
+        "department9_item":"Obstetrics & gynecology",
+        "department10_item":"Dietician & Nutrition",
+        "department11_item":"ENT",
+        "department12_item":"Family Medicine",
+        "department13_item":"Radiology",
+        "department14_item":"Anesthesia",
+        "department15_item":"Physiotherapy",
+        "department16_item":"Laboratory",
+        "department17_item":"Pharmacy",
+        "department18_item":"OPD",
+        
+        
+
 
         // About Us Banner 
         "banner1_top_text": `Serve the community by improving the quality of life through better
@@ -892,8 +918,8 @@ const translation = {
         "working-hours-days-text": "أيام الأسبوع: 9 صباحًا - 11 مساءً",
         "working-hours-friday-text": "الجمعة: 12 مساءً - 8 مساءً",
         search: "بحث...",
-        board_title: "مجلس الإدارة",
-        board_desc: "يتمتع مجلس إدارتنا بخبرة واسعة ومهارات قيادية استثنائية، ملتزمين بتوجيه منظمتنا نحو التميز في خدمات الرعاية الصحية.",
+        board_title: "أطباءنا",
+        board_desc: "يتمتع فريق إدارتنا وموظفو الدعم لدينا بمهارات استثنائية في التعامل مع المرضى، وهم مدربون على مساعدتك في جميع استفساراتك الطبية.",
         /*index*/
 
         copyright: "Copyright ©️ 2025 Gardenia, جميع الحقوق محفوظة",
@@ -930,7 +956,28 @@ const translation = {
         "room3_title": "غرفة الـ VIP",
         "room3_desc1": "لأولئك الذين يبحثون عن أعلى مستويات الفخامة والخصوصية، تقدم غرف الـ VIP في مركز جاردينيا الطبي تجربة إقامة استثنائية مصممة لتلبية كافة احتياجاتكم. تتميز هذه الغرف بمساحة واسعة وتصميم داخلي أنيق مع أثاث فاخر وتفاصيل مدروسة بعناية لتوفير أجواء منزلية هادئة. تحتوي غرف الـ VIP على منطقة جلوس خاصة، أسرة عالية الجودة، وخيارات ترفيه متقدمة لزيادة الشعور بالراحة.",
         "room3_desc2": "يتمتع نزلاء غرف الـ VIP بمزايا حصرية تشمل خدمات رعاية طبية شخصية، أولوية في العناية الطبية، وخدمة كونسيرج مخصصة لتلبية الطلبات الخاصة. سواء كنت في إقامة علاجية أو فترة نقاهة، توفر غرف الـ VIP بيئة مثالية تركز على راحتك ورفاهيتك بأعلى معايير الجودة والرعاية.",
+        
 
+        // departments 
+        "our_departments_item":"الأقسام",
+        "department1_item":"الجراحة التجميلية",
+        "department2_item":"جراحة اليد",
+        "department3_item":"جراحة العظام والعمود الفقري",
+        "department4_item":"الأمراض الجلدية والليزر",
+        "department5_item":"الجراحة العامة وجراحة السمنة",
+        "department6_item":"جراحة اليوم الواحد",
+        "department7_item":"أمراض الجهاز الهضمي",
+        "department8_item":"الطب الباطني",
+        "department9_item":"أمراض النساء والتوليد",
+        "department10_item":"التغذية العلاجية",
+        "department11_item":"الأنف والأذن والحنجرة",
+        "department12_item":"طب الأسرة",
+        "department13_item":"الأشعة",
+        "department14_item":"التخدير",
+        "department15_item":"العلاج الطبيعي",
+        "department16_item":"المختبر",
+        "department17_item":"الصيدلية",
+        "department18_item":"العيادات الخارجية",
 
         // About Us Banner 
         "banner1_top_text": "نخدم المجتمع من خلال تحسين جودة الحياة عبر تعزيز الصحة. نحن نطبق بروتوكولات لحماية مرضانا وموظفينا مع الاستمرار في تقديم الرعاية الطبية.",
@@ -992,7 +1039,7 @@ const translation = {
 
         index_layout_title: "يسعدنا أن نتلقى استفساراتك العامة أو الطبية، فلا تتردد في الاتصال بفريق الاستقبال لدينا. أطباؤنا سيقومون بالرد على المكالمات الطارئة فورًا.",
         index_layout_phone: "نوفّر الرعاية الصحية أينما كنت!",
-        index_layout_phone_text: "نقدم خدمات رعاية صحية عالمية المستوى بخبرة طبية متقدمة ورعاية إنسانية لمرضانا في جميع أنحاء العالم، أينما كانوا.",
+        index_layout_phone_text: "نقدم خدمات رعاية صحية عالمية المستوى بخبرة طبية متقدمة ورعاية إنسانية لمرضانا أينما كانوا.",
         index_layout_phone_btn: "اتصل بنا",
         index_layout_share_btn: "شارك موقعنا",
         index_layout_2: "عرض الفيديو",

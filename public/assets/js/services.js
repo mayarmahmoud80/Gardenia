@@ -3,6 +3,8 @@ var serviceDictionary = {
     "en": {
         "1": {
             "id": 1,
+            "banner":"assets/images/services/banner-plastic.jpg",
+            "img":"assets/images/services/img-plastic.jpg",
             "pagetitle": "Plastic and Reconstructive Surgery ",
             "service_description": "The Plastic & Reconstructive Surgery Department at Gardenia Medical Complex offers advanced services aimed at enhancing appearance and restoring the natural functions of damaged tissues. ",
             "service_list1": "The department is distinguished by its use of the latest surgical technologies,( Vaser, J Plasma, BodyTite ).",
@@ -27,6 +29,8 @@ var serviceDictionary = {
         },
         "2": {
             "id": 2,
+            "banner":"assets/images/services/banner-family.jpg",
+            "img":"assets/images/services/img-family.jpg",
             "pagetitle": "Family Medicine",
             "service_description": "The Family Medicine Department at Gardenia Medical Complex provides comprehensive healthcare services for individuals and families of all ages. ",
             "service_list1": "Our approach focuses on preventive care, early diagnosis, and effective treatment of a wide range of medical conditions.",
@@ -43,6 +47,8 @@ var serviceDictionary = {
         },
         "3": {
             "id": 3,
+            "banner":"assets/images/services/banner-orthopedic.jpg",
+            "img":"assets/images/services/img-orthopedic.jpg",
             "pagetitle": "Orthopedic",
             "service_description": "The Orthopedic Department at Gardenia Medical Complex specializes in diagnosing and treating musculoskeletal conditions, offering advanced medical and surgical solutions for bone, joint, and muscle disorders. ",
             "service_list1": "The department is distinguished by a team of expert orthopedic surgeons and specialists who utilize cutting-edge techniques to ensure optimal patient outcomes.",
@@ -62,6 +68,8 @@ var serviceDictionary = {
         },
         "4": {
             "id": 4,
+            "banner":"assets/images/services/banner-hand.jpg",
+            "img":"assets/images/services/img-hand.jpg",
             "pagetitle": "Hand surgery",
             "service_description": "The Hand Surgery Department at Gardenia Medical Complex specializes in the diagnosis, treatment, and surgical management of hand and wrist conditions. With a team of expert hand surgeons, the department is dedicated to restoring function, relieving pain, and improving mobility for patients with hand-related injuries or disorders. ",
             "service_list1": "The department is distinguished by advanced surgical techniques and personalized treatment plans tailored to each patient’s needs.",
@@ -78,6 +86,8 @@ var serviceDictionary = {
         },
         "5": {
             "id": 5,
+            "banner":"assets/images/services/banner-same-day.jpg",
+            "img":"assets/images/services/img-same-day.jpg",
             "pagetitle": "Same-day Surgery",
             "service_description": "The Same-Day Surgery Department at Gardenia Medical Complex offers high-quality surgical procedures that allow patients to return home on the same day. This department is designed for minimally invasive and short-duration surgeries, ensuring a faster recovery process with minimal discomfort. ",
             "service_list1": "It is distinguished by state-of-the-art operation theatres ",
@@ -94,6 +104,8 @@ var serviceDictionary = {
         },
         "6": {
             "id": 6,
+            "banner":"assets/images/services/banner-anesthesia.jpg",
+            "img":"assets/images/services/img-anesthesia.jpg",
             "pagetitle": "Anesthesia",
             "service_description": "The Anesthesia Department at Gardenia Medical Complex provides comprehensive anesthesia care for surgical and diagnostic procedures, ensuring patient safety, comfort, and pain management. ",
             "service_list1": "The department is distinguished by a highly skilled team of anesthesiologists and state-of-the-art monitoring technology",
@@ -117,6 +129,8 @@ var serviceDictionary = {
         },
         "7": {
             "id": 7,
+            "banner":"assets/images/services/banner-radiology.jpg",
+            "img":"assets/images/services/img-radiology.jpg",
             "pagetitle": "Radiology",
             "service_description": "The Radiology Department at Gardenia Medical Complex offers cutting-edge diagnostic imaging services to support accurate and timely medical assessments. ",
             "service_list1": "The department is distinguished by state-of-the-art imaging technology",
@@ -130,6 +144,8 @@ var serviceDictionary = {
         },
         "8": {
             "id": 8,
+            "banner":"assets/images/services/banner-pathology.jpg",
+            "img":"assets/images/services/img-pathology.jpg",
             "pagetitle": "",
             "service_description": "",
             "service_list1": "",
@@ -153,6 +169,8 @@ var serviceDictionary = {
         },
         "9": {
             "id": 9,
+            "banner":"assets/images/services/banner-general-surgery.jpg",
+            "img":"assets/images/services/img-general-surgery.jpg",
             "pagetitle": "General and Bariatric Surgery",
             "service_description": "The General and Bariatric Surgery Department at Gardenia Medical Complex provides advanced surgical solutions for a wide range of medical conditions, with a focus on minimally invasive techniques for faster recovery and reduced complications. ",
             "service_list1": "The department is distinguished by expert surgeons specializing in laparoscopic and bariatric procedures ",
@@ -176,6 +194,8 @@ var serviceDictionary = {
         },
         "10": {
             "id": 10,
+            "banner":"assets/images/services/banner-internal-medicine.jpg",
+            "img":"assets/images/services/img-internal-medicine.jpg",
             "pagetitle": "Internal Medicine",
             "service_description": "The Internal Medicine Department at Gardenia Medical Complex specializes in the prevention, diagnosis, and management of a wide range of chronic and complex medical conditions. ",
             "service_list1": "The department is distinguished by a team of experienced internists providing personalized treatment plans and a comprehensive.",
@@ -199,6 +219,8 @@ var serviceDictionary = {
         },
         "11": {
             "id": 11,
+            "banner":"assets/images/services/banner-dermatology.jpg",
+            "img":"assets/images/services/img-dermatology.jpg",
             "pagetitle": "Dermatology and Laser",
             "service_description": "The Dermatology and Laser Department at Gardenia Medical Complex is dedicated to providing comprehensive skin care solutions, combining medical expertise with state-of-the-art technology. The department focuses on both medical dermatology and advanced aesthetic treatments, ensuring personalized care for every patient. ",
             "service_list1": "With a team of highly skilled dermatologists and laser specialists.",
@@ -222,6 +244,8 @@ var serviceDictionary = {
         },
         "12": {
             "id": 12,
+            "banner":"assets/images/services/banner-gastroenterology.jpg",
+            "img":"assets/images/services/img-gastroenterology.jpg",
             "pagetitle": "Gastroenterology",
             "service_description": "The Gastroenterology Department at Gardenia Medical Complex specializes in the diagnosis, treatment, and management of digestive system disorders. With a focus on advanced diagnostic techniques and personalized treatment plans, the department provides comprehensive care for conditions affecting the esophagus, stomach, intestines, liver, pancreas, and gallbladder. ",
             "service_list1": "team of expert gastroenterologists",
@@ -245,7 +269,7 @@ var serviceDictionary = {
         },
         "13": {
             "id": 13,
-            "pagetitle": "",
+            "pagetitle": "laboratory",  
             "service_description": "",
             "service_list1": "",
             "service_list2": "",
@@ -268,6 +292,8 @@ var serviceDictionary = {
         },
         "14":     {
             "id": 14,
+            "banner":"assets/images/services/banner-ent.jpg",
+            "img":"assets/images/services/img-ent.jpg",
             "pagetitle": "Otorhinolaryngology (ENT)",
             "service_description": "The Otorhinolaryngology (ENT) Department at Gardenia Medical Complex specializes in diagnosing and treating conditions related to the ear, nose, throat, and head and neck region. ",
             "service_list1": "With a team of experienced ENT specialists and cutting-edge diagnostic tools.",
@@ -314,6 +340,8 @@ var serviceDictionary = {
         },
         "16": {
             "id": 16,
+            "banner":"assets/images/services/banner-dietician.jpg",
+            "img":"assets/images/services/img-dietician.jpg",
             "pagetitle": "Dietician and Nutrition",
             "service_description": "The Dietician and Nutrition Department at Gardenia Medical Complex is dedicated to promoting overall health and well-being through personalized nutrition and lifestyle guidance. With a team of expert dietitians, the department offers evidence-based nutritional counseling and customized diet plans to support weight management, medical conditions, and overall wellness.",
             "service_list1": "​​Holistic and Personalized Approach – Each patient receives a tailored nutrition plan based on their health status, lifestyle, and specific goals, ensuring sustainable and effective results.",
@@ -337,6 +365,8 @@ var serviceDictionary = {
         },
         "17": {
             "id": 17,
+            "banner":"assets/images/services/banner-physiotherapy.jpg",
+            "img":"assets/images/services/img-physiotherapy.jpg",
             "pagetitle": "Physiotherapy",
             "service_description": "​​The Physiotherapy Department at Gardenia Medical Complex is committed to restoring movement, reducing pain, and enhancing the overall well-being of patients through comprehensive rehabilitation programs. Our expert physiotherapists utilize evidence-based techniques to help individuals regain strength, flexibility, and function, ensuring an optimal recovery experience.",
             "service_list1": "Holistic and Multi-Modal Therapy – We offer a combination of advanced physiotherapy techniques, to provide tailored treatment plans for each patient.",
@@ -361,6 +391,8 @@ var serviceDictionary = {
         },
         "18": {
             "id": 18,
+            "banner":"assets/images/services/banner-pharmacy.jpg",
+            "img":"assets/images/services/img-pharmacy.jpg",
             "pagetitle": "Pharmacy",
             "service_description": "The Pharmacy Department at Gardenia Medical Complex plays a vital role in ensuring safe and effective medication management for both in-patients and out-patients. Our team of experienced pharmacists is dedicated to providing high-quality pharmaceutical care, ensuring that patients receive the right medications, proper dosage, and essential guidance for optimal treatment outcomes.",
             "service_list1": "Comprehensive Medication Management – We provide expert supervision over prescription and over-the-counter medications, ensuring safe use and minimizing drug interactions.",
@@ -386,6 +418,8 @@ var serviceDictionary = {
     "ar": {
         "1": {
             "id": 1,
+            "banner":"assets/images/services/banner-surgery.jpg",
+            "img":"assets/images/services/img-surgery.jpg",
             "pagetitle": "جراحة التجميل والترميم",
             "service_description": "يقدم قسم جراحة التجميل والترميم في مجمع جاردينيا الطبي خدمات متقدمة تهدف إلى تحسين المظهر واستعادة الوظائف الطبيعية للأنسجة التالفة.",
             "service_list1": "يتميز القسم باستخدام أحدث التقنيات الجراحية، مثل فيزر (Vaser)، جي بلازما (J Plasma)، وبودي تايت (BodyTite).",
@@ -410,6 +444,8 @@ var serviceDictionary = {
         },
         "2": {
             "id": 2,
+            "banner":"assets/images/services/banner-family.jpg",
+            "img":"assets/images/services/img-family.jpg",
             "pagetitle": "طب الأسرة",
             "service_description": "يقدم قسم طب الأسرة في مجمع جاردينيا الطبي خدمات رعاية صحية شاملة للأفراد والعائلات من جميع الأعمار. ",
             "service_list1": "مع التركيز على الرعاية الوقائية، التشخيص المبكر، والعلاج الفعّال لمجموعة واسعة من الحالات الطبية. ",
@@ -426,6 +462,8 @@ var serviceDictionary = {
         },
         "3": {
             "id": 3,
+            "banner":"assets/images/services/banner-orthopedic.jpg",
+            "img":"assets/images/services/img-orthopedic.jpg",
             "pagetitle": "قسم جراحة العظام",
             "service_description": "يختص قسم جراحة العظام في مجمع جاردينيا الطبي بتشخيص وعلاج الحالات المتعلقة بالعظام والمفاصل والعضلات، حيث يوفر حلولًا طبية وجراحية متقدمة لمختلف اضطرابات الجهاز العضلي الهيكلي. ",
             "service_list1": "يتميز القسم بفريق من أمهر جراحي العظام والمتخصصين الذين يعتمدون على أحدث التقنيات لضمان تحقيق أفضل النتائج العلاجية للمرضى.",
@@ -443,6 +481,8 @@ var serviceDictionary = {
         },
         "4": {
             "id": 4,
+            "banner":"assets/images/services/banner-hand.jpg",
+            "img":"assets/images/services/img-hand.jpg",
             "pagetitle": "قسم جراحة اليد",
             "service_description": "يختص قسم جراحة اليد في مجمع جاردينيا الطبي بتشخيص وعلاج وإدارة الحالات المرضية والإصابات التي تؤثر على اليد والمعصم. يضم القسم فريقًا من أمهر جراحي اليد الذين يعملون على استعادة الوظائف الحركية، تخفيف الألم، وتحسين مرونة الحركة لدى المرضى الذين يعانون من إصابات أو اضطرابات في اليد.",
             "service_list1": " يتميز القسم باستخدام أحدث التقنيات الجراحية وخطط العلاج المخصصة لتلبية احتياجات كل مريض بشكل فردي.",
@@ -460,6 +500,8 @@ var serviceDictionary = {
         "5": {
             "id": 5,
             "pagetitle": "قسم الجراحة اليومية",
+            "banner":"assets/images/services/banner-same-day.jpg",
+            "img":"assets/images/services/img-same-day.jpg",
             "service_description": "يقدم قسم الجراحة اليومية في مجمع جاردينيا الطبي إجراءات جراحية عالية الجودة تتيح للمرضى العودة إلى منازلهم في نفس اليوم. تم تصميم هذا القسم للعمليات الجراحية البسيطة وقصيرة المدة، مما يضمن عملية تعافٍ أسرع مع أقل قدر من الألم والانزعاج.",
             "service_list1": "غرف عمليات متطورة مجهزة بأحدث التقنيات الطبية",
             "service_list2": "فريق طبي ماهر متخصص في تقديم رعاية جراحية آمنة وفعالة",
@@ -474,6 +516,8 @@ var serviceDictionary = {
         },
         "6": {
             "id": 6,
+            "banner":"assets/images/services/banner-anesthesia.jpg",
+            "img":"assets/images/services/img-anesthesia.jpg",
             "pagetitle": "قسم التخدير",
             "service_description": "يقدم قسم التخدير في مجمع جاردينيا الطبي رعاية تخديرية شاملة للعمليات الجراحية والإجراءات التشخيصية، مع ضمان أعلى مستويات الأمان والراحة وإدارة الألم.",
             "service_list1": "فريق متخصص من أطباء التخدير ذوي الخبرة والكفاءة العالية.",
@@ -489,6 +533,8 @@ var serviceDictionary = {
         },
         "7": {
             "id": 7,
+            "banner":"assets/images/services/banner-radiology.jpg",
+            "img":"assets/images/services/img-radiology.jpg",
             "pagetitle": "قسم الأشعة",
             "service_description": "يقدم قسم الأشعة في مجمع جاردينيا الطبي خدمات التصوير التشخيصي المتقدمة لدعم التقييمات الطبية الدقيقة وفي الوقت المناسب.",
             "service_list1": " تقنيات تصوير حديثة ومتطورة لضمان دقة التشخيص",
@@ -525,6 +571,8 @@ var serviceDictionary = {
         },
         "9": {
             "id": 9,
+            "banner":"assets/images/services/banner-general-surgery.jpg",
+            "img":"assets/images/services/img-general-surgery.jpg",
             "pagetitle": " قسم الجراحة العامة وجراحة السمنة ",
             "service_description": "يقدم قسم الجراحة العامة وجراحة السمنة في مجمع جاردينيا الطبي حلولًا جراحية متقدمة باستخدام أحدث التقنيات طفيفة التوغل لضمان تعافٍ أسرع وتقليل المضاعفات.",
             "service_list1": " فريق من الجراحين المتخصصين في الجراحة العامة وجراحة السمنة",
@@ -548,6 +596,8 @@ var serviceDictionary = {
         },
         "10":{
             "id": 10,
+            "banner":"assets/images/services/banner-internal-medicine.jpg",
+            "img":"assets/images/services/img-internal-medicine.jpg",
             "pagetitle": "قسم الباطنية",
             "service_description": "يختص قسم الباطنية في مجمع جاردينيا الطبي بتقديم رعاية متكاملة تشمل الوقاية والتشخيص وإدارة الأمراض المزمنة والمعقدة، لضمان صحة مستدامة للمرضى.",
             "service_list1": " فريق من أطباء الباطنية ذوي الخبرة, خطط علاج شخصية وفقًا لحالة كل مريض",
@@ -571,6 +621,8 @@ var serviceDictionary = {
         },
         "11": {
             "id": 11,
+            "banner":"assets/images/services/banner-dermatology.jpg",
+            "img":"assets/images/services/img-dermatology.jpg",
             "pagetitle": " قسم الجلدية والليزر ",
             "service_description": "يُقدم قسم الجلدية والليزر في مجمع جاردينيا الطبي حلولاً متكاملة للعناية بالبشرة، من خلال دمج الخبرة الطبية مع أحدث التقنيات في مجال التجميل والليزر. يركز القسم على كل من الأمراض الجلدية والعلاجات التجميلية المتقدمة لضمان رعاية مخصصةلكل مريض.",
             "service_list1": "فريق متخصص من أطباء الجلدية وخبراء الليزر",
@@ -594,6 +646,8 @@ var serviceDictionary = {
         },
         "12": {
             "id": 12,
+            "banner":"assets/images/services/banner-gastroenterology.jpg",
+            "img":"assets/images/services/img-gastroenterology.jpg",
             "pagetitle": "قسم أمراض الجهاز الهضمي",
             "service_description": "يُعد قسم أمراض الجهاز الهضمي في مجمع جاردينيا الطبي مركزًا متخصصًا في تشخيص وعلاج اضطرابات الجهاز الهضمي، مع التركيز على التقنيات التشخيصية المتقدمة والخطط العلاجية المخصصة لضمان رعاية متكاملة للمرضى.",
             "service_list1": "فريق من أخصائيي الجهاز الهضمي ذوي الخبرة",
@@ -640,6 +694,8 @@ var serviceDictionary = {
         },
         "14": {
             "id": 14,
+            "banner":"assets/images/services/banner-ent.jpg",
+            "img":"assets/images/services/img-ent.jpg",
             "pagetitle": "قسم الأنف والأذن والحنجرة",
             "service_description": "يختص قسم الأنف والأذن والحنجرة في مجمع جاردينيا الطبي بتشخيص وعلاج الحالات المرتبطة بالأذن والأنف والحنجرة، بالإضافة إلى منطقة الرأس والرقبة. ",
             "service_list1": "يتميز القسم بفريق من أخصائيي الأنف والأذن والحنجرة ذوي الخبرة، مدعومًا بأحدث أدوات التشخيص، ",
@@ -686,6 +742,8 @@ var serviceDictionary = {
         },
         "16":  {
             "id": 16,
+            "banner":"assets/images/services/banner-dietician.jpg",
+            "img":"assets/images/services/img-dietician.jpg",
             "pagetitle": " قسم التغذية والحمية ",
             "service_description": "يكرس قسم التغذية والحمية في مجمع جاردينيا الطبي جهوده لتعزيز الصحة العامة والرفاهية من خلال تقديم استشارات غذائية مخصصة وإرشادات متكاملة لنمط حياة صحي. يضم القسم فريقًا من أخصائيي التغذية الخبراء الذين يقدمون استشارات غذائية مبنية على أسس علمية، بالإضافة إلى خطط غذائية مصممة خصيصًا لدعم إدارة الوزن، الحالات الطبية، وتحسين جودة الحياة.",
             "service_list1": "يعتمد القسم على نهج شامل وشخصي، حيث يتم تصميم خطط غذائية مخصصة لكل مريض بناءً على حالته الصحية، نمط حياته، وأهدافه الخاصة، لضمان تحقيق نتائج مستدامة وفعالة. ",
@@ -709,6 +767,8 @@ var serviceDictionary = {
         },
         "17":{
             "id": 17,
+            "banner":"assets/images/services/banner-physiotherapy.jpg",
+            "img":"assets/images/services/img-physiotherapy.jpg",
             "pagetitle": " قسم العلاج الطبيعي ",
             "service_description": "يكرس قسم العلاج الطبيعي في مجمع جاردينيا الطبي جهوده لاستعادة الحركة، تقليل الألم، وتعزيز الصحة العامة من خلال برامج إعادة تأهيل متكاملة. يعتمد فريقنا من أخصائيي العلاج الطبيعي على تقنيات مثبتة علميًا لمساعدة الأفراد على استعادة القوة والمرونة والوظيفة الحركية، مما يضمن تجربة تعافي مثالية.",
             "service_list1": "علاج شامل ومتعدد الأساليب – نقدم مزيجًا من أحدث تقنيات العلاج الطبيعي لتوفير خطط علاجية مخصصة لكل مريض.",
@@ -733,6 +793,8 @@ var serviceDictionary = {
         },
         "18": {
             "id": 18,
+            "banner":"assets/images/services/banner-pharmacy.jpg",
+            "img":"assets/images/services/img-pharmacy.jpg",
             "pagetitle": "قسم الصيدلية ",
             "service_description": "يؤدي قسم الصيدلية في مجمع جاردينيا الطبي دورًا حيويًا في ضمان الإدارة الآمنة والفعالة للأدوية للمرضى الداخليين والخارجيين. يلتزم فريقنا من الصيادلة الخبراء بتقديم رعاية دوائية عالية الجودة، مما يضمن حصول المرضى على الأدوية المناسبة بالجرعات الصحيحة، إلى جانب الإرشادات اللازمة لتحقيق أفضل النتائج العلاجية.",
             "service_list1": "إدارة دوائية شاملة – نشرف بعناية على وصفات الأدوية والمستحضرات المتاحة دون وصفة طبية، لضمان الاستخدام الآمن وتقليل مخاطر التفاعلات الدوائية.",
@@ -791,15 +853,30 @@ async function renderServices(language) {
                 const services_list11 = document.getElementById("services_list11");
                 const services_list_1 = document.getElementById("services_list_1");
                 const services_list_2 = document.getElementById("services_list_2");
+                const services_banner = document.getElementById("services_page_title_banner");
+                const services_image = document.getElementById("services_page_title_image");
+                
 
 
 
                 title.innerHTML = service.pagetitle;
-
                 if (service.service_description === undefined || service.service_description === '') {
                     service_desc.classList.add("d-none");
                 } else {
                     service_desc.innerHTML = service.service_description;
+                }
+
+                if (service.banner === undefined || service.banner === '') {
+                    services_banner.classList.add("d-none");
+                } else {
+                    services_banner.src = service.banner;
+                }
+
+
+                if (service.img === undefined || service.img === '') {
+                    services_image.classList.add("d-none");
+                } else {
+                    services_image.src = service.img;
                 }
 
                 if (service.service_list1 === undefined || service.service_list1 === '') {

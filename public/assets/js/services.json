@@ -61,7 +61,8 @@
         "page_list11": "",
         "page_list_1": "",
         "page_list_2": ""
-    },    {
+    },
+    {
         "id": 4,
         "pagetitle": "Hand surgery",
         "service_description": "The Hand Surgery Department at Gardenia Medical Complex specializes in the diagnosis, treatment, and surgical management of hand and wrist conditions. With a team of expert hand surgeons, the department is dedicated to restoring function, relieving pain, and improving mobility for patients with hand-related injuries or disorders. ",
@@ -106,15 +107,7 @@
         "page_list2": "The Anesthesia Department offers comprehensive pre-operative assessments, tailored anesthesia plans, and continuous monitoring during and after procedures. ",
         "page_list3": "",
         "page_list4": "With a commitment to patient well-being, the department ensures safe, efficient, and high-quality anesthesia care to support optimal surgical and procedural outcomes.",
-        "page_list5": "",
-        "page_list6": "",
-        "page_list7": "",
-        "page_list8": "",
-        "page_list9": "",
-        "page_list10": "",
-        "page_list11": "",
-        "page_list_1": "",
-        "page_list_2": ""
+        "page_list5": ""
     },
     {
         "id": 7,
@@ -167,14 +160,7 @@
         "page_list3": "Lateral Internal Sphincterotomy (fissure treatment)",
         "page_list4": "Gastric sleeve",
         "page_list5": "Smart Capsule",
-        "page_list6": "Endoscopic balloon",
-        "page_list7": "",
-        "page_list8": "",
-        "page_list9": "",
-        "page_list10": "",
-        "page_list11": "",
-        "page_list_1": "",
-        "page_list_2": ""
+        "page_list6": "Endoscopic balloon"
     },
     {
         "id": 10,
@@ -190,14 +176,7 @@
         "page_list3": "Endocrine and hormonal disorders (thyroid, metabolic, PCOS)",
         "page_list4": "Kidney and urinary disorders",
         "page_list5": "Headaches, migraines, and dizziness ",
-        "page_list6": "Autoimmune diseases (Rheumatoid Arthritis)",
-        "page_list7": "",
-        "page_list8": "",
-        "page_list9": "",
-        "page_list10": "",
-        "page_list11": "",
-        "page_list_1": "",
-        "page_list_2": ""
+        "page_list6": "Autoimmune diseases (Rheumatoid Arthritis)"
     },
     {
         "id": 11,
@@ -220,7 +199,11 @@
         "page_list10": "Forma Skin Tightening",
         "page_list11": "Face threads",
         "page_list_1": "Melanin peel",
-        "page_list_2": "Chemical and cold peeling"
+        "page_list_2": "Chemical and cold peeling",
+        "page_list_3": "Peeling for sensitive areas",
+        "page_list_4": "Silk peel ",
+        "page_list_5": "Hydrafacial (anti-aging, skin cleansing, brightening, exfoliation, and hydration)",
+        "page_list_6": "Endodefine (laser facelift with fiber optics)"
     },
     {
         "id": 12,
@@ -255,19 +238,13 @@
         "page_text2": "Specialized tests such as COVID-19 PCR, breath tests for digestive disorders, and non-invasive prenatal testing (NIPT) are also available, providing essential insights into patient health and help in prenatal screening for serious genetic and congenital disorders by analysing traces of fetal DNA in a blood sample from the mother (reducing the risk of miscarriage from more invasive testing).",
         "page_text3": "With a commitment to accuracy, efficiency, and patient-centered care, the Laboratory Department at Gardenia Medical Complex ensures high-quality diagnostic services that support physicians in delivering optimal medical care.",
         "page_offers": "",
-        "page_list1": "",
-        "page_list2": "",
-        "page_list3": "",
-        "page_list4": "",
-        "page_list5": "",
-        "page_list6": "",
-        "page_list7": "",
-        "page_list8": "",
-        "page_list9": "",
-        "page_list10": "",
-        "page_list11": "",
-        "page_list_1": "",
-        "page_list_2": ""
+        "page_list1": "Pathology and Microbiology testing",
+        "page_list2": "Blood tests (biochemistry-hematology)",
+        "page_list3": "Andrology",
+        "page_list4": "Cytology",
+        "page_list5": "Covid-19 PCR test and rapid antigen test",
+        "page_list6": "SIBO test (breath test)",
+        "page_list7": "Immunology and Serology"
     },
     {
         "id": 14,
@@ -293,7 +270,7 @@
         "page_list_2": ""
     },
     {
-        "id": 16,
+        "id": 15,
         "pagetitle": "Dietician and Nutrition",
         "service_description": "The Dietician and Nutrition Department at Gardenia Medical Complex is dedicated to promoting overall health and well-being through personalized nutrition and lifestyle guidance. With a team of expert dietitians, the department offers evidence-based nutritional counseling and customized diet plans to support weight management, medical conditions, and overall wellness.",
         "service_list1": "​​Holistic and Personalized Approach – Each patient receives a tailored nutrition plan based on their health status, lifestyle, and specific goals, ensuring sustainable and effective results.",
@@ -314,6 +291,19 @@
         "page_list11": "Educational programs (Corporate wellness programs and Workshops)",
         "page_list_1": "Incorporation of slimming machines (e.g., CFU, Wonder, and Crystal Pro) in individualized weight loss programs.",
         "page_list_2": ""
+    },
+    {
+        "id": 16,
+        "pagetitle": "Outpatient Clinics",
+        "service_description": "Medical services provided to patients who do not require hospitalization after receiving treatment. ",
+        "service_list1": "In the outpatient clinics, a team of specialized doctors provides comprehensive consultations, in addition to routine examinations and treatments.",
+        "service_list2": "This service allows patients to receive treatment and regular follow-ups for their health conditions without disrupting their daily lives.",
+        "page_text1": "Patients can visit the outpatient clinics for diagnosis or ongoing treatment without the need for hospitalization, making it easier for them to receive regular medical care.",
+        "page_text2": "Doctors in outpatient care focus on delivering personalized care for each patient, coordinating with other medical teams when necessary to ensure the best treatments are provided.",
+        "page_offers": "",
+        "page_list1": "",
+        "page_list2": "routine treatments",
+        "page_list3": "follow-ups after surgeries or treatments."
     },
     {
         "id": 17,
@@ -351,38 +341,6 @@
         "page_list1": "In-patient and out-patient medication dispensation.",
         "page_list2": "Patient counseling on medication use.",
         "page_list3": " drug interaction checks.",
-        "page_list4": "patient education on proper drug use.",
-        "page_list5": "",
-        "page_list6": "",
-        "page_list7": "",
-        "page_list8": "",
-        "page_list9": "",
-        "page_list10": "",
-        "page_list11": "",
-        "page_list_1": "",
-        "page_list_2": ""
-    },
-    {
-        "id": 19,
-        "pagetitle": "",
-        "service_description": "",
-        "service_list1": "",
-        "service_list2": "",
-        "page_text1": "",
-        "page_text2": "",
-        "page_offers": "",
-        "page_list1": "",
-        "page_list2": "",
-        "page_list3": "",
-        "page_list4": "",
-        "page_list5": "",
-        "page_list6": "",
-        "page_list7": "",
-        "page_list8": "",
-        "page_list9": "",
-        "page_list10": "",
-        "page_list11": "",
-        "page_list_1": "",
-        "page_list_2": ""
+        "page_list4": "patient education on proper drug use."
     }
 ]        

@@ -4,7 +4,7 @@ var serviceDictionary = {
         "1": {
             "id": 1,
             "banner":"assets/images/services/banner-plastic.jpg",
-            "img":"assets/images/services/img-plastic.jpg",
+            "img":"assets/images/services/img-surgery.jpg",
             "pagetitle": "Plastic and Reconstructive Surgery ",
             "service_description": "The Plastic & Reconstructive Surgery Department at Gardenia Medical Complex offers advanced services aimed at enhancing appearance and restoring the natural functions of damaged tissues. ",
             "service_list1": "The department is distinguished by its use of the latest surgical technologies,( Vaser, J Plasma, BodyTite ).",
@@ -118,14 +118,6 @@ var serviceDictionary = {
             "page_list3": "",
             "page_list4": "With a commitment to patient well-being, the department ensures safe, efficient, and high-quality anesthesia care to support optimal surgical and procedural outcomes.",
             "page_list5": "",
-            "page_list6": "",
-            "page_list7": "",
-            "page_list8": "",
-            "page_list9": "",
-            "page_list10": "",
-            "page_list11": "",
-            "page_list_1": "",
-            "page_list_2": ""
         },
         "7": {
             "id": 7,
@@ -144,26 +136,27 @@ var serviceDictionary = {
         },
         "8": {
             "id": 8,
-            "banner":"assets/images/services/banner-pathology.jpg",
-            "img":"assets/images/services/img-pathology.jpg",
-            "pagetitle": "",
-            "service_description": "",
-            "service_list1": "",
+            "banner":"assets/images/services/banner-Gynecology.jpg",
+            "img":"assets/images/services/img-Gynecology.jpg",
+            "pagetitle": "Obstetrics and Gynecology",
+            "service_description": "The Obstetrics and Gynecology Department at Gardenia Medical Complex is dedicated to providing comprehensive healthcare services for women at every stage of life. With a patient-centered approach, the department offers expert care in reproductive health, pregnancy management, gynecological conditions, and advanced surgical procedures. ",
+            "service_list1": "A team of experienced obstetricians and gynecologists ensures that every woman receives personalized care tailored to her specific needs.",
             "service_list2": "",
-            "page_text1": "",
-            "page_text2": "",
+            "service_list3": "",
+            "page_text1": "This department serves women seeking routine gynecological check-ups, those experiencing reproductive health expectant mothers requiring prenatal and postnatal care. It also provides specialized services for high-risk pregnancies, menstrual and menopausal health, and fertility treatments.",
+            "page_text2": "With state-of-the-art diagnostic tools, advanced surgical techniques, and a commitment to women's health and well-being, the Obstetrics and Gynecology Department at Gardenia Medical Complex ensures high-quality, compassionate care in a safe and supportive environme",
             "page_offers": "",
-            "page_list1": "",
-            "page_list2": "",
-            "page_list3": "",
-            "page_list4": "",
-            "page_list5": "",
-            "page_list6": "",
-            "page_list7": "",
-            "page_list8": "",
-            "page_list9": "",
-            "page_list10": "",
-            "page_list11": "",
+            "page_list1": "Diagnosing and treating reproductive disorders",
+            "page_list2": "Sexual health and Infections ",
+            "page_list3": "Prenatal and postnatal care",
+            "page_list4": "Management of high-risk pregnancies",
+            "page_list5": "Vaginal rejuvenation procedures ",
+            "page_list6": "Gynecological surgeries",
+            "page_list7": "Laparoscopy (endometriosis and ovarian cysts)",
+            "page_list8": "Pelvic floor and Prolapse Surgery (vaginal repair surgery and sling procedures)",
+            "page_list9": "Aesthetic and Reconstructive Surgeries (Labiaplasty and Vaginoplasty)",
+            "page_list10": "Fertility and reproductive health",
+            "page_list11": "Women’s health (Menstrual and Menopausal care)",
             "page_list_1": "",
             "page_list_2": ""
         },
@@ -209,13 +202,7 @@ var serviceDictionary = {
             "page_list4": "Kidney and urinary disorders",
             "page_list5": "Headaches, migraines, and dizziness ",
             "page_list6": "Autoimmune diseases (Rheumatoid Arthritis)",
-            "page_list7": "",
-            "page_list8": "",
-            "page_list9": "",
-            "page_list10": "",
-            "page_list11": "",
-            "page_list_1": "",
-            "page_list_2": ""
+
         },
         "11": {
             "id": 11,
@@ -240,7 +227,11 @@ var serviceDictionary = {
             "page_list10": "Forma Skin Tightening",
             "page_list11": "Face threads",
             "page_list_1": "Melanin peel",
-            "page_list_2": "Chemical and cold peeling"
+            "page_list_2": "Chemical and cold peeling",
+            "page_list_3": "Peeling for sensitive areas",
+            "page_list_4": "Silk peel ",
+            "page_list_5": "Hydrafacial (anti-aging, skin cleansing, brightening, exfoliation, and hydration)",
+            "page_list_6": "Endodefine (laser facelift with fiber optics)"
         },
         "12": {
             "id": 12,
@@ -250,17 +241,17 @@ var serviceDictionary = {
             "service_description": "The Gastroenterology Department at Gardenia Medical Complex specializes in the diagnosis, treatment, and management of digestive system disorders. With a focus on advanced diagnostic techniques and personalized treatment plans, the department provides comprehensive care for conditions affecting the esophagus, stomach, intestines, liver, pancreas, and gallbladder. ",
             "service_list1": "team of expert gastroenterologists",
             "service_list2": "ensures accurate diagnosis and effective management of both common and complex gastrointestinal conditions.",
-            "page_text1": "",
+            "page_text1": "This department serves Patients suffering from acid reflux, irritable bowel syndrome, inflammatory bowel disease, peptic ulcers, or liver and pancreatic disorders can benefit from specialized care.",
             "page_text2": "",
             "page_offers": "",
             "page_list1": "",
             "page_list2": "",
-            "page_list3": "",
-            "page_list4": "",
-            "page_list5": "",
-            "page_list6": "",
-            "page_list7": "",
-            "page_list8": "",
+            "page_list3": "Gastroesophageal reflux disease (GERD) (acid reflux) ",
+            "page_list4": "Irritable Bowel Syndrome (IBS)",
+            "page_list5": "Inflammatory Bowel Disease (IBD) like Crohn’s disease and Ulcerative Colitis",
+            "page_list6": "Peptic ulcers and gastritis",
+            "page_list7": "Liver and pancreatic disease management",
+            "page_list8": "Management of bowel disorders (celiac disease, constipation and diarrhea) ",
             "page_list9": "",
             "page_list10": "",
             "page_list11": "",
@@ -269,26 +260,23 @@ var serviceDictionary = {
         },
         "13": {
             "id": 13,
+            "banner":"assets/images/services/banner-laboratory.jpg",
+            "img":"assets/images/services/banner-laboratory.jpg",
             "pagetitle": "laboratory",  
-            "service_description": "",
-            "service_list1": "",
+            "service_description": "The Laboratory Department at Gardenia Medical Complex is a state-of-the-art facility committed to providing accurate and timely diagnostic testing. Equipped with advanced technology and operated by highly skilled laboratory professionals, the department plays a crucial role in disease detection, prevention, and monitoring. ",
+            "service_list1": "By offering a wide range of laboratory tests, it ensures precise diagnoses and effective treatment planning for patients.",
             "service_list2": "",
-            "page_text1": "",
-            "page_text2": "",
+            "page_text1": "This department serves individuals requiring routine health screenings, patients with chronic conditions needing regular monitoring, and those undergoing diagnostic testing for specific illnesses. It caters to various medical specialties, including pathology, microbiology, hematology, immunology, and andrology.",
+            "page_text2": "Specialized tests such as COVID-19 PCR, breath tests for digestive disorders, and non-invasive prenatal testing (NIPT) are also available, providing essential insights into patient health and help in prenatal screening for serious genetic and congenital disorders by analysing traces of fetal DNA in a blood sample from the mother (reducing the risk of miscarriage from more invasive testing).",
+            "page_text3": "With a commitment to accuracy, efficiency, and patient-centered care, the Laboratory Department at Gardenia Medical Complex ensures high-quality diagnostic services that support physicians in delivering optimal medical care.",
             "page_offers": "",
-            "page_list1": "",
-            "page_list2": "",
-            "page_list3": "",
-            "page_list4": "",
-            "page_list5": "",
-            "page_list6": "",
-            "page_list7": "",
-            "page_list8": "",
-            "page_list9": "",
-            "page_list10": "",
-            "page_list11": "",
-            "page_list_1": "",
-            "page_list_2": ""
+            "page_list1": "Pathology and Microbiology testing",
+            "page_list2": "Blood tests (biochemistry-hematology)",
+            "page_list3": "Andrology",
+            "page_list4": "Cytology",
+            "page_list5": "Covid-19 PCR test and rapid antigen test",
+            "page_list6": "SIBO test (breath test)",
+            "page_list7": "Immunology and Serology"
         },
         "14":     {
             "id": 14,
@@ -315,31 +303,9 @@ var serviceDictionary = {
             "page_list_1": "",
             "page_list_2": ""
         },
+
         "15": {
             "id": 15,
-            "pagetitle": "",
-            "service_description": "",
-            "service_list1": "",
-            "service_list2": "",
-            "page_text1": "",
-            "page_text2": "",
-            "page_offers": "",
-            "page_list1": "",
-            "page_list2": "",
-            "page_list3": "",
-            "page_list4": "",
-            "page_list5": "",
-            "page_list6": "",
-            "page_list7": "",
-            "page_list8": "",
-            "page_list9": "",
-            "page_list10": "",
-            "page_list11": "",
-            "page_list_1": "",
-            "page_list_2": ""
-        },
-        "16": {
-            "id": 16,
             "banner":"assets/images/services/banner-dietician.jpg",
             "img":"assets/images/services/img-dietician.jpg",
             "pagetitle": "Dietician and Nutrition",
@@ -362,6 +328,21 @@ var serviceDictionary = {
             "page_list11": "Educational programs (Corporate wellness programs and Workshops)",
             "page_list_1": "Incorporation of slimming machines (e.g., CFU, Wonder, and Crystal Pro) in individualized weight loss programs.",
             "page_list_2": ""
+        },
+        "16":     {
+            "id": 16,
+            "banner":"assets/images/services/banner-Outpatient_Clinics.jpg",
+            "img":"assets/images/services/banner-Outpatient_Clinics.jpg",
+            "pagetitle": "Outpatient Clinics",
+            "service_description": "Medical services provided to patients who do not require hospitalization after receiving treatment. ",
+            "service_list1": "In the outpatient clinics, a team of specialized doctors provides comprehensive consultations, in addition to routine examinations and treatments.",
+            "service_list2": "This service allows patients to receive treatment and regular follow-ups for their health conditions without disrupting their daily lives.",
+            "page_text1": "Patients can visit the outpatient clinics for diagnosis or ongoing treatment without the need for hospitalization, making it easier for them to receive regular medical care.",
+            "page_text2": "Doctors in outpatient care focus on delivering personalized care for each patient, coordinating with other medical teams when necessary to ensure the best treatments are provided.",
+            "page_offers": "",
+            "page_list1": "",
+            "page_list2": "routine treatments",
+            "page_list3": "follow-ups after surgeries or treatments."
         },
         "17": {
             "id": 17,
@@ -404,15 +385,6 @@ var serviceDictionary = {
             "page_list2": "Patient counseling on medication use.",
             "page_list3": " drug interaction checks.",
             "page_list4": "patient education on proper drug use.",
-            "page_list5": "",
-            "page_list6": "",
-            "page_list7": "",
-            "page_list8": "",
-            "page_list9": "",
-            "page_list10": "",
-            "page_list11": "",
-            "page_list_1": "",
-            "page_list_2": ""
         }
     },
     "ar": {
@@ -548,22 +520,25 @@ var serviceDictionary = {
         },
         "8": {
             "id": 8,
-            "pagetitle": "",
-            "service_description": "",
-            "service_list1": "",
-            "service_list2": "",
-            "page_text1": "",
+            "banner":"assets/images/services/banner-Gynecology.jpg",
+            "img":"assets/images/services/img-Gynecology.jpg",
+            "pagetitle": " قسم أمراض النساء والتوليد",
+            "service_description": "يُقدم قسم أمراض النساء والتوليد في مجمع جاردينيا الطبي رعاية طبية متكاملة للمرأة في جميع مراحل حياتها، مع التركيز على الصحة الإنجابية، متابعة الحمل، وعلاج الاضطرابات النسائية من خلال أحدث التقنيات الطبية والجراحية.",
+            "service_list1": " فريق طبي متخصص من أطباء النساء والتوليد ذوي الخبرة",
+            "service_list2": " أحدث التقنيات التشخيصية والجراحية لضمان أعلى مستويات الرعاية",
+            "service_list3": " نهج شامل لرعاية المرأة، من الفحوصات الدورية إلى الجراحات المتقدمة",
+            "page_text1": "يخدم هذا القسم النساء اللاتي يسعين لإجراء الفحوصات النسائية الدورية، واللواتي يعانين من مشكلات في الصحة الإنجابية، بالإضافة إلى رعاية النساء الحوامل قبل وبعد الولادة. كما يوفر خدمات متخصصة للحالات عالية الخطورة، واضطرابات الدورة الشهرية وانقطاع الطمث، وعلاجات العقم وتأخر الإنجاب.",
             "page_text2": "",
             "page_offers": "",
-            "page_list1": "",
-            "page_list2": "",
-            "page_list3": "",
-            "page_list4": "",
-            "page_list5": "",
-            "page_list6": "",
-            "page_list7": "",
-            "page_list8": "",
-            "page_list9": "",
+            "page_list1": "تشخيص وعلاج الاضطرابات النسائية بما في ذلك اضطرابات التبويض والخلل الهرموني",
+            "page_list2": "فحوصات الصحة الجنسية وعلاج الالتهابات النسائية",
+            "page_list3": "رعاية الحمل قبل الولادة وبعدها لضمان صحة الأم والجنين",
+            "page_list4": "إدارة ومتابعة حالات الحمل عالية الخطورة",
+            "page_list5": "علاجات الخصوبة والصحة الإنجابية",
+            "page_list6": "عمليات تجديد المهبل (Vaginal Rejuvenation)",
+            "page_list7": "تنظير البطن (Laparoscopy) لعلاج بطانة الرحم المهاجرة وتكيسات المبيض",
+            "page_list8": "جراحات ترميم قاع الحوض وعلاج هبوط الأعضاء النسائية",
+            "page_list9": "الجراحات التجميلية النسائية مثل تجميل الشفرتين (Labiaplasty) وتضييق المهبل (Vaginoplasty)",
             "page_list10": "",
             "page_list11": "",
             "page_list_1": "",
@@ -611,13 +586,6 @@ var serviceDictionary = {
             "page_list4": "أمراض الكلى والمسالك البولية",
             "page_list5": " تشخيص وعلاج الصداع، الشقيقة، والدوخة",
             "page_list6": "علاج أمراض المناعة الذاتية مثل التهاب المفاصل الروماتويدي",
-            "page_list7": "",
-            "page_list8": "",
-            "page_list9": "",
-            "page_list10": "",
-            "page_list11": "",
-            "page_list_1": "",
-            "page_list_2": ""
         },
         "11": {
             "id": 11,
@@ -642,7 +610,11 @@ var serviceDictionary = {
             "page_list10": "تقنية Forma لشد البشرة وتحفيز الكولاجين",
             "page_list11": " الخيوط التجميلية لشد الوجه",
             "page_list_1": "ميلانين بيل لتوحيد لون البشرة",
-            "page_list_2": " التقشير الكيميائي والبارد"
+            "page_list_2": " التقشير الكيميائي والبارد",
+            "page_list_3": "التقشير المخصص للمناطق الحساسة",
+            "page_list_4": " تقنية Silk Peel لتجديد البشرة",
+            "page_list_5": " Hydrafacial لتنظيف البشرة، الترطيب، التفتيح، وتجديد الشباب",
+            "page_list_6": " تقنية Endodefine لشد الوجه بالليزر باستخدام الألياف البصرية"
         },
         "12": {
             "id": 12,
@@ -658,26 +630,30 @@ var serviceDictionary = {
             "page_list1": "تنظير الجهاز الهضمي العلوي للكشف عن مشاكل المريء والمعدة",
             "page_list2": "تنظير الكبسولة لتشخيص اضطرابات الأمعاء الدقيقة",
             "page_list3": "ارتجاع المريء (GERD) وحموضة المعدة",
-            "page_list4": "",
-            "page_list5": "",
-            "page_list6": "",
-            "page_list7": "",
-            "page_list8": "",
+            "page_list4": "متلازمة القولون العصبي (IBS)",
+            "page_list5": "أمراض الأمعاء الالتهابية (IBD) مثل كرون والتهاب القولون التقرحي",
+            "page_list6": "قرحة المعدة والتهابات المعدة (جرثومة المعدة – H. pylori)",
+            "page_list7": "أمراض الكبد والبنكرياس (التهاب الكبد، تليف الكبد، التهاب البنكرياس)",
+            "page_list8": "اضطرابات الأمعاء مثل حساسية القمح (السيلياك)، الإمساك، الإسهال",
             "page_list9": "",
             "page_list10": "",
             "page_list11": "",
             "page_list_1": "",
             "page_list_2": ""
         },
-        "13": {
-            "id": 3,
-            "pagetitle": "",
-            "service_description": "",
-            "service_list1": "",
-            "service_list2": "",
-            "page_text1": "",
-            "page_text2": "",
-            "page_offers": "",
+        "13":     {
+            "id": 13,
+            "banner":"assets/images/services/banner-laboratory.jpg",
+            "img":"assets/images/services/banner-laboratory.jpg",
+            "pagetitle": "قسم المختبر",
+            "service_description": "يُعد قسم المختبر في مجمع جاردينيا الطبي منشأة متطورة تلتزم بتوفير اختبارات تشخيصية دقيقة وسريعة. بفضل أحدث التقنيات وكادر متخصص من خبراء المختبرات، يلعب القسم دورًا أساسيًا في اكتشاف الأمراض، الوقاية منها، ومتابعتها.",
+            "service_list1": "تقنيات متطورة ودقة عالية: يعتمد القسم على أحدث الأجهزة والتقنيات المخبرية لضمان نتائج دقيقة وسريعة.",
+            "service_list2": "مجموعة واسعة من الفحوصات: يوفر تحاليل شاملة تشمل الفحوصات الروتينية، الاختبارات المتخصصة، وفحوصات التشخيص المبكر للأمراض.",
+            "service_list3": "سرعة النتائج : يوفر القسم تقارير دقيقة في وقت قياسي لدعم الأطباء في اتخاذ قرارات علاجية سريعة وفعالة.",
+            "page_text1": "يُقدم القسم مجموعة واسعة من التحاليل المخبرية لضمان تشخيص دقيق وخطة علاج فعالة للمرضى. يخدم الأفراد الذين يحتاجون إلى فحوصات دورية، مرضى الحالات المزمنة الذين يتطلبون مراقبة مستمرة، والمرضى الذين يخضعون لفحوصات تشخيصية لحالات معينة. يشمل القسم عدة تخصصات طبية، مثل علم الأمراض، علم الأحياء الدقيقة، أمراض الدم، علم المناعة، وطب الذكورة.",
+            "page_text2": "كما يوفر القسم فحوصات متخصصة مثل اختبار PCR لكوفيد-19 والاختبار السريع، بالإضافة إلى اختبار التنفس لتشخيص فرط نمو البكتيريا في الأمعاء الدقيقة (SIBO). تشمل الخدمات أيضًا التحاليل المناعية والسيرولوجية، إلى جانب الفحص غير الجراحي للجنين (NIPT)، وهو اختبار يحلل الحمض النووي للجنين من عينة دم الأم للكشف عن الأمراض الجينية والتشوهات الخلقية، مما يقلل من مخاطر الإجهاض المرتبطة بالاختبارات الجراحية.",
+            "page_text3": "بفضل الدقة والكفاءة والنهج القائم على رعاية المرضى، يضمن قسم المختبر في مجمع جاردينيا الطبي توفير خدمات مخبرية عالية الجودة لدعم الأطباء في تقديم أفضل رعاية طبية ممكنة.",
+            "page_offers": "الاختبارات المتاحة والمقدمة في مجمع غاردينيا ",
             "page_list1": "",
             "page_list2": "",
             "page_list3": "",
@@ -685,7 +661,7 @@ var serviceDictionary = {
             "page_list5": "",
             "page_list6": "",
             "page_list7": "",
-            "page_list8": "",
+            "page_list8": "اضطرابات الأمعاء مثل حساسية القمح (السيلياك)، الإمساك، الإسهال",
             "page_list9": "",
             "page_list10": "",
             "page_list11": "",
@@ -717,31 +693,8 @@ var serviceDictionary = {
             "page_list_1": "",
             "page_list_2": ""
         },
-        "15": {
-            "id": 3,
-            "pagetitle": "",
-            "service_description": "",
-            "service_list1": "",
-            "service_list2": "",
-            "page_text1": "",
-            "page_text2": "",
-            "page_offers": "",
-            "page_list1": "",
-            "page_list2": "",
-            "page_list3": "",
-            "page_list4": "",
-            "page_list5": "",
-            "page_list6": "",
-            "page_list7": "",
-            "page_list8": "",
-            "page_list9": "",
-            "page_list10": "",
-            "page_list11": "",
-            "page_list_1": "",
-            "page_list_2": ""
-        },
-        "16":  {
-            "id": 16,
+        "15":  {
+            "id": 15,
             "banner":"assets/images/services/banner-dietician.jpg",
             "img":"assets/images/services/img-dietician.jpg",
             "pagetitle": " قسم التغذية والحمية ",
@@ -764,6 +717,21 @@ var serviceDictionary = {
             "page_list11": "برامج تعليمية تشمل برامج العافية للشركات وورش العمل التوعوية.",
             "page_list_1": "دمج أجهزة التنحيف المتطورة (CFU، Wonder، وCrystal Pro) في برامج فقدان الوزن المخصصة.",
             "page_list_2": ""
+        },
+        "16":     {
+            "id": 16,
+            "banner":"assets/images/services/banner-Outpatient_Clinics.jpg",
+            "img":"assets/images/services/banner-Outpatient_Clinics.jpg",
+            "pagetitle": "العيادات الخارجية",
+            "service_description": "خدمات طبية للمرضى الذين لا يحتاجون للبقاء في المستشفى بعد تلقي العلاج",
+            "service_list1": "يعمل في العيادات الخارجية فريق من الأطباء المتخصصين الذين يقدمون استشارات طبية شاملة، بالإضافة إلى فحوصات وعلاجات دورية.",
+            "service_list2": " تتيح هذه الخدمة للمرضى تلقي العلاج والمتابعة المنتظمة للحالات الصحية دون تعطيل حياتهم اليومية. ",
+            "page_text1": " يمكن للمرضى زيارة العيادات الخارجية لتشخيص حالاتهم أو تلقي العلاج المستمر، دون الحاجة للإقامة في المستشفى، مما يسهل عليهم تلقي الرعاية الطبية بشكل منتظم.",
+            "page_text2": " يعتمد الأطباء في العيادات الخارجية على توفير رعاية مخصصة لكل مريض، بما في ذلك التنسيق مع فرق طبية أخرى عند الحاجة لضمان تقديم أفضل العلاجات.",
+            "page_offers": "",
+            "page_list1": "الاستشارات الطبية مع الأطباء المتخصصين",
+            "page_list2": "الفحوصات، العلاجات الروتينية.",
+            "page_list3": "المتابعة بعد العمليات الجراحية أو العلاجات."
         },
         "17":{
             "id": 17,
@@ -805,16 +773,7 @@ var serviceDictionary = {
             "page_list1": "صرف الأدوية للمرضى الداخليين والخارجيين وفق أعلى معايير السلامة والجودة.",
             "page_list2": "تقديم الاستشارات الدوائية للمرضى حول كيفية استخدام الأدوية بشكل صحيح.",
             "page_list3": "التأكد من التفاعلات الدوائية المحتملة لتجنب أي مخاطر صحية.",
-            "page_list4": "توفير التوعية الدوائية حول الآثار الجانبية والالتزام العلاجي لضمان فعالية العلاج.",
-            "page_list5": "",
-            "page_list6": "",
-            "page_list7": "",
-            "page_list8": "",
-            "page_list9": "",
-            "page_list10": "",
-            "page_list11": "",
-            "page_list_1": "",
-            "page_list_2": ""
+            "page_list4": "توفير التوعية الدوائية حول الآثار الجانبية والالتزام العلاجي لضمان فعالية العلاج."
         }
     }
 }
@@ -853,6 +812,10 @@ async function renderServices(language) {
                 const services_list11 = document.getElementById("services_list11");
                 const services_list_1 = document.getElementById("services_list_1");
                 const services_list_2 = document.getElementById("services_list_2");
+                const services_list_3 = document.getElementById("services_list_3");
+                const services_list_4 = document.getElementById("services_list_4");
+                const services_list_5 = document.getElementById("services_list_5");
+                const services_list_6 = document.getElementById("services_list_6");
                 const services_banner = document.getElementById("services_page_title_banner");
                 const services_image = document.getElementById("services_page_title_image");
                 
@@ -860,6 +823,7 @@ async function renderServices(language) {
 
 
                 title.innerHTML = service.pagetitle;
+                
                 if (service.service_description === undefined || service.service_description === '') {
                     service_desc.classList.add("d-none");
                 } else {
@@ -992,7 +956,26 @@ async function renderServices(language) {
                     services_list_2.innerHTML = service.page_list_2;
                 }
 
-
+                if (service.page_list_3 === undefined || service.page_list_3 === '') {
+                    services_list_3.classList.add("d-none");
+                } else {
+                    services_list_3.innerHTML = service.page_list_3;
+                }
+                if (service.page_list_4 === undefined || service.page_list_4 === '') {
+                    services_list_4.classList.add("d-none");
+                } else {
+                    services_list_4.innerHTML = service.page_list_4;
+                }
+                if (service.page_list_5 === undefined || service.page_list_5 === '') {
+                    services_list_5.classList.add("d-none");
+                } else {
+                    services_list_5.innerHTML = service.page_list_5;
+                }
+                if (service.page_list_6 === undefined || service.page_list_6 === '') {
+                    services_list_6.classList.add("d-none");
+                } else {
+                    services_list_6.innerHTML = service.page_list_6;
+                }
             }
             else {
                 console.error("Project not found");

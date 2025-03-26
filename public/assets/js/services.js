@@ -3,7 +3,7 @@ var serviceDictionary = {
     "en": {
         "1": {
             "id": 1,
-            "banner":"assets/images/services/banner-plastic.jpg",
+            "banner":"assets/images/services/banner-surgery.jpg",
             "img":"assets/images/services/img-surgery.jpg",
             "pagetitle": "Plastic and Reconstructive Surgery ",
             "service_description": "The Plastic & Reconstructive Surgery Department at Gardenia Medical Complex offers advanced services aimed at enhancing appearance and restoring the natural functions of damaged tissues. ",
@@ -818,9 +818,6 @@ async function renderServices(language) {
                 const services_list_6 = document.getElementById("services_list_6");
                 const services_banner = document.getElementById("services_page_title_banner");
                 const services_image = document.getElementById("services_page_title_image");
-                
-
-
 
                 title.innerHTML = service.pagetitle;
                 
@@ -830,19 +827,7 @@ async function renderServices(language) {
                     service_desc.innerHTML = service.service_description;
                 }
 
-                if (service.banner === undefined || service.banner === '') {
-                    services_banner.classList.add("d-none");
-                } else {
-                    services_banner.src = service.banner;
-                }
-
-
-                if (service.img === undefined || service.img === '') {
-                    services_image.classList.add("d-none");
-                } else {
-                    services_image.src = service.img;
-                }
-
+                
                 if (service.service_list1 === undefined || service.service_list1 === '') {
                     service_desc_li1.classList.add("d-none");
                 } else {
@@ -976,6 +961,20 @@ async function renderServices(language) {
                 } else {
                     services_list_6.innerHTML = service.page_list_6;
                 }
+
+                if (service.banner === undefined || service.banner === '') {
+                    services_banner.classList.add("d-none");
+                } else {
+                    services_banner.src = service.banner;
+                }
+
+
+                if (service.img === undefined || service.img === '') {
+                    services_image.classList.add("d-none");
+                } else {
+                    services_image.src = service.img;
+                }
+
             }
             else {
                 console.error("Project not found");

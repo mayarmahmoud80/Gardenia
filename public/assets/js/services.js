@@ -1263,6 +1263,7 @@ async function renderServices(language) {
                 const doctor_1 = document.getElementById("doctor_1");
                 const doctor_2 = document.getElementById("doctor_2");
                 const doctor_3 = document.getElementById("doctor_3");
+                const doctor_section = document.getElementById("doctor_section");
 
                 title.innerHTML = service.pagetitle;
                 
@@ -1407,8 +1408,15 @@ async function renderServices(language) {
                     services_list_6.innerHTML = service.page_list_6;
                 }
 
+                
 
 
+
+
+
+                if ((service.doctor1 === undefined || service.doctor1 === '') &&( service.doctor2 === undefined || service.doctor2 === '') && (service.doctor3 === undefined || service.doctor3 === '')){
+                    doctor_section.classList.add("d-none");
+                }
 
                 if (service.doctor1 === undefined || service.doctor1 === '') {
                     doctor1.classList.add("d-none");

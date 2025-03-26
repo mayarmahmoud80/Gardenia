@@ -1477,7 +1477,10 @@ async function renderServices(language) {
                     doctor_section.classList.add("d-none");
                 }
                 
-                if (service.banner === undefined || service.banner === '') {
+                services_image.src = service.img;
+                services_banner.src = service.banner;
+
+                /*if (service.banner === undefined || service.banner === '') {
                     services_banner.classList.add("d-none");
                 } else {
                     services_banner.src = service.banner;
@@ -1487,7 +1490,7 @@ async function renderServices(language) {
                     services_image.classList.add("d-none");
                 } else {
                     services_image.src = service.img;
-                }
+                }*/
 
             }
             else {

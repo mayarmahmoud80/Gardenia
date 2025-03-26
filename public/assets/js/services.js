@@ -1410,14 +1410,6 @@ async function renderServices(language) {
 
                 
 
-
-
-
-
-                if ((service.doctor1 === undefined || service.doctor1 === '') &&( service.doctor2 === undefined || service.doctor2 === '') && (service.doctor3 === undefined || service.doctor3 === '')){
-                    doctor_section.classList.add("d-none");
-                }
-
                 if (service.doctor1 === undefined || service.doctor1 === '') {
                     doctor1.classList.add("d-none");
                     doctor_1.classList.add("d-none");
@@ -1481,7 +1473,9 @@ async function renderServices(language) {
                     doctor3_job.innerHTML = service.doctor3_job;
                 }
 
-
+                if ((service.doctor1 === undefined || service.doctor1 === '') &&( service.doctor2 === undefined || service.doctor2 === '') && (service.doctor3 === undefined || service.doctor3 === '')){
+                    doctor_section.classList.add("d-none");
+                }
                 
                 if (service.banner === undefined || service.banner === '') {
                     services_banner.classList.add("d-none");

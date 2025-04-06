@@ -1,5 +1,18 @@
 {
   "projects": {
     "default": "gardenia-b10b6"
-  }
+  },
+  "targets": {
+    "gardenia-b10b6": {
+      "hosting": {
+        "development": [
+          "gardenia-playhaus"
+        ],
+        "production": [
+          "gardenia-playhaus-prod"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }

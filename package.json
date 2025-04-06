@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy":"firebase deploy --only hosting:gardenia-playhaus"
+    "deploy": "firebase deploy --only hosting:gardenia-playhaus",
+    "deploy:prod": "firebase deploy --only hosting:gardenia-playhaus-prod"
   },
   "author": "",
   "license": "ISC",

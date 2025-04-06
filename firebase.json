@@ -1,7 +1,6 @@
 {
   "hosting": [
     {
-      "target": "development",
       "public": "public",
       "site": "gardenia-playhaus",
       "ignore": [
@@ -17,7 +16,6 @@
       ]
     },
     {
-      "target": "production",
       "public": "public",
       "site": "gardenia-playhaus-prod",
       "ignore": [

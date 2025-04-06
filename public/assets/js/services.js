@@ -3,7 +3,7 @@ var serviceDictionary = {
     "en": {
         "1": {
             "id": 1,
-            "banner":"assets/images/services/banner-plastic.jpg",
+            "banner":"assets/images/services/banner-surgery.jpg",
             "img":"assets/images/services/img-surgery.jpg",
             "pagetitle": "Plastic and Reconstructive Surgery ",
             "service_description": "The Plastic & Reconstructive Surgery Department at Gardenia Medical Complex offers advanced services aimed at enhancing appearance and restoring the natural functions of damaged tissues. ",
@@ -25,7 +25,19 @@ var serviceDictionary = {
             "page_list10": "Brachioplasty and Panniculectomy",
             "page_list11": "Blepharoplasty",
             "page_list_1": "Mommy makeover ",
-            "page_list_2": "Botox and fillers"
+            "page_list_2": "Botox and fillers",
+            "doctor1": "Prof. Dr. Mohammed Marshed Al-Dulaimi",
+            "doctor1_job": "Senior Consultant in Plastic and Hand Surgery",
+            "doctor1_img": "assets/images/doctors/mohamed_morshid.png",
+            "doctor2": "Dr. Anas Mellouli",
+            "doctor2_job": "Consultant in Plastic and Reconstructive Surgery",
+            "doctor2_img": "assets/images/doctors/anas_maloly.png",
+            "doctor3": "",
+            "doctor3_job": "",
+            "doctor3_img": "",
+            "doctorPage1": "doctors-mohamed_morshid.html",
+            "doctorPage2": "doctors-anas_maloly.html",
+            "doctorPage3": "",
         },
         "2": {
             "id": 2,
@@ -43,7 +55,19 @@ var serviceDictionary = {
             "page_list3": "Premarital screening",
             "page_list4": "Respiratory conditions and illnesses",
             "page_list5": "Cupping",
-            "page_list6": "Minor procedures such as, wound suturing and abscess removal."
+            "page_list6": "Minor procedures such as, wound suturing and abscess removal.",
+            "doctor1": "Dr. Badour Al-Kubaisi",
+            "doctor1_job": "Consultant in Family Medicine",
+            "doctor1_img": "assets/images/doctors/bodoor_alkebeesy.png",
+            "doctorPage1": "doctors-bodoor_alkebeesy.html",
+            "doctor2": "Dr. Arouba Al-Ani",
+            "doctor2_job": "Consultant in Family Medicine",
+            "doctor2_img": "assets/images/doctors/arooba_alany.png",
+            "doctorPage2": "doctors-arooba_alany.html",
+            "doctor3": "",
+            "doctor3_job": "",
+            "doctor3_img": "",
+            "doctorPage3": "",
         },
         "3": {
             "id": 3,
@@ -64,7 +88,18 @@ var serviceDictionary = {
             "page_list6": "Pelvic Surgery",
             "page_list7": "Shoulder, Hip, and Knee replacement surgeries",
             "page_list8": "PRP & PRF",
-            "page_list11": ""
+            "doctor1": "Dr. Bilal Obeid",
+            "doctor1_job": "Consultant Orthopedic Surgeon",
+            "doctor1_img": "assets/images/doctors/bilal_obaid.png",
+            "doctorPage1": "doctors-bilal_obaid.html",
+            "doctor2": "Dr. Mohamed Hassan Al Fahel",
+            "doctor2_job": "Consultant Orthopedic Surgeon",
+            "doctor2_img": "assets/images/doctors/mohamed_alfahl.png",
+            "doctorPage2": "doctors-mohamed_alfahl.html",
+            "doctor3": "",
+            "doctor3_job": "",
+            "doctor3_img": "",
+            "doctorPage3": "",
         },
         "4": {
             "id": 4,
@@ -82,7 +117,19 @@ var serviceDictionary = {
             "page_list3": "Skin grafts",
             "page_list4": "Tendon repair",
             "page_list5": "Fasciotomy",
-            "page_list6": "Joint replacement"
+            "page_list6": "Joint replacement",
+            "doctor1": "Prof. Dr. Mohammed Marshed Al-Dulaimi",
+            "doctor1_job": "Senior Consultant in Plastic and Hand Surgery",
+            "doctor1_img": "assets/images/doctors/mohamed_morshid.png",
+            "doctorPage1": "",
+            "doctor2": "",
+            "doctor2_job": "",
+            "doctor2_img": "",
+            "doctorPage2": "",
+            "doctor3": "",
+            "doctor3_job": "",
+            "doctor3_img": "",
+            "doctorPage3": "",
         },
         "5": {
             "id": 5,
@@ -99,7 +146,19 @@ var serviceDictionary = {
             "page_list2": "Operation Theatres equipped with advanced technology and staffed by highly skilled medical professionals.",
             "page_list3": "offers a wide range of surgical procedures across multiple specialties.",
             "page_list4": "all performed in a sterile environment designed to ensure precision, safety, efficiency, and optimal patient outcomes.",
-            "page_list5": "Types of rooms: VIP, Deluxe and Standard."
+            "page_list5": "Types of rooms: VIP, Deluxe and Standard.",
+            "doctor1": "",
+            "doctor1_job": "",
+            "doctor1_img": "",
+            "doctorPage1": "",
+            "doctor2": "",
+            "doctor2_job": "",
+            "doctor2_img": "",
+            "doctorPage2": "",
+            "doctor3": "",
+            "doctor3_job": "",
+            "doctor3_img": "",
+            "doctorPage3": "",
 
         },
         "6": {
@@ -118,6 +177,18 @@ var serviceDictionary = {
             "page_list3": "",
             "page_list4": "With a commitment to patient well-being, the department ensures safe, efficient, and high-quality anesthesia care to support optimal surgical and procedural outcomes.",
             "page_list5": "",
+            "doctor1": "",
+            "doctor1_job": "",
+            "doctor1_img": "",
+            "doctorPage1": "",
+            "doctor2": "",
+            "doctor2_job": "",
+            "doctor2_img": "",
+            "doctorPage2": "",
+            "doctor3": "",
+            "doctor3_job": "",
+            "doctor3_img": "",
+            "doctorPage3": "",
         },
         "7": {
             "id": 7,
@@ -132,7 +203,19 @@ var serviceDictionary = {
             "page_offers": "",
             "page_list1": "X-rays,",
             "page_list2": " 3D & 4D Ultrasounds",
-            "page_list3": "advanced MRI 1.5 tesla"
+            "page_list3": "advanced MRI 1.5 tesla",
+            "doctor1": "",
+            "doctor1_job": "",
+            "doctor1_img": "",
+            "doctorPage1": "",
+            "doctor2": "",
+            "doctor2_job": "",
+            "doctor2_img": "",
+            "doctorPage2": "",
+            "doctor3": "",
+            "doctor3_job": "",
+            "doctor3_img": "",
+            "doctorPage3": "",
         },
         "8": {
             "id": 8,
@@ -157,8 +240,18 @@ var serviceDictionary = {
             "page_list9": "Aesthetic and Reconstructive Surgeries (Labiaplasty and Vaginoplasty)",
             "page_list10": "Fertility and reproductive health",
             "page_list11": "Women’s health (Menstrual and Menopausal care)",
-            "page_list_1": "",
-            "page_list_2": ""
+            "doctor1": "Dr. Wafaa Younes",
+            "doctor1_job": "Specialist in Obstetrics and Gynecology",
+            "doctor1_img": "assets/images/doctors/wafaa_younes.png",
+            "doctorPage1": "doctors-wafaa_younes.html",
+            "doctor2": "",
+            "doctor2_job": "",
+            "doctor2_img": "",
+            "doctorPage2": "",
+            "doctor3": "",
+            "doctor3_job": "",
+            "doctor3_img": "",
+            "doctorPage3": "",
         },
         "9": {
             "id": 9,
@@ -177,13 +270,18 @@ var serviceDictionary = {
             "page_list4": "Gastric sleeve",
             "page_list5": "Smart Capsule",
             "page_list6": "Endoscopic balloon",
-            "page_list7": "",
-            "page_list8": "",
-            "page_list9": "",
-            "page_list10": "",
-            "page_list11": "",
-            "page_list_1": "",
-            "page_list_2": ""
+            "doctor1": "",
+            "doctor1_job": "",
+            "doctor1_img": "",
+            "doctorPage1": "",
+            "doctor2": "",
+            "doctor2_job": "",
+            "doctor2_img": "",
+            "doctorPage2": "",
+            "doctor3": "",
+            "doctor3_job": "",
+            "doctor3_img": "",
+            "doctorPage3": "",
         },
         "10": {
             "id": 10,
@@ -202,6 +300,18 @@ var serviceDictionary = {
             "page_list4": "Kidney and urinary disorders",
             "page_list5": "Headaches, migraines, and dizziness ",
             "page_list6": "Autoimmune diseases (Rheumatoid Arthritis)",
+            "doctor1": "Dr. Tawheed Mowafy",
+            "doctor1_job": "Consultant in Internal Medicine",
+            "doctor1_img": "assets/images/doctors/tawheed_mwafy.png",
+            "doctorPage1": "doctors-tawheed_mwafy.html",
+            "doctor2": "",
+            "doctor2_job": "",
+            "doctor2_img": "",
+            "doctorPage2": "",
+            "doctor3": "",
+            "doctor3_job": "",
+            "doctor3_img": "",
+            "doctorPage3": "",
 
         },
         "11": {
@@ -231,7 +341,19 @@ var serviceDictionary = {
             "page_list_3": "Peeling for sensitive areas",
             "page_list_4": "Silk peel ",
             "page_list_5": "Hydrafacial (anti-aging, skin cleansing, brightening, exfoliation, and hydration)",
-            "page_list_6": "Endodefine (laser facelift with fiber optics)"
+            "page_list_6": "Endodefine (laser facelift with fiber optics)",
+            "doctor1": "Dr. Rim Tawel",
+            "doctor1_job": "Dermatologist",
+            "doctor1_img": "assets/images/doctors/rim_taweel.png",
+            "doctorPage1": "doctors-rim_taweel.html",
+            "doctor2": "",
+            "doctor2_job": "",
+            "doctor2_img": "",
+            "doctorPage2": "",
+            "doctor3": "",
+            "doctor3_job": "",
+            "doctor3_img": "",
+            "doctorPage3": "",
         },
         "12": {
             "id": 12,
@@ -256,7 +378,19 @@ var serviceDictionary = {
             "page_list10": "",
             "page_list11": "",
             "page_list_1": "",
-            "page_list_2": ""
+            "page_list_2": "",
+            "doctor1": "",
+            "doctor1_job": "",
+            "doctor1_img": "",
+            "doctorPage1": "",
+            "doctor2": "",
+            "doctor2_job": "",
+            "doctor2_img": "",
+            "doctorPage2": "",
+            "doctor3": "",
+            "doctor3_job": "",
+            "doctor3_img": "",
+            "doctorPage3": "",
         },
         "13": {
             "id": 13,
@@ -276,7 +410,19 @@ var serviceDictionary = {
             "page_list4": "Cytology",
             "page_list5": "Covid-19 PCR test and rapid antigen test",
             "page_list6": "SIBO test (breath test)",
-            "page_list7": "Immunology and Serology"
+            "page_list7": "Immunology and Serology",
+            "doctor1": "",
+            "doctor1_job": "",
+            "doctor1_img": "",
+            "doctorPage1": "",
+            "doctor2": "",
+            "doctor2_job": "",
+            "doctor2_img": "",
+            "doctorPage2": "",
+            "doctor3": "",
+            "doctor3_job": "",
+            "doctor3_img": "",
+            "doctorPage3": ""
         },
         "14":     {
             "id": 14,
@@ -301,7 +447,19 @@ var serviceDictionary = {
             "page_list10": "Snoring and Obstructive Sleep Apnea (OSA)",
             "page_list11": "",
             "page_list_1": "",
-            "page_list_2": ""
+            "page_list_2": "",
+            "doctor1": "Dr. Nidal Sabry",
+            "doctor1_job": "Consultant Otolaryngologist (ENT Specialist)",
+            "doctor1_img": "assets/images/doctors/nidal_sabry.png",
+            "doctorPage1": "doctors-nidal_sabry.html",
+            "doctor2": "",
+            "doctor2_job": "",
+            "doctor2_img": "",
+            "doctorPage2": "",
+            "doctor3": "",
+            "doctor3_job": "",
+            "doctor3_img": "",
+            "doctorPage3": ""
         },
 
         "15": {
@@ -327,7 +485,19 @@ var serviceDictionary = {
             "page_list10": "Detox, vegan, and cleansing diets",
             "page_list11": "Educational programs (Corporate wellness programs and Workshops)",
             "page_list_1": "Incorporation of slimming machines (e.g., CFU, Wonder, and Crystal Pro) in individualized weight loss programs.",
-            "page_list_2": ""
+            "page_list_2": "",
+            "doctor1": "Amar Azzam",
+            "doctor1_job": "Clinical Nutrition",
+            "doctor1_img": "assets/images/doctors/qamr_azzam.png",
+            "doctorPage1": "doctors-qamr_azzam.html",
+            "doctor2": "",
+            "doctor2_job": "",
+            "doctor2_img": "",
+            "doctorPage2": "",
+            "doctor3": "",
+            "doctor3_job": "",
+            "doctor3_img": "",
+            "doctorPage3": ""
         },
         "16":     {
             "id": 16,
@@ -342,7 +512,19 @@ var serviceDictionary = {
             "page_offers": "",
             "page_list1": "",
             "page_list2": "routine treatments",
-            "page_list3": "follow-ups after surgeries or treatments."
+            "page_list3": "follow-ups after surgeries or treatments.",
+            "doctor1": "",
+            "doctor1_job": "",
+            "doctor1_img": "",
+            "doctorPage1": "",
+            "doctor2": "",
+            "doctor2_job": "",
+            "doctor2_img": "",
+            "doctorPage2": "",
+            "doctor3": "",
+            "doctor3_job": "",
+            "doctor3_img": "",
+            "doctorPage3": ""
         },
         "17": {
             "id": 17,
@@ -368,7 +550,19 @@ var serviceDictionary = {
             "page_list10": "LPG endermologie",
             "page_list11": "",
             "page_list_1": "",
-            "page_list_2": ""
+            "page_list_2": "",
+            "doctor1": "",
+            "doctor1_job": "",
+            "doctor1_img": "",
+            "doctorPage1": "",
+            "doctor2": "",
+            "doctor2_job": "",
+            "doctor2_img": "",
+            "doctorPage2": "",
+            "doctor3": "",
+            "doctor3_job": "",
+            "doctor3_img": "",
+            "doctorPage3": ""
         },
         "18": {
             "id": 18,
@@ -385,6 +579,18 @@ var serviceDictionary = {
             "page_list2": "Patient counseling on medication use.",
             "page_list3": " drug interaction checks.",
             "page_list4": "patient education on proper drug use.",
+            "doctor1": "",
+            "doctor1_job": "",
+            "doctor1_img": "",
+            "doctorPage1": "",
+            "doctor2": "",
+            "doctor2_job": "",
+            "doctor2_img": "",
+            "doctorPage2": "",
+            "doctor3": "",
+            "doctor3_job": "",
+            "doctor3_img": "",
+            "doctorPage3": ""
         }
     },
     "ar": {
@@ -412,7 +618,19 @@ var serviceDictionary = {
             "page_list10": "شد الذراعين وإزالة الجلد الزائد (Brachioplasty & Panniculectomy)",
             "page_list11": "شد الجفون (Blepharoplasty)",
             "page_list_1": " مامي ميك أوفر (Mommy Makeover)",
-            "page_list_2": "حقن البوتوكس والفيلر"
+            "page_list_2": "حقن البوتوكس والفيلر",
+            "doctor1": "أ.د. محمد مرشد الدليمي",
+            "doctor1_job": "استشاري أول في جراحات التجميل واليد",
+            "doctor1_img": "assets/images/doctors/mohamed_morshid.png",
+            "doctor2": "د. أنس ملولي",
+            "doctor2_job": "استشاري جراحة التجميل والترميم",
+            "doctor2_img": "assets/images/doctors/anas_maloly.png",
+            "doctor3": "",
+            "doctor3_job": "",
+            "doctor3_img": "",
+            "doctorPage1": "doctors-mohamed_morshid.html",
+            "doctorPage2": "doctors-anas_maloly.html",
+            "doctorPage3": "",
         },
         "2": {
             "id": 2,
@@ -430,7 +648,19 @@ var serviceDictionary = {
             "page_list3": " الفحص الطبي قبل الزواج",
             "page_list4": "تشخيص وعلاج أمراض الجهاز التنفسي",
             "page_list5": "الحجامة",
-            "page_list6": " الإجراءات البسيطة مثل خياطة الجروح وإزالة الخُرّاج"
+            "page_list6": " الإجراءات البسيطة مثل خياطة الجروح وإزالة الخُرّاج",
+            "doctor1": "د. بدور الكبيسي",
+            "doctor1_job": "استشاري طب الأسرة",
+            "doctor1_img": "assets/images/doctors/bodoor_alkebeesy.png",
+            "doctorPage1": "doctors-bodoor_alkebeesy.html",
+            "doctor2": "د. عروبة العاني",
+            "doctor2_job": "استشاري طب الأسرة",
+            "doctor2_img": "assets/images/doctors/arooba_alany.png",
+            "doctorPage2": "doctors-arooba_alany.html",
+            "doctor3": "",
+            "doctor3_job": "",
+            "doctor3_img": "",
+            "doctorPage3": ""
         },
         "3": {
             "id": 3,
@@ -449,7 +679,19 @@ var serviceDictionary = {
             "page_list4": " استبدال مفاصل الركبة والورك والكتف",
             "page_list5": "علاج الحالات العظمية الطارئة",
             "page_list6": "جراحات الحوض",
-            "page_list7": " جراحات استبدال مفصل الكتف والورك والركبة"
+            "page_list7": " جراحات استبدال مفصل الكتف والورك والركبة",
+            "doctor1": "د. بلال عبيد",
+            "doctor1_job": "إستشاري جراحة عظام",
+            "doctor1_img": "assets/images/doctors/bilal_obaid.png",
+            "doctorPage1": "doctors-bilal_obaid.html",
+            "doctor2": "الدكتور محمد حسن الفحل",
+            "doctor2_job": "استشاري جراحة العظام",
+            "doctor2_img": "assets/images/doctors/mohamed_alfahl.png",
+            "doctorPage2": "doctors-mohamed_alfahl.html",
+            "doctor3": "",
+            "doctor3_job": "",
+            "doctor3_img": "",
+            "doctorPage3": ""
         },
         "4": {
             "id": 4,
@@ -467,7 +709,19 @@ var serviceDictionary = {
             "page_list3": "ترقيع الجلد",
             "page_list4": "إصلاح الأوتار",
             "page_list5": " جراحة الفاشيوتومي",
-            "page_list6": "استبدال المفاصل"
+            "page_list6": "استبدال المفاصل",
+            "doctor1": "أ.د. محمد مرشد الدليمي",
+            "doctor1_job": "استشاري أول في جراحات التجميل واليد",
+            "doctor1_img": "assets/images/doctors/mohamed_morshid.png",
+            "doctorPage1": "",
+            "doctor2": "",
+            "doctor2_job": "",
+            "doctor2_img": "",
+            "doctorPage2": "",
+            "doctor3": "",
+            "doctor3_job": "",
+            "doctor3_img": "",
+            "doctorPage3": ""
         },
         "5": {
             "id": 5,
@@ -484,7 +738,19 @@ var serviceDictionary = {
             "page_list2": "غرف عمليات متطورة مزودة بتكنولوجيا حديثة، يديرها فريق طبي عالي الكفاءة",
             "page_list3": "مجموعة واسعة من العمليات الجراحية عبر مختلف التخصصات",
             "page_list4": " بيئة معقمة وآمنة تضمن الدقة والكفاءة و النتائج المثلى",
-            "page_list5": " خيارات غرف متنوعة (VIP، ديلوكس، قياسية) لضمان راحة المرضى"
+            "page_list5": " خيارات غرف متنوعة (VIP، ديلوكس، قياسية) لضمان راحة المرضى",
+            "doctor1": "",
+            "doctor1_job": "",
+            "doctor1_img": "",
+            "doctorPage1": "",
+            "doctor2": "",
+            "doctor2_job": "",
+            "doctor2_img": "",
+            "doctorPage2": "",
+            "doctor3": "",
+            "doctor3_job": "",
+            "doctor3_img": "",
+            "doctorPage3": ""
         },
         "6": {
             "id": 6,
@@ -501,7 +767,19 @@ var serviceDictionary = {
             "page_list2": "تقييم ما قبل العملية لوضع خطة تخدير مناسبة لكل مريض",
             "page_list3": " التخدير العام، الجزئي، والموضعي حسب الحاجة",
             "page_list4": " التخدير الواعي للإجراءات التشخيصية لضمان الراحة والاسترخاء",
-            "page_list5": "مراقبة دقيقة ومستمرة أثناء العمليات وبعدها لضمان أفضل النتائج"
+            "page_list5": "مراقبة دقيقة ومستمرة أثناء العمليات وبعدها لضمان أفضل النتائج",
+            "doctor1": "",
+            "doctor1_job": "",
+            "doctor1_img": "",
+            "doctorPage1": "",
+            "doctor2": "",
+            "doctor2_job": "",
+            "doctor2_img": "",
+            "doctorPage2": "",
+            "doctor3": "",
+            "doctor3_job": "",
+            "doctor3_img": "",
+            "doctorPage3": ""
         },
         "7": {
             "id": 7,
@@ -516,7 +794,28 @@ var serviceDictionary = {
             "page_offers": "",
             "page_list1": "الأشعة السينية (X-ray)",
             "page_list2": "الموجات فوق الصوتية ثلاثية ورباعية الأبعاد (3D & 4D Ultrasound)",
-            "page_list3": " التصوير بالرنين المغناطيسي 1.5 تسلا (Advanced MRI 1.5 Tesla) "
+            "page_list3": " التصوير بالرنين المغناطيسي 1.5 تسلا (Advanced MRI 1.5 Tesla) ",
+            "doctor1": "",
+            "doctor1_job": "",
+            "doctor1_img": "",
+            "doctor2": "",
+            "doctor2_job": "",
+            "doctor2_img": "",
+            "doctor3": "",
+            "doctor3_job": "",
+            "doctor3_img": "",
+            "doctor1": "",
+            "doctor1_job": "",
+            "doctor1_img": "",
+            "doctorPage1": "",
+            "doctor2": "",
+            "doctor2_job": "",
+            "doctor2_img": "",
+            "doctorPage2": "",
+            "doctor3": "",
+            "doctor3_job": "",
+            "doctor3_img": "",
+            "doctorPage3": ""
         },
         "8": {
             "id": 8,
@@ -542,7 +841,19 @@ var serviceDictionary = {
             "page_list10": "",
             "page_list11": "",
             "page_list_1": "",
-            "page_list_2": ""
+            "page_list_2": "",
+            "doctor1": "د. وفاء يونس",
+            "doctor1_job": "اخصائية امراض وجراحات النساء والتوليد",
+            "doctor1_img": "assets/images/doctors/wafaa_younes.png",
+            "doctorPage1": "doctors-wafaa_younes.html",
+            "doctor2": "",
+            "doctor2_job": "",
+            "doctor2_img": "",
+            "doctorPage2": "",
+            "doctor3": "",
+            "doctor3_job": "",
+            "doctor3_img": "",
+            "doctorPage3": ""
         },
         "9": {
             "id": 9,
@@ -567,7 +878,19 @@ var serviceDictionary = {
             "page_list10": "",
             "page_list11": "",
             "page_list_1": "",
-            "page_list_2": ""
+            "page_list_2": "",
+            "doctor1": "",
+            "doctor1_job": "",
+            "doctor1_img": "",
+            "doctorPage1": "",
+            "doctor2": "",
+            "doctor2_job": "",
+            "doctor2_img": "",
+            "doctorPage2": "",
+            "doctor3": "",
+            "doctor3_job": "",
+            "doctor3_img": "",
+            "doctorPage3": ""
         },
         "10":{
             "id": 10,
@@ -586,6 +909,18 @@ var serviceDictionary = {
             "page_list4": "أمراض الكلى والمسالك البولية",
             "page_list5": " تشخيص وعلاج الصداع، الشقيقة، والدوخة",
             "page_list6": "علاج أمراض المناعة الذاتية مثل التهاب المفاصل الروماتويدي",
+            "doctor1": "د. توحيد موافي",
+            "doctor1_job": "استشاري امراض الباطنية خبرته تفوق ال40 عاماً.",
+            "doctor1_img": "assets/images/doctors/tawheed_mwafy.png",
+            "doctorPage1": "doctors-tawheed_mwafy.html",
+            "doctor2": "",
+            "doctor2_job": "",
+            "doctor2_img": "",
+            "doctorPage2": "",
+            "doctor3": "",
+            "doctor3_job": "",
+            "doctor3_img": "",
+            "doctorPage3": ""
         },
         "11": {
             "id": 11,
@@ -614,7 +949,19 @@ var serviceDictionary = {
             "page_list_3": "التقشير المخصص للمناطق الحساسة",
             "page_list_4": " تقنية Silk Peel لتجديد البشرة",
             "page_list_5": " Hydrafacial لتنظيف البشرة، الترطيب، التفتيح، وتجديد الشباب",
-            "page_list_6": " تقنية Endodefine لشد الوجه بالليزر باستخدام الألياف البصرية"
+            "page_list_6": " تقنية Endodefine لشد الوجه بالليزر باستخدام الألياف البصرية",
+            "doctor1": "الدكتورة ريم طويل",
+            "doctor1_job": "أخصائية الأمراض الجلدية",
+            "doctor1_img": "assets/images/doctors/rim_taweel.png",
+            "doctorPage1": "doctors-rim_taweel.html",
+            "doctor2": "",
+            "doctor2_job": "",
+            "doctor2_img": "",
+            "doctorPage2": "",
+            "doctor3": "",
+            "doctor3_job": "",
+            "doctor3_img": "",
+            "doctorPage3": ""
         },
         "12": {
             "id": 12,
@@ -639,7 +986,19 @@ var serviceDictionary = {
             "page_list10": "",
             "page_list11": "",
             "page_list_1": "",
-            "page_list_2": ""
+            "page_list_2": "",
+            "doctor1": "",
+            "doctor1_job": "",
+            "doctor1_img": "",
+            "doctorPage1": "",
+            "doctor2": "",
+            "doctor2_job": "",
+            "doctor2_img": "",
+            "doctorPage2": "",
+            "doctor3": "",
+            "doctor3_job": "",
+            "doctor3_img": "",
+            "doctorPage3": ""
         },
         "13":     {
             "id": 13,
@@ -666,8 +1025,21 @@ var serviceDictionary = {
             "page_list10": "",
             "page_list11": "",
             "page_list_1": "",
-            "page_list_2": ""
+            "page_list_2": "",
+            "doctor1": "",
+            "doctor1_job": "",
+            "doctor1_img": "",
+            "doctorPage1": "",
+            "doctor2": "",
+            "doctor2_job": "",
+            "doctor2_img": "",
+            "doctorPage2": "",
+            "doctor3": "",
+            "doctor3_job": "",
+            "doctor3_img": "",
+            "doctorPage3": ""
         },
+        
         "14": {
             "id": 14,
             "banner":"assets/images/services/banner-ent.jpg",
@@ -691,7 +1063,19 @@ var serviceDictionary = {
             "page_list10": "علاج إصابات الوجه والصدمات لضمان التعافي واستعادة الوظائف الطبيعية.",
             "page_list11": "",
             "page_list_1": "",
-            "page_list_2": ""
+            "page_list_2": "",
+            "doctor1": "الدكتور نضال صبري",
+            "doctor1_job": "استشاري الأنف والأذن والحنجرة",
+            "doctor1_img": "assets/images/doctors/nidal_sabry.png",
+            "doctorPage1": "doctors-nidal_sabry.html",
+            "doctor2": "",
+            "doctor2_job": "",
+            "doctor2_img": "",
+            "doctorPage2": "",
+            "doctor3": "",
+            "doctor3_job": "",
+            "doctor3_img": "",
+            "doctorPage3": ""
         },
         "15":  {
             "id": 15,
@@ -716,7 +1100,19 @@ var serviceDictionary = {
             "page_list10": "أنظمة غذائية مخصصة (ديتوكس، نباتي، وأنظمة تنظيف الجسم).",
             "page_list11": "برامج تعليمية تشمل برامج العافية للشركات وورش العمل التوعوية.",
             "page_list_1": "دمج أجهزة التنحيف المتطورة (CFU، Wonder، وCrystal Pro) في برامج فقدان الوزن المخصصة.",
-            "page_list_2": ""
+            "page_list_2": "",
+            "doctor1": "د. قمر عزام",
+            "doctor1_job": "تغذية علاجية",
+            "doctor1_img": "assets/images/doctors/qamr_azzam.png",
+            "doctorPage1": "doctors-qamr_azzam.html",
+            "doctor2": "",
+            "doctor2_job": "",
+            "doctor2_img": "",
+            "doctorPage2": "",
+            "doctor3": "",
+            "doctor3_job": "",
+            "doctor3_img": "",
+            "doctorPage3": ""
         },
         "16":     {
             "id": 16,
@@ -731,7 +1127,19 @@ var serviceDictionary = {
             "page_offers": "",
             "page_list1": "الاستشارات الطبية مع الأطباء المتخصصين",
             "page_list2": "الفحوصات، العلاجات الروتينية.",
-            "page_list3": "المتابعة بعد العمليات الجراحية أو العلاجات."
+            "page_list3": "المتابعة بعد العمليات الجراحية أو العلاجات.",
+            "doctor1": "",
+            "doctor1_job": "",
+            "doctor1_img": "",
+            "doctorPage1": "",
+            "doctor2": "",
+            "doctor2_job": "",
+            "doctor2_img": "",
+            "doctorPage2": "",
+            "doctor3": "",
+            "doctor3_job": "",
+            "doctor3_img": "",
+            "doctorPage3": ""
         },
         "17":{
             "id": 17,
@@ -757,7 +1165,19 @@ var serviceDictionary = {
             "page_list10": "تقنية LPG Endermologie لعلاج السيلوليت",
             "page_list11": "",
             "page_list_1": "",
-            "page_list_2": ""
+            "page_list_2": "",
+            "doctor1": "",
+            "doctor1_job": "",
+            "doctor1_img": "",
+            "doctorPage1": "",
+            "doctor2": "",
+            "doctor2_job": "",
+            "doctor2_img": "",
+            "doctorPage2": "",
+            "doctor3": "",
+            "doctor3_job": "",
+            "doctor3_img": "",
+            "doctorPage3": ""
         },
         "18": {
             "id": 18,
@@ -773,7 +1193,19 @@ var serviceDictionary = {
             "page_list1": "صرف الأدوية للمرضى الداخليين والخارجيين وفق أعلى معايير السلامة والجودة.",
             "page_list2": "تقديم الاستشارات الدوائية للمرضى حول كيفية استخدام الأدوية بشكل صحيح.",
             "page_list3": "التأكد من التفاعلات الدوائية المحتملة لتجنب أي مخاطر صحية.",
-            "page_list4": "توفير التوعية الدوائية حول الآثار الجانبية والالتزام العلاجي لضمان فعالية العلاج."
+            "page_list4": "توفير التوعية الدوائية حول الآثار الجانبية والالتزام العلاجي لضمان فعالية العلاج.",
+            "doctor1": "",
+            "doctor1_job": "",
+            "doctor1_img": "",
+            "doctorPage1": "",
+            "doctor2": "",
+            "doctor2_job": "",
+            "doctor2_img": "",
+            "doctorPage2": "",
+            "doctor3": "",
+            "doctor3_job": "",
+            "doctor3_img": "",
+            "doctorPage3": ""
         }
     }
 }
@@ -818,9 +1250,20 @@ async function renderServices(language) {
                 const services_list_6 = document.getElementById("services_list_6");
                 const services_banner = document.getElementById("services_page_title_banner");
                 const services_image = document.getElementById("services_page_title_image");
-                
 
-
+                const doctor1 = document.getElementById("doctor1");
+                const doctor2 = document.getElementById("doctor2");
+                const doctor3 = document.getElementById("doctor3");
+                const doctor1_job = document.getElementById("doctor1_job");
+                const doctor2_job = document.getElementById("doctor2_job");
+                const doctor3_job = document.getElementById("doctor3_job");
+                const doctor1_img =document.getElementById("doctor1_img");
+                const doctor2_img =document.getElementById("doctor2_img");
+                const doctor3_img =document.getElementById("doctor3_img");
+                const doctor_1 = document.getElementById("doctor_1");
+                const doctor_2 = document.getElementById("doctor_2");
+                const doctor_3 = document.getElementById("doctor_3");
+                const doctor_section = document.getElementById("doctor_section");
 
                 title.innerHTML = service.pagetitle;
                 
@@ -830,19 +1273,7 @@ async function renderServices(language) {
                     service_desc.innerHTML = service.service_description;
                 }
 
-                if (service.banner === undefined || service.banner === '') {
-                    services_banner.classList.add("d-none");
-                } else {
-                    services_banner.src = service.banner;
-                }
-
-
-                if (service.img === undefined || service.img === '') {
-                    services_image.classList.add("d-none");
-                } else {
-                    services_image.src = service.img;
-                }
-
+                
                 if (service.service_list1 === undefined || service.service_list1 === '') {
                     service_desc_li1.classList.add("d-none");
                 } else {
@@ -976,6 +1407,91 @@ async function renderServices(language) {
                 } else {
                     services_list_6.innerHTML = service.page_list_6;
                 }
+
+                
+
+                if (service.doctor1 === undefined || service.doctor1 === '') {
+                    doctor1.classList.add("d-none");
+                    doctor_1.classList.add("d-none");
+                } else {
+                    doctor1.innerHTML = service.doctor1;
+                    doctor1.href = service.doctorPage1;
+                }
+                if (service.doctor1_img === undefined || service.doctor1_img === '') {
+                    doctor1_img.classList.add("d-none");
+                    doctor_1.classList.add("d-none");
+                } else {
+                    doctor1_img.src = service.doctor1_img;
+                }
+                if (service.doctor1_job === undefined || service.doctor1_job === '') {
+                    doctor1_job.classList.add("d-none");
+                    doctor_1.classList.add("d-none");
+                } else {
+                    doctor1_job.innerHTML = service.doctor1_job;
+                }
+
+
+                if (service.doctor2 === undefined || service.doctor2 === '') {
+                    doctor2.classList.add("d-none");
+                    doctor_2.classList.add("d-none");
+
+                } else {
+                    doctor2.innerHTML = service.doctor2;
+                    doctor2.href = service.doctorPage2;
+                }
+                if (service.doctor2_img === undefined || service.doctor2_img === '') {
+                    doctor2_img.classList.add("d-none");
+                    doctor_2.classList.add("d-none");
+                } else {
+                    doctor2_img.src = service.doctor2_img;
+                }
+                if (service.doctor2_job === undefined || service.doctor2_job === '') {
+                    doctor2_job.classList.add("d-none");
+                    doctor_2.classList.add("d-none");
+                } else {
+                    doctor2_job.innerHTML = service.doctor2_job;
+                }
+
+
+                if (service.doctor3 === undefined || service.doctor3 === '') {
+                    doctor3.classList.add("d-none");
+                    doctor_3.classList.add("d-none");
+                } else {
+                    doctor3.innerHTML = service.doctor3;
+                    doctor3.href = service.doctorPage3;
+                }
+                if (service.doctor3_img === undefined || service.doctor3_img === '') {
+                    doctor3_img.classList.add("d-none");
+                    doctor_3.classList.add("d-none");
+                } else {
+                    doctor3_img.src = service.doctor3_img;
+                }
+                if (service.doctor_job === undefined || service.doctor3_job === '') {
+                    doctor3_job.classList.add("d-none");
+                    doctor_3.classList.add("d-none");
+                } else {
+                    doctor3_job.innerHTML = service.doctor3_job;
+                }
+
+                if ((service.doctor1 === undefined || service.doctor1 === '') &&( service.doctor2 === undefined || service.doctor2 === '') && (service.doctor3 === undefined || service.doctor3 === '')){
+                    doctor_section.classList.add("d-none");
+                }
+                
+                services_image.src = service.img;
+                services_banner.src = service.banner;
+
+                /*if (service.banner === undefined || service.banner === '') {
+                    services_banner.classList.add("d-none");
+                } else {
+                    services_banner.src = service.banner;
+                }
+
+                if (service.img === undefined || service.img === '') {
+                    services_image.classList.add("d-none");
+                } else {
+                    services_image.src = service.img;
+                }*/
+
             }
             else {
                 console.error("Project not found");

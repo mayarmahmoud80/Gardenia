@@ -1839,7 +1839,7 @@ function toggleLanguage() {
 
     //placeholer change
     if(document.getElementById("contact-Phone")){
-        placeholderTranslate();
+        placeholderTranslate(currentLang);
     }
 }
 const zz =
@@ -1950,11 +1950,11 @@ function renderWorkingHours() {
 if (document.getElementById("contact-Phone")){
     placeholderTranslate();
 }
- function placeholderTranslate(){
+ function placeholderTranslate(lang){
     const contact_name1 = document.getElementById("contact-name1");
     const contact_Phone = document.getElementById("contact-Phone");
     const contact_message = document.getElementById("contact-message");
-    if(localStorage.getItem("language") === 'en' || curren_lang === 'en'){
+    if(localStorage.getItem("language") === 'en' || lang === 'en'){
         contact_name1.placeholder = "name";
         contact_Phone.placeholder = "Phone";
         contact_message.placeholder = "Message";    }

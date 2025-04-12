@@ -31,6 +31,14 @@
     font-display: block
 }
 
+@font-face {
+  font-family: NotoSansArabic;
+  src: url(../fonts/NotoSansArabic.ttf); 
+  font-weight: 400;
+  font-style: normal;
+  font-display: block
+}
+
 [class*=" icon-"],
 [class^=icon-] {
     font-family: icomoon !important;

@@ -8,7 +8,9 @@ const translation = {
         about_item: "About Us",
         services_item: "Services",
         doctor_item: "Doctors",
-        blog_item: "Blogs",
+        blog_item: "Medical Library",
+        blog_item_1: "Blogs",
+        news_item_1: "News",
         contact_item: "Contact Us",
         department_item: "Department",
         title1: "Gardenia",
@@ -39,6 +41,15 @@ const translation = {
         "program1_item": "Rejuvenation Program",
         "program2_item": "Weight Loss Program",
         "program3_item": "Rehabilitation program",
+
+
+        "book_now":"Book Now",
+        "about_news_title":"Latest News",
+
+        "career_title":"Career",
+        "career_current_job_openings":"Current Job Openings",
+        "career_current_job_openings_desc":"We apologize, but there are no open positions available at this time. Please check back later for future opportunities.",
+
 
         //rooms 
 
@@ -216,6 +227,7 @@ const translation = {
         footer_Electronic_list4: "News & Photos",
         footer_Electronic_list5: "Booking",
         footer_Electronic_list6: "FAQs",
+        footer_Electronic_list7: "Career",
         footer_contact: "Contact Us Directly",
         footer_contact_title: "Our team is ready to answer any inquiries or assist you with anything you need. Feel free to reach out to us easily.",
         footer_contact_title2: "6 Dhal Al Hamam, Ta'if Street, Doha, Qatar",
@@ -252,10 +264,10 @@ const translation = {
         work_process_subtitle: "We care about your health and the health of your family.",
         work_process_title: "We provide all aspects of medical care to meet the full needs of your family.",
         work_process_desc: "We work closely with you to develop care plans that suit your health condition, with a focus on managing chronic diseases. If we are unable to assist you directly, we will guide you to the appropriate specialist or provide you with the necessary advice. We ensure that all your inquiries are handled with confidentiality and respect.",
-        work_process_list1: " Bone Fractures and Dislocations",
+        work_process_list1: "Care for all family members",
         work_process_list2: "High-Quality Medical Care",
         work_process_list3: "Comprehensive Health Assessments",
-        work_process_list4: "Allergy Desensitization Injections",
+        work_process_list4: "Hand surgery and acute burn surgery",
         work_process_title1: "Benefit from our medical and scientific articles",
         work_process_desc1: "We provide a collection of informative medical and scientific articles that help you better understand your health.",
         work_process_btn1: "Check out our articles",
@@ -905,7 +917,9 @@ const translation = {
         about_item: "من نحن",
         services_item: "الخدمات",
         doctor_item: "الأطباء",
-        blog_item: "مقالات",
+        blog_item: "المكتبة الطبية",
+        blog_item_1: "المقالات",
+        news_item_1: "الأخبار",
         contact_item: "اتصل بنا",
         department_item: "الأقسام",
         Book_item: "احجز موعدك",
@@ -938,6 +952,14 @@ const translation = {
         "program1_item": "برنامج إستعادة الحيوية",
         "program2_item": "برنامج فقدان الوزن",
         "program3_item": "برنامج إعادة التأهيل",
+
+        "book_now":"احجز الآن",
+        "about_news_title": "أحدث الأخبار",
+
+
+        "career_title":"الوظائف",
+        "career_current_job_openings":"الوظائف الحالية",
+        "career_current_job_openings_desc":"عذراً، لا يوجد حالياً فرص عمل متاحة. يرجى التحقق مرة أخرى لاحقًا للفرص المستقبلية.",
     
 
 
@@ -1064,6 +1086,7 @@ const translation = {
         footer_Electronic_list4: "الأخبار والصور",
         footer_Electronic_list5: "الحجز",
         footer_Electronic_list6: "الأسئلة الشائعة",
+        footer_Electronic_list7: "الوظائف",
         footer_contact: "اتصل بنا مباشرة",
         footer_contact_title: "فريقنا جاهز للإجابة على أي استفسار أو مساعدة تحتاجها، تواصل معنا بكل سهولة",
         footer_contact_title2: "6 دحل الحمام ، شارع الطائف ، الدوحة ، قطر",
@@ -1135,10 +1158,10 @@ const translation = {
         work_process_subtitle: "نهتم بصحتك وصحة عائلتك.",
         work_process_title: "نقدم جميع جوانب الرعاية الطبية لتلبية احتياجات أسرتك بالكامل",
         work_process_desc: "نعمل جنبًا إلى جنب معك لوضع خطط رعاية تناسب حالتك الصحية، مع التركيز على إدارة الأمراض المزمنة. وإذا لم نستطع مساعدتك بشكل مباشر، سنرشدك إلى الأخصائي المناسب أو نقدم لك النصائح اللازمة. نضمن التعامل مع جميع استفساراتك بسرية واحترام",
-        work_process_list1: "كسور وخلوع العظام",
+        work_process_list1:  "رعاية طبية لجميع أفراد العائلة",
         work_process_list2: "رعاية طبية عالية الجودة",
         work_process_list3: "التقييمات الصحية الشاملة",
-        work_process_list4: "حقن إزالة التحسس",
+        work_process_list4: "جراحة اليد وجراحة الحروق الحادة",
         work_process_title1: "استفد من مقالاتنا الطبية والعلمية",
         work_process_desc1: "نوفر لك مجموعة من المقالات الغنية بالمعلومات الطبية والعلمية المفيدة التي تساعدك على فهم صحتك بشكل أفضل.",
         work_process_btn1: "اطلع على مقالاتنا",
@@ -1897,17 +1920,13 @@ function ChangeDirection() {
 
     });
 
-    if (currentLang === 'ar') {
-        $('.justify-content-start').addClass('justify-content-end');
-        $('.justify-content-start').removeClass('justify-content-start');
-        $('.justify-content-end').addClass('justify-content-start');
-        $('.justify-content-end').removeClass('justify-content-end');
-    } else {
-        $('.justify-content-end').addClass('justify-content-start');
-        $('.justify-content-end').removeClass('justify-content-end');
-        $('.justify-content-start').addClass('justify-content-end');
-        $('.justify-content-start').removeClass('justify-content-start');
-    }
+    // if (currentLang === 'ar') {
+    //     $('.justify-content-start').addClass('justify-content-end').removeClass('justify-content-start');
+    //     $('.justify-content-end:not(.justify-content-end.justify-content-start)').addClass('justify-content-start').removeClass('justify-content-end');
+    // } else {
+    //      $('.justify-content-end').removeClass('justify-content-end').addClass('justify-content-start');
+    //      $('.justify-content-start').removeClass('justify-content-start').addClass('justify-content-end');
+    // }
 }
 
 

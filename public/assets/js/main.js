@@ -272,24 +272,24 @@ $(function () {
     });
 
     $('.slider-with-navs').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
+        slidesToShow: 2,
+        slidesToScroll: 2,
         arrows: false,
         fade: false,
         dots: true,
-        asNavFor: '.slider-nav'
+        // asNavFor: '.slider-nav'
     });
 
-    $('.slider-nav').slick({
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        asNavFor: '.slider-with-navs',
-        dots: false,
-        arrows: false,
-        centerMode: false,
-        focusOnSelect: true,
-        infinite: false
-    });
+    // $('.slider-nav').slick({
+    //     slidesToShow: 3,
+    //     slidesToScroll: 1,
+    //     asNavFor: '.slider-with-navs',
+    //     dots: false,
+    //     arrows: false,
+    //     centerMode: false,
+    //     focusOnSelect: true,
+    //     infinite: false
+    // });
 
     /*==========  Popup Video  ==========*/
     $('.popup-video').magnificPopup({

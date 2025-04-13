@@ -202,7 +202,7 @@ function renderAllBlogs() {
             <div class="post-item">
               <div class="post__img">
                 <a href="blog-single-post.html?id=${blog.id}">
-                  <img src="${blog.img}" width="370px" height="270px" alt="post image" loading="lazy">
+                  <img src="${blog.img}" width="100%" height="auto" alt="post image" loading="lazy">
                 </a>
               </div><!-- /.post__img -->
               <div class="post__body pt-5">

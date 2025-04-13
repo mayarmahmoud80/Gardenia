@@ -1104,11 +1104,7 @@ textarea {
 .bg-overlay-gradient:before {
   background-color: transparent;
   opacity: 0.65;
-  background-image: linear-gradient(
-    180deg,
-    #010711 0%,
-    rgba(27, 26, 26, 0.65) 34%
-  );
+  background-image:linear-gradient(90deg, #ffffff 0%, rgb(0 0 0 / 83%) 35%)
 }
 
 .bg-overlay-secondary:before {
@@ -1331,8 +1327,14 @@ h6 {
 .page-title.bg-overlay:before {
   opacity: 0.55;
   background-color: transparent;
-  background-image: linear-gradient(90deg, #ffffff 0%, rgba(0, 0, 0, 0) 35%);
+  background-image:linear-gradient(90deg, #ffffff 0%, rgb(0 0 0 / 83%) 35%);
 }
+/* 
+#main-banner .slide-item:before{
+  opacity: 0.55;
+  background-color: transparent; 
+  background-image:linear-gradient(90deg, #ffffff 0%, rgb(0 0 0 / 83%) 35%) !important;
+} */
 
 .page-title-layout2 .pagetitle__desc {
   font-size: 20px;
@@ -2632,7 +2634,7 @@ input[type="radio"] {
   margin-right: 0;
 }
 .navbar .nav__item .nav__item-link {
-  font-size: 0.83vw;
+  font-size:15px;
   font-weight: 700;
   text-transform: capitalize;
   display: block;
@@ -4104,7 +4106,7 @@ input[type="radio"] {
   margin-bottom: 8px;
 }
 .slider .slide__title {
-  font-size: 90px;
+  font-size: 60px;
   line-height: 1.1;
   margin-bottom: 25px;
   color: #213360;
@@ -7971,6 +7973,16 @@ ul.list-items li[dir="rtl"]::before {
   right: 0 !important;
 }
 
+[dir="ltr"] .navbar .close-mobile-menu{
+  right: 30px !important;
+  left: unset;
+}
+
+[dir="rtl"] .navbar .close-mobile-menu{
+  left: 30px !important;
+  right: unset;
+}
+
 
 @media (min-width: 1480px) {
   .navbar-expand-lg .navbar-collapse{
@@ -7978,3 +7990,8 @@ ul.list-items li[dir="rtl"]::before {
     justify-content: center !important;
   }
 }
+
+/* .slick-carousel-gallery .popup-gallery-item {
+
+  margin: 10px;
+} */

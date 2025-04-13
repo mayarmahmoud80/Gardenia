@@ -326,7 +326,7 @@ const translation = {
         about_blog_text3: "The main benefit is comprehensive fat removal: deep fat layers can be treated effectively...",
         about_blog_btn: "Read more",
 
-        testimonials_title: "Testimonials we are <br> proud of...",
+        testimonials_title: "Testimonials we are <br> proud of",
         /* */
         /* */
 
@@ -1256,7 +1256,7 @@ const translation = {
         about_blog_text3: "الفائدة الرئيسية هي إزالة الدهون بشكل شامل: يمكن معالجة طبقات الدهون العميقة…",
         about_blog_btn: "اقرأ المزيد",
 
-        testimonials_title: "آراء وتوصيات <br>نعتز بها...",
+        testimonials_title: "آراء وتوصيات <br>نعتز بها",
         insurance_text: "نفخر بشراكتنا مع مجموعة من شركات التأمين الطبي الموثوقة، لتوفير تغطية صحية شاملة لمرضانا. يضمن شركاؤنا حصولكم على رعاية طبية عالية الجودة، وعناية متخصصة، وراحة بال مالية طوال رحلتكم الصحية.",
 
 

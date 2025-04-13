@@ -42,6 +42,39 @@ const translation = {
         "program2_item": "Weight Loss Program",
         "program3_item": "Rehabilitation program",
 
+        //END Programs
+
+        //Weight Loss
+        "weight_loss__heading": "Effective Medical Solutions for Safe Weight Loss.",
+        "weight_loss__desc": "Gardenia provides specialized support for individuals seeking effective and sustainable weight loss. \n \n Our carefully designed medical programs, supervised by healthcare professionals, are tailored to help you achieve your ideal weight safely and consistently.",
+       
+        "weight_loss__package1_title": "Family Care",
+        "weight_loss__package1_desc": "We offer you and your family comprehensive medical care that includes the latest specialized medical technologies. From general check-ups to advanced treatments, we are here to ensure your health and well-being at every stage of life.",
+        "weight_loss__package1_list1": "Wonder machine",
+        "weight_loss__package1_list2": "LPG Therapy",
+        "weight_loss__package1_list3": "Maderotherapy",
+
+        "weight_loss__package2_title": "Body Care",
+        "weight_loss__package2_desc": "This package aims to improve the body's appearance and stimulate blood circulation using advanced techniques. It helps in body contouring and enhances flexibility, ensuring quick and effective results while saving both time and costs.",
+        "weight_loss__package2_list1": "CFU body sessions",
+        "weight_loss__package2_list2": "Pressotherapy",
+        "weight_loss__package2_list3": "Body Wrap sessions",
+
+        "weight_loss__package3_title": "Nutritional Balance",
+        "weight_loss__package3_desc": "A comprehensive plan designed to enhance your health from within. It starts by understanding your body’s nutritional needs and providing personalized solutions, including dietary consultations and therapeutic sessions that support a healthy and balanced lifestyle.",
+        "weight_loss__package3_list1": "Food intolerance test Dietician",
+        "weight_loss__package3_list2": "Consultation",
+        "weight_loss__package3_list3": "Wonder sessions",
+
+        "weight_loss__package4_title": "Non-Surgical Body Contouring",
+        "weight_loss__package4_desc": " A unique package that utilizes advanced technologies for body sculpting and skin tightening through non-invasive treatment. It enhances skin elasticity and stimulates collagen production, delivering fast and long-lasting results",
+        "weight_loss__package4_list1": "Cristal Pro",
+        "weight_loss__package4_list2": "CFU",
+        "weight_loss__package4_list3": "Pressotherapy",
+        "weight_loss__package4_list4": "Maderotherapy",
+       
+        //END Weight Loss
+
 
         "book_now":"Book Now",
         "about_news_title":"Latest News",
@@ -953,6 +986,40 @@ const translation = {
         "program2_item": "برنامج فقدان الوزن",
         "program3_item": "برنامج إعادة التأهيل",
 
+
+        "weight_loss__package1_title": "الرعاية الصحية للعائلة",
+        "weight_loss__package1_desc":  "نقدّم لك ولعائلتك رعاية طبية متكاملة تشمل أحدث التقنيات الطبية المتخصصة. من الفحوصات العامة إلى العلاجات المتقدمة، نحن هنا لضمان صحتكم ورفاهيتكم في كل مرحلة من مراحل الحياة.",
+        "weight_loss__package1_list1": "Wonder machine",
+        "weight_loss__package1_list2": "LPG Therapy",
+        "weight_loss__package1_list3": "Maderotherapy",
+
+        "weight_loss__package2_title": "العناية بالجسم",
+        "weight_loss__package2_desc": "تستهدف هذه الباقة تحسين مظهر الجسم وتنشيط الدورة الدموية باستخدام تقنيات متطورة. هذه الباقة تساعد في تنسيق الجسم وتحسين مرونته، مع ضمان نتائج سريعة وفعّالة بتوفير الوقت والتكاليف.",
+        "weight_loss__package2_list1": "CFU body sessions",
+        "weight_loss__package2_list2": "Pressotherapy",
+        "weight_loss__package2_list3": "Body Wrap sessions",
+
+        "weight_loss__package3_title": "التوازن الغذائي" ,
+        "weight_loss__package3_desc": "باقة متكاملة لتعزيز صحتك من الداخل، تبدأ بفهم احتياجات جسمك الغذائية وتقديم حلول مخصصة تشمل استشارات التغذية وجلسات علاجية تدعم نمط حياة صحي ومتوازن.",
+        "weight_loss__package3_list1": "Food intolerance test Dietician",
+        "weight_loss__package3_list2": "Consultation",
+        "weight_loss__package3_list3": "Wonder sessions",
+
+        "weight_loss__package4_title": "نحت الجسم بدون جراحة",
+        "weight_loss__package4_desc":"باقة فريدة تستخدم تقنيات متطورة لنحت الجسم وشد البشرة من خلال علاج غير جراحي، مع تعزيز مرونة الجلد وتحفيز إنتاج الكولاجين للحصول على نتائج سريعة وطويلة الأمد.",
+        "weight_loss__package4_list1": "Cristal Pro",
+        "weight_loss__package4_list2": "CFU",
+        "weight_loss__package4_list3": "Pressotherapy",
+        "weight_loss__package4_list4": "Maderotherapy",
+
+
+        //END PROGRAMS
+
+        //Weight Loss
+        "weight_loss__heading": "حلول طبية فعّالة لفقدان الوزن بأمان",
+        "weight_loss__desc":  "توفّر جاردينيا دعماً متخصصاً للأشخاص الساعين إلى فقدان وزن فعّال ومستدام، من خلال برامج طبية مصمّمة بعناية وتحت إشراف مختصين، لمساعدتك على الوصول إلى وزنك المثالي بأمان واستمرارية.",
+        //END Weight Loss
+
         "book_now":"احجز الآن",
         "about_news_title": "أحدث الأخبار",
 
@@ -960,6 +1027,8 @@ const translation = {
         "career_title":"الوظائف",
         "career_current_job_openings":"الوظائف الحالية",
         "career_current_job_openings_desc":"عذراً، لا يوجد حالياً فرص عمل متاحة. يرجى التحقق مرة أخرى لاحقًا للفرص المستقبلية.",
+        
+
     
 
 

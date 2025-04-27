@@ -113,73 +113,84 @@
                 <section class="contact-layout4 bg-overlay bg-overlay-secondary-gradient pb-50 pb-50">
                   <div class="bg-img"><img src="assets/images/banners/3.jpg" alt="banner"></div>
                   <div class="contact-panel mb-0">
-                    <form
-                    class="contact-panel__form"
-                    method="post"
-                    action="assets/php/contact.php"
-                    id="contactForm"
-                  >
-                    <div class="row">
-                      <div class="col-sm-12">
-                        <h4 class="contact-panel__title" data-lang="about_features_layout1_btn2">احجز موعدك الآن</h4>
-                        <p class="contact-panel__desc mb-30" data-lang="index_layout_title">
-                          يسعدنا أن نتلقى استفساراتك العامة أو الطبية، فلا تتردد
-                          في الاتصال بفريق الاستقبال لدينا. <br />
-                          أطباؤنا سيقومون بالرد على المكالمات الطارئة فورًا.
-                        </p>
-                      </div>
-                      <div class="col-sm-6 col-md-6 col-lg-6">
-                        <div class="form-group">
-                          <i class="icon-user form-group-icon"></i>
-                          <input
-                            type="text"
-                            class="form-control"
-                            placeholder="name"
-                            id="contact-name1"
-                            name="contact-name"
-                            required
-                          />
-                        </div>
-                      </div>
-                      <!-- /.col-lg-6 -->
-    
-                      <div class="col-sm-6 col-md-6 col-lg-6">
-                        <div class="form-group">
-                          <i class="icon-phone form-group-icon"></i>
-                          <input
-                            type="text"
-                            class="form-control"
-                            placeholder="phone number"
-                            id="contact-Phone"
-                            name="contact-phone"
-                            required
-                          />
-                        </div>
-                      </div>
-                      <!-- /.col-lg-6 -->
-                      <div class="col-12">
-                        <div class="form-group">
-                          <i class="icon-alert form-group-icon"></i>
-                          <textarea
-                            class="form-control"
-                            placeholder="Message"
-                            id="contact-message"
-                            name="contact-message"
-                          ></textarea>
-                        </div>
-                        <button
-                          type="submit"
-                          class="btn btn__secondary btn__rounded btn__block btn__xhight mt-10"
-                        >
-                          <span data-lang="about_features_layout1_btn2">احجز موعدك الآن</span>
-                          <i class="icon-arrow-right"></i>
-                        </button>
-                        <div class="contact-result"></div>
-                      </div>
-                      <!-- /.col-lg-12 -->
+                      <form
+                  class="contact-panel__form"
+                  method="post"
+                  action="assets/php/contact.php"
+                  id="contactForm"
+                >
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <h4
+                        class="contact-panel__title"
+                        data-lang="about_features_layout1_btn2"
+                      >
+                        احجز موعدك الآن
+                      </h4>
+                      <p
+                        class="contact-panel__desc mb-30"
+                        data-lang="index_layout_title"
+                      >
+                        يسعدنا أن نتلقى استفساراتك العامة أو الطبية، فلا تتردد
+                        في الاتصال بفريق الاستقبال لدينا. <br />
+                        أطباؤنا سيقومون بالرد على المكالمات الطارئة فورًا.
+                      </p>
                     </div>
-                    <!-- /.row -->
-                  </form>
+                    <div class="col-sm-6 col-md-6 col-lg-6">
+                      <div class="form-group">
+                        <i class="icon-user form-group-icon"></i>
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="Name"
+                          id="contact-name1"
+                          name="name"
+                          required
+                        />
+                      </div>
+                    </div>
+                    <!-- /.col-lg-6 -->
+
+                    <div class="col-sm-6 col-md-6 col-lg-6">
+                      <div class="form-group">
+                        <i class="icon-phone form-group-icon"></i>
+                        <input
+                          type="tel"
+                          class="form-control"
+                          placeholder="Phone"
+                          id="contact-Phone"
+                          name="phone"
+                          required
+                        />
+                      </div>
+                    </div>
+                    <!-- /.col-lg-6 -->
+                    <div class="col-12">
+                      <div class="form-group">
+                        <i class="icon-alert form-group-icon"></i>
+                        <textarea
+                          class="form-control"
+                          placeholder="Message"
+                          id="contact-message"
+                          name="message"
+                        ></textarea>
+                      </div>
+                      <button
+                      id="submit_btn"
+                        type="submit"
+                        class="btn btn__secondary btn__rounded btn__block btn__xhight mt-10"
+                      >
+                        <span data-lang="about_features_layout1_btn2"
+                          >احجز موعدك الآن</span
+                        >
+                        <i class="icon-arrow-right"></i>
+                      </button>
+                      <div class="contact-result"></div>
+                    </div>
+                    <!-- /.col-lg-12 -->
+                  </div>
+                  <!-- /.row -->
+                </form>
                   </div>
                 </section><!-- /.contact layout 2 -->
               </li>
@@ -206,6 +217,8 @@
     renderContact();
     renderWorkingHours();
   </script>
-</body>
+ <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+   <script src="assets/js/contact.js"></script>   </body>
 
 </html>

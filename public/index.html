@@ -1666,7 +1666,7 @@
                           class="form-control"
                           placeholder="Name"
                           id="contact-name1"
-                          name="contact-name"
+                          name="name"
                           required
                         />
                       </div>
@@ -1677,11 +1677,11 @@
                       <div class="form-group">
                         <i class="icon-phone form-group-icon"></i>
                         <input
-                          type="text"
+                          type="tel"
                           class="form-control"
                           placeholder="Phone"
                           id="contact-Phone"
-                          name="contact-phone"
+                          name="phone"
                           required
                         />
                       </div>
@@ -1694,10 +1694,11 @@
                           class="form-control"
                           placeholder="Message"
                           id="contact-message"
-                          name="contact-message"
+                          name="message"
                         ></textarea>
                       </div>
                       <button
+                      id="submit_btn"
                         type="submit"
                         class="btn btn__secondary btn__rounded btn__block btn__xhight mt-10"
                       >
@@ -2061,5 +2062,9 @@
         renderAllBlogsWithTags();
     });
     </script>
-  </body>
+    
+   <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+   <script src="assets/js/contact.js"></script> 
+    </body>
 </html>

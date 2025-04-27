@@ -40,7 +40,9 @@ $message .= ($senderPhone) ?"<tr><td><strong>Phone:</strong> </td><td>" . $sende
 $message .= ($senderMessage) ?"<tr><td><strong>Email:</strong> </td><td>" . $senderMessage . "</td></tr>" : '';
 
 $message .= "</table>";
-$message .= "</body></html>";
+$message .= " <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+   <script src="assets/js/contact.js"></script>   </body></html>";
 
 $mail->Body = $message;
 
